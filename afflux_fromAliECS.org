@@ -1,0 +1,225 @@
+#+STARTUP: content
+#+TODO: TODO(t) WAIT(w@/!) | DONE(d!) CANCELED(c@)
+#?+PRIORITIES: A z B
+##+STARTUP: logdrawer
+
+* WAIT Top level headline
+  - Note taken on [2017-12-11 Mon 19:37] \\
+    o
+  :LOGBOOK:
+  - State "WAIT"       from "TODO"       [2017-12-11 Mon 19:38] \\
+    logbook? or
+  - Note taken on [2017-12-11 Mon 19:37] \\
+    on
+  - Note taken on [2017-12-11 Mon 19:35] \\
+    re
+  :END:
+  - State "TODO"       from "WAIT"       [2017-12-11 Mon 18:51]
+  - State "WAIT"       from "TODO"       [2017-12-11 Mon 18:51]
+  - State "CANCELED"   from "WAIT"       [2017-12-11 Mon 18:48]
+  - State "WAIT"       from "CANCELED"   [2017-12-11 Mon 18:48]
+** 2nd level
+*** 3rd level
+    ome text
+*** 3rd level
+    more text
+
+
+
+
+* pandas
+  dest: machine-learning, deep-learning 
+
+** theory
+   compare spark MLlib, Mahout, ...
+   ...
+
+** Do it
+
+*** gear-tools
+    pip
+    virtualenv
+    source activiate
+    deactivate
+    ---
+    virtualWrapper
+    workon
+    ---
+    171205
+
+*** container
+    Ali-ECS
+
+*** time...line.
+
+
+* Repo_dict
+  dest: auto-complete, resource-unlimit, ...
+
+** theory
+   configurations, private-repos
+
+** Do it
+
+*** container/box
+    - bash, dict -I
+    - vim, i_ctrl-x_ctrl-k
+    - apt-get
+
+*** DONE mathod [0/3]                                                  :1BY1:
+    :PROPERTIES:
+    :ORDERED:  t
+    :END:
+    :PROPERTIES:
+    :LOGGING:  LONG(l/@) WAIT(@) logrepeat
+    #overwrite  outerspace
+    :END:
+    + Note taken on [2017-12-11 Mon 18:34] \\
+      logbook?
+
+    + :h dictionary :: vim
+    + /usr/share/dict :: bash
+
+    + (setq org-track-ordered-property-with-tag '"1BY1")
+    + [ ] /etc/apt/source.list
+    + [ ] /var/lib/dict
+    + [ ] also run
+
+    :ref-papers:
+    
+    :END:
+    
+**** TODO LONG(l/@)| unto smt  
+     :PROPERTIES:
+     :LOG-INTO-DRAWER: "LOGSHELF"
+     :END:
+     - State "DONE"       from "TODO"       [2017-12-14 Thu 18:03]
+     - State "TODO"       from "WAIT"       [2017-12-14 Thu 18:03]
+     :LOGBOOK:
+     - State "TODO"       from "WAIT"       [2017-12-14 Thu 18:11]
+     - State "WAIT"       from "DONE"       [2017-12-14 Thu 18:09] \\
+       test logshelf
+     - State "DONE"       from "DONE"       [2017-12-14 Thu 18:08]
+     - State "DONE"       from "TODO"       [2017-12-14 Thu 18:07]
+     - State "DONE"       from "TODO"       [2017-12-14 Thu 18:07]
+     - State "DONE"       from "LONG(l/@)|" [2017-12-12 Tue 18:33]
+     - Note taken on [2017-12-11 Mon 19:35] \\
+       ?t
+     :END:
+    
+     - Note taken on [2017-12-11 Mon 19:33] \\
+       org-log-into-drawer
+     - Note taken on [2017-12-11 Mon 19:30] \\
+       ADD SUS
+     - Note taken on [2017-12-11 Mon 19:28] \\
+       remove  sus
+
+<<find-me>>
+
+#+NAME: TAB-1
+| theme      | content   | link                                             | note     | E |
+|------------+-----------+--------------------------------------------------+----------+---|
+| GBU        | E/S       | http://github.com                                | renew    | x |
+| hellelujah | gadget    | http://mp.weixin.qq.com/s/R8Xb3NYQLbVCW27gSOnJAA | terminal | x |
+| conBOX     | container | docker, openstack, vagrant, virt                 | cloud    | w |
+
+c-c c-x m-w the org homepage[fn:1] now
+
+sum the number in the current
+
+sum, the , numbers , in , the, current
+
+
+* new page[0%]
+  :PROPERTIES:
+  :CUSTOM_ID: my-custom-id
+  :END:
+  - todos :: every level configurate todo status collection & timestamp/note into logbook
+  - links :: # to properties <<>> dedicated-target url-links cross reference
+  - footnotes :: create and normalize
+
+** customID
+   :PROPERTIES:
+   :CUSTOM_ID: abc
+   :END:
+
+** custID
+   :PROPERTIES:
+   :ID:       ad5669bc-95a2-4bc9-896b-f4b1b1c916ba
+   :NDsiks_ALL: 1 2 3 4
+   :Publisher_ALL: "Deutsche Grammophon" Philips EMI
+   :END:
+   
+#   :CUSTOM_ID: 123
+#   :U_ID:     u-ID
+
+
+*** myfavor
+    :PROPERTIES:
+    :GENRES:   Classic
+    :Title:    Goldberg Bariations
+    :END:
+
+**** Goldberg Variations
+     :PROPERTIES:
+     :Title:    G V
+     :GENRES:   Classic
+     :NDsiks:   1
+     :Publisher+: Sony
+     :END:
+
+
+**** 1st
+     :PROPERTIES:
+     :Publisher+:
+     :END:
+
+
+      
+*** links(4th-level cannot export to PDF)[0%]
+- [[#abc][custom]][0/0]
+- [[TAB-1][table-1]][0/0]
+- [[find-me][findyou]]
+- [[id:ad5669bc-95a2-4bc9-896b-f4b1b1c916ba][links]]
+(org-id-link-to-org-use-id)
+[[file:tex-candy.tex::/ju\sw+/][outerlink]]
+radio-targets
+<<<3rd>>> welcome to home, 3rd. 
+
+
+
+** WAIT [#G] Shave[/]                                             :org:habit:
+   :PROPERTIES:
+   :LOG_INTO_DRAWER: LOGSHELF
+   :END:
+   :LOGSHELF:
+   - State "WAIT"       from "WAIT"       [2017-12-14 Thu 18:40] \\
+     logshelf
+   :END:
+
+- priorities :: try it and compare #+PRIORITIES
+(setq org-highest-priority '66)
+(setq org-default-priority '69)
+(setq org-lowest-priority '71)
+
+Appendix C History and acknowledgments
+C.1 From Carsten
+John Wiegley
+John has contributed a number of great ideas and patches directly to Org, including the attachment system (org-attach.el), integration with Apple Mail (org-mac-message.el), hierarchical dependencies of TODO items, habit tracking (org-habits.el), and encryption (org-crypt.el). Also, the capture system is really an extended copy of his great remember.el. 
+   SCHEDULED: <2017-12-14 Thu .+2d/4d>
+        :PROPERTIES:
+        :STYLE:    habit
+        :LAST_REPEAT: [2009-10-19 Mon 00:36]
+        :END:
+
+
+
+* Footnotes
+
+[fn:1]  the linkis [[http://orgmode.org/manual/Footnotes.html#Footnotes][org-footnote]]
+
+[fn:2] 1st c-c c-x f
+
+
+* find-me
+
