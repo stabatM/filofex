@@ -1,12 +1,84 @@
+# -*- mode: org; -*-
 #+STARTUP: content
 #+TODO: TODO(t) WAIT(w@/!) | DONE(d!) CANCELED(c@)
-#?+PRIORITIES: A z B
-##+STARTUP: logdrawer
+?#+TAGS:
+?#+TAGS: { MY_1(a) MY_2(b) } MY_3
+#+STARTUP: noptag
+?#+PRIORITIES: A z B
+#+STARTUP: logdrawer
+#+PROPERTY: Effort_ALL 0 0:10 0:30 1:00 2:00 3:00 4:00 5:00 6:00 7:00
+#+COLUMNS: %25ITEM %TAGS :skip-empty-rows 1 :maxlevel 5
 
-* WAIT Top level headline
+#+BEGIN: columnview :hlines 1 :id global
+| ITEM                                                                                         | TAGS        | PRIORITY | TODO |
+|----------------------------------------------------------------------------------------------+-------------+----------+------|
+| Top level headline                                                                           |             | B        | WAIT |
+| 2nd level                                                                                    |             | B        |      |
+| 3rd level                                                                                    |             | B        |      |
+| 3rd level                                                                                    |             | B        |      |
+|----------------------------------------------------------------------------------------------+-------------+----------+------|
+| pandas                                                                                       |             | B        |      |
+| theory                                                                                       |             | B        |      |
+| Do it                                                                                        |             | B        |      |
+| gear-tools                                                                                   |             | B        |      |
+| container                                                                                    |             | B        |      |
+| time...line.                                                                                 |             | B        |      |
+|----------------------------------------------------------------------------------------------+-------------+----------+------|
+| Repo_dict                                                                                    |             | B        |      |
+| theory                                                                                       |             | B        |      |
+| Do it                                                                                        |             | B        |      |
+| container/box                                                                                |             | B        |      |
+| mathod                                                                                       | :1BY1:      | B        | DONE |
+| LONG(l/@)\vert unto smt                                                                      |             | B        | TODO |
+|----------------------------------------------------------------------------------------------+-------------+----------+------|
+| new page                                                                                     |             | B        |      |
+| customID                                                                                     |             | B        |      |
+| custID                                                                                       |             | B        |      |
+| myfavor                                                                                      |             | B        |      |
+| Goldberg Variations                                                                          |             | B        |      |
+| 1st                                                                                          |             | B        |      |
+| links(4th-level cannot export to PDF)                                                        |             | B        |      |
+| Shave                                                                                        | :org:habit: | G        | WAIT |
+| habitica                                                                                     |             | B        |      |
+|----------------------------------------------------------------------------------------------+-------------+----------+------|
+| new mon                                                                                      |             | B        |      |
+| last week                                                                                    |             | B        |      |
+| tags                                                                                         |             | B        |      |
+| Blocks in context exa C linux kernel                                                         | :LUFFY:     | B        |      |
+| WANTED tags                                                                                  | :LUFFY:     | B        |      |
+| Don't forget to press C-c C-c with the cursor in one of these lines to activate any changes. | :Caution:   | B        |      |
+|----------------------------------------------------------------------------------------------+-------------+----------+------|
+| new tue                                                                                      |             | B        |      |
+| update packages through MELPA                                                                |             | B        |      |
+|----------------------------------------------------------------------------------------------+-------------+----------+------|
+| new wed                                                                                      |             | B        |      |
+| org spreadsheet system                                                                       |             | B        |      |
+| formula with emacs Calc                                                                      |             | B        |      |
+| fromula with lisp                                                                            | :LUFFY:     | B        | TODO |
+| tmp test                                                                                     |             | B        |      |
+| columns in properites                                                                        |             | B        |      |
+| region marks rectangle>>>vim:c-v column                                                      |             | B        |      |
+| quake zone                                                                                   | :LUFFY:     | B        |      |
+| proj-1                                                                                       |             | B        |      |
+| proj-2                                                                                       |             | B        |      |
+|----------------------------------------------------------------------------------------------+-------------+----------+------|
+| Footnotes                                                                                    |             | B        |      |
+|----------------------------------------------------------------------------------------------+-------------+----------+------|
+| The column view                                                                              |             | B        |      |
+#+END:
+
+
+* CANCELED Top level headline
+  - Note taken on [2017-12-25 Mon 12:04] \\
+    c-c c-z [[http://orgmode.org/manual/Drawers.html][add-note note taken]]
+  - Note taken on [2017-12-25 Mon 12:02]
+  - State "CANCELED"   from "DONE"       [2017-12-25 Mon 11:54]
+  - State "DONE"       from "WAIT"       [2017-12-25 Mon 11:54]
   - Note taken on [2017-12-11 Mon 19:37] \\
     o
   :LOGBOOK:
+  - Note taken on [2017-12-25 Mon 12:05] \\
+    in box
   - State "WAIT"       from "TODO"       [2017-12-11 Mon 19:38] \\
     logbook? or
   - Note taken on [2017-12-11 Mon 19:37] \\
@@ -129,7 +201,6 @@ sum the number in the current
 
 sum, the , numbers , in , the, current
 
-
 * new page[0%]
   :PROPERTIES:
   :CUSTOM_ID: my-custom-id
@@ -150,8 +221,8 @@ sum, the , numbers , in , the, current
    :Publisher_ALL: "Deutsche Grammophon" Philips EMI
    :END:
    
-#   :CUSTOM_ID: 123
-#   :U_ID:     u-ID
+   #   :CUSTOM_ID: 123
+   #   :U_ID:     u-ID
 
 
 *** myfavor
@@ -167,7 +238,7 @@ sum, the , numbers , in , the, current
      :NDsiks:   1
      :Publisher+: Sony
      :END:
-
+     this is [fn:2]
 
 **** 1st
      :PROPERTIES:
@@ -177,14 +248,14 @@ sum, the , numbers , in , the, current
 
       
 *** links(4th-level cannot export to PDF)[0%]
-- [[#abc][custom]][0/0]
-- [[TAB-1][table-1]][0/0]
-- [[find-me][findyou]]
-- [[id:ad5669bc-95a2-4bc9-896b-f4b1b1c916ba][links]]
-(org-id-link-to-org-use-id)
-[[file:tex-candy.tex::/ju\sw+/][outerlink]]
-radio-targets
-<<<3rd>>> welcome to home, 3rd. 
+    - [[#abc][custom]][0/0]
+    - [[TAB-1][table-1]][0/0]
+    - [[find-me][findyou]]
+    - [[id:ad5669bc-95a2-4bc9-896b-f4b1b1c916ba][links]]
+    (org-id-link-to-org-use-id)
+    [[file:tex-candy.tex::/ju\sw+/][outerlink]]
+    radio-targets
+    <<<3rd>>> welcome to home, 3rd. 
 
 
 
@@ -197,29 +268,277 @@ radio-targets
      logshelf
    :END:
 
-- priorities :: try it and compare #+PRIORITIES
-(setq org-highest-priority '66)
-(setq org-default-priority '69)
-(setq org-lowest-priority '71)
+   - priorities :: try it and compare #+PRIORITIES
+   (setq org-highest-priority '66)
+   (setq org-default-priority '69)
+   (setq org-lowest-priority '71)
 
-Appendix C History and acknowledgments
-C.1 From Carsten
-John Wiegley
-John has contributed a number of great ideas and patches directly to Org, including the attachment system (org-attach.el), integration with Apple Mail (org-mac-message.el), hierarchical dependencies of TODO items, habit tracking (org-habits.el), and encryption (org-crypt.el). Also, the capture system is really an extended copy of his great remember.el. 
+   Appendix C History and acknowledgments
+   C.1 From Carsten
+   John Wiegley
+   John has contributed a number of great ideas and patches directly to Org, including the attachment system (org-attach.el), integration with Apple Mail (org-mac-message.el), hierarchical dependencies of TODO items, habit tracking (org-habits.el), and encryption (org-crypt.el). Also, the capture system is really an extended copy of his great remember.el. 
    SCHEDULED: <2017-12-14 Thu .+2d/4d>
-        :PROPERTIES:
-        :STYLE:    habit
-        :LAST_REPEAT: [2009-10-19 Mon 00:36]
-        :END:
+   :PROPERTIES:
+   :STYLE:    habit
+   :LAST_REPEAT: [2009-10-19 Mon 00:36]
+   :END:
+
+*** habitica
+    [[https://github.com/abrochard/emacs-habitica]]
+    C-x t n => new task
+    C-x t t => cycle todo/done
+    C-x t + => + a habit
+    C-x t - => - a habit
+    C-x t d => set deadline
+    C-x t i => set difficulty
+    C-x t D => delete the task
+    C-x t b => buy reward
+    C-x t a => add a tag to the task
+    C-x t A => remove a tag from the task
+    C-x t g => refresh
+* new mon[0/0]
+  - last week :: about tags and other configurations
+  - this week ::  org-manual column-view 
+
+** this week                                                          :LUFFY:
+   :LOGBOOK:
+   - Note taken on [2017-12-26 Tue 12:13]
+   - Note taken on [2017-12-25 Mon 15:07] \\
+     mysql apt env fresh install
+   - Note taken on [2017-12-25 Mon 12:10]
+   :END:
+[2017-12-25 Mon 11:36]
+- c-x/c c-z :: add note , repeate [[http://orgmode.org/manual/Drawers.html]]
+- [-] mysql shell
+- [-] msyql workbench
+- [-] mysql utilities
+- [-] from source with mysql APT Repo :: mysql-ver5.6 {5.7, 8.0}CANNOT
+  - apt-get source -b mysql-server :: long time about 30min
+  - [X] dpkg -preconfig :: no ask for password
+  - [X] dpkg -i mysql-{common,community-client,client,community-server,server}_*.deb :: apt-get -f install (waiting...)
+  - [ ] dpkg -P ... dpkg -l (iF iU) :: purge preconfig install OK. 
+  - remove :: apt-get remove VS  dpkg --purge mysql-{common,community-client,client,community-server,server}
+  - 8.0 apt install :: dpkg-reconfigure mysql-apt-config
+
+[2017-12-26 Tue 12:17]
+- c-u c-c c-! :: add timestamps
+
+** last week
+*** tags[0/0]
+    - [ ] C-u C-c C-c or C-u C-c C-x C-b :: insert one checkbox
+    - [ ] C-c - \{::} :: insert description lists
+    - [ ] C-x <TAB> :: indentation for region
+    - [ ] C-M-\ :: M-C-\ also run, try below
+ if there is a fill
+ indent all the
+ lines in the region
+    - C-\? M-\ :: erase it
+    - (setq org-use-speed-commands t) :: fast keys on headline beginning use the '?'
+    - <e <TAB> :: emacs on win10 works
+
+*** Blocks in context exa C linux kernel                              :LUFFY:
+ - C-c C-x w l :: insert structure template
+ - >s <TAB> :: work on win10 
+
+ #+BEGIN_EXA C
+ static const char *xpm_void[] = { 
+ "12 12 2 1",
+ "  c white",
+ ". c black",
+ "            ",
+ "            ",
+ "            ",
+ "            ",
+ "            ",
+ "            ",
+ "            ",
+ "            ",
+ "            ",
+ "            ",
+ "            ",
+ "            "};
+ #+END_EXA
+
+ [[http://orgmode.org/manual/Languages.html][blockSupportLang]]
+
+ #+BEGIN_EXB shell
+ # prepare source code of kernel
+ if [ ! -d ${STAGING_KERNEL}/.git ]; then
+   git clone $3 ${STAGING_KERNEL}
+ fi
+ #+END_EXB
+
+*** WANTED tags                                                       :LUFFY:
+ [[https://zhidao.baidu.com/question/131496370.html][OnePiece-haizeiwang]]
+ (setq org-tag-alist '((:startgroup . nil)
+		       (:startgrouptag)
+		       ("WANTED" . ?m)
+		       ("LUFFY" . ?l)
+		       (:endgrouptag)
+		       ("soso" . ?s) ("Rerun" . ?r)
+		       (:endgroup . nil)
+		       ("Habitica". ?h)
+		       ("Caution" . ?y)
+		       ))
+**** Don't forget to press C-c C-c with the cursor in one of these lines to activate any changes. :Caution:
+         - try C-c C-c C-c
+	 - C-c / :: search something
+	 - C-c a m :: search agenda
 
 
+* new tue
+** update packages through MELPA
+   :LOGBOOK:
+   CLOCK: [2017-12-20 Wed 18:08]--[2017-12-25 Mon 10:44] => 112:36
+   :END:
+   * [X] mark ring :: C-x C-<space>
+   * [ ] list symbol alternate :: c-u nth C-c - 
+   * undo, always, no un-undo :: M-x undo-only
+
+
+* new wed
+** org spreadsheet system
+- [-] C-c C-` <> C-c C-'
+- [-] C-u C-c * [[http://orgmode.org/org.html#Updating-the-table][update-recalculate]]
+- fundamental-mode C-x * ? :: emacs calc
+[[https://www.gnu.org/software/emacs/manual/html_mono/calc.html#Using-Calc][calc]]
+- C-c C-e :: export pdf latex
+- C-u C-c */C-c :: C-u is a MUST
+- <r3> :: work on win10 
+
+*** formula with emacs Calc
+C-u C-u C-u <SPACE> <TAB>
+#+CONSTANTS: myPI=3.14159265358979323846
+|     <r3> | <c1>  |         | <l10> |           |   |
+|  Student | Maths | Physics | Mean  | Pi number |   |
+|----------+-------+---------+-------+-----------+---|
+| Bertrand |  13   |      09 | 11    |         5 |   |
+|    Henri |  15   |      14 | 14.5  |         7 |   |
+|   Arnold |  17   |      13 | 15    |         9 |   |
+|----------+-------+---------+-------+-----------+---|
+|    Means |  15   |      12 | 13.5  |         7 |   |
+#+TBLFM: $4=vmean($2..$3)::$5='(substring (number-to-string $myPI) (round $4) (1+ (round $4)));N::@6$2=vmean(@3$2..@5$2)::@6$3=vmean(@3$3..@5$3)::@6$4=vmean(@3$4..@5$4)
+
+*** TODO fromula with lisp                                            :LUFFY:
+
+| First name | Last Name | Email                |
+|------------+-----------+----------------------|
+| John       | Doe       | John.Doe@emacs.edu   |
+| Jennie     | Duh       | Jennie.Duh@emacs.edu |
+| Jack       | Goody     | Jack.Goody@emacs.edu |
+#+TBLFM: $3='(concat $1 "." $2 "@emacs.edu")
+
+| First name | Last name | Maths | French | Mean       |
+|------------+-----------+-------+--------+------------|
+| John       | Doe       |    12 |     16 | John: 14   |
+| Jennie     | Duh       |    15 |      9 | Jennie: 12 |
+#+TBLFM: $5='(concat "$1" ": " (number-to-string (/ (+ $3 $4) 2)));L
+
+| col1 | col2 | col3                       | col4         | col5 |
+|------+------+----------------------------+--------------+------|
+| a    | a    | a b c d                    | #ERROR       |      |
+| a    | b    | [a, a, b, c], [a, b, a, d] | [a, a, b, c] |      |
+| b    | a    | a a b c a b a d            | [a, b, a, d] |      |
+| c    | d    |                            | #ERROR       |      |
+|      |      |                            | c            | d    |
+#+TBLFM: @2$3='(mapconcat 'identity (delete-dups (list @2$1..@>$1 @2$2..@>$2)) " ")::@2$4='(mapconcat 'identity (union (list @2$1..@>$1) (list @2$2..@>$2))) " ")::@3$3=@2$1..@>$1 , @2$2..@>$2::@3$4=@2$1..@>$1::@4$3='(mapconcat 'identity (list @2$1..@>$1 @2$2..@>$2) " ")::@4$4=@2$2..@>$2::@5$4='(member '(a) @2$2..@>$2)::@6$4='(apply 'concat (delete-if (lambda(e) (member e (list @2$2..@>$2))) (list @2$1..@>$1)))::@6$5='(apply 'concat (delete-if (lambda(e) (member e (list @2$1..@>$1))) (list @2$2..@>$2)))
+
+- delete-dups, intersection, union :: [[https://www.gnu.org/software/emacs/manual/html_mono/elisp.html][elisp-mono-web]]
+- lambda DIY jianshu :: [[https://www.jianshu.com/p/ec64f8286875][lambda for lisp in org spreedtable formulas]]
+- M-x hel m :: major/minor Mode enabled [[https://www.gnu.org/software/emacs/manual/html_mono/emacs.html#Modes][emacs' mode]]
+- M-x package.... highlight-pare :: hl-pare
+- colors 4 parentheses :: M-x help color-name-rgb-alist 
+
+
+*** tmp test
+
+| a | b | c | d      |
+|---+---+---+--------|
+| 1 | 2 | 3 | #ERROR |
+| a | 4 | b |        |
+| 5 | c | d |        |
+|   |   |   |        |
+#+TBLFM: @2$4='(delete-dups (list @2$1..@>$1));L
+
+| a    | b | c | d                   |
+|------+---+---+---------------------|
+| 11f  | 2 | 3 | 11f                 |
+| acwq | 4 | b | 11f acwq 5opc 2 4 c |
+| 5opc | c | d | #ERROR              |
+|      |   |   |                     |
+#+TBLFM: @2$4='(concat (substring $1 1 2) (substring $1 0 1) (substring $1 2))::@3$4='(mapconcat 'identity (delete-dups (list @2$1..@>$1 @2$2..@>$2)) " ")::@4$4='(concat (delete-dups ( @2$1..@>$1 @2$2..@>$2)))
+** columns in properites[0/0]
++ [[http://orgmode.org/manual/Column-view.html#Column-view][column-view]]
+  + [ ] define cols
+  + [ ] use cols
+  + 
+** region marks rectangle>>>vim:c-v column 
+c-@/<Space> c-@/<Space>
+c-x/u c-@/<Space>
+
+<<<win10>>> some problem, ECS's envir no according the manual descs...  
+
+** quake zone                                                         :LUFFY:
+   :PROPERTIES:
+   :COLUMNS:  %25ITEM %9Approved(Approved?){X} %Owner %11Status %10Time_Estimate{:} %CLOCKSUM %CLOCKSUM_T
+   :Owner_ALL: Tammy Mark Karl Lisa Don
+   :Status_ALL: "In progress" "Not started yet" "Finished" ""
+   :Approved_ALL: "[ ]" "[X]"
+   :OWNER:
+   :END:
+CLOCKSUM_T is normal on win10 OS, QQ:tudou. 
+*** proj-1
+    :PROPERTIES:
+    :Owner:    Lisa
+    :Status:   Not started yet
+    :Time_Estimate: 3d 1h
+    :Approved: [ ]
+    :END:
+    :LOGBOOK:
+    CLOCK: [2017-12-20 Wed 17:52]--[2017-12-20 Wed 17:54] =>  0:02
+    CLOCK: [2017-12-20 Wed 17:46]--[2017-12-20 Wed 17:48] =>  0:02
+    CLOCK: [2017-12-20 Wed 17:19]--[2017-12-20 Wed 17:22] =>  0:03
+    :END:
+
+*** proj-2
+    :PROPERTIES:
+    :Owner:    Karl
+    :STATUS:   Not started yet
+    :Time_Estimate: 10d 10h
+    :Approved: [X]
+    :Effort:   4:00
+    :END:
+    :LOGBOOK:
+    CLOCK: [2017-12-25 Mon 10:44]--[2017-12-25 Mon 10:45] =>  0:01
+    CLOCK: [2017-12-20 Wed 17:54]--[2017-12-20 Wed 18:08] =>  0:14
+    :END:
+    
+ dynamic blocks -- db
+ #+BEGIN: columnview :hlines 1 :id local
+ | ITEM       | Approved? | Owner | Status          | Time_Estimate | CLOCKSUM | CLOCKSUM_T |
+ |------------+-----------+-------+-----------------+---------------+----------+------------|
+ | quake zone | [-]       |       |                 | 13d 11:00     |     0:22 |       0:01 |
+ | proj-1     | [ ]       | Lisa  | Not started yet | 3d 1h         |     0:07 |            |
+ | proj-2     | [X]       | Karl  | Not started yet | 10d 10h       |     0:15 |       0:01 |
+ #+END:
 
 * Footnotes
 
-[fn:1]  the linkis [[http://orgmode.org/manual/Footnotes.html#Footnotes][org-footnote]]
+[fn:1] the linkis [[http://orgmode.org/manual/Footnotes.html#Footnotes][org-footnote]]
 
-[fn:2] 1st c-c c-x f
+[fn:2] new footnote
+
+[fn:3] 1st c-c c-x f
 
 
-* find-me
+- [-] double/global,  uknow... 
+  C-u C-u C-c C-c ;)
+
+
+* The column view
+  :LOGBOOK:
+  CLOCK: [2017-12-25 Mon 10:51]--[2017-12-25 Mon 10:51] =>  0:00
+  :END:
+
+
 
