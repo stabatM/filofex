@@ -300,29 +300,77 @@ sum, the , numbers , in , the, current
   - last week :: about tags and other configurations
   - this week ::  org-manual column-view 
 
-** this week                                                          :LUFFY:
-   :LOGBOOK:
-   - Note taken on [2017-12-26 Tue 12:13]
-   - Note taken on [2017-12-25 Mon 15:07] \\
+** this week                                                  :luffy:caution:
+   :logbook:
+   - note taken on [2017-12-27 wed 16:44] \\
+     tbc: to be continue
+   - note taken on [2017-12-27 wed 16:43]
+   - note taken on [2017-12-27 wed 10:34]
+   - note taken on [2017-12-26 tue 12:13]
+   - note taken on [2017-12-25 mon 15:07] \\
      mysql apt env fresh install
-   - Note taken on [2017-12-25 Mon 12:10]
-   :END:
-[2017-12-25 Mon 11:36]
-- c-x/c c-z :: add note , repeate [[http://orgmode.org/manual/Drawers.html]]
+   - note taken on [2017-12-25 mon 12:10]
+   :end:
+[2017-12-25 mon 11:36]
+- c-x/c c-z :: add note , repeate [[http://orgmode.org/manual/drawers.html]]
 - [-] mysql shell
 - [-] msyql workbench
 - [-] mysql utilities
-- [-] from source with mysql APT Repo :: mysql-ver5.6 {5.7, 8.0}CANNOT
+- [-] from source with mysql apt repo :: mysql-ver5.6 {5.7, 8.0}cannot
   - apt-get source -b mysql-server :: long time about 30min
-  - [X] dpkg -preconfig :: no ask for password
-  - [X] dpkg -i mysql-{common,community-client,client,community-server,server}_*.deb :: apt-get -f install (waiting...)
-  - [ ] dpkg -P ... dpkg -l (iF iU) :: purge preconfig install OK. 
-  - remove :: apt-get remove VS  dpkg --purge mysql-{common,community-client,client,community-server,server}
+  - [x] dpkg -preconfig :: no ask for password
+  - [x] dpkg -i mysql-{common,community-client,client,community-server,server}_*.deb :: apt-get -f install (waiting...)
+  - [ ] dpkg -p ... dpkg -l (if iu) :: purge preconfig install ok. 
+  - remove :: apt-get remove vs  dpkg --purge mysql-{common,community-client,client,community-server,server}
   - 8.0 apt install :: dpkg-reconfigure mysql-apt-config
 
-[2017-12-26 Tue 12:17]
-- c-u c-c c-! :: add timestamps
+[2017-12-26 tue 12:17]
+- c-u c-c ! :: add timestamps
+- qq group :: docker, openstack, liyajie anquanniu...
+- top :: show command c; sort m/t; filter u/o(5e) c-o =; soso l/m/t/1; j/j/e justification ;
+	 5b a/w/g -/_/=/+...a; v; r/f/->^
+filter basics
+!!!.  field names are case sensitive and spelled as in the header
+- apt-cache search; dpkg -s/-l/-s ; dpkg -r/-l :: debian jessie
+- top :: g a/w
 
+[2017-12-27 wed 10:34]
+- docker no :: database mysql oracle-instance(sga)
+- vm versus container :: volume-interface, network-if, data in mem/disk, share/security, cgroup/selinux
+[[https://myopsblog.wordpress.com/2017/02/06/why-databases-is-not-for-containers/][why-databases-is-not-for-containers]]
+  - 1st :: process = container, process' lifecycle is in memory, redis from old architecture design can merge into container
+  - 2nd :: dedicate envirment include: container's immature network, vm's nas, bussiness envirnment's high io performance and less barriers(container on vm)
+  - 3rd :: container no bonus introduce into dbs project, no better than ansible
+  - 4th :: vm's juggle and snapshots contain full state backup
+  - 5th :: in practice, from hardware isolation to vm(cloud) to container, need redesign and specific engineer do right things: data etl, stateless service,and
+	   (c-<enter>) inner stateless corruption may cause outer statful env corruption even worse
+  - eg. :: [[https://blog.lab99.org/post/docker-2016-07-14-faq.html#kan-dao-zong-shuo-yao-bao-chi-rong-qi-wu-zhuang-tai-na-shi-me-shi-wu-zhuang-tai][wu-zhuang-tai]]
+1. ooh, num show...
+[[https://www.joyent.com/blog/persistent-storage-patterns][persistent-storage-patterns]]
+  - 6.1 :: configuration !consult
+  - 6.2 :: secrets !vault
+  - 6.3 :: database instances(somelevel periodically backup data to oss; replicate state across multi-dbs,then the surviver then use it to bootstrap)
+	   !autopilot pattern mysql
+  - 6.4 :: shared data (oss <> sharedfs), db + sharedfs
+  - 6th :: every application can be stateless
+[[https://dzone.com/articles/is-docker-good-for-your-database][is-docker-good-for-your-database]]
+  - 7th :: lack of synergy... just not stable yet... 
+
+
+***  time-stamps 
+    SCHEDULED: <2017-12-27 Wed> DEADLINE: <2017-12-27 Wed>
+    :PROPERTIES:
+    :ORDERED:  t
+    :END:
+1. c-c a :: weekly/daily
+2. c-x c-b :: m -> v == 2; v -> c; c-k/d x; s/~/%(v) ...  :buffers:emacs manual:
+	      [[https://www.gnu.org/software/emacs/manual/html_mono/emacs.html#Several-Buffers][Several-Buffers]]
+3. disable c-x c-u/l :: CAUTION, EVEN NOT in emacs manual! Please use M-x ...
+4. special sexp diary entries
+   <%%(diary-float t 4 2)>
+5. c-c a -> h
+    <2017-12-30 Sat>--<2018-01-01 Mon> new year holidays
+IMP: c-c ]/[/, -> r/g
 ** last week
 *** tags[0/0]
     - [ ] C-u C-c C-c or C-u C-c C-x C-b :: insert one checkbox
