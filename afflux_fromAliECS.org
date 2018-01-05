@@ -423,7 +423,8 @@ CLOCKSUM_T is normal on win10 OS, QQ:tudou.
 	 - C-c a m :: search agenda
 
 
-*new tue
+* new tue
+*new tue ... you can try to hidden it, like git's stash(not squash)
   - last week ::
   - this week :: 
 ** -2 week
@@ -472,7 +473,6 @@ when ~ 0, no warning, must have some number, then customize it;
 5. column view
 
 
-
 ** 0:21:19 
 - 0:21:12 ::
 - 0:21:08 ::
@@ -504,10 +504,11 @@ when ~ 0, no warning, must have some number, then customize it;
   Total file time: 1d 18:03 (42 hours and 3 minutes)
 - c-c a a ->>> l(timeline)
 
+
 * new wed
   - last week ::
-  - this week ::
-** last week 
+    - this week ::
+** -2 week 
 *** org spreadsheet system
  - [-] C-c C-` <> C-c C-'
  - [-] C-u C-c * [[http://orgmode.org/org.html#Updating-the-table][update-recalculate]]
@@ -520,15 +521,16 @@ when ~ 0, no warning, must have some number, then customize it;
 **** formula with emacs Calc
  C-u C-u C-u <SPACE> <TAB>
  #+CONSTANTS: myPI=3.14159265358979323846
- |     <r3> | <c1>  |         | <l10> |           |   |
- |  Student | Maths | Physics | Mean  | Pi number |   |
- |----------+-------+---------+-------+-----------+---|
- | Bertrand |  13   |      09 | 11    |         5 |   |
- |    Henri |  15   |      14 | 14.5  |         7 |   |
- |   Arnold |  17   |      13 | 15    |         9 |   |
- |----------+-------+---------+-------+-----------+---|
- |    Means |  15   |      12 | 13.5  |         7 |   |
- #+TBLFM: $4=vmean($2..$3)::$5='(substring (number-to-string $myPI) (round $4) (1+ (round $4)));N::@6$2=vmean(@3$2..@5$2)::@6$3=vmean(@3$3..@5$3)::@6$4=vmean(@3$4..@5$4)
+ |     <r3> | <c1>  |         | <l10> |           |
+ |  Student | Maths | Physics | Mean  | Pi number |
+ |----------+-------+---------+-------+-----------|
+ |        / |   <   |         | >     |        <> |
+ | Bertrand |  13   |      09 | 11    |         5 |
+ |    Henri |  15   |      14 | 14.5  |         7 |
+ |   Arnold |  17   |      13 | 15    |         9 |
+ |----------+-------+---------+-------+-----------|
+ |    Means |  15   |      12 | 13.5  |         7 |
+ #+TBLFM: $4=vmean($2..$3)::$5='(substring (number-to-string $myPI) (round $4) (1+ (round $4)));N::@7$2=vmean(@4$2..@6$2)::@7$3=vmean(@4$3..@6$3)::@7$4=vmean(@4$4..@6$4)
 
 **** TODO fromula with lisp                                           :LUFFY:
 
@@ -560,7 +562,7 @@ when ~ 0, no warning, must have some number, then customize it;
  - M-x package.... highlight-pare :: hl-pare
  - colors 4 parentheses :: M-x help color-name-rgb-alist 
 
-** this week
+** last week
 [2017-12-27 wed 10:34]
 - docker no :: database mysql oracle-instance(sga)
 - vm versus container :: volume-interface, network-if, data in mem/disk, share/security, cgroup/selinux
@@ -582,6 +584,8 @@ when ~ 0, no warning, must have some number, then customize it;
   - 6th :: every application can be stateless
 [[https://dzone.com/articles/is-docker-good-for-your-database][is-docker-good-for-your-database]]
   - 7th :: lack of synergy... just not stable yet... 
+
+** this week
 
 
 * new thur
@@ -837,11 +841,20 @@ C-c C-x C-r runs the command org-clock-report
   M/C-v :: 3 month
   gd/D/w, o/. :: jump day/day-th/week/center
 
+
 * new fri
-...
-** last week
-...
-** TODO this week
+  ...
+** this week
+*** sciPy
+- virtualenv :: alias m_vire='source /home/ben/PythonVirEnv/bin/activate;cd /home/ben/PythonVirEnv/'
+- sciPy :: pdf(1800+ pages)
+  - numpy :: >>> go
+  - vext :: from the virenv load system package(cannot in virenv install(pip/apt) plot)
+  -  :: 
+
+** -2 week
+   ...
+** TODO last week
  DEADLINE: <2018-01-06 Sat +1w -5d>
  :PROPERTIES:
  :Effort:   2:00
@@ -919,6 +932,7 @@ rectangle :: c-x <space> ->>> c-x r ?
 ... pinpoint every duration
 
 <2018-01-16 Tue 17:17>
+
 
 * <<<1
 <<ci>> 
