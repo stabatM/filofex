@@ -1,0 +1,20 @@
+
+* 2018
+** 2018-01 January
+*** 2018-01-09 Tuesday
+**** try journal
+   Entered on [2018-01-09 Tue 16:09]
+  
+     [[file:~/filofex/afflux_fromAliECS.org::*this%20week][this week]]
+**** do right?
+   Entered on [2018-01-09 Tue 16:10]
+  
+     [[file:~/filofex/afflux_fromAliECS.org::*this%20week][this week]]
+**** test c-cx 
+   Entered on [2018-01-09 Tue 16:29]
+  
+     [[file:~/filofex/afflux_fromAliECS.org::*this%20week][this week]]
+**** test for gj bond to c-cx
+   Entered on [2018-01-09 Tue 16:32]
+  
+     [[file:~/MY_scratch::(lambda%20()%20(interactive)%20(org-capture%20nil%20"gj")))]]

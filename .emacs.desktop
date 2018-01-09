@@ -1,0 +1,85 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Tue Jan  9 19:17:32 2018
+;; Desktop file format version 206
+;; Emacs version 24.4.1
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (23124 42188 388781 641000) (desktop . "206") "ben@eros" nil nil ((((tty-type . "xterm") (tty . "/dev/tty") (display-type . color) (background-mode . light) (foreground-color . "unspecified-fg") (cursor-color . "black") (background-color . "unspecified-bg") (font . "tty") (height . 47) (width . 116) (modeline . t) (unsplittable) (menu-bar-lines . 1) (frameset--id . "354B-D358-5C2D-2A83") (frameset--mini t) (minibuffer . t)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 2) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 4) (min-pixel-width . 10) (min-pixel-height-ignore . 2) (min-pixel-width-ignore . 2) (min-pixel-height-safe . 1) (min-pixel-width-safe . 2)) leaf (pixel-width . 116) (pixel-height . 45) (total-width . 116) (total-height . 45) (normal-height . 1.0) (normal-width . 1.0) (buffer "init.el_bak" (selected . t) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 1) (start . 1))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring '("desktop" "tarrow" "torch" "holi" "template" "d" "cap" "org" "add-to-list" "use-id" "org-dir" "cal-china" "calen" "org-ca" "org-" "bt"))
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("~/filofex/init.el_bak" "~/filofex/" "~/" "~/filofex/tarrow.org" "~/filofex/torch.org" "~/.emacs.d/init.el" "~/filofex/MY_scratch" "~/" "~/.emacs.d/" "~/filofex/" "~/tmp.org" "~/.emacs.d/timelog" "~/.emacs.d/init.el" "~/MY_scratch" "~/filofex/afflux_fromAliECS.org" "~/.emacs.d/init.el" "~/.emacs.d/elpa/highlight-parentheses-1.1.0/highlight-parentheses.el" "~/.emacs.d/init.el" "~/tmp_find_smt" "~/" "~/.emacs.d/" "~/"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/home/ben/filofex/init.el_bak"
+  "init.el_bak"
+  'fundamental-mode
+  nil
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/ben/.emacs.d/init.el"
+  "init.el"
+  'emacs-lisp-mode
+  nil
+  170
+  '(138 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . prefer-utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/ben/filofex/afflux_fromAliECS.org"
+  "afflux_fromAliECS.org"
+  'org-mode
+  '(auto-revert-mode)
+  14660
+  '(14660 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/home/ben/filofex/tarrow.org"
+  "tarrow.org"
+  'org-mode
+  nil
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/home/ben/filofex/torch.org"
+  "torch.org"
+  'org-mode
+  nil
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+
+(desktop-append-buffer-args 206
+  "/home/ben/filofex/MY_scratch"
+  "MY_scratch"
+  'lisp-interaction-mode
+  nil
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+

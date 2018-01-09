@@ -1,0 +1,26 @@
+* Tasks
+** TODO neo triology ;p
+   [2018-01-09 Tue]
+   [[file:~/filofex/afflux_fromAliECS.org::*this%20week][this week]]
+** TODO test capture-bookmark
+   :PROPERTIES:
+   :ID:       047cb647-36e5-481a-bba9-85e811e10a2f
+   :END:
+   [2018-01-09 Tue]
+   [[file:~/filofex/afflux_fromAliECS.org::*this%20week][this week]]
+** TODO test template "~/filofex/torch.org" "Tasks"
+  
+   [[file:~/filofex/afflux_fromAliECS.org::*this%20week][this week]]
+
+** TODO test :properties
+  
+   [[file:~/MY_scratch::"*%20%25?\nEntered%20on%20%25U\n%20%25i\n%20%25a"%20:empty-lines%201)))]]
+
+** TODO add properties and repair %U(timestamp)
+   :PROPERTIES:
+   :ID:       593d9e4a-12a2-42cd-b311-18c19b92b4d4
+   :END:
+   [2018-01-09 Tue 17:03]
+  
+   [[file:~/MY_scratch::"*%20%25?\nEntered%20on%20%25U\n%20%25i\n%20%25a"%20:empty-lines%201)))]]
+

@@ -439,27 +439,49 @@ awkward when no 'Super key' => S-left/right :: bullet styles ;(
 	     org-capture.el replace org-remember.el
   - M-x customize-variable org-capture-templates
     * ("b" "Templates for marking stuff to buy") :: key "bt" means "buy t?"
-    * customize org-direc :: ~/filofex
+    * !!!NOT customize org-direc :: ~/filofex, Init Error Then Use Absolute-Path Instead
     * customize org-...-notes-file :: (setq org-default-notes-file (concat org-directory "/torch.org"))
-    * target indirect narrow :: 
+    * target indirect narrow :: c-cc :: c-u c-u c-c c(session last)[[id:047cb647-36e5-481a-bba9-85e811e10a2f][test capture-bookmark]]
+      - calenda :: kc, c-c<
+		   M}oon, H}oli, >, o(center date)
+    * customize capture templates :: c-ccC
+      - templates :: [[info:org#Capture%20templates]] line20
+		      q to quit many pop-windows ;p
+		      well, journal looks well, NOT diary...
+		      [[file:~/MY_scratch::229][goto-task]] (tail link c-q char) :: prefix-key without interactive
+		     
 
-- refile ::
+- refile c-c c-w
   - archive :: 
 
-- xattr :: apt install xattr (~/xattr file)good idea
+*** swap-easy
++ g dired refresh :: m-x revert-buffer
+		    F10 >> Operate/File
+		    dired >>> ^/>/<, Z(gzip), q, +R
+		    M-!
+		    M-\
+		    m-/ great! ;p
 
-- properties and link-ids :: unique global ID
++ xattr :: apt install xattr (~/xattr file)good idea
+
++ filofex :: collect magit
+	     gnutls? reboot to confirm stats well
+
++ tree :: tree(apt install) -L 2 -rt ~ | head -n50 | sed -n '/^├/p' : use c-x = on '|-' ; c-q ; c-x 8 <RET>
+	  find -lR(not reverse)
+
++ properties and link-ids :: unique global ID
      org-id-link-to-org-use-id
      link abbrev %s %h %(my-function)
      c-c %/& (push/pop) c-c c-x c-n/p (forword/backward)
 
-- customize emacs :: m-x org-customize >> Org Link ... Org Store Link ...Org Id Link To Org Use Id >>OB
++ customize emacs :: m-x org-customize >> Org Link ... Org Store Link ...Org Id Link To Org Use Id >>OB
       select [Value Menu] numbers
       use [ Search ] is convenient
-      [[info:org#Handling%20links][info:org#Handling links]]
-      [[info:org#External%20links][info:org#External links]]
+	info:org#Handling links]]
+	info:org#External links]]
 	     
-- top :: R}sort F}ield </>}sortWhich
++ top :: R}sort F}ield </>}sortWhich
 	 g}[1-4]/A}ll4 o}filter
 
 *** wirock
@@ -469,6 +491,10 @@ awkward when no 'Super key' => S-left/right :: bullet styles ;(
 1. docker
 2. piten
 3. mllib/graphx
+		   
+*** TODO M-0 C-cc at this point
+    [2018-01-09 Tue]
+    [[file:~/filofex/afflux_fromAliECS.org::*this%20week][this week]]
 
 ** -1 week
    :PROPERTIES:
