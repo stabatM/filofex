@@ -2,12 +2,12 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Tue Jan  9 19:17:32 2018
+;; Created Wed Jan 10 16:06:49 2018
 ;; Desktop file format version 206
 ;; Emacs version 24.4.1
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (23124 42188 388781 641000) (desktop . "206") "ben@eros" nil nil ((((tty-type . "xterm") (tty . "/dev/tty") (display-type . color) (background-mode . light) (foreground-color . "unspecified-fg") (cursor-color . "black") (background-color . "unspecified-bg") (font . "tty") (height . 47) (width . 116) (modeline . t) (unsplittable) (menu-bar-lines . 1) (frameset--id . "354B-D358-5C2D-2A83") (frameset--mini t) (minibuffer . t)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 2) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 4) (min-pixel-width . 10) (min-pixel-height-ignore . 2) (min-pixel-width-ignore . 2) (min-pixel-height-safe . 1) (min-pixel-width-safe . 2)) leaf (pixel-width . 116) (pixel-height . 45) (total-width . 116) (total-height . 45) (normal-height . 1.0) (normal-width . 1.0) (buffer "init.el_bak" (selected . t) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 1) (start . 1))))])
+(setq desktop-saved-frameset [frameset 1 (23125 51609 480663 466000) (desktop . "206") "ben@eros" nil nil ((((tty-type . "xterm") (tty . "/dev/tty") (display-type . color) (background-mode . light) (foreground-color . "unspecified-fg") (cursor-color . "black") (background-color . "unspecified-bg") (font . "tty") (height . 47) (width . 116) (modeline . t) (unsplittable) (menu-bar-lines . 1) (frameset--id . "8E80-8218-B4D1-6B49") (frameset--mini t) (minibuffer . t)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 2) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 4) (min-pixel-width . 10) (min-pixel-height-ignore . 2) (min-pixel-width-ignore . 2) (min-pixel-height-safe . 1) (min-pixel-width-safe . 2)) leaf (pixel-width . 116) (pixel-height . 45) (total-width . 116) (total-height . 45) (normal-height . 1.0) (normal-width . 1.0) (buffer "afflux_fromAliECS.org" (selected . t) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 18533) (start . 10099))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
@@ -18,15 +18,26 @@
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
 (desktop-create-buffer 206
-  "/home/ben/filofex/init.el_bak"
-  "init.el_bak"
-  'fundamental-mode
+  "/home/ben/filofex/afflux_fromAliECS.org"
+  "afflux_fromAliECS.org"
+  'org-mode
+  '(auto-revert-mode)
+  18533
+  '(18774 nil)
   nil
-  1
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  nil
+  "*info*"
+  'Info-mode
+  nil
+  133375
   '(nil nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix)))
+  t
+  '("/home/ben/mysrc/org-mode/doc/org" "Internal links" ((history ("/home/ben/mysrc/org-mode/doc/org" "Hyperlinks" 129966) ("/home/ben/mysrc/org-mode/doc/org" "Top" 1862) ("/home/ben/mysrc/org-mode/doc/org" "Working with source code" 592045) ("/home/ben/mysrc/org-mode/doc/org" "Header arguments" 609062) ("/home/ben/mysrc/org-mode/doc/org" "Using header arguments" 609914) ("/home/ben/mysrc/org-mode/doc/org" "Arguments in function calls" 615883) ("/home/ben/mysrc/org-mode/doc/org" "Specific header arguments" 616859) ("/home/ben/mysrc/org-mode/doc/org" "exports" 633110) ("/home/ben/mysrc/org-mode/doc/org" "dir" 630993) ("/home/ben/mysrc/org-mode/doc/org" "output-dir" 630596) ("/home/ben/mysrc/org-mode/doc/org" "file-ext" 630185) ("/home/ben/mysrc/org-mode/doc/org" "file-desc" 629781) ("/home/ben/mysrc/org-mode/doc/org" "file" 629115) ("/home/ben/mysrc/org-mode/doc/org" "results" 627111) ("/home/ben/mysrc/org-mode/doc/org" "file" 629689) ("/home/ben/mysrc/org-mode/doc/org" "file-desc" 630087) ("/home/ben/mysrc/org-mode/doc/org" "file-ext" 630504) ("/home/ben/mysrc/org-mode/doc/org" "output-dir" 630902) ("/home/ben/mysrc/org-mode/doc/org" "dir" 632604) ("/home/ben/mysrc/org-mode/doc/org" "exports" 633892) ("/home/ben/mysrc/org-mode/doc/org" "tangle" 634734) ("/home/ben/mysrc/org-mode/doc/org" "mkdirp" 635048) ("/home/ben/mysrc/org-mode/doc/org" "comments" 635999) ("/home/ben/mysrc/org-mode/doc/org" "padline" 636389) ("/home/ben/mysrc/org-mode/doc/org" "no-expand" 637099) ("/home/ben/mysrc/org-mode/doc/org" "session" 638177) ("/home/ben/mysrc/org-mode/doc/org" "noweb" 639839) ("/home/ben/mysrc/org-mode/doc/org" "session" 637191) ("/home/ben/mysrc/org-mode/doc/org" "no-expand" 636483) ("/home/ben/mysrc/org-mode/doc/org" "padline" 636094) ("/home/ben/mysrc/org-mode/doc/org" "comments" 635140) ("/home/ben/mysrc/org-mode/doc/org" "mkdirp" 634825) ("/home/ben/mysrc/org-mode/doc/org" "tangle" 633982) ("/home/ben/mysrc/org-mode/doc/org" "exports" 633110) ("/home/ben/mysrc/org-mode/doc/org" "dir" 632585) ("/home/ben/mysrc/org-mode/doc/org" "output-dir" 630596) ("/home/ben/mysrc/org-mode/doc/org" "file-ext" 630185) ("/home/ben/mysrc/org-mode/doc/org" "file-desc" 629781) ("/home/ben/mysrc/org-mode/doc/org" "file" 629115) ("/home/ben/mysrc/org-mode/doc/org" "results" 628617) ("/home/ben/mysrc/org-mode/doc/org" "var" 624254) ("/home/ben/mysrc/org-mode/doc/org" "Specific header arguments" 616360) ("/home/ben/mysrc/org-mode/doc/org" "var" 620115) ("/home/ben/mysrc/org-mode/doc/org" "results" 626804) ("/home/ben/mysrc/org-mode/doc/org" "Specific header arguments" 615983) ("/home/ben/mysrc/org-mode/doc/org" "Arguments in function calls" 615245) ("/home/ben/mysrc/org-mode/doc/org" "Code block specific header arguments" 614950) ("/home/ben/mysrc/org-mode/doc/org" "Language-specific mode properties" 612828) ("/home/ben/mysrc/org-mode/doc/org" "Header arguments in Org mode properties" 611383) ("/home/ben/mysrc/org-mode/doc/org" "Language-specific header arguments" 610858) ("/home/ben/mysrc/org-mode/doc/org" "System-wide header arguments" 610115) ("/home/ben/mysrc/org-mode/doc/org" "Using header arguments" 609289) ("/home/ben/mysrc/org-mode/doc/org" "Header arguments" 608948) ("/home/ben/mysrc/org-mode/doc/org" "Languages" 606523) ("/home/ben/mysrc/org-mode/doc/org" "Header arguments" 608948) ("/home/ben/mysrc/org-mode/doc/org" "Results of evaluation" 656389) ("/home/ben/mysrc/org-mode/doc/org" "Working with source code" 592110) ("/home/ben/mysrc/org-mode/doc/org" "Top" 2506) ("dir" "Top" 227))))
+  '((tab-width . 8) (buffer-file-coding-system . utf-8-unix) (case-fold-search . t)))
 
 (desktop-create-buffer 206
   "/home/ben/.emacs.d/init.el"
@@ -40,32 +51,32 @@
   '((buffer-file-coding-system . prefer-utf-8-unix)))
 
 (desktop-create-buffer 206
-  "/home/ben/filofex/afflux_fromAliECS.org"
-  "afflux_fromAliECS.org"
-  'org-mode
-  '(auto-revert-mode)
-  14660
-  '(14660 nil)
+  "/usr/share/emacs/24.4/etc/COPYING"
+  "COPYING"
+  'fundamental-mode
+  '(view-mode goto-address-mode)
+  1
+  '(nil nil)
+  t
   nil
-  nil
-  '((buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
+  '((buffer-file-coding-system . undecided-unix)))
 
 (desktop-create-buffer 206
+  "/home/ben/filofex/MY_scratch"
+  "MY_scratch"
+  'lisp-interaction-mode
+  '(auto-revert-mode)
+  5224
+  '(5224 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-append-buffer-args 206
   "/home/ben/filofex/tarrow.org"
   "tarrow.org"
   'org-mode
-  nil
-  1
-  '(nil nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/ben/filofex/torch.org"
-  "torch.org"
-  'org-mode
-  nil
+  '(auto-revert-mode)
   1
   '(nil nil)
   nil
@@ -73,13 +84,13 @@
   '((buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
 
 (desktop-append-buffer-args 206
-  "/home/ben/filofex/MY_scratch"
-  "MY_scratch"
-  'lisp-interaction-mode
-  nil
+  "/home/ben/filofex/torch.org"
+  "torch.org"
+  'org-mode
+  '(auto-revert-mode)
   1
   '(nil nil)
   nil
   nil
-  '((buffer-file-coding-system . utf-8-unix)))
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
 

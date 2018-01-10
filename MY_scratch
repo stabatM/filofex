@@ -236,3 +236,14 @@ org-capture-bookmark
 org-capture-templates
 (define-key global-map "\C-cx"
      (lambda () (interactive) (org-capture nil "gj")))
+
+...
+;; xattr-ns-grep-codeBlock in orgs
+org-babel-load-languages
+
+(org-babel-do-load-languages
+ 'org-babel-load-languages
+ '((emacs-lisp . nil)
+   (R . t)
+   (python . t)
+   (shell . t)))

@@ -574,8 +574,109 @@ filter basics
 
 * new wed
   - last week ::
-    - this week ::
-** -2 week 
+  - this week ::
+** this week
+1. github
+   - github >> git push :: ssh
+     - noreply email :: 35283467+stabatM@users.noreply.github.com (Block command line pushes that expose my email)
+			git config [--global] user.mail "..."
+     - 2FA :: nophone, barcode, 2FA-app(wula, 1password APP, well)
+     - git->github :: No, use guide stepin, officiouly...
+   - xattr on dirs :: xattr(apt install) <> system's attr MUST -w user.something (attr NEEDnot)
+		      mysrc/vext/... IS gitclone, so mark it
+		      beaware chown and mv ;(
+		      attr ALSO CAN addon dirs
+		      xattr CAN add ns-security, ns-trusted and list them; ordinary user can list security only(not include trusted)
+		      use sourcecode-block grep xattr's source code to find namespace: users,root,system...
+		      [[source src code block]]
+2. orgmod capture
+   
+** blocks of Language :: org-mono-manual 14.6
+   [[https://orgmode.org/org.html#Header-arguments][language]]
+*** source src code block
+ref: MY_scratch
+[[file:MY_scratch::;;%20xattr-ns-grep-codeBlock%20in%20orgs][source-code-block]]
+- shell
+#+NAME: xattr-namespaces
+#+BEGIN_SRC shell :results output :dir /home/ben/.FAIL/xattr
+grep -d skip -C 5 user ./**/*;
+grep --directories=recurse --context=5 'user' /home/ben/.FAIL/xattr/* | tail -n 10
+echo 'smt';
+#+END_SRC
+
+#+RESULTS: xattr-namespaces
+#+begin_example
+./xattr/pyxattr_compat.py-    "getxattr", "get", "get_all", "setxattr", "set",
+./xattr/pyxattr_compat.py-    "removexattr", "remove", "listxattr", "list"
+./xattr/pyxattr_compat.py-]
+./xattr/pyxattr_compat.py-
+./xattr/pyxattr_compat.py-NS_SECURITY = "security"
+./xattr/pyxattr_compat.py:NS_USER = "user"
+./xattr/pyxattr_compat.py-NS_SYSTEM = "system"
+./xattr/pyxattr_compat.py-NS_TRUSTED = "trusted"
+./xattr/pyxattr_compat.py-
+./xattr/pyxattr_compat.py-_NO_NS = object()
+./xattr/pyxattr_compat.py-
+/home/ben/.FAIL/xattr/xattr/pyxattr_compat.py-    "removexattr", "remove", "listxattr", "list"
+/home/ben/.FAIL/xattr/xattr/pyxattr_compat.py-]
+/home/ben/.FAIL/xattr/xattr/pyxattr_compat.py-
+/home/ben/.FAIL/xattr/xattr/pyxattr_compat.py-NS_SECURITY = "security"
+/home/ben/.FAIL/xattr/xattr/pyxattr_compat.py:NS_USER = "user"
+/home/ben/.FAIL/xattr/xattr/pyxattr_compat.py-NS_SYSTEM = "system"
+/home/ben/.FAIL/xattr/xattr/pyxattr_compat.py-NS_TRUSTED = "trusted"
+/home/ben/.FAIL/xattr/xattr/pyxattr_compat.py-
+/home/ben/.FAIL/xattr/xattr/pyxattr_compat.py-_NO_NS = object()
+/home/ben/.FAIL/xattr/xattr/pyxattr_compat.py-
+smt
+#+end_example
+
+- python
+#+NAME: if-true var: True
+#+BEGIN_SRC python :exports none
+print('Do things when True')
+#+END_SRC
+
+#+RESULTS: if-true var: True
+: None
+
+#+RESULTS: if-true
+: None
+
+- emacs-lisp
+#+NAME: double
+#+BEGIN_SRC emacs-lisp :var input=8
+(* 2 input)
+#+END_SRC
+
+#+RESULTS: double
+: 16
+
+   - aliyun snapshot :: recharge fees, manual snapshot, QQ screenshot save to weiyun
+   - :: 
+** -1 week
+** -2 week
+[2017-12-27 wed 10:34]
+- docker no :: database mysql oracle-instance(sga)
+- vm versus container :: volume-interface, network-if, data in mem/disk, share/security, cgroup/selinux
+[[https://myopsblog.wordpress.com/2017/02/06/why-databases-is-not-for-containers/][why-databases-is-not-for-containers]]
+  - 1st :: process = container, process' lifecycle is in memory, redis from old architecture design can merge into container
+  - 2nd :: dedicate envirment include: container's immature network, vm's nas, bussiness envirnment's high io performance and less barriers(container on vm)
+  - 3rd :: container no bonus introduce into dbs project, no better than ansible
+  - 4th :: vm's juggle and snapshots contain full state backup
+  - 5th :: in practice, from hardware isolation to vm(cloud) to container, need redesign and specific engineer do right things: data etl, stateless service,and
+	   (c-<enter>) inner stateless corruption may cause outer statful env corruption even worse
+  - eg. :: [[https://blog.lab99.org/post/docker-2016-07-14-faq.html#kan-dao-zong-shuo-yao-bao-chi-rong-qi-wu-zhuang-tai-na-shi-me-shi-wu-zhuang-tai][wu-zhuang-tai]]
+1. ooh, num show...
+[[https://www.joyent.com/blog/persistent-storage-patterns][persistent-storage-patterns]]
+  - 6.1 :: configuration !consult
+  - 6.2 :: secrets !vault
+  - 6.3 :: database instances(somelevel periodically backup data to oss; replicate state across multi-dbs,then the surviver then use it to bootstrap)
+	   !autopilot pattern mysql
+  - 6.4 :: shared data (oss <> sharedfs), db + sharedfs
+  - 6th :: every application can be stateless
+[[https://dzone.com/articles/is-docker-good-for-your-database][is-docker-good-for-your-database]]
+  - 7th :: lack of synergy... just not stable yet... 
+** -3 week 
 *** org spreadsheet system
  - [-] C-c C-` <> C-c C-'
  - [-] C-u C-c * [[http://orgmode.org/org.html#Updating-the-table][update-recalculate]]
@@ -628,31 +729,6 @@ filter basics
  - M-x hel m :: major/minor Mode enabled [[https://www.gnu.org/software/emacs/manual/html_mono/emacs.html#Modes][emacs' mode]]
  - M-x package.... highlight-pare :: hl-pare
  - colors 4 parentheses :: M-x help color-name-rgb-alist 
-
-** last week
-[2017-12-27 wed 10:34]
-- docker no :: database mysql oracle-instance(sga)
-- vm versus container :: volume-interface, network-if, data in mem/disk, share/security, cgroup/selinux
-[[https://myopsblog.wordpress.com/2017/02/06/why-databases-is-not-for-containers/][why-databases-is-not-for-containers]]
-  - 1st :: process = container, process' lifecycle is in memory, redis from old architecture design can merge into container
-  - 2nd :: dedicate envirment include: container's immature network, vm's nas, bussiness envirnment's high io performance and less barriers(container on vm)
-  - 3rd :: container no bonus introduce into dbs project, no better than ansible
-  - 4th :: vm's juggle and snapshots contain full state backup
-  - 5th :: in practice, from hardware isolation to vm(cloud) to container, need redesign and specific engineer do right things: data etl, stateless service,and
-	   (c-<enter>) inner stateless corruption may cause outer statful env corruption even worse
-  - eg. :: [[https://blog.lab99.org/post/docker-2016-07-14-faq.html#kan-dao-zong-shuo-yao-bao-chi-rong-qi-wu-zhuang-tai-na-shi-me-shi-wu-zhuang-tai][wu-zhuang-tai]]
-1. ooh, num show...
-[[https://www.joyent.com/blog/persistent-storage-patterns][persistent-storage-patterns]]
-  - 6.1 :: configuration !consult
-  - 6.2 :: secrets !vault
-  - 6.3 :: database instances(somelevel periodically backup data to oss; replicate state across multi-dbs,then the surviver then use it to bootstrap)
-	   !autopilot pattern mysql
-  - 6.4 :: shared data (oss <> sharedfs), db + sharedfs
-  - 6th :: every application can be stateless
-[[https://dzone.com/articles/is-docker-good-for-your-database][is-docker-good-for-your-database]]
-  - 7th :: lack of synergy... just not stable yet... 
-
-** this week
 
 
 * new thur
