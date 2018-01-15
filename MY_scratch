@@ -227,15 +227,36 @@ org-directory
 (setq mark-holidays-in-calendar t)
 org-capture-bookmark
 
+;; test only #?
 (setq org-capture-templates
-      '(("g" "for convinient goto")
+      '(("p" "in-mode" entry (file+headline "~/filofex/inMode.org")
+	 "* %?\nEntered on %U\n  %i\n  %a" :empty-lines 1)
+	("g" "for convinient goto")
 	("gt" "Todo" entry (file+headline "~/filofex/torch.org" "Tasks")
 	 "* TODO %?\n  %U\n  %i\n  %a" :empty-lines 1)
 	("gj" "Journal" entry (file+olp+datetree "~/filofex/tarrow.org")
-	         "* %?\nEntered on %U\n  %i\n  %a" :empty-lines 1)))
+	 "* %?\nEntered on %U\n  %i\n  %a" :empty-lines 1)
+       	))
+
+;; test only #?
+(setq org-capture-templates-contexts
+'(("p" ((in-mode . "org-mode"))))
+
 org-capture-templates
 (define-key global-map "\C-cx"
      (lambda () (interactive) (org-capture nil "gj")))
+
+;; In Effect
+(setq org-capture-templates-contexts nil)
+(setq org-capture-templates
+'(("g" "for convinient goto") ("gt" "Todo" entry (file+headline "~/filofex/torch.org" "Tasks") "* TODO %?
+  %U
+  %i
+  %a" :empty-lines 1) ("gj" "Journal" entry (file+olp+datetree "~/filofex/tarrow.org") "* %?
+Entered on %U
+  %i
+  %a" :empty-lines 1)))
+
 
 ...
 ;; xattr-ns-grep-codeBlock in orgs

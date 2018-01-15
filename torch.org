@@ -1,4 +1,47 @@
 * Tasks
+** TODO test template "~/filofex/torch.org" "Tasks"
+  
+   [[file:~/filofex/afflux_fromAliECS.org::*this%20week][this week]]
+   
+** TODO test :properties
+  
+   [[file:~/MY_scratch::"*%20%25?\nEntered%20on%20%25U\n%20%25i\n%20%25a"%20:empty-lines%201)))]]
+
+** TODO test template keywords
+   :PROPERTIES:
+   :prop:     ?
+   :END:
+  Internal links [2018-01-11 Thu 12:25]
+
+  
+   [[info:org#Internal%20links][info:org#Internal links]]
+
+** TODO link keywords
+   :PROPERTIES:
+   :prop:     test capture templation link keywords
+   :END:
+   [2018-01-11 Thu 12:23]
+
+  
+   [[info:org#Internal%20links][info:org#Internal links]]
+
+** TODO test expansions
+   :PROPERTIES:
+   :prop:     test%^{}
+   :END:
+   [2018-01-11 Thu 11:03]
+
+  
+   [[file:~/filofex/MY_scratch::"*%20%25?%25^C\nEntered%20on%20%25U\n%20%25i\n%20%25a"%20:empty-lines%201)))]]
+
+** TODO add properties and repair %U(timestamp)
+   :PROPERTIES:
+   :ID:       593d9e4a-12a2-42cd-b311-18c19b92b4d4
+   :END:
+   [2018-01-09 Tue 17:03]
+  
+   [[file:~/MY_scratch::"*%20%25?\nEntered%20on%20%25U\n%20%25i\n%20%25a"%20:empty-lines%201)))]]
+
 ** TODO neo triology ;p
    [2018-01-09 Tue]
    [[file:~/filofex/afflux_fromAliECS.org::*this%20week][this week]]
@@ -8,19 +51,4 @@
    :END:
    [2018-01-09 Tue]
    [[file:~/filofex/afflux_fromAliECS.org::*this%20week][this week]]
-** TODO test template "~/filofex/torch.org" "Tasks"
-  
-   [[file:~/filofex/afflux_fromAliECS.org::*this%20week][this week]]
-
-** TODO test :properties
-  
-   [[file:~/MY_scratch::"*%20%25?\nEntered%20on%20%25U\n%20%25i\n%20%25a"%20:empty-lines%201)))]]
-
-** TODO add properties and repair %U(timestamp)
-   :PROPERTIES:
-   :ID:       593d9e4a-12a2-42cd-b311-18c19b92b4d4
-   :END:
-   [2018-01-09 Tue 17:03]
-  
-   [[file:~/MY_scratch::"*%20%25?\nEntered%20on%20%25U\n%20%25i\n%20%25a"%20:empty-lines%201)))]]
 

@@ -18,3 +18,23 @@
    Entered on [2018-01-09 Tue 16:32]
   
      [[file:~/MY_scratch::(lambda%20()%20(interactive)%20(org-capture%20nil%20"gj")))]]
+*** 2018-01-11 Thursday
+**** test %^C 
+    org-capture-templates
+   Entered on [2018-01-11 Thu 11:57]
+  
+     [[file:~/filofex/MY_scratch::((()))]]
+
+**** test :empty-line
+    org-capture-templates
+   Entered on [2018-01-11 Thu 12:00]
+  
+     [[file:~/filofex/MY_scratch::"*%20%25?\n%20%25^C\nEntered%20on%20%25U\n%20%25i\n%20%25a"%20:empty-lines%201)))]]
+
+**** test capture-template-completions
+    clipboard 
+   Entered on [2018-01-11 Thu 12:14]
+    completion3 
+     [[file:~/filofex/MY_scratch::"*%20%25?\n%20%25^C\nEntered%20on%20%25U\n%20%25^{prompt|default|completion2|completion3}%20%25i\n%20%25a"%20:empty-lines%201)))]]
+*** 2018-01-15 Monday
+
