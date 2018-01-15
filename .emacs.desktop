@@ -2,28 +2,50 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Mon Jan 15 15:57:45 2018
+;; Created Mon Jan 15 20:05:21 2018
 ;; Desktop file format version 206
 ;; Emacs version 24.4.1
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (23132 24313 374513 860000) (desktop . "206") "ben@eros" nil nil ((((tty-type . "xterm") (tty . "/dev/tty") (display-type . color) (background-mode . light) (foreground-color . "unspecified-fg") (cursor-color . "black") (background-color . "unspecified-bg") (font . "tty") (height . 47) (width . 116) (modeline . t) (unsplittable) (menu-bar-lines . 1) (frameset--id . "D2DD-81B5-2376-A5EA") (frameset--mini t) (minibuffer . t)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 2) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 4) (min-pixel-width . 10) (min-pixel-height-ignore . 2) (min-pixel-width-ignore . 2) (min-pixel-height-safe . 1) (min-pixel-width-safe . 2)) leaf (pixel-width . 116) (pixel-height . 45) (total-width . 116) (total-height . 45) (normal-height . 1.0) (normal-width . 1.0) (buffer "init.el" (selected . t) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 2621) (start . 1909))))])
+(setq desktop-saved-frameset [frameset 1 (23132 39169 509113 386000) (desktop . "206") "ben@eros" nil nil ((((tty-type . "xterm") (tty . "/dev/tty") (display-type . color) (background-mode . light) (foreground-color . "unspecified-fg") (cursor-color . "black") (background-color . "unspecified-bg") (font . "tty") (height . 47) (width . 116) (modeline . t) (unsplittable) (menu-bar-lines . 1) (frameset--id . "BBEB-9BAF-270F-5F4C") (frameset--mini t) (minibuffer . t)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 2) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 4) (min-pixel-width . 10) (min-pixel-height-ignore . 2) (min-pixel-width-ignore . 2) (min-pixel-height-safe . 1) (min-pixel-width-safe . 2)) leaf (pixel-width . 116) (pixel-height . 45) (total-width . 116) (total-height . 45) (normal-height . 1.0) (normal-width . 1.0) (buffer "afflux_fromAliECS.org" (selected . t) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 7043) (start . 1573))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
-(setq search-ring '("Mode" "mu" "dash" "E	" "grep" "desktop" "tarrow" "torch" "holi" "template" "d" "cap" "org" "add-to-list" "use-id" "org-dir"))
+(setq search-ring '("org-capture-templates" "check" "ID" "Mode" "mu" "dash" "E	" "grep" "desktop" "tarrow" "torch" "holi" "template" "d" "cap" "org"))
 (setq regexp-search-ring nil)
 (setq register-alist nil)
 (setq file-name-history '("~/filofex/inMode.org" "dash-pkg.el" "" "~/filofex/init.el_bak" "~/filofex/" "~/" "~/filofex/tarrow.org" "~/filofex/torch.org" "~/.emacs.d/init.el" "~/filofex/MY_scratch" "~/" "~/.emacs.d/" "~/filofex/" "~/tmp.org" "~/.emacs.d/timelog" "~/.emacs.d/init.el" "~/MY_scratch" "~/filofex/afflux_fromAliECS.org" "~/.emacs.d/init.el" "~/.emacs.d/elpa/highlight-parentheses-1.1.0/highlight-parentheses.el" "~/.emacs.d/init.el" "~/tmp_find_smt" "~/" "~/.emacs.d/" "~/"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
 (desktop-create-buffer 206
+  "/home/ben/filofex/afflux_fromAliECS.org"
+  "afflux_fromAliECS.org"
+  'org-mode
+  '(auto-revert-mode)
+  7043
+  '(6956 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/home/ben/filofex/inMode.org"
+  "inMode.org"
+  'org-mode
+  '(auto-revert-mode)
+  118
+  '(58 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
   "/home/ben/.emacs.d/init.el"
   "init.el"
   'emacs-lisp-mode
   nil
-  2621
-  '(2621 nil)
+  5859
+  '(5889 nil)
   nil
   nil
   '((buffer-file-coding-system . prefer-utf-8-unix)))
@@ -33,66 +55,33 @@
   "MY_scratch"
   'lisp-interaction-mode
   '(auto-revert-mode highlight-parentheses-mode)
-  5329
-  '(5177 nil)
+  6476
+  '(5920 nil)
   nil
   nil
   '((buffer-file-coding-system . utf-8-unix)))
 
 (desktop-create-buffer 206
-  "/home/ben/filofex/inMode.org"
-  "inMode.org"
-  'org-mode
-  nil
-  1
-  '(nil nil)
-  nil
-  nil
-  '((truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/ben/filofex/afflux_fromAliECS.org"
-  "afflux_fromAliECS.org"
-  'org-mode
-  '(auto-revert-mode)
-  6953
-  '(6942 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  nil
-  "*info*"
-  'Info-mode
-  nil
-  290836
-  '(294796 nil)
-  t
-  '("/home/ben/mysrc/org-mode/doc/org" "Template expansion" ((history ("/home/ben/mysrc/org-mode/doc/org" "Template elements" 290716) ("/home/ben/mysrc/org-mode/doc/org" "Capture templates" 283434) ("/home/ben/mysrc/org-mode/doc/org" "Capture" 277913) ("/home/ben/mysrc/org-mode/doc/org" "Capture - Refile - Archive" 276944) ("/home/ben/mysrc/org-mode/doc/org" "Dates and times" 228984) ("/home/ben/mysrc/org-mode/doc/org" "Top" 962) ("dir" "Top" 227) ("/home/ben/mysrc/org-mode/doc/org" "Top" 1862) ("/home/ben/mysrc/org-mode/doc/org" "Hyperlinks" 129968) ("/home/ben/mysrc/org-mode/doc/org" "Internal links" 131692) ("/home/ben/mysrc/org-mode/doc/org" "Hyperlinks" 129966) ("/home/ben/mysrc/org-mode/doc/org" "Top" 1862) ("/home/ben/mysrc/org-mode/doc/org" "Working with source code" 592045) ("/home/ben/mysrc/org-mode/doc/org" "Header arguments" 609062) ("/home/ben/mysrc/org-mode/doc/org" "Using header arguments" 609914) ("/home/ben/mysrc/org-mode/doc/org" "Arguments in function calls" 615883) ("/home/ben/mysrc/org-mode/doc/org" "Specific header arguments" 616859) ("/home/ben/mysrc/org-mode/doc/org" "exports" 633110) ("/home/ben/mysrc/org-mode/doc/org" "dir" 630993) ("/home/ben/mysrc/org-mode/doc/org" "output-dir" 630596) ("/home/ben/mysrc/org-mode/doc/org" "file-ext" 630185) ("/home/ben/mysrc/org-mode/doc/org" "file-desc" 629781) ("/home/ben/mysrc/org-mode/doc/org" "file" 629115) ("/home/ben/mysrc/org-mode/doc/org" "results" 627111) ("/home/ben/mysrc/org-mode/doc/org" "file" 629689) ("/home/ben/mysrc/org-mode/doc/org" "file-desc" 630087) ("/home/ben/mysrc/org-mode/doc/org" "file-ext" 630504) ("/home/ben/mysrc/org-mode/doc/org" "output-dir" 630902) ("/home/ben/mysrc/org-mode/doc/org" "dir" 632604) ("/home/ben/mysrc/org-mode/doc/org" "exports" 633892) ("/home/ben/mysrc/org-mode/doc/org" "tangle" 634734) ("/home/ben/mysrc/org-mode/doc/org" "mkdirp" 635048) ("/home/ben/mysrc/org-mode/doc/org" "comments" 635999) ("/home/ben/mysrc/org-mode/doc/org" "padline" 636389) ("/home/ben/mysrc/org-mode/doc/org" "no-expand" 637099) ("/home/ben/mysrc/org-mode/doc/org" "session" 638177) ("/home/ben/mysrc/org-mode/doc/org" "noweb" 639839) ("/home/ben/mysrc/org-mode/doc/org" "session" 637191) ("/home/ben/mysrc/org-mode/doc/org" "no-expand" 636483) ("/home/ben/mysrc/org-mode/doc/org" "padline" 636094) ("/home/ben/mysrc/org-mode/doc/org" "comments" 635140) ("/home/ben/mysrc/org-mode/doc/org" "mkdirp" 634825) ("/home/ben/mysrc/org-mode/doc/org" "tangle" 633982) ("/home/ben/mysrc/org-mode/doc/org" "exports" 633110) ("/home/ben/mysrc/org-mode/doc/org" "dir" 632585) ("/home/ben/mysrc/org-mode/doc/org" "output-dir" 630596) ("/home/ben/mysrc/org-mode/doc/org" "file-ext" 630185) ("/home/ben/mysrc/org-mode/doc/org" "file-desc" 629781) ("/home/ben/mysrc/org-mode/doc/org" "file" 629115) ("/home/ben/mysrc/org-mode/doc/org" "results" 628617) ("/home/ben/mysrc/org-mode/doc/org" "var" 624254) ("/home/ben/mysrc/org-mode/doc/org" "Specific header arguments" 616360) ("/home/ben/mysrc/org-mode/doc/org" "var" 620115) ("/home/ben/mysrc/org-mode/doc/org" "results" 626804) ("/home/ben/mysrc/org-mode/doc/org" "Specific header arguments" 615983) ("/home/ben/mysrc/org-mode/doc/org" "Arguments in function calls" 615245) ("/home/ben/mysrc/org-mode/doc/org" "Code block specific header arguments" 614950) ("/home/ben/mysrc/org-mode/doc/org" "Language-specific mode properties" 612828) ("/home/ben/mysrc/org-mode/doc/org" "Header arguments in Org mode properties" 611383) ("/home/ben/mysrc/org-mode/doc/org" "Language-specific header arguments" 610858) ("/home/ben/mysrc/org-mode/doc/org" "System-wide header arguments" 610115) ("/home/ben/mysrc/org-mode/doc/org" "Using header arguments" 609289) ("/home/ben/mysrc/org-mode/doc/org" "Header arguments" 608948) ("/home/ben/mysrc/org-mode/doc/org" "Languages" 606523) ("/home/ben/mysrc/org-mode/doc/org" "Header arguments" 608948) ("/home/ben/mysrc/org-mode/doc/org" "Results of evaluation" 656389) ("/home/ben/mysrc/org-mode/doc/org" "Working with source code" 592110) ("/home/ben/mysrc/org-mode/doc/org" "Top" 2506) ("dir" "Top" 227))))
-  '((tab-width . 8) (buffer-file-coding-system . utf-8-unix) (case-fold-search . t)))
-
-(desktop-append-buffer-args 206
   "/home/ben/filofex/torch.org"
   "torch.org"
   'org-mode
   '(auto-revert-mode)
-  3
-  '(1 nil)
+  1607
+  '(nil nil)
   nil
   nil
   '((buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
 
 (desktop-append-buffer-args 206
   nil
-  "*info*<2>"
+  "*info*"
   'Info-mode
   nil
-  227
-  '(nil nil)
+  285479
+  '(294796 nil)
   t
-  '("dir" "Top" nil)
-  '((tab-width . 8) (case-fold-search . t)))
+  '("/home/ben/mysrc/org-mode/doc/org" "Template elements" ((history ("/home/ben/mysrc/org-mode/doc/org" "Template expansion" 293342) ("/home/ben/mysrc/org-mode/doc/org" "Templates in contexts" 296292) ("/home/ben/mysrc/org-mode/doc/org" "Attachments" 298193) ("/home/ben/mysrc/org-mode/doc/org" "Attach from dired" 299994) ("/home/ben/mysrc/org-mode/doc/org" "Attachments" 299699) ("/home/ben/mysrc/org-mode/doc/org" "Templates in contexts" 295563) ("/home/ben/mysrc/org-mode/doc/org" "Template expansion" 290953) ("/home/ben/mysrc/org-mode/doc/org" "Template elements" 290716) ("/home/ben/mysrc/org-mode/doc/org" "Capture templates" 283434) ("/home/ben/mysrc/org-mode/doc/org" "Capture" 277913) ("/home/ben/mysrc/org-mode/doc/org" "Capture - Refile - Archive" 276944) ("/home/ben/mysrc/org-mode/doc/org" "Dates and times" 228984) ("/home/ben/mysrc/org-mode/doc/org" "Top" 962) ("dir" "Top" 227) ("/home/ben/mysrc/org-mode/doc/org" "Top" 1862) ("/home/ben/mysrc/org-mode/doc/org" "Hyperlinks" 129968) ("/home/ben/mysrc/org-mode/doc/org" "Internal links" 131692) ("/home/ben/mysrc/org-mode/doc/org" "Hyperlinks" 129966) ("/home/ben/mysrc/org-mode/doc/org" "Top" 1862) ("/home/ben/mysrc/org-mode/doc/org" "Working with source code" 592045) ("/home/ben/mysrc/org-mode/doc/org" "Header arguments" 609062) ("/home/ben/mysrc/org-mode/doc/org" "Using header arguments" 609914) ("/home/ben/mysrc/org-mode/doc/org" "Arguments in function calls" 615883) ("/home/ben/mysrc/org-mode/doc/org" "Specific header arguments" 616859) ("/home/ben/mysrc/org-mode/doc/org" "exports" 633110) ("/home/ben/mysrc/org-mode/doc/org" "dir" 630993) ("/home/ben/mysrc/org-mode/doc/org" "output-dir" 630596) ("/home/ben/mysrc/org-mode/doc/org" "file-ext" 630185) ("/home/ben/mysrc/org-mode/doc/org" "file-desc" 629781) ("/home/ben/mysrc/org-mode/doc/org" "file" 629115) ("/home/ben/mysrc/org-mode/doc/org" "results" 627111) ("/home/ben/mysrc/org-mode/doc/org" "file" 629689) ("/home/ben/mysrc/org-mode/doc/org" "file-desc" 630087) ("/home/ben/mysrc/org-mode/doc/org" "file-ext" 630504) ("/home/ben/mysrc/org-mode/doc/org" "output-dir" 630902) ("/home/ben/mysrc/org-mode/doc/org" "dir" 632604) ("/home/ben/mysrc/org-mode/doc/org" "exports" 633892) ("/home/ben/mysrc/org-mode/doc/org" "tangle" 634734) ("/home/ben/mysrc/org-mode/doc/org" "mkdirp" 635048) ("/home/ben/mysrc/org-mode/doc/org" "comments" 635999) ("/home/ben/mysrc/org-mode/doc/org" "padline" 636389) ("/home/ben/mysrc/org-mode/doc/org" "no-expand" 637099) ("/home/ben/mysrc/org-mode/doc/org" "session" 638177) ("/home/ben/mysrc/org-mode/doc/org" "noweb" 639839) ("/home/ben/mysrc/org-mode/doc/org" "session" 637191) ("/home/ben/mysrc/org-mode/doc/org" "no-expand" 636483) ("/home/ben/mysrc/org-mode/doc/org" "padline" 636094) ("/home/ben/mysrc/org-mode/doc/org" "comments" 635140) ("/home/ben/mysrc/org-mode/doc/org" "mkdirp" 634825) ("/home/ben/mysrc/org-mode/doc/org" "tangle" 633982) ("/home/ben/mysrc/org-mode/doc/org" "exports" 633110) ("/home/ben/mysrc/org-mode/doc/org" "dir" 632585) ("/home/ben/mysrc/org-mode/doc/org" "output-dir" 630596) ("/home/ben/mysrc/org-mode/doc/org" "file-ext" 630185) ("/home/ben/mysrc/org-mode/doc/org" "file-desc" 629781) ("/home/ben/mysrc/org-mode/doc/org" "file" 629115) ("/home/ben/mysrc/org-mode/doc/org" "results" 628617) ("/home/ben/mysrc/org-mode/doc/org" "var" 624254) ("/home/ben/mysrc/org-mode/doc/org" "Specific header arguments" 616360) ("/home/ben/mysrc/org-mode/doc/org" "var" 620115) ("/home/ben/mysrc/org-mode/doc/org" "results" 626804) ("/home/ben/mysrc/org-mode/doc/org" "Specific header arguments" 615983) ("/home/ben/mysrc/org-mode/doc/org" "Arguments in function calls" 615245) ("/home/ben/mysrc/org-mode/doc/org" "Code block specific header arguments" 614950) ("/home/ben/mysrc/org-mode/doc/org" "Language-specific mode properties" 612828) ("/home/ben/mysrc/org-mode/doc/org" "Header arguments in Org mode properties" 611383) ("/home/ben/mysrc/org-mode/doc/org" "Language-specific header arguments" 610858) ("/home/ben/mysrc/org-mode/doc/org" "System-wide header arguments" 610115) ("/home/ben/mysrc/org-mode/doc/org" "Using header arguments" 609289) ("/home/ben/mysrc/org-mode/doc/org" "Header arguments" 608948) ("/home/ben/mysrc/org-mode/doc/org" "Languages" 606523) ("/home/ben/mysrc/org-mode/doc/org" "Header arguments" 608948) ("/home/ben/mysrc/org-mode/doc/org" "Results of evaluation" 656389) ("/home/ben/mysrc/org-mode/doc/org" "Working with source code" 592110) ("/home/ben/mysrc/org-mode/doc/org" "Top" 2506) ("dir" "Top" 227))))
+  '((tab-width . 8) (buffer-file-coding-system . utf-8-unix) (case-fold-search . t)))
 
 (desktop-append-buffer-args 206
   "/home/ben/filofex/tarrow.org"
@@ -126,4 +115,15 @@
   nil
   nil
   '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-append-buffer-args 206
+  "/home/ben/filofex/tord.org"
+  "tord.org"
+  'org-mode
+  '(auto-revert-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((truncate-lines . t)))
 

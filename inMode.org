@@ -1,0 +1,21 @@
+* inModes
+  :PROPERTIES:
+  :tickles-flow: t
+  :ID:       8fc65b42-e354-41ef-a5fe-d3f0861d14dd
+  :ORDERED:  t
+  :END:
+  :LOGBOOK:
+  CLOCK: [2018-01-15 Mon 19:50]--[2018-01-15 Mon 19:51] =>  0:01
+  :END:
+  - hi, im now in home.  
+    Entered on [2018-01-15 Mon 18:28]
+      
+      [[file:~/filofex/MY_scratch::%25a"%20:clock-in%20:clock-keep%20:empty-lin%201)))]]
+  - test 5th 
+    Entered on [2018-01-15 Mon 19:50]
+      
+      [[file:~/filofex/MY_scratch::(setq%20org-capture-templates-contexts%20(quote%20(("gi"%20((in-mode%20.%20"lisp-interaction-mode"))))))]]
+  - o, time
+    Entered on [2018-01-15 Mon 19:52]
+      
+      [[file:~/filofex/MY_scratch][file:~/filofex/MY_scratch]]

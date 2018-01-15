@@ -38,10 +38,40 @@
    :PROPERTIES:
    :ID:       593d9e4a-12a2-42cd-b311-18c19b92b4d4
    :END:
+   :LOGBOOK:
+   CLOCK: [2018-01-15 Mon 19:38]--[2018-01-15 Mon 19:49] =>  0:11
+   CLOCK: [2018-01-15 Mon 19:47]--[2018-01-15 Mon 19:47] =>  0:00
+   CLOCK: [2018-01-15 Mon 18:23]--[2018-01-15 Mon 18:23] =>  0:00
+   CLOCK: [2018-01-15 Mon 18:22]--[2018-01-15 Mon 18:23] =>  0:01
+   CLOCK: [2018-01-15 Mon 18:21]--[2018-01-15 Mon 18:21] =>  0:00
+   CLOCK: [2018-01-15 Mon 18:21]--[2018-01-15 Mon 18:21] =>  0:00
+   CLOCK: [2018-01-15 Mon 18:20]--[2018-01-15 Mon 18:21] =>  0:01
+   CLOCK: [2018-01-15 Mon 18:17]--[2018-01-15 Mon 18:20] =>  0:03
+   CLOCK: [2018-01-15 Mon 18:16]--[2018-01-15 Mon 18:17] =>  0:01
+   :END:
    [2018-01-09 Tue 17:03]
   
    [[file:~/MY_scratch::"*%20%25?\nEntered%20on%20%25U\n%20%25i\n%20%25a"%20:empty-lines%201)))]]
-
+   - * 1st test use ID as entry
+     Entered on [2018-01-15 Mon 18:10]
+       
+       [[file:~/filofex/MY_scratch::%25a"%20:clock-in)))]]
+   - 2nd test for checkbox and clocks
+     Entered on [2018-01-15 Mon 18:12]
+       
+       [[file:~/filofex/MY_scratch::%25a"%20:clock-in)))]]
+   - [] 3rd test
+     Entered on [2018-01-15 Mon 18:13]
+       
+       [[file:~/filofex/MY_scratch::%25a"%20:clock-in)))]]
+   - 4th test for clock-in
+     Entered on [2018-01-15 Mon 18:16]
+       
+       [[file:~/filofex/MY_scratch::%25a"%20:clock-in%20:clock-keep)))]]
+   - 
+     Entered on [2018-01-15 Mon 18:22]
+       
+       [[file:~/filofex/MY_scratch::%25a"%20:empty-lines%201)%20("gi"%20"Elisp-scratch"%20checkitem%20(id%20"593d9e4a-12a2-42cd-b311-18c19b92b4d4")%20"%25?]]
 ** TODO neo triology ;p
    [2018-01-09 Tue]
    [[file:~/filofex/afflux_fromAliECS.org::*this%20week][this week]]
@@ -51,4 +81,4 @@
    :END:
    [2018-01-09 Tue]
    [[file:~/filofex/afflux_fromAliECS.org::*this%20week][this week]]
-
+   

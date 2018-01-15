@@ -242,13 +242,19 @@ sum, the , numbers , in , the, current
 * new mon[0/0]
   - last week :: about tags and other configurations
   - this week ::  org-manual column-view 
-** this week
+** this week :ATTACH:
+   :PROPERTIES:
+   :Attachments: openstack-Names.png
+   :ID:       7545ae2b-ceef-4160-8ad3-7525af647601
+   :END:
 1. mailutils-exim-gnus-mu4e
    QQ-note :: rearrange
    mailutils :: frm readmsg ; mailutils info
    guimb, sieve
 2. orgmode
-   
+   org-capture-templates-contexts: well, but CANNOT ("i" "gi"...)
+   attachment :: c-c c-a -> auto commit unique-ID dir changes to git repos???
+   let's try inherit
 3. docker.io for spark
    - [ ] apach-hadoop latest version 
 

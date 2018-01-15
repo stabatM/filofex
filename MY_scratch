@@ -229,19 +229,33 @@ org-capture-bookmark
 
 ;; test only #?
 (setq org-capture-templates
-      '(("p" "in-mode" entry (file+headline "~/filofex/inMode.org")
+      '(("p" "som" entry (file+headline "~/filofex/inMode.org")
 	 "* %?\nEntered on %U\n  %i\n  %a" :empty-lines 1)
-	("g" "for convinient goto")
-	("gt" "Todo" entry (file+headline "~/filofex/torch.org" "Tasks")
-	 "* TODO %?\n  %U\n  %i\n  %a" :empty-lines 1)
-	("gj" "Journal" entry (file+olp+datetree "~/filofex/tarrow.org")
-	 "* %?\nEntered on %U\n  %i\n  %a" :empty-lines 1)
+;;	("g" "for convinient goto")
+;;	("gt" "Todo" entry (file+headline "~/filofex/torch.org" "Tasks")
+;;	 "* TODO %?\n  %U\n  %i\n  %a" :empty-lines 1)
+;;	("gj" "Journal" entry (file+olp+datetree "~/filofex/tarrow.org")
+;;	 "* %?\nEntered on %U\n  %i\n  %a" :empty-lines 1)
        	))
 
-;; test only #?
+;; test only #??? "quote" is important
+;; both FAILed on win7 and ecs !!!
+(setq org-capture-templates-contexts (quote (("i" "p" ((in-mode . "message-mode"))))))
+;; work well
+(setq org-capture-templates-contexts (quote (("i" ((in-mode . "lisp-interaction-mode"))))))
+
 (setq org-capture-templates-contexts
 '(("p" ((in-mode . "org-mode"))))
 
+(setq org-capture-templates-contexts
+            '(("p" "C" (in-mode . "message-mode"))))
+
+(when (and (eq (car rr) 'not-in-file)
+	   (buffer-file-name))
+  (not (string-match (cdr rr) (buffer-file-name))))
+
+
+;; 
 org-capture-templates
 (define-key global-map "\C-cx"
      (lambda () (interactive) (org-capture nil "gj")))
@@ -255,8 +269,11 @@ org-capture-templates
   %a" :empty-lines 1) ("gj" "Journal" entry (file+olp+datetree "~/filofex/tarrow.org") "* %?
 Entered on %U
   %i
-  %a" :empty-lines 1)))
-
+  %a" :empty-lines 1) ("gi" "Elisp-scratch" checkitem (id "8fc65b42-e354-41ef-a5fe-d3f0861d14dd") "%?
+Entered on %U
+  %i
+  %a" :clock-in :clock-keep :empty-lin 1)))
+(setq org-capture-templates-contexts (quote (("gi" ((in-mode . "lisp-interaction-mode"))))))
 
 ...
 ;; xattr-ns-grep-codeBlock in orgs
