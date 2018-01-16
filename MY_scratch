@@ -229,14 +229,16 @@ org-capture-bookmark
 
 ;; test only #?
 (setq org-capture-templates
-      '(("p" "som" entry (file+headline "~/filofex/inMode.org")
-	 "* %?\nEntered on %U\n  %i\n  %a" :empty-lines 1)
+      '(("s" "gnus" entry (file+headline "~/filofex/inGnus.org" "Groups")
+	 "* %?\nEntered on %U\n  %i\n  %:server %:nick " :empty-lines 1)
+	))
 ;;	("g" "for convinient goto")
 ;;	("gt" "Todo" entry (file+headline "~/filofex/torch.org" "Tasks")
 ;;	 "* TODO %?\n  %U\n  %i\n  %a" :empty-lines 1)
 ;;	("gj" "Journal" entry (file+olp+datetree "~/filofex/tarrow.org")
 ;;	 "* %?\nEntered on %U\n  %i\n  %a" :empty-lines 1)
-       	))
+
+
 
 ;; test only #??? "quote" is important
 ;; both FAILed on win7 and ecs !!!
@@ -274,6 +276,34 @@ Entered on %U
   %i
   %a" :clock-in :clock-keep :empty-lin 1)))
 (setq org-capture-templates-contexts (quote (("gi" ((in-mode . "lisp-interaction-mode"))))))
+
+;; org-attachment dirs
+(require 'org-attach)
+org-attach-directory
+
+;; RSS/Atom
+org-feed-alist
+(setq org-feed-alist
+      '(("Slashdot"
+	 "http://rss.slashdot.org/Slashdot/slashdot"
+	          "~/filofex/feeds.org" "Slashdot Entries")))
+
+
+;; org protocols
+org-protocol-protocol-alist
+org-protocol-protocol-alist-default
+(require 'org-protocol)
+org-protocol-default-template-key
+
+;;
+org-protocol-project-alist
+(setq org-protocol-project-alist
+      '(("Worg"
+	 :base-url "http://orgmode.org/worg/"
+	 :working-directory "~/filofex/worg/"
+	 :online-suffix ".html"
+	 :working-suffix ".org")))
+
 
 ...
 ;; xattr-ns-grep-codeBlock in orgs

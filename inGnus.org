@@ -1,0 +1,12 @@
+* Groups
+
+** from lisp-interactive-mode
+ Entered on [2018-01-16 Tue 17:05]
+   (setq org-capture-templates
+         '(("s" "gnus" entry (file+headline "~/filofex/inGnus.org" "Groups")
+          "* %?\nEntered on %U\n  %i\n  %:group " :empty-lines 1)
+         ))
+
+** from Gnus Group FAIL
+ Entered on [2018-01-16 Tue 17:06]
+

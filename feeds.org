@@ -1,0 +1,233 @@
+
+
+* Slashdot Entries
+
+  :FEEDSTATUS:
+((nil t "7393d09350c8a407332fd8616c8ed932658fcfbf")
+ (nil t "8824bf41f079e864deccdfc45b66308426042c4c")
+ (nil t "9472d75c312c7717eacc202a2c44c0a4b4b0320c")
+ (nil t "8c1d6af1cda4c9b7ba0647006f3092c3a0b482f6")
+ (nil t "fa5e367bee01750ff3ae2a49daf688916d9d53b2")
+ (nil t "ca6f2aebff8c0c899e242239c29058be24810a98")
+ (nil t "c7beca103b03cf5cb9aab1e96997197ed93ca682")
+ (nil t "c508c94b2312a2febca321a5a5652e2c8f59b59a")
+ (nil t "84bd842f355dcdea11d0f3f9c7ee40f3bb252f57")
+ (nil t "e2ccd62208ba9415e701a8265f74ff2bab4f183e")
+ (nil t "f42376937a1868188e89f51d6f506272b65bc48f")
+ (nil t "a53a529c6243c34ca4b78c6d5569f3e81b34818f")
+ (nil t "00f67866c8956e8f6f5b87525829e88d5c9ebf39")
+ (nil t "01e546afed053f707569a179f21d7565f404aa11")
+ (nil t "b0d56742e4dc83c890f7593f46aed18785523e46"))
+  :END:
+** Lenovo Discovers and Removes Backdoor In Networking Switches
+   [2018-01-16 Tue 11:10]
+   An anonymous reader writes: Lenovo engineers have discovered a backdoor in the firmware of RackSwitch and BladeCenter networking switches. The company released firmware updates last week. The Chinese company said it found the backdoor after an internal security audit of firmware for products added to its portfolio following the acquisitions of other companies. Lenovo says the backdoor affects only RackSwitch and BladeCenter switches running ENOS (Enterprise Network Operating System). The backdoor was added to ENOS in 2004 when ENOS was maintained by Nortel's Blade Server Switch Business Unit (BSSBU). Lenovo claims Nortel appears to have authorized the addition of the backdoor "at the request of a BSSBU OEM customer." In a security advisory regarding this issue, Lenovo refers to the backdoor under the name of "HP backdoor." The backdoor code appears to have remained in the firmware even after Nortel spun BSSBU off in 2006 as BLADE Network Technologies (BNT). The backdoor also remained in the code even after IBM acquired BNT in 2010. Lenovo bought IBM's BNT portfolio in 2014.<p><div class="share_submission" style="position:relative;">
+ <a class="slashpop" href="http://twitter.com/home?status=Lenovo+Discovers+and+Removes+Backdoor+In+Networking+Switches%3A+http%3A%2F%2Fbit.ly%2F2DAg2dh"><img src="https://a.fsdn.com/sd/twitter_icon_large.png"></a>
+ <a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Ftech.slashdot.org%2Fstory%2F18%2F01%2F15%2F1729247%2Flenovo-discovers-and-removes-backdoor-in-networking-switches%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"><img src="https://a.fsdn.com/sd/facebook_icon_large.png"></a>
+ 
+ <a class="nobg" href="http://plus.google.com/share?url=https://tech.slashdot.org/story/18/01/15/1729247/lenovo-discovers-and-removes-backdoor-in-networking-switches?utm_source=slashdot&amp;utm_medium=googleplus" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/></a>
+ 
+ 
+ 
+ </div></p><p><a href="https://tech.slashdot.org/story/18/01/15/1729247/lenovo-discovers-and-removes-backdoor-in-networking-switches?utm_source=rss1.0moreanon&amp;utm_medium=feed">Read more of this story</a> at Slashdot.</p><iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;id=11614395&amp;smallembed=1" style="height: 300px; width: 100%; border: none;"></iframe><img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/JXGLKxYMyWs" height="1" width="1" alt=""/>
+   [[http://rss.slashdot.org/~r/Slashdot/slashdot/~3/JXGLKxYMyWs/lenovo-discovers-and-removes-backdoor-in-networking-switches]]
+
+
+** Ford is Throwing $11 Billion at Its Electric Car Problem
+   [2018-01-16 Tue 11:10]
+   Ford said on Monday it will boost its investment in electric vehicles to $11 billion in the next five years, more than doubling a previous commitment. Company's chairman Bill Ford said the car maker would have 40 hybrid and fully electric vehicles in its range by the same period. It comes as countries around the world put more pressure on car makers to rein in carbon emissions. From a report: It was a dramatic escalation in Ford's crosstown rivalry with General Motors, which has seen its stock prices rise thanks to its commitments to both electrification and autonomy. GM has said it plans to roll out at least 20 new electric cars by 2023, a goal that puts it in a position to bring battery-powered driving to the mainstream. Last week, it unveiled a concept autonomous car without steering wheel or pedals. Meanwhile, the Blue Oval has had a challenging 2017. It remains strongly profitable, but its sale are stagnant, its costs have increased faster than expected, and its margins have failed to meet targets.<p><div class="share_submission" style="position:relative;">
+ <a class="slashpop" href="http://twitter.com/home?status=Ford+is+Throwing+%2411+Billion+at+Its+Electric+Car+Problem%3A+http%3A%2F%2Fbit.ly%2F2DaKsWy"><img src="https://a.fsdn.com/sd/twitter_icon_large.png"></a>
+ <a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fnews.slashdot.org%2Fstory%2F18%2F01%2F15%2F185251%2Fford-is-throwing-11-billion-at-its-electric-car-problem%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"><img src="https://a.fsdn.com/sd/facebook_icon_large.png"></a>
+ 
+ <a class="nobg" href="http://plus.google.com/share?url=https://news.slashdot.org/story/18/01/15/185251/ford-is-throwing-11-billion-at-its-electric-car-problem?utm_source=slashdot&amp;utm_medium=googleplus" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/></a>
+ 
+ 
+ 
+ </div></p><p><a href="https://news.slashdot.org/story/18/01/15/185251/ford-is-throwing-11-billion-at-its-electric-car-problem?utm_source=rss1.0moreanon&amp;utm_medium=feed">Read more of this story</a> at Slashdot.</p><iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;id=11614485&amp;smallembed=1" style="height: 300px; width: 100%; border: none;"></iframe><img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/JuTcV-w-ARY" height="1" width="1" alt=""/>
+   [[http://rss.slashdot.org/~r/Slashdot/slashdot/~3/JuTcV-w-ARY/ford-is-throwing-11-billion-at-its-electric-car-problem]]
+
+
+** Researchers Find That One Person Likely Drove Bitcoin From $150 to $1,000
+   [2018-01-16 Tue 11:10]
+   An anonymous reader shares a report: Researchers Neil Gandal, JT Hamrick, Tyler Moore, and Tali Oberman have written a fascinating paper on Bitcoin price manipulation. Entitled "Price Manipulation in the Bitcoin Ecosystem" and appearing in the recent issue of the Journal of Monetary Economics the paper describes to what degree the Bitcoin ecosystem is controlled by bad actors. To many it's been obvious that the Bitcoin markets are, at the very least, being manipulated by one or two big players. "This paper identifies and analyzes the impact of suspicious trading activity on the Mt. Gox Bitcoin currency exchange, in which approximately 600,000 bitcoins (BTC) valued at $188 million were fraudulently acquired," the researchers wrote. "During both periods, the USD-BTC exchange rate rose by an average of four percent on days when suspicious trades took place, compared to a slight decline on days without suspicious activity. Based on rigorous analysis with extensive robustness checks, the paper demonstrates that the suspicious trading activity likely caused the unprecedented spike in the USD-BTC exchange rate in late 2013, when the rate jumped from around $150 to more than $1,000 in two months." The team found that many instances of price manipulation happened simply because the market was very thin for various cryptocurrencies including early Bitcoin.<p><div class="share_submission" style="position:relative;">
+ <a class="slashpop" href="http://twitter.com/home?status=Researchers+Find+That+One+Person+Likely+Drove+Bitcoin+From+%24150+to+%241%2C000%3A+http%3A%2F%2Fbit.ly%2F2B2yJDA"><img src="https://a.fsdn.com/sd/twitter_icon_large.png"></a>
+ <a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fnews.slashdot.org%2Fstory%2F18%2F01%2F15%2F1849212%2Fresearchers-find-that-one-person-likely-drove-bitcoin-from-150-to-1000%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"><img src="https://a.fsdn.com/sd/facebook_icon_large.png"></a>
+ 
+ <a class="nobg" href="http://plus.google.com/share?url=https://news.slashdot.org/story/18/01/15/1849212/researchers-find-that-one-person-likely-drove-bitcoin-from-150-to-1000?utm_source=slashdot&amp;utm_medium=googleplus" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/></a>
+ 
+ 
+ 
+ </div></p><p><a href="https://news.slashdot.org/story/18/01/15/1849212/researchers-find-that-one-person-likely-drove-bitcoin-from-150-to-1000?utm_source=rss1.0moreanon&amp;utm_medium=feed">Read more of this story</a> at Slashdot.</p><iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;id=11614579&amp;smallembed=1" style="height: 300px; width: 100%; border: none;"></iframe><img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/ciaZUUZfFt4" height="1" width="1" alt=""/>
+   [[http://rss.slashdot.org/~r/Slashdot/slashdot/~3/ciaZUUZfFt4/researchers-find-that-one-person-likely-drove-bitcoin-from-150-to-1000]]
+
+
+** Google Brings Map Service Back To China
+   [2018-01-16 Tue 11:10]
+   Google has relaunched its map service in China after an eight-year absence, signaling a new era of cooperation between the American internet giant and local partners in fields such as artificial intelligence, reports Nikkei. From the report: Chinese netizens hailed the revival of Google Maps on Monday as the American company's great return to China, where its trademark search and other services have been unavailable since 2010. While Google began offering a translation app for Chinese smartphones in March 2017, the map service reaches far more users as one of Google's best-known offerings. The company has set up a China-specific version of the Google Maps website and introduced a map app for Chinese iPhones. But when users of the app attempt to use its navigation features, they are automatically transferred to an app from AutoNavi, a mapping company owned by Chinese internet leader Alibaba Group Holding.<p><div class="share_submission" style="position:relative;">
+ <a class="slashpop" href="http://twitter.com/home?status=Google+Brings+Map+Service+Back+To+China%3A+http%3A%2F%2Fbit.ly%2F2DdrZsz"><img src="https://a.fsdn.com/sd/twitter_icon_large.png"></a>
+ <a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Ftech.slashdot.org%2Fstory%2F18%2F01%2F15%2F1922210%2Fgoogle-brings-map-service-back-to-china%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"><img src="https://a.fsdn.com/sd/facebook_icon_large.png"></a>
+ 
+ <a class="nobg" href="http://plus.google.com/share?url=https://tech.slashdot.org/story/18/01/15/1922210/google-brings-map-service-back-to-china?utm_source=slashdot&amp;utm_medium=googleplus" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/></a>
+ 
+ 
+ 
+ </div></p><p><a href="https://tech.slashdot.org/story/18/01/15/1922210/google-brings-map-service-back-to-china?utm_source=rss1.0moreanon&amp;utm_medium=feed">Read more of this story</a> at Slashdot.</p><iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;id=11614643&amp;smallembed=1" style="height: 300px; width: 100%; border: none;"></iframe><img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/9I7vnzaJ690" height="1" width="1" alt=""/>
+   [[http://rss.slashdot.org/~r/Slashdot/slashdot/~3/9I7vnzaJ690/google-brings-map-service-back-to-china]]
+
+
+** Canadian Charged With Running LeakedSource.com, Selling Stolen Info
+   [2018-01-16 Tue 11:10]
+   A Canadian man accused of operating the LeakedSource.com website, a major repository of stolen online credentials, has been arrested and charged with trafficking in billions of stolen personal identity records, the Royal Canadian Mounted Police (RCMP) said on Monday. From a report: The site, which was shut down in early 2017, had collected details from a string of major breaches and made them accessible and searchable for a fee. The man, 27-year-old Jordan Evan Bloom, is due to appear in a Toronto court on Monday to hear charges that as administrator of the site he collected some C$247,000 from the sale of stolen records and associated passwords.<p><div class="share_submission" style="position:relative;">
+ <a class="slashpop" href="http://twitter.com/home?status=Canadian+Charged+With+Running+LeakedSource.com%2C+Selling+Stolen+Info%3A+http%3A%2F%2Fbit.ly%2F2DAflkk"><img src="https://a.fsdn.com/sd/twitter_icon_large.png"></a>
+ <a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fit.slashdot.org%2Fstory%2F18%2F01%2F15%2F205235%2Fcanadian-charged-with-running-leakedsourcecom-selling-stolen-info%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"><img src="https://a.fsdn.com/sd/facebook_icon_large.png"></a>
+ 
+ <a class="nobg" href="http://plus.google.com/share?url=https://it.slashdot.org/story/18/01/15/205235/canadian-charged-with-running-leakedsourcecom-selling-stolen-info?utm_source=slashdot&amp;utm_medium=googleplus" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/></a>
+ 
+ 
+ 
+ </div></p><p><a href="https://it.slashdot.org/story/18/01/15/205235/canadian-charged-with-running-leakedsourcecom-selling-stolen-info?utm_source=rss1.0moreanon&amp;utm_medium=feed">Read more of this story</a> at Slashdot.</p><iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;id=11614711&amp;smallembed=1" style="height: 300px; width: 100%; border: none;"></iframe><img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/TwHTkridL2M" height="1" width="1" alt=""/>
+   [[http://rss.slashdot.org/~r/Slashdot/slashdot/~3/TwHTkridL2M/canadian-charged-with-running-leakedsourcecom-selling-stolen-info]]
+
+
+** Mozilla Tests Firefox 'Tab Warming'
+   [2018-01-16 Tue 11:10]
+   Catalin Cimpanu, reporting for BleepingComputer: Mozilla is currently testing a new feature called "Tab Warming" that engineers hope will improve the tab switching process. According to a description of the feature, Tab Warming will watch the user's mouse cursor and start "painting" content inside a tab whenever the user hovers his mouse over one. Firefox will do this on the assumption the user wants to click and switch to view that tab and will want to keep a pre-rendered tab on hand if this occurs. "Those precious milliseconds are used to do the rendering and uploading, so that when the click event finally comes, the [tab] is ready and waiting for you," said Mike Conley, one of the Firefox engineers who worked on this feature.<p><div class="share_submission" style="position:relative;">
+ <a class="slashpop" href="http://twitter.com/home?status=Mozilla+Tests+Firefox+'Tab+Warming'%3A+http%3A%2F%2Fbit.ly%2F2Dzs9Y0"><img src="https://a.fsdn.com/sd/twitter_icon_large.png"></a>
+ <a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fnews.slashdot.org%2Fstory%2F18%2F01%2F15%2F2020254%2Fmozilla-tests-firefox-tab-warming%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"><img src="https://a.fsdn.com/sd/facebook_icon_large.png"></a>
+ 
+ <a class="nobg" href="http://plus.google.com/share?url=https://news.slashdot.org/story/18/01/15/2020254/mozilla-tests-firefox-tab-warming?utm_source=slashdot&amp;utm_medium=googleplus" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/></a>
+ 
+ 
+ 
+ </div></p><p><a href="https://news.slashdot.org/story/18/01/15/2020254/mozilla-tests-firefox-tab-warming?utm_source=rss1.0moreanon&amp;utm_medium=feed">Read more of this story</a> at Slashdot.</p><iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;id=11614727&amp;smallembed=1" style="height: 300px; width: 100%; border: none;"></iframe><img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/1Vb9w8zyi60" height="1" width="1" alt=""/>
+   [[http://rss.slashdot.org/~r/Slashdot/slashdot/~3/1Vb9w8zyi60/mozilla-tests-firefox-tab-warming]]
+
+
+** Airbus A380, Once the Future of Aviation, May Cease Production
+   [2018-01-16 Tue 11:10]
+   The days may be numbered for the world's largest passenger aircraft. An anonymous reader shares a report: Airbus, the European aerospace group that makes the A380 superjumbo, said on Monday that it would have to end production of the plane if its only major customer, Emirates, did not order more (Editor's note: the link may be paywalled; alternative source). The admission by John Leahy, the company's chief operating officer, was the latest indication that Airbus miscalculated more than two decades ago when it bet that clogged runways would create demand for larger planes that could deliver more people with fewer landing slots. Instead, airlines bypassed the major hubs and ordered midsize planes that could fly directly between regional airports. [...] When Airbus started delivering the A380 a decade ago, after spending $25 billion to develop it, the company based near Toulouse, France, saw the plane as the solution to airport congestion and to increased demand for air travel. Only so many planes can land at an airport in any given day, so Airbus reasoned that planes carrying more people would allow airports to absorb more passengers. The A380 can carry more than 500 passengers while also offering amenities like showers, first-class suites and a bar.<p><div class="share_submission" style="position:relative;">
+ <a class="slashpop" href="http://twitter.com/home?status=Airbus+A380%2C+Once+the+Future+of+Aviation%2C+May+Cease+Production%3A+http%3A%2F%2Fbit.ly%2F2Dd4Ruh"><img src="https://a.fsdn.com/sd/twitter_icon_large.png"></a>
+ <a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Ftech.slashdot.org%2Fstory%2F18%2F01%2F15%2F2044214%2Fairbus-a380-once-the-future-of-aviation-may-cease-production%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"><img src="https://a.fsdn.com/sd/facebook_icon_large.png"></a>
+ 
+ <a class="nobg" href="http://plus.google.com/share?url=https://tech.slashdot.org/story/18/01/15/2044214/airbus-a380-once-the-future-of-aviation-may-cease-production?utm_source=slashdot&amp;utm_medium=googleplus" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/></a>
+ 
+ 
+ 
+ </div></p><p><a href="https://tech.slashdot.org/story/18/01/15/2044214/airbus-a380-once-the-future-of-aviation-may-cease-production?utm_source=rss1.0moreanon&amp;utm_medium=feed">Read more of this story</a> at Slashdot.</p><iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;id=11614763&amp;smallembed=1" style="height: 300px; width: 100%; border: none;"></iframe><img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/BUz79LJ0mVk" height="1" width="1" alt=""/>
+   [[http://rss.slashdot.org/~r/Slashdot/slashdot/~3/BUz79LJ0mVk/airbus-a380-once-the-future-of-aviation-may-cease-production]]
+
+
+** FDA Approves First Drug Aimed at Women With Inherited Breast Cancer
+   [2018-01-16 Tue 11:10]
+   U.S. regulators have approved the first drug aimed at women with advanced breast cancer caused by an inherited flawed gene. From a report: The Food and Drug Administration on Friday approved AstraZeneca PLC's Lynparza for patients with inherited BRCA gene mutations who have undergone chemotherapy. The drug has been on the market since 2014 for ovarian cancer, and is the first in a new class of medicines called PARP inhibitors to be approved for breast cancer. PARP inhibitors prevent cancer cells from fixing problems in their DNA. Lynparza will cost $13,886 per month without insurance, according to AstraZeneca. The company is offering patients financial assistance.<p><div class="share_submission" style="position:relative;">
+ <a class="slashpop" href="http://twitter.com/home?status=FDA+Approves+First+Drug+Aimed+at+Women+With+Inherited+Breast+Cancer%3A+http%3A%2F%2Fbit.ly%2F2DeFpo8"><img src="https://a.fsdn.com/sd/twitter_icon_large.png"></a>
+ <a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fscience.slashdot.org%2Fstory%2F18%2F01%2F15%2F2114224%2Ffda-approves-first-drug-aimed-at-women-with-inherited-breast-cancer%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"><img src="https://a.fsdn.com/sd/facebook_icon_large.png"></a>
+ 
+ <a class="nobg" href="http://plus.google.com/share?url=https://science.slashdot.org/story/18/01/15/2114224/fda-approves-first-drug-aimed-at-women-with-inherited-breast-cancer?utm_source=slashdot&amp;utm_medium=googleplus" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/></a>
+ 
+ 
+ 
+ </div></p><p><a href="https://science.slashdot.org/story/18/01/15/2114224/fda-approves-first-drug-aimed-at-women-with-inherited-breast-cancer?utm_source=rss1.0moreanon&amp;utm_medium=feed">Read more of this story</a> at Slashdot.</p><iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;id=11614801&amp;smallembed=1" style="height: 300px; width: 100%; border: none;"></iframe><img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/2ZiJ6PvqHxM" height="1" width="1" alt=""/>
+   [[http://rss.slashdot.org/~r/Slashdot/slashdot/~3/2ZiJ6PvqHxM/fda-approves-first-drug-aimed-at-women-with-inherited-breast-cancer]]
+
+
+** City-Owned Internet Services Offer Cheaper and More Transparent Pricing, Says Harvard Study
+   [2018-01-16 Tue 11:10]
+   An anonymous reader quotes a report from Ars Technica: Municipal broadband networks generally offer cheaper entry-level prices than private Internet providers, and the city-run networks also make it easier for customers to find out the real price of service, a new study from Harvard University researchers found. Researchers collected advertised prices for entry-level broadband plans -- those meeting the federal standard of at least 25Mbps download and 3Mbps upload speeds -- offered by 40 community-owned ISPs and compared them to advertised prices from private competitors. The report by researchers at the Berkman Klein Center for Internet &amp; Society at Harvard doesn't provide a complete picture of municipal vs. private pricing. But that's largely because data about private ISPs' prices is often more difficult to get than information about municipal network pricing, the report says. In cases where the researchers were able to compare municipal prices to private ISP prices, the city-run networks almost always offered lower prices. This may help explain why the broadband industry has repeatedly fought against the expansion of municipal broadband networks.<p><div class="share_submission" style="position:relative;">
+ <a class="slashpop" href="http://twitter.com/home?status=City-Owned+Internet+Services+Offer+Cheaper+and+More+Transparent+Pricing%2C+Says+Harvard+Study%3A+http%3A%2F%2Fbit.ly%2F2B1Xj7v"><img src="https://a.fsdn.com/sd/twitter_icon_large.png"></a>
+ <a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fnews.slashdot.org%2Fstory%2F18%2F01%2F15%2F2133250%2Fcity-owned-internet-services-offer-cheaper-and-more-transparent-pricing-says-harvard-study%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"><img src="https://a.fsdn.com/sd/facebook_icon_large.png"></a>
+ 
+ <a class="nobg" href="http://plus.google.com/share?url=https://news.slashdot.org/story/18/01/15/2133250/city-owned-internet-services-offer-cheaper-and-more-transparent-pricing-says-harvard-study?utm_source=slashdot&amp;utm_medium=googleplus" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/></a>
+ 
+ 
+ 
+ </div></p><p><a href="https://news.slashdot.org/story/18/01/15/2133250/city-owned-internet-services-offer-cheaper-and-more-transparent-pricing-says-harvard-study?utm_source=rss1.0moreanon&amp;utm_medium=feed">Read more of this story</a> at Slashdot.</p><iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;id=11614823&amp;smallembed=1" style="height: 300px; width: 100%; border: none;"></iframe><img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/MLzXyF1lNzU" height="1" width="1" alt=""/>
+   [[http://rss.slashdot.org/~r/Slashdot/slashdot/~3/MLzXyF1lNzU/city-owned-internet-services-offer-cheaper-and-more-transparent-pricing-says-harvard-study]]
+
+
+** OnePlus Customers Report Credit Card Fraud After Buying From the Company's Website
+   [2018-01-16 Tue 11:10]
+   If you purchased a OnePlus smartphone recently from the official OnePlus website, you might want to check your transactions to make sure there aren't any you don't recognize. "A poll was posted on the OnePlus forum on Thursday asking users if they had noticed fraudulent charges on their credit cards since purchasing items on the OnePlus site," reports Android Police. "More than 70 respondents confirmed that they had been affected, with the majority saying they had bought from the site within the past 2 months." From the report: A number of FAQs and answers follow, in which OnePlus confirms that only customers who made credit card payments are affected, not those who used PayPal. Apparently, card info isn't stored on the site but is instead sent directly to a "PCI-DSS-compliant payment processing partner" over an encrypted connection. [...] OnePlus goes on to say that intercepting information should be extremely difficult as the site is HTTPS encrypted, but that it is nevertheless carrying out a complete audit. In the meantime, affected customers are advised to contact their credit card companies immediately to get the payments canceled/reversed (called a chargeback). OnePlus will continue to investigate alongside its third-party service providers, and promises to update with its findings as soon as possible.
+  
+ According to infosec firm Fidus, there is actually a brief window in which data could be intercepted. Between entering your card details into the form and hitting 'submit,' the details are apparently hosted on-site, which could give attackers all the time they need to steal those precious digits and head off on a spending spree. Fidus also notes that the company doesn't appear to be PCI-compliant, but that directly contradicts OnePlus' own statement. We'll have to wait until more details emerge before we pass judgment. Here's OnePlus' official statement on the matter: "At OnePlus, we take information privacy extremely seriously. Over the weekend, members of the OnePlus community reported cases of unknown credit card transactions occurring on their credit cards post purchase from oneplus.net. We immediately began to investigate as a matter of urgency, and will keep you updated. This FAQ document will be updated to address questions raised."<p><div class="share_submission" style="position:relative;">
+ <a class="slashpop" href="http://twitter.com/home?status=OnePlus+Customers+Report+Credit+Card+Fraud+After+Buying+From+the+Company's+Website%3A+http%3A%2F%2Fbit.ly%2F2B27RUt"><img src="https://a.fsdn.com/sd/twitter_icon_large.png"></a>
+ <a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fnews.slashdot.org%2Fstory%2F18%2F01%2F15%2F2143254%2Foneplus-customers-report-credit-card-fraud-after-buying-from-the-companys-website%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"><img src="https://a.fsdn.com/sd/facebook_icon_large.png"></a>
+ 
+ <a class="nobg" href="http://plus.google.com/share?url=https://news.slashdot.org/story/18/01/15/2143254/oneplus-customers-report-credit-card-fraud-after-buying-from-the-companys-website?utm_source=slashdot&amp;utm_medium=googleplus" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/></a>
+ 
+ 
+ 
+ </div></p><p><a href="https://news.slashdot.org/story/18/01/15/2143254/oneplus-customers-report-credit-card-fraud-after-buying-from-the-companys-website?utm_source=rss1.0moreanon&amp;utm_medium=feed">Read more of this story</a> at Slashdot.</p><iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;id=11614843&amp;smallembed=1" style="height: 300px; width: 100%; border: none;"></iframe><img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/gcLDDnpKS-c" height="1" width="1" alt=""/>
+   [[http://rss.slashdot.org/~r/Slashdot/slashdot/~3/gcLDDnpKS-c/oneplus-customers-report-credit-card-fraud-after-buying-from-the-companys-website]]
+
+
+** 'Very High Level of Confidence' Russia Used Kaspersky Software For Devastating NSA Leaks
+   [2018-01-16 Tue 11:10]
+   bricko shares a report from Yahoo Finance: Three months after U.S. officials asserted that Russian intelligence used popular antivirus company Kaspersky to steal U.S. classified information, there are indications that the alleged espionage is related to a public campaign of highly damaging NSA leaks by a mysterious group called the Shadow Brokers. In August 2016, the Shadow Brokers began leaking classified NSA exploit code that amounted to hacking manuals. In October 2017, U.S. officials told major U.S. newspapers that Russian intelligence leveraged software sold by Kaspersky to exfiltrate classified documents from certain computers. (Kaspersky software, like all antivirus software, requires access to everything stored on a computer so that it can scan for malicious software.) And last week the Wall Street Journal reported that U.S. investigators "now believe that those manuals [leaked by Shadow Brokers] may have been obtained using Kaspersky to scan computers on which they were stored." Members of the computer security industry agree with that suspicion. "I think there's a very high level of confidence that the Shadow Brokers dump was directly related to Kaspersky ... and it's very much attributable," David Kennedy, CEO of TrustedSec, told Yahoo Finance. "Unfortunately, we can only hear that from the intelligence side about how they got that information to see if it's legitimate."<p><div class="share_submission" style="position:relative;">
+ <a class="slashpop" href="http://twitter.com/home?status='Very+High+Level+of+Confidence'+Russia+Used+Kaspersky+Software+For+Devastating+NSA+Leaks%3A+http%3A%2F%2Fbit.ly%2F2DhKxaU"><img src="https://a.fsdn.com/sd/twitter_icon_large.png"></a>
+ <a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fnews.slashdot.org%2Fstory%2F18%2F01%2F15%2F2154250%2Fvery-high-level-of-confidence-russia-used-kaspersky-software-for-devastating-nsa-leaks%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"><img src="https://a.fsdn.com/sd/facebook_icon_large.png"></a>
+ 
+ <a class="nobg" href="http://plus.google.com/share?url=https://news.slashdot.org/story/18/01/15/2154250/very-high-level-of-confidence-russia-used-kaspersky-software-for-devastating-nsa-leaks?utm_source=slashdot&amp;utm_medium=googleplus" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/></a>
+ 
+ 
+ 
+ </div></p><p><a href="https://news.slashdot.org/story/18/01/15/2154250/very-high-level-of-confidence-russia-used-kaspersky-software-for-devastating-nsa-leaks?utm_source=rss1.0moreanon&amp;utm_medium=feed">Read more of this story</a> at Slashdot.</p><iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;id=11614861&amp;smallembed=1" style="height: 300px; width: 100%; border: none;"></iframe><img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/jWZUREdTIwQ" height="1" width="1" alt=""/>
+   [[http://rss.slashdot.org/~r/Slashdot/slashdot/~3/jWZUREdTIwQ/very-high-level-of-confidence-russia-used-kaspersky-software-for-devastating-nsa-leaks]]
+
+
+** Renewable Energy Set To Be Cheaper Than Fossil Fuels By 2020, Says Report
+   [2018-01-16 Tue 11:10]
+   An anonymous reader quotes a report from The Independent: Continuous technological improvements have led to a rapid fall in the cost of renewable energy in recent years, meaning some forms can already comfortably compete with fossil fuels. The report suggests this trend will continue, and that by 2020 "all the renewable power generation technologies that are now in commercial use are expected to fall within the fossil fuel-fired cost range." Of those technologies, most will either be at the lower end of the cost range or actually undercutting fossil fuels. "This new dynamic signals a significant shift in the energy paradigm," said Adnan Amin, director-general of the International Renewable Energy Agency (IREA), which published the report. "Turning to renewables for new power generation is not simply an environmentally conscious decision, it is now -- overwhelmingly -- a smart economic one." The report looked specifically at the relative cost of new energy projects being commissioned. As renewable energy becomes cheaper, consumers will benefit from investment in green infrastructure. The current cost for fossil fuel power generation ranges from around 4p to 12p per kilowatt hour across G20 countries. By 2020, IREA predicted renewables will cost between 2p and 7p, with the best onshore wind and solar photovoltaic projects expected to deliver electricity by 2p or less next year.<p><div class="share_submission" style="position:relative;">
+ <a class="slashpop" href="http://twitter.com/home?status=Renewable+Energy+Set+To+Be+Cheaper+Than+Fossil+Fuels+By+2020%2C+Says+Report%3A+http%3A%2F%2Fbit.ly%2F2Ddb8WK"><img src="https://a.fsdn.com/sd/twitter_icon_large.png"></a>
+ <a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fhardware.slashdot.org%2Fstory%2F18%2F01%2F15%2F2222258%2Frenewable-energy-set-to-be-cheaper-than-fossil-fuels-by-2020-says-report%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"><img src="https://a.fsdn.com/sd/facebook_icon_large.png"></a>
+ 
+ <a class="nobg" href="http://plus.google.com/share?url=https://hardware.slashdot.org/story/18/01/15/2222258/renewable-energy-set-to-be-cheaper-than-fossil-fuels-by-2020-says-report?utm_source=slashdot&amp;utm_medium=googleplus" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/></a>
+ 
+ 
+ 
+ </div></p><p><a href="https://hardware.slashdot.org/story/18/01/15/2222258/renewable-energy-set-to-be-cheaper-than-fossil-fuels-by-2020-says-report?utm_source=rss1.0moreanon&amp;utm_medium=feed">Read more of this story</a> at Slashdot.</p><iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;id=11614899&amp;smallembed=1" style="height: 300px; width: 100%; border: none;"></iframe><img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/_ucXnu2IGEw" height="1" width="1" alt=""/>
+   [[http://rss.slashdot.org/~r/Slashdot/slashdot/~3/_ucXnu2IGEw/renewable-energy-set-to-be-cheaper-than-fossil-fuels-by-2020-says-report]]
+
+
+** 10 Years of the MacBook Air
+   [2018-01-16 Tue 11:10]
+   Ten years ago today, Steve Jobs introduced the MacBook Air. "Apple's Macworld 2008 was a special one, taking place just days after the annual Consumer Electronics Show had ended and Bill Gates bid farewell to Microsoft," The Verge recalls. "Jobs introduced the MacBook Air by removing it from a tiny paper office envelope, and the crowd was audibly shocked at just how small and thin it was..." From the report: At the time, rivals had thin and light laptops on the market, but they were all around an inch thick, weighed 3 pounds, and had 8- or 11-inch displays. Most didn't even have full-size keyboards, but Apple managed to create a MacBook Air with a wedge shape so that the thickest part was still thinner than the thinnest part of the Sony TZ Series -- one of the thinnest laptops back in 2008. It was a remarkable feat of engineering, and it signaled a new era for laptops. Apple ditched the CD drive and a range of ports on the thin MacBook Air, and the company introduced a multi-touch trackpad and SSD storage. There was a single USB 2.0 port, alongside a micro-DVI port and a headphone jack. It was minimal, but the price was not. Apple's base MacBook Air cost $1,799 at the time, an expensive laptop even by today's standards.<p><div class="share_submission" style="position:relative;">
+ <a class="slashpop" href="http://twitter.com/home?status=10+Years+of+the+MacBook+Air%3A+http%3A%2F%2Fbit.ly%2F2Dfb34V"><img src="https://a.fsdn.com/sd/twitter_icon_large.png"></a>
+ <a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fhardware.slashdot.org%2Fstory%2F18%2F01%2F15%2F2230213%2F10-years-of-the-macbook-air%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"><img src="https://a.fsdn.com/sd/facebook_icon_large.png"></a>
+ 
+ <a class="nobg" href="http://plus.google.com/share?url=https://hardware.slashdot.org/story/18/01/15/2230213/10-years-of-the-macbook-air?utm_source=slashdot&amp;utm_medium=googleplus" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/></a>
+ 
+ 
+ 
+ </div></p><p><a href="https://hardware.slashdot.org/story/18/01/15/2230213/10-years-of-the-macbook-air?utm_source=rss1.0moreanon&amp;utm_medium=feed">Read more of this story</a> at Slashdot.</p><iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;id=11614903&amp;smallembed=1" style="height: 300px; width: 100%; border: none;"></iframe><img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/E8lD7Jr7Ja8" height="1" width="1" alt=""/>
+   [[http://rss.slashdot.org/~r/Slashdot/slashdot/~3/E8lD7Jr7Ja8/10-years-of-the-macbook-air]]
+
+
+** Google's Museum App Finds Your Fine Art Doppelganger
+   [2018-01-16 Tue 11:10]
+   The latest update to the Google Arts &amp; Culture app now lets you take a selfie, and using image recognition, finds someone in its vast art collection that most resembles you. It will then present you and your fine art twin side-by-side, along with a percentage match, and let you share the results on social media. Engadget reports: The app, which appears to be unfortunately geo-restricted to the United States, is like an automated version of an article that circulated recently showing folks standing in front of portraits at museums. In many cases, the old-timey people in the paintings resemble them uncannily, but, other than in rare cases, that's not the case at all with Google's app. Google matched me with someone who doesn't look like me in the slightest, a certain Sir Peter Francois Bourgeois, based on a painting hanging in Dulwich Picture Gallery. Taking a buzz around the internet, other folks were satisfied with their matches, some took them as a personal insult, and many were just plain baffled, in that order.<p><div class="share_submission" style="position:relative;">
+ <a class="slashpop" href="http://twitter.com/home?status=Google's+Museum+App+Finds+Your+Fine+Art+Doppelganger%3A+http%3A%2F%2Fbit.ly%2F2DCch74"><img src="https://a.fsdn.com/sd/twitter_icon_large.png"></a>
+ <a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Ftech.slashdot.org%2Fstory%2F18%2F01%2F16%2F0124241%2Fgoogles-museum-app-finds-your-fine-art-doppelganger%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"><img src="https://a.fsdn.com/sd/facebook_icon_large.png"></a>
+ 
+ <a class="nobg" href="http://plus.google.com/share?url=https://tech.slashdot.org/story/18/01/16/0124241/googles-museum-app-finds-your-fine-art-doppelganger?utm_source=slashdot&amp;utm_medium=googleplus" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/></a>
+ 
+ 
+ 
+ </div></p><p><a href="https://tech.slashdot.org/story/18/01/16/0124241/googles-museum-app-finds-your-fine-art-doppelganger?utm_source=rss1.0moreanon&amp;utm_medium=feed">Read more of this story</a> at Slashdot.</p><iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;id=11615079&amp;smallembed=1" style="height: 300px; width: 100%; border: none;"></iframe><img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/omYxglQzMlE" height="1" width="1" alt=""/>
+   [[http://rss.slashdot.org/~r/Slashdot/slashdot/~3/omYxglQzMlE/googles-museum-app-finds-your-fine-art-doppelganger]]
+
+
+** SpaceX and Boeing Slated For Manned Space Missions By Year's End
+   [2018-01-16 Tue 11:10]
+   schwit1 shares a report from Fortune, covering NASA's announcement last week that it expects SpaceX to conduct a crewed test flight by the end of the year: SpaceX's crewed test flight is slated for December, after an uncrewed flight in August. Boeing will also be demonstrating its CST-100 Starliner capsule, with a crewed flight in November following an uncrewed flight in August. NASA's goal is to launch crews to the ISS from U.S. soil, a task that has fallen to Russia's space program since the retirement of the U.S. Space Shuttle program in 2011. NASA began looking for private launch companies to take over starting in 2010, and contracted both SpaceX and Boeing in 2014 to pursue crewed launches. The push to restore America's crewed spaceflight capacity has been delayed in part, according to a detailed survey by Ars Technica, by Congress redirecting funds in subsequent years. The test flights could determine whether Boeing or SpaceX conducts the first U.S. commercial space launch to the ISS. Whichever company gets that honor may also claim a symbolic U.S. flag stuck to a hatch on the space station. Sources speaking to Ars describe the race between the two companies as too close to call, and say that a push to early 2019 is entirely possible. But in an apparent vote of confidence, NASA has already begun naming astronauts to helm the flights.<p><div class="share_submission" style="position:relative;">
+ <a class="slashpop" href="http://twitter.com/home?status=SpaceX+and+Boeing+Slated+For+Manned+Space+Missions+By+Year's+End%3A+http%3A%2F%2Fbit.ly%2F2DdAAeJ"><img src="https://a.fsdn.com/sd/twitter_icon_large.png"></a>
+ <a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fscience.slashdot.org%2Fstory%2F18%2F01%2F15%2F2321202%2Fspacex-and-boeing-slated-for-manned-space-missions-by-years-end%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"><img src="https://a.fsdn.com/sd/facebook_icon_large.png"></a>
+ 
+ <a class="nobg" href="http://plus.google.com/share?url=https://science.slashdot.org/story/18/01/15/2321202/spacex-and-boeing-slated-for-manned-space-missions-by-years-end?utm_source=slashdot&amp;utm_medium=googleplus" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/></a>
+ 
+ 
+ 
+ </div></p><p><a href="https://science.slashdot.org/story/18/01/15/2321202/spacex-and-boeing-slated-for-manned-space-missions-by-years-end?utm_source=rss1.0moreanon&amp;utm_medium=feed">Read more of this story</a> at Slashdot.</p><iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;id=11614959&amp;smallembed=1" style="height: 300px; width: 100%; border: none;"></iframe><img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/NS9u3V-VLV8" height="1" width="1" alt=""/>
+   [[http://rss.slashdot.org/~r/Slashdot/slashdot/~3/NS9u3V-VLV8/spacex-and-boeing-slated-for-manned-space-missions-by-years-end]]
+
+

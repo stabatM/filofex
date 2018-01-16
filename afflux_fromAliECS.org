@@ -242,10 +242,11 @@ sum, the , numbers , in , the, current
 * new mon[0/0]
   - last week :: about tags and other configurations
   - this week ::  org-manual column-view 
-** this week :ATTACH:
+** this week                                                         :ATTACH:
    :PROPERTIES:
-   :Attachments: openstack-Names.png
+   :Attachments: openstack-Names.png history.html
    :ID:       7545ae2b-ceef-4160-8ad3-7525af647601
+   :ATTACH_DIR_INHERIT: t
    :END:
 1. mailutils-exim-gnus-mu4e
    QQ-note :: rearrange
@@ -254,11 +255,12 @@ sum, the , numbers , in , the, current
 2. orgmode
    org-capture-templates-contexts: well, but CANNOT ("i" "gi"...)
    attachment :: c-c c-a -> auto commit unique-ID dir changes to git repos???
-   let's try inherit
+   let's try inherit :: seee up, properties...
+   org-attach.el :: c-x c-q (readonly) >>> every modify/new attachment will sync/commit to git automatical
+   [[file:~/mysrc/org-mode/lisp/org-attach.el::(defun%20org-attach-commit%20()][org-attach git commit]] :: c-c % (mark-push), c-c & (mark-goto/pop?)
+   RSS/Atom org-feed-alist :: $ dstat # iptraf-ng $ iostat -mtx
 3. docker.io for spark
-   - [ ] apach-hadoop latest version 
-
-   
+   - [-] apach-hadoop latest version 
 ** -1 week
 1. vext
    python's .pth file
@@ -451,25 +453,41 @@ CLOCKSUM_T is normal on win10 OS, QQ:tudou.
   - last week ::
   - this week :: 
 ** this week
-awkward when no 'Super key' => S-left/right :: bullet styles ;(
-- capture :: new idea and references, less interuption work flow
-	     org-capture.el replace org-remember.el
-  - M-x customize-variable org-capture-templates
-    * ("b" "Templates for marking stuff to buy") :: key "bt" means "buy t?"
-    * !!!NOT customize org-direc :: ~/filofex, Init Error Then Use Absolute-Path Instead
-    * customize org-...-notes-file :: (setq org-default-notes-file (concat org-directory "/torch.org"))
-    * target indirect narrow :: c-cc :: c-u c-u c-c c(session last)[[id:047cb647-36e5-481a-bba9-85e811e10a2f][test capture-bookmark]]
-      - calenda :: kc, c-c<
-		   M}oon, H}oli, >, o(center date)
-    * customize capture templates :: c-ccC
-      - templates :: [[info:org#Capture%20templates]] line20
-		      q to quit many pop-windows ;p
-		      well, journal looks well, NOT diary...
-		      [[file:~/MY_scratch::229][goto-task]] (tail link c-q char) :: prefix-key without interactive
-		     
+1. org capture
+   - org protocols :: emacsclient + browser
+		      !!! require modules in init.el [[https://orgmode.org/worg/org-contrib/org-protocol.html][about protocol.el]]
+		      emacsclient org-protocol://store-link?url=https://orgmode.org/manual/Protocols.html#Protocols&title=protocols
+   - [[URL][from outside]]
+     - [[https://orgmode.org/manual/Protocols.html#Protocols][protocols]] CANNOT bring title in ... so, after dosth, shell give u a success processed link NOT include title
+     - [[URL][TITLE]] well, done :: emacsclient -s "foo" org-protocol://store-link?url=URL\&title=TITLE
+	  use \ to escape under shells ;)
+     - capture :: emacsclient -s "foo" org-protocol://capture?template=gj\&url=URL\&title=TITLE\&body=BODY
+     - opensource :: --  
+		     u CAN use {{m-x browse-url-emacs open http://www.gnus.org/history.html,
+		     BUT NOT http://orgmode.org/worg/org-contrib/org-protocol.html jump into local folder's file
+     - javascripts, all 3 class :: store link, capture, open source.  
+       - javascript:location.href='org-protocol://store-link?url='+encodeURIComponent(location.href);
+       - javascript:location.href='org-protocol://template=x'+ '&url='+encodeURIComponent(window.location.href)+'&title='+encodeURIComponent(document.title)+'&body='+encodeURIComponent(window.getSelection());
+       - javascript:location.href='org-protocol://open-source?&url='+encodeURIComponent(location.href)
 
-- refile c-c c-w
-  - archive :: 
+*** -1 week
+ awkward when no 'Super key' => S-left/right :: bullet styles ;(
+ - capture :: new idea and references, less interuption work flow
+	      org-capture.el replace org-remember.el
+   - M-x customize-variable org-capture-templates
+     * ("b" "Templates for marking stuff to buy") :: key "bt" means "buy t?"
+     * !!!NOT customize org-direc :: ~/filofex, Init Error Then Use Absolute-Path Instead
+     * customize org-...-notes-file :: (setq org-default-notes-file (concat org-directory "/torch.org"))
+     * target indirect narrow :: c-cc :: c-u c-u c-c c(session last)[[id:047cb647-36e5-481a-bba9-85e811e10a2f][test capture-bookmark]]
+       - calenda :: kc, c-c<
+		    M}oon, H}oli, >, o(center date)
+     * customize capture templates :: c-ccC
+       - templates :: [[info:org#Capture%20templates]] line20
+		       q to quit many pop-windows ;p
+		       well, journal looks well, NOT diary...
+		       [[file:~/MY_scratch::229][goto-task]] (tail link c-q char) :: prefix-key without interactive
+ - refile c-c c-w
+   - archive :: 
 
 *** swap-easy
 + g dired refresh :: m-x revert-buffer
@@ -509,11 +527,15 @@ awkward when no 'Super key' => S-left/right :: bullet styles ;(
 2. piten
 3. mllib/graphx
 		   
+*** TODO this point
+    [2018-01-16 Tue 14:08]
+  
+    [[file:~/filofex/afflux_fromAliECS.org::*M-0%20C-cc%20at%20this%20point][M-0 C-cc at this point]]
 *** TODO M-0 C-cc at this point
     [2018-01-09 Tue]
     [[file:~/filofex/afflux_fromAliECS.org::*this%20week][this week]]
 
-** -1 week
+** -2 week
    :PROPERTIES:
    :Effort:   0:40
    :END:
@@ -538,7 +560,7 @@ when ~ 0, no warning, must have some number, then customize it;
    m-<RET> :: timer headline
 5. column view
 
-** -2 week
+** -3 week
 [2017-12-26 tue 12:17]
 - c-u c-c ! :: add timestamps
 - qq group :: docker, openstack, liyajie anquanniu...
@@ -548,7 +570,7 @@ filter basics
 !!!.  field names are case sensitive and spelled as in the header
 - apt-cache search; dpkg -s/-l/-s ; dpkg -r/-l :: debian jessie
 - top :: g a/w
-** -3 week
+** -4 week
 *** update packages through MELPA
     :LOGBOOK:
     CLOCK: [2017-12-20 Wed 18:08]--[2017-12-25 Mon 10:44] => 112:36

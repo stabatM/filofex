@@ -37,4 +37,10 @@
     completion3 
      [[file:~/filofex/MY_scratch::"*%20%25?\n%20%25^C\nEntered%20on%20%25U\n%20%25^{prompt|default|completion2|completion3}%20%25i\n%20%25a"%20:empty-lines%201)))]]
 *** 2018-01-15 Monday
+*** 2018-01-16 Tuesday
+
+**** come from outside(emacsclient under local shell)
+   Entered on [2018-01-16 Tue 15:29]
+     BODY
+     [[URL][TITLE]]
 
