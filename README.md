@@ -43,7 +43,7 @@ To github.com:stabatM/filofex.git
 Branch master set up to track remote branch master from origin.
 ...(3e)
 POST
-* open 2FA
+* open 2FA(new scanbar, new securecode-paper, new 1pass item)
 * reassure
 ...(4)
 ben@eros:~/filofex$ git push
