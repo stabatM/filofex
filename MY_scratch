@@ -305,6 +305,24 @@ org-protocol-project-alist
 	 :working-suffix ".org")))
 
 
+;; org refile
+(setq org-log-refile t)
+(setq org-refile-use-outline-path 'full-file-path)
+(setq org-outline-path-complete-in-steps t)
+(setq org-refile-allow-creating-parent-nodes t)
+(setq org-refile-targets '(("~/filofex/refile.org/" . (:maxlevel . 3))
+			   ("~/filofex/refile.org" . (:regexp . "[mM]on\\|[tT]ue\\|[wW]ed\\|[tT]hu\\|[Ff]ri"))
+			   ("~/filofex/refile.org" . (:regexp . "obs"))))
+(setq org-refile-use-cache t)
+
+;; regexp in emacs uncontrol ... well
+;; ido/icicles [use emacs customize
+(setq org-refile-allow-creating-parent-nodes ...)
+(setq org-refile-keep nil)
+;; ido-mode
+(require 'ido)
+(ido-mode 1)
+
 ...
 ;; xattr-ns-grep-codeBlock in orgs
 org-babel-load-languages

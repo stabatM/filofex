@@ -22,6 +22,7 @@
   - Note taken on [2017-12-11 Mon 19:37] \\
     o
   :LOGBOOK:
+  CLOCK: [2018-01-17 Wed 19:09]--[2018-01-17 Wed 19:09] =>  0:00
   - Note taken on [2017-12-25 Mon 12:05] \\
     in box
   - State "WAIT"       from "TODO"       [2017-12-11 Mon 19:38] \\
@@ -41,36 +42,12 @@
 *** 3rd level
     more text
 
-
-
-* pandas
-  dest: machine-learning, deep-learning 
-
-** theory
-   compare spark MLlib, Mahout, ...
-   ...
-
-** Do it
-
-*** gear-tools
-    pip
-    virtualenv
-    source activiate
-    deactivate
-    ---
-    virtualWrapper
-    workon
-    ---
-    171205
-
-*** container
-    Ali-ECS
-
-*** time...line.
-
 * Repo_dict
+  :LOGBOOK:
+  - Refiled on [2018-01-17 Wed 19:03] \\
+    show clock refile in *top level headline*
+  :END:
   dest: auto-complete, resource-unlimit, ...
-
 ** theory
    configurations, private-repos
 
@@ -143,6 +120,7 @@ c-c c-x m-w the org homepage[fn:1] now
 sum the number in the current
 
 sum, the , numbers , in , the, current
+
 
 * new page[0%]
   :PROPERTIES:
@@ -617,6 +595,12 @@ filter basics
   - last week ::
   - this week ::
 ** this week
+1. org-protocols open-source use emacsclient try ... well
+   find /home/ben/filofex/ -name org-protocol* | xargs ls -alt
+2. git push github use ssh ... well(ref details in QQ notes/filofex.git README.md)
+3. ido.el :: c-x c-f > c-b/c-d ;p
+	     C-x C-w runs the command ido-write-file, which is an interactive compiled Lisp function.
+	     m-2 c-x c-w ; mark-rings, c-c %/&, c-x/u c-<space> ; m-^ up-join
 
 *** -1 week
  1. github
