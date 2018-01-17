@@ -457,37 +457,39 @@ CLOCKSUM_T is normal on win10 OS, QQ:tudou.
    - org protocols :: emacsclient + browser
 		      !!! require modules in init.el [[https://orgmode.org/worg/org-contrib/org-protocol.html][about protocol.el]]
 		      emacsclient org-protocol://store-link?url=https://orgmode.org/manual/Protocols.html#Protocols&title=protocols
-   - [[URL][from outside]]
-     - [[https://orgmode.org/manual/Protocols.html#Protocols][protocols]] CANNOT bring title in ... so, after dosth, shell give u a success processed link NOT include title
-     - [[URL][TITLE]] well, done :: emacsclient -s "foo" org-protocol://store-link?url=URL\&title=TITLE
-	  use \ to escape under shells ;)
+   - [[URL][from outside]] :: tri-fun
+     - storelink :: CANNOT bring title in ... so, after dosth, shell give u a success processed link NOT include title
+       + [[URL][TITLE]] well, done :: emacsclient -s "foo" org-protocol://store-link?url=URL\&title=TITLE
+	    use \ to escape under shells ;)
      - capture :: emacsclient -s "foo" org-protocol://capture?template=gj\&url=URL\&title=TITLE\&body=BODY
      - opensource :: --  
 		     u CAN use {{m-x browse-url-emacs open http://www.gnus.org/history.html,
 		     BUT NOT http://orgmode.org/worg/org-contrib/org-protocol.html jump into local folder's file
+		     [[org-protocol://open-source?url=http://orgmode.org/worg/org-contrib/org-protocol.html][jumbo]] NO...
+       + well :: emacsclient -s "foo" org-protocol://open-source?url=http://orgmode.org/worg/org-contrib/org-protocol.html
+   - [[https://orgmode.org/worg/org-contrib/org-protocol.html#acrobat-reader-setup][use-org-protocol-in-acrobat-reader]] :: eww or m-x browser
      - javascripts, all 3 class :: store link, capture, open source.  
-       - javascript:location.href='org-protocol://store-link?url='+encodeURIComponent(location.href);
-       - javascript:location.href='org-protocol://template=x'+ '&url='+encodeURIComponent(window.location.href)+'&title='+encodeURIComponent(document.title)+'&body='+encodeURIComponent(window.getSelection());
-       - javascript:location.href='org-protocol://open-source?&url='+encodeURIComponent(location.href)
-
-*** -1 week
- awkward when no 'Super key' => S-left/right :: bullet styles ;(
- - capture :: new idea and references, less interuption work flow
-	      org-capture.el replace org-remember.el
-   - M-x customize-variable org-capture-templates
-     * ("b" "Templates for marking stuff to buy") :: key "bt" means "buy t?"
-     * !!!NOT customize org-direc :: ~/filofex, Init Error Then Use Absolute-Path Instead
-     * customize org-...-notes-file :: (setq org-default-notes-file (concat org-directory "/torch.org"))
-     * target indirect narrow :: c-cc :: c-u c-u c-c c(session last)[[id:047cb647-36e5-481a-bba9-85e811e10a2f][test capture-bookmark]]
-       - calenda :: kc, c-c<
-		    M}oon, H}oli, >, o(center date)
-     * customize capture templates :: c-ccC
-       - templates :: [[info:org#Capture%20templates]] line20
-		       q to quit many pop-windows ;p
-		       well, journal looks well, NOT diary...
-		       [[file:~/MY_scratch::229][goto-task]] (tail link c-q char) :: prefix-key without interactive
- - refile c-c c-w
-   - archive :: 
+       + javascript:location.href='org-protocol://store-link?url='+encodeURIComponent(location.href);
+       + javascript:location.href='org-protocol://template=x'+ '&url='+encodeURIComponent(window.location.href)+'&title='+encodeURIComponent(document.title)+'&body='+encodeURIComponent(window.getSelection());
+       + javascript:location.href='org-protocol://open-source?&url='+encodeURIComponent(location.href)
+** -1 week
+awkward when no 'Super key' => S-left/right :: bullet styles ;(
+- capture :: new idea and references, less interuption work flow
+	     org-capture.el replace org-remember.el
+  - M-x customize-variable org-capture-templates
+    * ("b" "Templates for marking stuff to buy") :: key "bt" means "buy t?"
+    * !!!NOT customize org-direc :: ~/filofex, Init Error Then Use Absolute-Path Instead
+    * customize org-...-notes-file :: (setq org-default-notes-file (concat org-directory "/torch.org"))
+    * target indirect narrow :: c-cc :: c-u c-u c-c c(session last)[[id:047cb647-36e5-481a-bba9-85e811e10a2f][test capture-bookmark]]
+      - calenda :: kc, c-c<
+		   M}oon, H}oli, >, o(center date)
+    * customize capture templates :: c-ccC
+      - templates :: [[info:org#Capture%20templates]] line20
+		      q to quit many pop-windows ;p
+		      well, journal looks well, NOT diary...
+		      [[file:~/MY_scratch::229][goto-task]] (tail link c-q char) :: prefix-key without interactive
+- refile c-c c-w
+  - archive :: 
 
 *** swap-easy
 + g dired refresh :: m-x revert-buffer
@@ -613,26 +615,28 @@ filter basics
 
 * new wed
   - last week ::
-    - this week ::
+  - this week ::
 ** this week
-1. github
-   - github >> git push :: ssh
-     - gitconf:: Git uses a series of configuration files to determine non-default behavior that you may want.
-       - /etc/gitconfig :: --global
-       - ~/.gitconfig :: --global
-       - .git/config :: default --local
-   - noreply email :: 35283467+stabatM@users.noreply.github.com (Block command line pushes that expose my email)
-		      git config [--global] user.mail "..."
-   - 2FA :: nophone, barcode, 2FA-app(wula, 1password APP, well)
-   - git->github :: No, use guide stepin, officiouly...
-2. xattr on dirs :: xattr(apt install) <> system's attr MUST -w user.something (attr NEEDnot)
-		    mysrc/vext/... IS gitclone, so mark it
-		    beaware chown and mv ;(
-		    attr ALSO CAN addon dirs
-		    xattr CAN add ns-security, ns-trusted and list them; ordinary user can list security only(not include trusted)
-		    use sourcecode-block grep xattr's source code to find namespace: users,root,system...
-		    [[source src code block]]
-3. orgmod capture
+
+*** -1 week
+ 1. github
+    - github >> git push :: ssh
+      - gitconf:: Git uses a series of configuration files to determine non-default behavior that you may want.
+	- /etc/gitconfig :: --global
+	- ~/.gitconfig :: --global
+	- .git/config :: default --local
+    - noreply email :: 35283467+stabatM@users.noreply.github.com (Block command line pushes that expose my email)
+		       git config [--global] user.mail "..."
+    - 2FA :: nophone, barcode, 2FA-app(wula, 1password APP, well)
+    - git->github :: No, use guide stepin, officiouly...
+ 2. xattr on dirs :: xattr(apt install) <> system's attr MUST -w user.something (attr NEEDnot)
+		     mysrc/vext/... IS gitclone, so mark it
+		     beaware chown and mv ;(
+		     attr ALSO CAN addon dirs
+		     xattr CAN add ns-security, ns-trusted and list them; ordinary user can list security only(not include trusted)
+		     use sourcecode-block grep xattr's source code to find namespace: users,root,system...
+		     [[source src code block]]
+ 3. orgmod capture
    
 ** blocks of Language :: org-mono-manual 14.6
    [[https://orgmode.org/org.html#Header-arguments][language]]
@@ -696,8 +700,8 @@ print('Do things when True')
 
    - aliyun snapshot :: recharge fees, manual snapshot, QQ screenshot save to weiyun
    - :: 
-** -1 week
 ** -2 week
+** -3 week
 [2017-12-27 wed 10:34]
 - docker no :: database mysql oracle-instance(sga)
 - vm versus container :: volume-interface, network-if, data in mem/disk, share/security, cgroup/selinux
@@ -719,7 +723,7 @@ print('Do things when True')
   - 6th :: every application can be stateless
 [[https://dzone.com/articles/is-docker-good-for-your-database][is-docker-good-for-your-database]]
   - 7th :: lack of synergy... just not stable yet... 
-** -3 week 
+** -4 week 
 *** org spreadsheet system
  - [-] C-c C-` <> C-c C-'
  - [-] C-u C-c * [[http://orgmode.org/org.html#Updating-the-table][update-recalculate]]
