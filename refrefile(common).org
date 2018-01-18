@@ -1,0 +1,10 @@
+
+* obs
+** mon
+** Tue
+** Wen
+** thu
+** fri
+** zz
+* doraimi
+* cache?(try to yank/delete this headline, after each action, c-c m-w to TARGET, see diff shuffer-input selections)

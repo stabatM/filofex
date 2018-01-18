@@ -2,220 +2,10 @@
 #+STARTUP: content
 #+STARTUP: lognoteredeadline
 #+STARTUP: lognotereschedule
-#+TODO: TODO(t) WAIT(w@/!) ReTodo | DONE(d!) CANCELED(c@)
-#+LINK: googlehttp://www.google.com/search?q=%s
-?#+TAGS:
-?#+TAGS: { MY_1(a) MY_2(b) } MY_3
-?#+PRIORITIES: A z B
 #+STARTUP: noptag
 #+STARTUP: logdrawer
 #+PROPERTY: Effort_ALL 0 0:10 0:30 1:00 2:00 3:00 4:00 5:00 6:00 7:00
-?#+COLUMNS: %25ITEM %TAGS :skip-empty-rows 1 :maxlevel 5
 #+COLUMNS: %40ITEM(Task) %17Effort(Estimated Effort){:} %CLOCKSUM
-
-* CANCELED Top level headline
-  - Note taken on [2017-12-25 Mon 12:04] \\
-    c-c c-z [[http://orgmode.org/manual/Drawers.html][add-note note taken]]
-  - Note taken on [2017-12-25 Mon 12:02]
-  - State "CANCELED"   from "DONE"       [2017-12-25 Mon 11:54]
-  - State "DONE"       from "WAIT"       [2017-12-25 Mon 11:54]
-  - Note taken on [2017-12-11 Mon 19:37] \\
-    o
-  :LOGBOOK:
-  CLOCK: [2018-01-17 Wed 19:09]--[2018-01-17 Wed 19:09] =>  0:00
-  - Note taken on [2017-12-25 Mon 12:05] \\
-    in box
-  - State "WAIT"       from "TODO"       [2017-12-11 Mon 19:38] \\
-    logbook? or
-  - Note taken on [2017-12-11 Mon 19:37] \\
-    on
-  - Note taken on [2017-12-11 Mon 19:35] \\
-    re
-  :END:
-  - State "TODO"       from "WAIT"       [2017-12-11 Mon 18:51]
-  - State "WAIT"       from "TODO"       [2017-12-11 Mon 18:51]
-  - State "CANCELED"   from "WAIT"       [2017-12-11 Mon 18:48]
-  - State "WAIT"       from "CANCELED"   [2017-12-11 Mon 18:48]
-** 2nd level
-*** 3rd level
-    ome text
-*** 3rd level
-    more text
-
-* Repo_dict
-  :LOGBOOK:
-  - Refiled on [2018-01-17 Wed 19:03] \\
-    show clock refile in *top level headline*
-  :END:
-  dest: auto-complete, resource-unlimit, ...
-** theory
-   configurations, private-repos
-
-** Do it
-
-*** container/box
-    - bash, dict -I
-    - vim, i_ctrl-x_ctrl-k
-    - apt-get
-
-*** DONE mathod [0/3]                                                  :1BY1:
-    :PROPERTIES:
-    :ORDERED:  t
-    :END:
-    :PROPERTIES:
-    :LOGGING:  LONG(l/@) WAIT(@) logrepeat
-    #overwrite  outerspace
-    :END:
-    + Note taken on [2017-12-11 Mon 18:34] \\
-      logbook?
-
-    + :h dictionary :: vim
-    + /usr/share/dict :: bash
-
-    + (setq org-track-ordered-property-with-tag '"1BY1")
-    + [ ] /etc/apt/source.list
-    + [ ] /var/lib/dict
-    + [ ] also run
-
-    :ref-papers:
-    
-    :END:
-    
-**** TODO LONG(l/@)| unto smt  
-     :PROPERTIES:
-     :LOG-INTO-DRAWER: "LOGSHELF"
-     :END:
-     - State "DONE"       from "TODO"       [2017-12-14 Thu 18:03]
-     - State "TODO"       from "WAIT"       [2017-12-14 Thu 18:03]
-     :LOGBOOK:
-     - State "TODO"       from "WAIT"       [2017-12-14 Thu 18:11]
-     - State "WAIT"       from "DONE"       [2017-12-14 Thu 18:09] \\
-       test logshelf
-     - State "DONE"       from "DONE"       [2017-12-14 Thu 18:08]
-     - State "DONE"       from "TODO"       [2017-12-14 Thu 18:07]
-     - State "DONE"       from "TODO"       [2017-12-14 Thu 18:07]
-     - State "DONE"       from "LONG(l/@)|" [2017-12-12 Tue 18:33]
-     - Note taken on [2017-12-11 Mon 19:35] \\
-       ?t
-     :END:
-    
-     - Note taken on [2017-12-11 Mon 19:33] \\
-       org-log-into-drawer
-     - Note taken on [2017-12-11 Mon 19:30] \\
-       ADD SUS
-     - Note taken on [2017-12-11 Mon 19:28] \\
-       remove  sus
-
-<<find-me>>
-
-#+NAME: TAB-1
-| theme      | content   | link                                             | note     | E |
-|------------+-----------+--------------------------------------------------+----------+---|
-| GBU        | E/S       | http://github.com                                | renew    | x |
-| hellelujah | gadget    | http://mp.weixin.qq.com/s/R8Xb3NYQLbVCW27gSOnJAA | terminal | x |
-| conBOX     | container | docker, openstack, vagrant, virt                 | cloud    | w |
-
-c-c c-x m-w the org homepage[fn:1] now
-
-sum the number in the current
-
-sum, the , numbers , in , the, current
-
-
-* new page[0%]
-  :PROPERTIES:
-  :CUSTOM_ID: my-custom-id
-  :END:
-  - todos :: every level configurate todo status collection & timestamp/note into logbook
-  - links :: # to properties <<>> dedicated-target url-links cross reference
-  - footnotes :: create and normalize
-
-** customID
-   :PROPERTIES:
-   :CUSTOM_ID: abc
-   :END:
-
-** custID
-   :PROPERTIES:
-   :ID:       ad5669bc-95a2-4bc9-896b-f4b1b1c916ba
-   :NDsiks_ALL: 1 2 3 4
-   :Publisher_ALL: "Deutsche Grammophon" Philips EMI
-   :END:
-   ID on my own,,,
-   #   :CUSTOM_ID: 123
-   #   :U_ID:     u-ID
-** test c-c c-l create ID after m-x customize <RET> org-id --> select 2 minimize create ids :LUFFY:
-   :PROPERTIES:
-   :ID:       3fdb695b-79d0-42dd-807b-56970e10b5a9
-   :END:
-
-*** myfavor
-    :PROPERTIES:
-    :GENRES:   Classic
-    :Title:    Goldberg Bariations
-    :END:
-
-**** Goldberg Variations
-     :PROPERTIES:
-     :Title:    G V
-     :GENRES:   Classic
-     :NDsiks:   1
-     :Publisher+: Sony
-     :END:
-     this is [fn:2]
-
-**** 1st
-     :PROPERTIES:
-     :Publisher+:
-     :END:
-
-
-      
-*** links(4th-level cannot export to PDF)[0%]
-    - [[#abc][custom]][0/0]
-    - [[TAB-1][table-1]][0/0]
-    - [[find-me][findyou]]
-    - [[id:ad5669bc-95a2-4bc9-896b-f4b1b1c916ba][links]]
-    (org-id-link-to-org-use-id)
-    [[file:tex-candy.tex::/ju\sw+/][outerlink]]
-    radio-targets
-    <<<3rd>>> welcome to home, 3rd. 
-
-** TODO [#G] Shave[/]                                             :org:habit:
-   :PROPERTIES:
-   :LOG_INTO_DRAWER: LOGSHELF
-   :END:
-   :LOGSHELF:
-   - State "TODO"       from "WAIT"       [2017-12-29 Fri 02:08]
-   - State "WAIT"       from "WAIT"       [2017-12-14 Thu 18:40] \\
-     logshelf
-   :END:
-
-   - priorities :: try it and compare #+PRIORITIES
-   (setq org-highest-priority '66)
-   (setq org-default-priority '69)
-   (setq org-lowest-priority '71)
-
-   Appendix C History and acknowledgments
-   C.1 From Carsten
-   John Wiegley
-   John has contributed a number of great ideas and patches directly to Org, including the attachment system (org-attach.el), integration with Apple Mail (org-mac-message.el), hierarchical dependencies of TODO items, habit tracking (org-habits.el), and encryption (org-crypt.el). Also, the capture system is really an extended copy of his great remember.el. 
-   SCHEDULED: <2017-12-14 Thu .+2d/4d>
-
-*** habitica
-    [[https://github.com/abrochard/emacs-habitica]]
-    C-x t n => new task
-    C-x t t => cycle todo/done
-    C-x t + => + a habit
-    C-x t - => - a habit
-    C-x t d => set deadline
-    C-x t i => set difficulty
-    C-x t D => delete the task
-    C-x t b => buy reward
-    C-x t a => add a tag to the task
-    C-x t A => remove a tag from the task
-    C-x t g => refresh
-
 
 * new mon[0/0]
   - last week :: about tags and other configurations
@@ -426,7 +216,7 @@ CLOCKSUM_T is normal on win10 OS, QQ:tudou.
 	 - C-c a m :: search agenda
 
 
-* new tue
+* new tue[0/0]
 *new tue ... you can try to hidden it, like git's stash(not squash)
   - last week ::
   - this week :: 
@@ -591,7 +381,7 @@ filter basics
 - c-c a a ->>> l(timeline)
 
 
-* new wed
+* new wed[0%]
   - last week ::
   - this week ::
 ** this week
@@ -765,25 +555,34 @@ print('Do things when True')
 * new thur
   - last week ::
   - this week :: 
-** this week                                                           :wula:
-1. aliyun  >> console >> backup strategy >> mirror strategy
-2. skim last days
-3. capture template expansion
-   %^C/L
-   %^{prop}p
-   %^{prompt|default|completion2|completion3} :: wala>> m-/ can autocomplete from multi-files even *info*
-   %:keyword >>> c-c c in which type buffer decide (emacs contains all)
-4. clipboard *info*
-   - sort entries :: c-c ^ time
-5. Gnus -> mu4e(1.0alpha) -> g++(cxx14)
-   /usr/local/share/emacs/site-lisp/mu4e (install logs)
-   ...continue...(mailx)
-   mail.rc >> #cp mail.rc{,.bak} >> vim dd >> set ...(baidu,QQnote) >> source >>
-   echo "I'm from ali-ecs-eros $(date)" | mail -s "mailx from gnu" u2gui@163.com
-   aliyun-ecs ports...
-6. ...mailx,ssh reverse-proxy(teamview)...
+** this week
+1. clean afflux_fromAliECS.org structure
+   - dired :: 1/2; 'flag'D for delete >> x use ~/./#; 'mark'* for more >> m 
+   - dired-R :: rename file
+   - m-x replace-string :: init.el
+     + cature/refile/rssupdate ... :: well
+   - window :: c-x 4 c-o; c-m-v
+magit add commit push
 
-** -1 week
+*** -1 week                                                            :wula:
+ 1. aliyun  >> console >> backup strategy >> mirror strategy
+ 2. skim last days
+ 3. capture template expansion
+    %^C/L
+    %^{prop}p
+    %^{prompt|default|completion2|completion3} :: wala>> m-/ can autocomplete from multi-files even *info*
+    %:keyword >>> c-c c in which type buffer decide (emacs contains all)
+ 4. clipboard *info*
+    - sort entries :: c-c ^ time
+ 5. Gnus -> mu4e(1.0alpha) -> g++(cxx14)
+    /usr/local/share/emacs/site-lisp/mu4e (install logs)
+    ...continue...(mailx)
+    mail.rc >> #cp mail.rc{,.bak} >> vim dd >> set ...(baidu,QQnote) >> source >>
+    echo "I'm from ali-ecs-eros $(date)" | mail -s "mailx from gnu" u2gui@163.com
+    aliyun-ecs ports...
+ 6. ...mailx,ssh reverse-proxy(teamview)...
+
+** -2 week
 5. c-c a a -> h
    init.el add  sunrise/agenda-files/forbidden-region-up/downcase
 6. timeline [[http://members.optusnet.com.au/~charles57/GTD/org_dates/#sec-11][timeline]]
@@ -1030,7 +829,7 @@ C-c C-x C-r runs the command org-clock-report
   >/< :: 1 month
   M/C-v :: 3 month
   gd/D/w, o/. :: jump day/day-th/week/center
-** -2 week
+** -3 week
 ...
 
 
@@ -1178,89 +977,3 @@ rectangle :: c-x <space> ->>> c-x r ?
 - [-] double/global,  uknow... 
   C-u C-u C-c C-c ;)
 
-* The column view
-  :LOGBOOK:
-  CLOCK: [2018-01-02 Tue 21:11]--[2018-01-02 Tue 21:16] =>  0:05
-  CLOCK: [2018-01-02 Tue 17:33]--[2018-01-02 Tue 17:33] =>  0:00
-  CLOCK: [2018-01-02 Tue 18:02]--[2018-01-02 Tue 18:03] =>  0:01
-  CLOCK: [2017-12-25 Mon 10:51]--[2018-01-02 Tue 18:02] => 199:11
-  :END:
-
-
-
-
-#+BEGIN: columnview :hlines 1 :id global
-| ITEM                                                                                              | TAGS            |
-|---------------------------------------------------------------------------------------------------+-----------------|
-| * CANCELED Top level headline                                                                     |                 |
-| ** 2nd level                                                                                      |                 |
-| *** 3rd level                                                                                     |                 |
-| *** 3rd level                                                                                     |                 |
-|---------------------------------------------------------------------------------------------------+-----------------|
-| * pandas                                                                                          |                 |
-| ** theory                                                                                         |                 |
-| ** Do it                                                                                          |                 |
-| *** gear-tools                                                                                    |                 |
-| *** container                                                                                     |                 |
-| *** time...line.                                                                                  |                 |
-|---------------------------------------------------------------------------------------------------+-----------------|
-| * Repo_dict                                                                                       |                 |
-| ** theory                                                                                         |                 |
-| ** Do it                                                                                          |                 |
-| *** container/box                                                                                 |                 |
-| *** DONE mathod [0/3]                                                                             | :1BY1:          |
-| **** TODO LONG(l/@)\vert unto smt                                                                 |                 |
-|---------------------------------------------------------------------------------------------------+-----------------|
-| * new page[0%]                                                                                    |                 |
-| ** customID                                                                                       |                 |
-| ** custID                                                                                         |                 |
-| *** myfavor                                                                                       |                 |
-| **** Goldberg Variations                                                                          |                 |
-| **** 1st                                                                                          |                 |
-| *** links(4th-level cannot export to PDF)[0%]                                                     |                 |
-| ** TODO [#G] Shave[/]                                                                             | :org:habit:     |
-| *** habitica                                                                                      |                 |
-|---------------------------------------------------------------------------------------------------+-----------------|
-| * new mon[0/0]                                                                                    |                 |
-| ** this week                                                                                      | :luffy:caution: |
-| *** tmp test                                                                                      |                 |
-| ** columns in properites[0/0]                                                                     |                 |
-| ** region marks rectangle>>>vim:c-v column                                                        |                 |
-| ** quake zone                                                                                     | :LUFFY:         |
-| *** proj-1                                                                                        |                 |
-| *** proj-2                                                                                        |                 |
-| **** new year holidays                                                                            |                 |
-| ** last week                                                                                      |                 |
-| *** tags[0/0]                                                                                     |                 |
-| *** Blocks in context exa C linux kernel                                                          | :LUFFY:         |
-| *** WANTED tags                                                                                   | :LUFFY:         |
-| **** Don't forget to press C-c C-c with the cursor in one of these lines to activate any changes. | :Caution:       |
-|---------------------------------------------------------------------------------------------------+-----------------|
-| * new tue                                                                                         |                 |
-| ** last week                                                                                      |                 |
-| *** update packages through MELPA                                                                 |                 |
-| ** this week                                                                                      |                 |
-|---------------------------------------------------------------------------------------------------+-----------------|
-| * new wed                                                                                         |                 |
-| ** last week                                                                                      |                 |
-| *** org spreadsheet system                                                                        |                 |
-| **** formula with emacs Calc                                                                      |                 |
-| **** TODO fromula with lisp                                                                       | :LUFFY:         |
-| ** this week                                                                                      |                 |
-|---------------------------------------------------------------------------------------------------+-----------------|
-| * new thur                                                                                        |                 |
-| ** last week                                                                                      |                 |
-| ** this week                                                                                      |                 |
-| *** DONE time-stamps                                                                              |                 |
-| *** TODO split from above "time-stamps"                                                           |                 |
-| *** TODO split from above-nyh                                                                     |                 |
-| **** TODO repeater-rerun                                                                          | :TEST:          |
-| *** ReTodo date/time prompt/formats                                                               | :Caution:       |
-| *** calendar motion [calendar/agenda]                                                             |                 |
-|---------------------------------------------------------------------------------------------------+-----------------|
-| * <<<1                                                                                            |                 |
-|---------------------------------------------------------------------------------------------------+-----------------|
-| * Footnotes                                                                                       |                 |
-|---------------------------------------------------------------------------------------------------+-----------------|
-| * The column view                                                                                 |                 |
-#+END:

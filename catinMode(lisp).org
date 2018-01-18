@@ -5,6 +5,8 @@
   :ORDERED:  t
   :END:
   :LOGBOOK:
+  CLOCK: [2018-01-18 Thu 11:16]
+  CLOCK: [2018-01-18 Thu 11:02]--[2018-01-18 Thu 11:03] =>  0:01
   CLOCK: [2018-01-15 Mon 19:50]--[2018-01-15 Mon 19:51] =>  0:01
   :END:
   - hi, im now in home.  
@@ -19,3 +21,9 @@
     Entered on [2018-01-15 Mon 19:52]
       
       [[file:~/filofex/MY_scratch][file:~/filofex/MY_scratch]]
+  - rename, less work when use ID in init.el ;p
+    Entered on [2018-01-18 Thu 11:02]
+      
+      [[file:~/filofex/MY_scratch::(setq%20org-refile-use-cache%20t)]]
+  - from *scratch*, After rename in dired >> change init.el
+    Entered on [2018-01-18 Thu 11:16]

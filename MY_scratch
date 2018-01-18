@@ -286,7 +286,7 @@ org-feed-alist
 (setq org-feed-alist
       '(("Slashdot"
 	 "http://rss.slashdot.org/Slashdot/slashdot"
-	          "~/filofex/feeds.org" "Slashdot Entries")))
+	          "~/filofex/rssfeeds.org" "Slashdot Entries")))
 
 
 ;; org protocols

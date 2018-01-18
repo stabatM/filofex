@@ -82,3 +82,10 @@
    [2018-01-09 Tue]
    [[file:~/filofex/afflux_fromAliECS.org::*this%20week][this week]]
 
+* Notes
+
+** NOTES After rename, add NOTES and other todo-items in init.el, ;p
+   [2018-01-18 Thu 11:40]
+  
+   [[file:~/filofex/afflux_fromAliECS.org]]
+

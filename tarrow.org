@@ -1,46 +1,11 @@
 
 * 2018
 ** 2018-01 January
-*** 2018-01-09 Tuesday
-**** try journal
-   Entered on [2018-01-09 Tue 16:09]
-  
-     [[file:~/filofex/afflux_fromAliECS.org::*this%20week][this week]]
-**** do right?
-   Entered on [2018-01-09 Tue 16:10]
-  
-     [[file:~/filofex/afflux_fromAliECS.org::*this%20week][this week]]
-**** test c-cx 
-   Entered on [2018-01-09 Tue 16:29]
-  
-     [[file:~/filofex/afflux_fromAliECS.org::*this%20week][this week]]
-**** test for gj bond to c-cx
-   Entered on [2018-01-09 Tue 16:32]
-  
-     [[file:~/MY_scratch::(lambda%20()%20(interactive)%20(org-capture%20nil%20"gj")))]]
-*** 2018-01-11 Thursday
-**** test %^C 
-    org-capture-templates
-   Entered on [2018-01-11 Thu 11:57]
-  
-     [[file:~/filofex/MY_scratch::((()))]]
+*** 2018-01-18 Thursday
 
-**** test :empty-line
-    org-capture-templates
-   Entered on [2018-01-11 Thu 12:00]
+**** 
+   Entered on [2018-01-18 Thu 11:08]
   
-     [[file:~/filofex/MY_scratch::"*%20%25?\n%20%25^C\nEntered%20on%20%25U\n%20%25i\n%20%25a"%20:empty-lines%201)))]]
+     [[file:~/filofex/afflux_fromAliECS.org]]
 
-**** test capture-template-completions
-    clipboard 
-   Entered on [2018-01-11 Thu 12:14]
-    completion3 
-     [[file:~/filofex/MY_scratch::"*%20%25?\n%20%25^C\nEntered%20on%20%25U\n%20%25^{prompt|default|completion2|completion3}%20%25i\n%20%25a"%20:empty-lines%201)))]]
-*** 2018-01-15 Monday
-*** 2018-01-16 Tuesday
-
-**** come from outside(emacsclient under local shell)
-   Entered on [2018-01-16 Tue 15:29]
-     BODY
-     [[URL][TITLE]]
-
+     
