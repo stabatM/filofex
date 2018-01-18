@@ -288,7 +288,6 @@ org-feed-alist
 	 "http://rss.slashdot.org/Slashdot/slashdot"
 	          "~/filofex/rssfeeds.org" "Slashdot Entries")))
 
-
 ;; org protocols
 org-protocol-protocol-alist
 org-protocol-protocol-alist-default
@@ -303,7 +302,6 @@ org-protocol-project-alist
 	 :working-directory "~/filofex/worg/"
 	 :online-suffix ".html"
 	 :working-suffix ".org")))
-
 
 ;; org refile
 (setq org-log-refile t)
@@ -322,6 +320,13 @@ org-protocol-project-alist
 ;; ido-mode
 (require 'ido)
 (ido-mode 1)
+
+;; archiving
+org-archive-default-command
+(setq org-archive-location "~/filofex/chaos_archive.org::* From %s")
+(setq org-use-property-inheritance t)
+(setq org-use-tag-inheritance t)
+(setq org-archive-save-context-info '(time file olpath category todo itags ltags))
 
 ...
 ;; xattr-ns-grep-codeBlock in orgs

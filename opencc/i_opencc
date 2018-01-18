@@ -1,0 +1,3 @@
+opencc -i i_opencc -o o_opencc -c t2s.json
+鐘聲
+中国

@@ -1,0 +1,215 @@
+
+Archived entries from file /home/ben/filofex/afflux_fromAliECS.org
+
+
+* From afflux_fromAliECS.org
+
+** 1 level parent : actived-timestamp
+   :PROPERTIES:
+   :ARCHIVE_TIME: 2018-01-18 Thu 18:34
+   :ARCHIVE_FILE: ~/filofex/afflux_fromAliECS.org
+   :ARCHIVE_OLPATH: new thur/this week/test for archive
+   :ARCHIVE_CATEGORY: afflux_fromAliECS
+   :END:
+   :LOGBOOK:
+   CLOCK: [2018-01-18 Thu 17:02]--[2018-01-18 Thu 17:16] =>  0:14
+   :END:
+   <2018-01-17 Wed>--<2018-01-01 Mon> :: c-c c-y (org-evaluate-time-range)
+
+Archived entries from file /home/ben/filofex/catorch(note).org
+
+** NOTES 1 level parent : todo-status                                 :arena:
+   :PROPERTIES:
+   :ARCHIVE_TIME: 2018-01-18 Thu 18:41
+   :ARCHIVE_FILE: ~/filofex/afflux_fromAliECS.org
+   :ARCHIVE_OLPATH: new thur/this week/test for archive
+   :ARCHIVE_CATEGORY: afflux_fromAliECS
+   :ARCHIVE_TODO: NOTES
+   :END:
+     :LOGBOOK:
+     - State "NOTES"      from "CANCELED"   [2018-01-18 Thu 17:34] \\
+       try ... archive
+     - State "CANCELED"   from "WAIT"       [2018-01-18 Thu 17:33] \\
+       test archive
+     - State "WAIT"       from "DONE"       [2018-01-18 Thu 17:31] \\
+       try archive not in todo status
+     - State "DONE"       from "TODO"       [2018-01-18 Thu 17:02]
+     :END:
+...
+
+** test for archive                                                   :LUFFY:
+   :PROPERTIES:
+   :ARCHIVE_TIME: 2018-01-18 Thu 18:44
+   :ARCHIVE_FILE: ~/filofex/afflux_fromAliECS.org
+   :ARCHIVE_OLPATH: new thur/this week
+   :ARCHIVE_CATEGORY: afflux_fromAliECS
+   :END:
+...
+*** 1 level parent : actived-timestamp                                 :wula:
+    :LOGBOOK:
+    CLOCK: [2018-01-18 Thu 17:02]--[2018-01-18 Thu 17:16] =>  0:14
+    :END:
+    <2018-01-17 Wed>--<2018-01-01 Mon> :: c-c c-y (org-evaluate-time-range)
+
+** 1 level parent : actived-timestamp                                  :wula:
+   :PROPERTIES:
+   :ARCHIVE_TIME: 2018-01-18 Thu 18:44
+   :ARCHIVE_FILE: ~/filofex/afflux_fromAliECS.org
+   :ARCHIVE_OLPATH: new thur/this week/test for archive
+   :ARCHIVE_CATEGORY: afflux_fromAliECS
+   :END:
+   :LOGBOOK:
+   CLOCK: [2018-01-18 Thu 17:02]--[2018-01-18 Thu 17:16] =>  0:14
+   :END:
+   <2018-01-17 Wed>--<2018-01-01 Mon> :: c-c c-y (org-evaluate-time-range)
+
+** 1 level parent : actived-timestamp                                  :wula:
+   :PROPERTIES:
+   :ARCHIVE_TIME: 2018-01-18 Thu 18:46
+   :ARCHIVE_FILE: ~/filofex/afflux_fromAliECS.org
+   :ARCHIVE_OLPATH: new thur/this week/test for archive
+   :ARCHIVE_CATEGORY: afflux_fromAliECS
+   :END:
+   :LOGBOOK:
+   CLOCK: [2018-01-18 Thu 17:02]--[2018-01-18 Thu 17:16] =>  0:14
+   :END:
+   <2018-01-17 Wed>--<2018-01-01 Mon> :: c-c c-y (org-evaluate-time-range)
+
+** 1 level parent : actived-timestamp                                  :wula:
+   :PROPERTIES:
+   :ARCHIVE_TIME: 2018-01-18 Thu 18:50
+   :ARCHIVE_FILE: ~/filofex/afflux_fromAliECS.org
+   :ARCHIVE_OLPATH: new thur/this week/test for archive
+   :ARCHIVE_CATEGORY: afflux_fromAliECS
+   :ARCHIVE_LTAGS: wula
+   :END:
+   :LOGBOOK:
+   CLOCK: [2018-01-18 Thu 17:02]--[2018-01-18 Thu 17:16] =>  0:14
+   :END:
+   <2018-01-17 Wed>--<2018-01-01 Mon> :: c-c c-y (org-evaluate-time-range)
+
+** 1 level parent : actived-timestamp                                  :wula:
+   :PROPERTIES:
+   :ARCHIVE_TIME: 2018-01-18 Thu 18:51
+   :ARCHIVE_FILE: ~/filofex/afflux_fromAliECS.org
+   :ARCHIVE_OLPATH: new thur/this week/test for archive
+   :ARCHIVE_CATEGORY: afflux_fromAliECS
+   :ARCHIVE_LTAGS: wula
+   :END:
+   :LOGBOOK:
+   CLOCK: [2018-01-18 Thu 17:02]--[2018-01-18 Thu 17:16] =>  0:14
+   :END:
+   <2018-01-17 Wed>--<2018-01-01 Mon> :: c-c c-y (org-evaluate-time-range)
+
+** 1 level parent : actived-timestamp                                  :wula:
+   :PROPERTIES:
+   :ARCHIVE_TIME: 2018-01-18 Thu 18:54
+   :ARCHIVE_FILE: ~/filofex/afflux_fromAliECS.org
+   :ARCHIVE_OLPATH: new thur/this week/test for archive
+   :ARCHIVE_CATEGORY: afflux_fromAliECS
+   :ARCHIVE_LTAGS: wula
+   :END:
+   :LOGBOOK:
+   CLOCK: [2018-01-18 Thu 17:02]--[2018-01-18 Thu 17:16] =>  0:14
+   :END:
+   <2018-01-17 Wed>--<2018-01-01 Mon> :: c-c c-y (org-evaluate-time-range)
+
+** 1 level parent : actived-timestamp                            :LUFFY:wula:
+   :PROPERTIES:
+   :ARCHIVE_TIME: 2018-01-18 Thu 19:02
+   :ARCHIVE_FILE: ~/filofex/afflux_fromAliECS.org
+   :ARCHIVE_OLPATH: new thur/this week/test for archive
+   :ARCHIVE_CATEGORY: afflux_fromAliECS
+   :ARCHIVE_LTAGS: LUFFY wula
+   :END:
+   :LOGBOOK:
+   CLOCK: [2018-01-18 Thu 17:02]--[2018-01-18 Thu 17:16] =>  0:14
+   :END:
+   <2018-01-17 Wed>--<2018-01-01 Mon> :: c-c c-y (org-evaluate-time-range)
+
+** 1 level parent : actived-timestamp                            :LUFFY:wula:
+   :PROPERTIES:
+   :ARCHIVE_TIME: 2018-01-18 Thu 19:03
+   :ARCHIVE_FILE: ~/filofex/afflux_fromAliECS.org
+   :ARCHIVE_OLPATH: new thur/this week/test for archive
+   :ARCHIVE_CATEGORY: afflux_fromAliECS
+   :ARCHIVE_LTAGS: LUFFY wula
+   :END:
+   :LOGBOOK:
+   CLOCK: [2018-01-18 Thu 17:02]--[2018-01-18 Thu 17:16] =>  0:14
+   :END:
+   <2018-01-17 Wed>--<2018-01-01 Mon> :: c-c c-y (org-evaluate-time-range)
+
+** test for archive                                                    :soso:
+   :PROPERTIES:
+   :ARCHIVE_TIME: 2018-01-18 Thu 19:04
+   :ARCHIVE_FILE: ~/filofex/afflux_fromAliECS.org
+   :ARCHIVE_OLPATH: new thur/this week
+   :ARCHIVE_CATEGORY: afflux_fromAliECS
+   :ARCHIVE_LTAGS: soso
+   :END:
+   ...
+*** 1 level parent : actived-timestamp                           :LUFFY:wula:
+    :LOGBOOK:
+    CLOCK: [2018-01-18 Thu 17:02]--[2018-01-18 Thu 17:16] =>  0:14
+    :END:
+    <2018-01-17 Wed>--<2018-01-01 Mon> :: c-c c-y (org-evaluate-time-range)
+
+** 1 level parent : actived-timestamp                            :LUFFY:wula:
+   :PROPERTIES:
+   :ARCHIVE_TIME: 2018-01-18 Thu 19:23
+   :ARCHIVE_FILE: ~/filofex/afflux_fromAliECS.org
+   :ARCHIVE_OLPATH: new thur/this week/test for archive
+   :ARCHIVE_CATEGORY: afflux_fromAliECS
+   :ARCHIVE_ITAGS: soso
+   :ARCHIVE_LTAGS: LUFFY wula
+   :END:
+   :LOGBOOK:
+   CLOCK: [2018-01-18 Thu 17:02]--[2018-01-18 Thu 17:16] =>  0:14
+   :END:
+   <2018-01-17 Wed>--<2018-01-01 Mon> :: c-c c-y (org-evaluate-time-range)
+
+** 1 level parent : actived-timestamp                            :LUFFY:wula:
+   :PROPERTIES:
+   :ARCHIVE_TIME: 2018-01-18 Thu 19:24
+   :ARCHIVE_FILE: ~/filofex/afflux_fromAliECS.org
+   :ARCHIVE_OLPATH: new thur/this week/test for archive
+   :ARCHIVE_CATEGORY: afflux_fromAliECS
+   :ARCHIVE_ITAGS: soso
+   :END:
+   :LOGBOOK:
+   CLOCK: [2018-01-18 Thu 17:02]--[2018-01-18 Thu 17:16] =>  0:14
+   :END:
+   <2018-01-17 Wed>--<2018-01-01 Mon> :: c-c c-y (org-evaluate-time-range)
+* From catorch(note).org
+
+** Notes
+   :PROPERTIES:
+   :ARCHIVE_TIME: 2018-01-18 Thu 18:37
+   :ARCHIVE_FILE: ~/filofex/catorch(note).org
+   :ARCHIVE_CATEGORY: catorch(note)
+   :END:
+
+*** NOTES After rename, add NOTES and other todo-items in init.el, ;p
+    [2018-01-18 Thu 11:40]
+  
+    [[file:~/filofex/afflux_fromAliECS.org]]
+
+
+Archived entries from file /home/ben/filofex/afflux_fromAliECS.org
+
+
+Archived entries from file /home/ben/filofex/afflux_fromAliECS.org
+
+
+Archived entries from file /home/ben/filofex/afflux_fromAliECS.org
+
+
+Archived entries from file /home/ben/filofex/afflux_fromAliECS.org
+
+
+Archived entries from file /home/ben/filofex/afflux_fromAliECS.org
+
+
+Archived entries from file /home/ben/filofex/afflux_fromAliECS.org
+

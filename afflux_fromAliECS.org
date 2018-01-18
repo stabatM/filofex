@@ -558,29 +558,44 @@ print('Do things when True')
 ** this week
 1. clean afflux_fromAliECS.org structure
    - dired :: 1/2; 'flag'D for delete >> x use ~/./#; 'mark'* for more >> m 
-   - dired-R :: rename file
+   - dired-R :: R rename file
    - m-x replace-string :: init.el
      + cature/refile/rssupdate ... :: well
    - window :: c-x 4 c-o; c-m-v
-magit add commit push
+   - magit :: add commit push merge
+   - archive :: c-u c-c $ (todo)
+		c-u c-u c-c $ (c-c . <timestampS>duration range c-c c-y)
+		[[help:org-archive-location]] :: changeit in init.el
+		org-use-property-inheritance :: tag-inherit
+		
+2. v2ex :: opencc bonus (ref QQnotes)
+3. dired :: %m >> C >> %m (reassure) >> D
 
-*** -1 week                                                            :wula:
- 1. aliyun  >> console >> backup strategy >> mirror strategy
- 2. skim last days
- 3. capture template expansion
-    %^C/L
-    %^{prop}p
-    %^{prompt|default|completion2|completion3} :: wala>> m-/ can autocomplete from multi-files even *info*
-    %:keyword >>> c-c c in which type buffer decide (emacs contains all)
- 4. clipboard *info*
-    - sort entries :: c-c ^ time
- 5. Gnus -> mu4e(1.0alpha) -> g++(cxx14)
-    /usr/local/share/emacs/site-lisp/mu4e (install logs)
-    ...continue...(mailx)
-    mail.rc >> #cp mail.rc{,.bak} >> vim dd >> set ...(baidu,QQnote) >> source >>
-    echo "I'm from ali-ecs-eros $(date)" | mail -s "mailx from gnu" u2gui@163.com
-    aliyun-ecs ports...
- 6. ...mailx,ssh reverse-proxy(teamview)...
+*** test for archive                                                   :soso:
+    ...
+**** 1 level parent : actived-timestamp                          :Rerun:wula:
+     :LOGBOOK:
+     CLOCK: [2018-01-18 Thu 17:02]--[2018-01-18 Thu 17:16] =>  0:14
+     :END:
+     <2018-01-17 Wed>--<2018-01-01 Mon> :: c-c c-y (org-evaluate-time-range)
+
+** -1 week                                                             :wula:
+1. aliyun  >> console >> backup strategy >> mirror strategy
+2. skim last days
+3. capture template expansion
+   %^C/L
+   %^{prop}p
+   %^{prompt|default|completion2|completion3} :: wala>> m-/ can autocomplete from multi-files even *info*
+   %:keyword >>> c-c c in which type buffer decide (emacs contains all)
+4. clipboard *info*
+   - sort entries :: c-c ^ time
+5. Gnus -> mu4e(1.0alpha) -> g++(cxx14)
+   /usr/local/share/emacs/site-lisp/mu4e (install logs)
+   ...continue...(mailx)
+   mail.rc >> #cp mail.rc{,.bak} >> vim dd >> set ...(baidu,QQnote) >> source >>
+   echo "I'm from ali-ecs-eros $(date)" | mail -s "mailx from gnu" u2gui@163.com
+   aliyun-ecs ports...
+6. ...mailx,ssh reverse-proxy(teamview)...
 
 ** -2 week
 5. c-c a a -> h
