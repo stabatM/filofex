@@ -8,9 +8,19 @@
 #+COLUMNS: %40ITEM(Task) %17Effort(Estimated Effort){:} %CLOCKSUM
 
 * new mon[0/0]
-  - last week :: about tags and other configurations
-  - this week ::  org-manual column-view 
-** this week                                                         :ATTACH:
+  - last week :: 
+  - this week ::  
+** this week
+ - docker :: get-start (docker ps = docker container ls; docker images = docker image ls)
+	     build/push image(registry > reps > images)
+	     composer; vim indent << auto-align; YAML is strict!; stack/swarm/service/container...
+	     
+ - marathon/mesos DCos :: QQnotes
+
+ - top :: L then &; 0/1/2/3; z/b :: x/y
+
+ - mail/mu/mu4e :: less ~/.offlineimaprc
+** -1 week                                                           :ATTACH:
    :PROPERTIES:
    :Attachments: openstack-Names.png history.html
    :ID:       7545ae2b-ceef-4160-8ad3-7525af647601
@@ -29,193 +39,201 @@
    RSS/Atom org-feed-alist :: $ dstat # iptraf-ng $ iostat -mtx
 3. docker.io for spark
    - [-] apach-hadoop latest version 
-** -1 week
+** -2 week                                                          :ARCHIVE:
 1. vext
    python's .pth file
    apt-cache search ...
 [2018-01-08 Mon 11:24]-[2018-01-08 Mon 16:24] 05:00
-
-** -2 week
+** -3 week                                                          :ARCHIVE:
 *** time/date/agenda
 1. [[warning period]]
 2. appointments/reminder
 
-** -3 week                                                    :luffy:caution:
-   :logbook:
-   - note taken on [2017-12-27 wed 16:44] \\
-     tbc: to be continue
-   - note taken on [2017-12-27 wed 16:43]
-   - note taken on [2017-12-27 wed 10:34]
-   - note taken on [2017-12-26 tue 12:13]
-   - note taken on [2017-12-25 mon 15:07] \\
-     mysql apt env fresh install
-   - note taken on [2017-12-25 mon 12:10]
-   :end:
-[2017-12-25 mon 11:36]
-- c-x/c c-z :: add note , repeate [[http://orgmode.org/manual/drawers.html]]
-- [-] mysql shell
-- [-] msyql workbench
-- [-] mysql utilities
-- [-] from source with mysql apt repo :: mysql-ver5.6 {5.7, 8.0}cannot
-  - apt-get source -b mysql-server :: long time about 30min
-  - [x] dpkg -preconfig :: no ask for password
-  - [x] dpkg -i mysql-{common,community-client,client,community-server,server}_*.deb :: apt-get -f install (waiting...)
-  - [ ] dpkg -p ... dpkg -l (if iu) :: purge preconfig install ok. 
-  - remove :: apt-get remove vs  dpkg --purge mysql-{common,community-client,client,community-server,server}
-  - 8.0 apt install :: dpkg-reconfigure mysql-apt-config
-
-*** tmp test
-
-| a | b | c | d      |
-|---+---+---+--------|
-| 1 | 2 | 3 | #ERROR |
-| a | 4 | b |        |
-| 5 | c | d |        |
-|   |   |   |        |
-#+TBLFM: @2$4='(delete-dups (list @2$1..@>$1));L
-
-| a    | b | c | d                   |
-|------+---+---+---------------------|
-| 11f  | 2 | 3 | 11f                 |
-| acwq | 4 | b | 11f acwq 5opc 2 4 c |
-| 5opc | c | d | #ERROR              |
-|      |   |   |                     |
-#+TBLFM: @2$4='(concat (substring $1 1 2) (substring $1 0 1) (substring $1 2))::@3$4='(mapconcat 'identity (delete-dups (list @2$1..@>$1 @2$2..@>$2)) " ")::@4$4='(concat (delete-dups ( @2$1..@>$1 @2$2..@>$2)))
-*** columns in properites[0/0]
- + [[http://orgmode.org/manual/Column-view.html#Column-view][column-view]]
-   + [ ] define cols
-   + [ ] use cols
-   + 
-*** region marks rectangle>>>vim:c-v column 
- push&pop local/global marks
- - c-@/<Space> c-@/<Space> :: push global/local marks
- - c-x/u c-@/<Space> :: pop global/local marks
- - c-x <space> :: rectangle mark ->>> c-x r t(string)/c(space region)/k,d(clear/delete)/o(open1space)
-*** TODO test region rectangle
-    SCHEDULED: <2018-01-02 Tue --1d>
-<<<win10>>> some problem, ECS's envir no according the manual descs...  
-*** quake zone                                                        :LUFFY:
-   :PROPERTIES:
-   :COLUMNS:  %25ITEM %9Approved(Approved?){X} %Owner %11Status %10Time_Estimate{:} %CLOCKSUM %CLOCKSUM_T
-   :Owner_ALL: Tammy Mark Karl Lisa Don
-   :Status_ALL: "In progress" "Not started yet" "Finished" ""
-   :Approved_ALL: "[ ]" "[X]"
-   :OWNER:
-   :END:
-CLOCKSUM_T is normal on win10 OS, QQ:tudou. 
-*** proj-1
+** Archive                                                          :ARCHIVE:
+  - last week :: about tags and other configurations
+  - this week :: org-manual column-view 
+*** -5 week                                                         :ARCHIVE:
     :PROPERTIES:
-    :Owner:    Lisa
-    :Status:   Not started yet
-    :Time_Estimate: 3d 1h
-    :Approved: [ ]
+    :ARCHIVE_TIME: 2018-01-22 Mon 13:55
     :END:
-    :LOGBOOK:
-    CLOCK: [2017-12-20 Wed 17:52]--[2017-12-20 Wed 17:54] =>  0:02
-    CLOCK: [2017-12-20 Wed 17:46]--[2017-12-20 Wed 17:48] =>  0:02
-    CLOCK: [2017-12-20 Wed 17:19]--[2017-12-20 Wed 17:22] =>  0:03
-    :END:
+**** tags[0/0]
+     - [ ] C-u C-c C-c or C-u C-c C-x C-b :: insert one checkbox
+     - [ ] C-c - \{::} :: insert description lists
+     - [ ] C-x <TAB> :: indentation for region
+     - [ ] C-M-\ :: M-C-\ also run, try below
+  if there is a fill
+  indent all the
+  lines in the region
+     - C-\? M-\ :: erase it
+     - (setq org-use-speed-commands t) :: fast keys on headline beginning use the '?'
+     - <e <TAB> :: emacs on win10 works
 
-*** proj-2
+**** Blocks in context exa C linux kernel                             :LUFFY:
+  - C-c C-x w l :: insert structure template
+  - >s <TAB> :: work on win10 
+
+  #+BEGIN_EXA C
+  static const char *xpm_void[] = { 
+  "12 12 2 1",
+  "  c white",
+  ". c black",
+  "            ",
+  "            ",
+  "            ",
+  "            ",
+  "            ",
+  "            ",
+  "            ",
+  "            ",
+  "            ",
+  "            ",
+  "            ",
+  "            "};
+  #+END_EXA
+
+  [[http://orgmode.org/manual/Languages.html][blockSupportLang]]
+
+  #+BEGIN_EXB shell
+  # prepare source code of kernel
+  if [ ! -d ${STAGING_KERNEL}/.git ]; then
+    git clone $3 ${STAGING_KERNEL}
+  fi
+  #+END_EXB
+
+**** WANTED tags                                                      :LUFFY:
+  [[https://zhidao.baidu.com/question/131496370.html][OnePiece-haizeiwang]]
+  (setq org-tag-alist '((:startgroup . nil)
+			(:startgrouptag)
+			("WANTED" . ?m)
+			("LUFFY" . ?l)
+			(:endgrouptag)
+			("soso" . ?s) ("Rerun" . ?r)
+			(:endgroup . nil)
+			("Habitica". ?h)
+			("Caution" . ?y)
+			))
+***** Don't forget to press C-c C-c with the cursor in one of these lines to activate any changes. :Caution:
+          - try C-c C-c C-c
+	  - C-c / :: search something
+	  - C-c a m :: search agenda
+
+
+*** -4 week                                           :luffy:caution:ARCHIVE:
     :PROPERTIES:
-    :Owner:    Karl
-    :STATUS:   Not started yet
-    :Time_Estimate: 10d 10h
-    :Approved: [X]
-    :Effort:   4:00
+    :ARCHIVE_TIME: 2018-01-22 Mon 13:55
     :END:
-    :LOGBOOK:
-    CLOCK: [2017-12-25 Mon 10:44]--[2017-12-25 Mon 10:45] =>  0:01
-    CLOCK: [2017-12-20 Wed 17:54]--[2017-12-20 Wed 18:08] =>  0:14
-    :END:
-    
- dynamic blocks -- db
- #+BEGIN: columnview :hlines 1 :id local
- | ITEM       | Approved? | Owner | Status          | Time_Estimate | CLOCKSUM | CLOCKSUM_T |
- |------------+-----------+-------+-----------------+---------------+----------+------------|
- | quake zone | [-]       |       |                 | 13d 11:00     |     0:22 |       0:01 |
- | proj-1     | [ ]       | Lisa  | Not started yet | 3d 1h         |     0:07 |            |
- | proj-2     | [X]       | Karl  | Not started yet | 10d 10h       |     0:15 |       0:01 |
- #+END:
+    :logbook:
+    - note taken on [2017-12-27 wed 16:44] \\
+      tbc: to be continue
+    - note taken on [2017-12-27 wed 16:43]
+    - note taken on [2017-12-27 wed 10:34]
+    - note taken on [2017-12-26 tue 12:13]
+    - note taken on [2017-12-25 mon 15:07] \\
+      mysql apt env fresh install
+    - note taken on [2017-12-25 mon 12:10]
+    :end:
+ [2017-12-25 mon 11:36]
+ - c-x/c c-z :: add note , repeate [[http://orgmode.org/manual/drawers.html]]
+ - [-] mysql shell
+ - [-] msyql workbench
+ - [-] mysql utilities
+ - [-] from source with mysql apt repo :: mysql-ver5.6 {5.7, 8.0}cannot
+   - apt-get source -b mysql-server :: long time about 30min
+   - [x] dpkg -preconfig :: no ask for password
+   - [x] dpkg -i mysql-{common,community-client,client,community-server,server}_*.deb :: apt-get -f install (waiting...)
+   - [ ] dpkg -p ... dpkg -l (if iu) :: purge preconfig install ok. 
+   - remove :: apt-get remove vs  dpkg --purge mysql-{common,community-client,client,community-server,server}
+   - 8.0 apt install :: dpkg-reconfigure mysql-apt-config
 
-**** new year holidays
-     :LOGBOOK:
-     CLOCK: [2017-12-28 Thu 17:53]--[2017-12-28 Thu 17:56] =>  0:03
-     CLOCK: [2017-12-28 Thu 17:24]--[2017-12-28 Thu 17:26] =>  0:02
-     CLOCK: [2017-12-28 Thu 16:56]--[2017-12-28 Thu 17:15] =>  0:19
+**** tmp test
+
+ | a | b | c | d      |
+ |---+---+---+--------|
+ | 1 | 2 | 3 | #ERROR |
+ | a | 4 | b |        |
+ | 5 | c | d |        |
+ |   |   |   |        |
+ #+TBLFM: @2$4='(delete-dups (list @2$1..@>$1));L
+
+ | a    | b | c | d                   |
+ |------+---+---+---------------------|
+ | 11f  | 2 | 3 | 11f                 |
+ | acwq | 4 | b | 11f acwq 5opc 2 4 c |
+ | 5opc | c | d | #ERROR              |
+ |      |   |   |                     |
+ #+TBLFM: @2$4='(concat (substring $1 1 2) (substring $1 0 1) (substring $1 2))::@3$4='(mapconcat 'identity (delete-dups (list @2$1..@>$1 @2$2..@>$2)) " ")::@4$4='(concat (delete-dups ( @2$1..@>$1 @2$2..@>$2)))
+**** columns in properites[0/0]
+  + [[http://orgmode.org/manual/Column-view.html#Column-view][column-view]]
+    + [ ] define cols
+    + [ ] use cols
+    + 
+**** region marks rectangle>>>vim:c-v column 
+  push&pop local/global marks
+  - c-@/<Space> c-@/<Space> :: push global/local marks
+  - c-x/u c-@/<Space> :: pop global/local marks
+  - c-x <space> :: rectangle mark ->>> c-x r t(string)/c(space region)/k,d(clear/delete)/o(open1space)
+**** TODO test region rectangle
+     SCHEDULED: <2018-01-02 Tue --1d>
+ <<<win10>>> some problem, ECS's envir no according the manual descs...  
+**** quake zone                                                       :LUFFY:
+     :PROPERTIES:
+     :COLUMNS:  %25ITEM %9Approved(Approved?){X} %Owner %11Status %10Time_Estimate{:} %CLOCKSUM %CLOCKSUM_T
+     :Owner_ALL: Tammy Mark Karl Lisa Don
+     :Status_ALL: "In progress" "Not started yet" "Finished" ""
+     :Approved_ALL: "[ ]" "[X]"
+     :OWNER:
      :END:
-     <2017-12-30 Sat>--<2018-01-01 Mon>
+ CLOCKSUM_T is normal on win10 OS, QQ:tudou. 
+**** proj-1
+     :PROPERTIES:
+     :Owner:    Lisa
+     :Status:   Not started yet
+     :Time_Estimate: 3d 1h
+     :Approved: [ ]
+     :END:
+     :LOGBOOK:
+     CLOCK: [2017-12-20 Wed 17:52]--[2017-12-20 Wed 17:54] =>  0:02
+     CLOCK: [2017-12-20 Wed 17:46]--[2017-12-20 Wed 17:48] =>  0:02
+     CLOCK: [2017-12-20 Wed 17:19]--[2017-12-20 Wed 17:22] =>  0:03
+     :END:
 
-     #+BEGIN: clocktable :maxlevel 2 :scope subtree
-     #+CAPTION: Clock summary at [2017-12-28 Thu 17:56]
-     | Headline     | Time   |
-     |--------------+--------|
-     | *Total time* | *0:24* |
-     |--------------+--------|
-     #+END:
-** -4 week
-*** tags[0/0]
-    - [ ] C-u C-c C-c or C-u C-c C-x C-b :: insert one checkbox
-    - [ ] C-c - \{::} :: insert description lists
-    - [ ] C-x <TAB> :: indentation for region
-    - [ ] C-M-\ :: M-C-\ also run, try below
- if there is a fill
- indent all the
- lines in the region
-    - C-\? M-\ :: erase it
-    - (setq org-use-speed-commands t) :: fast keys on headline beginning use the '?'
-    - <e <TAB> :: emacs on win10 works
+**** proj-2
+     :PROPERTIES:
+     :Owner:    Karl
+     :STATUS:   Not started yet
+     :Time_Estimate: 10d 10h
+     :Approved: [X]
+     :Effort:   4:00
+     :END:
+     :LOGBOOK:
+     CLOCK: [2017-12-25 Mon 10:44]--[2017-12-25 Mon 10:45] =>  0:01
+     CLOCK: [2017-12-20 Wed 17:54]--[2017-12-20 Wed 18:08] =>  0:14
+     :END:
+    
+  dynamic blocks -- db
+  #+BEGIN: columnview :hlines 1 :id local
+  | ITEM       | Approved? | Owner | Status          | Time_Estimate | CLOCKSUM | CLOCKSUM_T |
+  |------------+-----------+-------+-----------------+---------------+----------+------------|
+  | quake zone | [-]       |       |                 | 13d 11:00     |     0:22 |       0:01 |
+  | proj-1     | [ ]       | Lisa  | Not started yet | 3d 1h         |     0:07 |            |
+  | proj-2     | [X]       | Karl  | Not started yet | 10d 10h       |     0:15 |       0:01 |
+  #+END:
 
-*** Blocks in context exa C linux kernel                              :LUFFY:
- - C-c C-x w l :: insert structure template
- - >s <TAB> :: work on win10 
+***** new year holidays
+      :LOGBOOK:
+      CLOCK: [2017-12-28 Thu 17:53]--[2017-12-28 Thu 17:56] =>  0:03
+      CLOCK: [2017-12-28 Thu 17:24]--[2017-12-28 Thu 17:26] =>  0:02
+      CLOCK: [2017-12-28 Thu 16:56]--[2017-12-28 Thu 17:15] =>  0:19
+      :END:
+      <2017-12-30 Sat>--<2018-01-01 Mon>
 
- #+BEGIN_EXA C
- static const char *xpm_void[] = { 
- "12 12 2 1",
- "  c white",
- ". c black",
- "            ",
- "            ",
- "            ",
- "            ",
- "            ",
- "            ",
- "            ",
- "            ",
- "            ",
- "            ",
- "            ",
- "            "};
- #+END_EXA
-
- [[http://orgmode.org/manual/Languages.html][blockSupportLang]]
-
- #+BEGIN_EXB shell
- # prepare source code of kernel
- if [ ! -d ${STAGING_KERNEL}/.git ]; then
-   git clone $3 ${STAGING_KERNEL}
- fi
- #+END_EXB
-
-*** WANTED tags                                                       :LUFFY:
- [[https://zhidao.baidu.com/question/131496370.html][OnePiece-haizeiwang]]
- (setq org-tag-alist '((:startgroup . nil)
-		       (:startgrouptag)
-		       ("WANTED" . ?m)
-		       ("LUFFY" . ?l)
-		       (:endgrouptag)
-		       ("soso" . ?s) ("Rerun" . ?r)
-		       (:endgroup . nil)
-		       ("Habitica". ?h)
-		       ("Caution" . ?y)
-		       ))
-**** Don't forget to press C-c C-c with the cursor in one of these lines to activate any changes. :Caution:
-         - try C-c C-c C-c
-	 - C-c / :: search something
-	 - C-c a m :: search agenda
-
-
+      #+BEGIN: clocktable :maxlevel 2 :scope subtree
+      #+CAPTION: Clock summary at [2017-12-28 Thu 17:56]
+      | Headline     | Time   |
+      |--------------+--------|
+      | *Total time* | *0:24* |
+      |--------------+--------|
+      #+END:
 * new tue[0/0]
 *new tue ... you can try to hidden it, like git's stash(not squash)
   - last week ::
@@ -305,7 +323,7 @@ awkward when no 'Super key' => S-left/right :: bullet styles ;(
     [2018-01-09 Tue]
     [[file:~/filofex/afflux_fromAliECS.org::*this%20week][this week]]
 
-** -2 week
+** -2 week :ARCHIVE:
    :PROPERTIES:
    :Effort:   0:40
    :END:
@@ -330,57 +348,67 @@ when ~ 0, no warning, must have some number, then customize it;
    m-<RET> :: timer headline
 5. column view
 
-** -3 week
-[2017-12-26 tue 12:17]
-- c-u c-c ! :: add timestamps
-- qq group :: docker, openstack, liyajie anquanniu...
-- top :: show command c; sort m/t; filter u/o(5e) c-o =; soso l/m/t/1; j/j/e justification ;
-	 5b a/w/g -/_/=/+...a; v; r/f/->^
-filter basics
-!!!.  field names are case sensitive and spelled as in the header
-- apt-cache search; dpkg -s/-l/-s ; dpkg -r/-l :: debian jessie
-- top :: g a/w
-** -4 week
-*** update packages through MELPA
-    :LOGBOOK:
-    CLOCK: [2017-12-20 Wed 18:08]--[2017-12-25 Mon 10:44] => 112:36
+** Archive :ARCHIVE:
+*** doom_test                                                       :ARCHIVE:
+    :PROPERTIES:
+    :ARCHIVE_TIME: 2018-01-22 Mon 15:36
     :END:
-    * [X] mark ring :: C-x C-<space>
-    * [ ] list symbol alternate :: c-u nth C-c - 
-    * undo, always, no un-undo :: M-x undo-only
-*** 0:21:19 -- c-c c-x - and m-<RET>
-- 0:21:12 ::
-- 0:21:08 ::
-- 0:21:06 ::
-- 0:21:04 ::
-- 0:00:25 ::
-- 0:00:27 :: 
-** doom_test
-[[15.2 Easy templates][easy-block]] <s <Tab>
-#+BEGIN_SRC emacs-lisp
-;; c-x n b(lock)
-  (defun org-xor (a b)
-     "Exclusive or."
-     (if a (not b) b))
-;; In Org mode, scheduling means setting a date when you want to start working on an action item. 
-;; NOT only a simple appointment. 
-#+END_SRC
+ [[15.2 Easy templates][easy-block]] <s <Tab>
+ #+BEGIN_SRC emacs-lisp
+ ;; c-x n b(lock)
+   (defun org-xor (a b)
+      "Exclusive or."
+      (if a (not b) b))
+ ;; In Org mode, scheduling means setting a date when you want to start working on an action item. 
+ ;; NOT only a simple appointment. 
+ #+END_SRC
 
-- org-agenda-skip-scheduled-if-deadline-is-shown
-  repeated-after-deadline/today
-- c-c ^(sort entries)/ c-c c-x c(copy with timestamp shift)/c-u c-u <Tab>(subtree folded)
-- dpkg --listfiles make
-  manuals and infos
-- custom timestamp[[file:~/MY_scratch::;;%20customer's%20timestamps][bri_cn-time-format]] c-c c-x c-t toggle,timestamp,overlays
-<2020-12-02 Wed> : 12/2/20
-<2018-12-03 Mon> : 12/03/18 
-~              :  m/d/y
-- c-c c-x c-q/q
-- c-c c-x c-d(isplay)
-  Total file time: 1d 18:03 (42 hours and 3 minutes)
-- c-c a a ->>> l(timeline)
+ - org-agenda-skip-scheduled-if-deadline-is-shown
+   repeated-after-deadline/today
+ - c-c ^(sort entries)/ c-c c-x c(copy with timestamp shift)/c-u c-u <Tab>(subtree folded)
+ - dpkg --listfiles make
+   manuals and infos
+ - custom timestamp[[file:~/MY_scratch::;;%20customer's%20timestamps][bri_cn-time-format]] c-c c-x c-t toggle,timestamp,overlays
+ <2020-12-02 Wed> : 12/2/20
+ <2018-12-03 Mon> : 12/03/18 
+ ~              :  m/d/y
+ - c-c c-x c-q/q
+ - c-c c-x c-d(isplay)
+   Total file time: 1d 18:03 (42 hours and 3 minutes)
+ - c-c a a ->>> l(timeline)
 
 
+*** -4 week                                                         :ARCHIVE:
+    :PROPERTIES:
+    :ARCHIVE_TIME: 2018-01-22 Mon 15:36
+    :END:
+**** update packages through MELPA
+     :LOGBOOK:
+     CLOCK: [2017-12-20 Wed 18:08]--[2017-12-25 Mon 10:44] => 112:36
+     :END:
+     * [X] mark ring :: C-x C-<space>
+     * [ ] list symbol alternate :: c-u nth C-c - 
+     * undo, always, no un-undo :: M-x undo-only
+**** 0:21:19 -- c-c c-x - and m-<RET>
+ - 0:21:12 ::
+ - 0:21:08 ::
+ - 0:21:06 ::
+ - 0:21:04 ::
+ - 0:00:25 ::
+ - 0:00:27 :: 
+*** -3 week                                                         :ARCHIVE:
+    :PROPERTIES:
+    :ARCHIVE_TIME: 2018-01-22 Mon 15:36
+    :END:
+ [2017-12-26 tue 12:17]
+ - c-u c-c ! :: add timestamps
+ - qq group :: docker, openstack, liyajie anquanniu...
+ - top :: show command c; sort m/t; filter u/o(5e) c-o =; soso l/m/t/1; j/j/e justification ;
+	  5b a/w/g -/_/=/+...a; v; r/f/->^
+ filter basics
+ !!!.  field names are case sensitive and spelled as in the header
+ - apt-cache search; dpkg -s/-l/-s ; dpkg -r/-l :: debian jessie
+ - top :: g a/w
 * new wed[0%]
   - last week ::
   - this week ::
@@ -474,8 +502,8 @@ print('Do things when True')
 
    - aliyun snapshot :: recharge fees, manual snapshot, QQ screenshot save to weiyun
    - :: 
-** -2 week
-** -3 week
+** -2 week :ARCHIVE:
+** -3 week :ARCHIVE:
 [2017-12-27 wed 10:34]
 - docker no :: database mysql oracle-instance(sga)
 - vm versus container :: volume-interface, network-if, data in mem/disk, share/security, cgroup/selinux
@@ -497,60 +525,63 @@ print('Do things when True')
   - 6th :: every application can be stateless
 [[https://dzone.com/articles/is-docker-good-for-your-database][is-docker-good-for-your-database]]
   - 7th :: lack of synergy... just not stable yet... 
-** -4 week 
-*** org spreadsheet system
- - [-] C-c C-` <> C-c C-'
- - [-] C-u C-c * [[http://orgmode.org/org.html#Updating-the-table][update-recalculate]]
- - fundamental-mode C-x * ? :: emacs calc
- [[https://www.gnu.org/software/emacs/manual/html_mono/calc.html#Using-Calc][calc]]
- - C-c C-e :: export pdf latex
- - C-u C-c */C-c :: C-u is a MUST
- - <r3> :: work on win10 
+** Archive :ARCHIVE:
+*** -4 week                                                         :ARCHIVE:
+    :PROPERTIES:
+    :ARCHIVE_TIME: 2018-01-22 Mon 15:37
+    :END:
+**** org spreadsheet system
+  - [-] C-c C-` <> C-c C-'
+  - [-] C-u C-c * [[http://orgmode.org/org.html#Updating-the-table][update-recalculate]]
+  - fundamental-mode C-x * ? :: emacs calc
+  [[https://www.gnu.org/software/emacs/manual/html_mono/calc.html#Using-Calc][calc]]
+  - C-c C-e :: export pdf latex
+  - C-u C-c */C-c :: C-u is a MUST
+  - <r3> :: work on win10 
 
-**** formula with emacs Calc
- C-u C-u C-u <SPACE> <TAB>
- #+CONSTANTS: myPI=3.14159265358979323846
- |     <r3> | <c1>  |         | <l10> |           |
- |  Student | Maths | Physics | Mean  | Pi number |
- |----------+-------+---------+-------+-----------|
- |        / |   <   |         | >     |        <> |
- | Bertrand |  13   |      09 | 11    |         5 |
- |    Henri |  15   |      14 | 14.5  |         7 |
- |   Arnold |  17   |      13 | 15    |         9 |
- |----------+-------+---------+-------+-----------|
- |    Means |  15   |      12 | 13.5  |         7 |
- #+TBLFM: $4=vmean($2..$3)::$5='(substring (number-to-string $myPI) (round $4) (1+ (round $4)));N::@7$2=vmean(@4$2..@6$2)::@7$3=vmean(@4$3..@6$3)::@7$4=vmean(@4$4..@6$4)
+***** formula with emacs Calc
+  C-u C-u C-u <SPACE> <TAB>
+  #+CONSTANTS: myPI=3.14159265358979323846
+  |     <r3> | <c1>  |         | <l10> |           |
+  |  Student | Maths | Physics | Mean  | Pi number |
+  |----------+-------+---------+-------+-----------|
+  |        / |   <   |         | >     |        <> |
+  | Bertrand |  13   |      09 | 11    |         5 |
+  |    Henri |  15   |      14 | 14.5  |         7 |
+  |   Arnold |  17   |      13 | 15    |         9 |
+  |----------+-------+---------+-------+-----------|
+  |    Means |  15   |      12 | 13.5  |         7 |
+  #+TBLFM: $4=vmean($2..$3)::$5='(substring (number-to-string $myPI) (round $4) (1+ (round $4)));N::@7$2=vmean(@4$2..@6$2)::@7$3=vmean(@4$3..@6$3)::@7$4=vmean(@4$4..@6$4)
 
-**** TODO fromula with lisp                                           :LUFFY:
+***** TODO fromula with lisp                                          :LUFFY:
 
- | First name | Last Name | Email                |
- |------------+-----------+----------------------|
- | John       | Doe       | John.Doe@emacs.edu   |
- | Jennie     | Duh       | Jennie.Duh@emacs.edu |
- | Jack       | Goody     | Jack.Goody@emacs.edu |
- #+TBLFM: $3='(concat $1 "." $2 "@emacs.edu")
+  | First name | Last Name | Email                |
+  |------------+-----------+----------------------|
+  | John       | Doe       | John.Doe@emacs.edu   |
+  | Jennie     | Duh       | Jennie.Duh@emacs.edu |
+  | Jack       | Goody     | Jack.Goody@emacs.edu |
+  #+TBLFM: $3='(concat $1 "." $2 "@emacs.edu")
 
- | First name | Last name | Maths | French | Mean       |
- |------------+-----------+-------+--------+------------|
- | John       | Doe       |    12 |     16 | John: 14   |
- | Jennie     | Duh       |    15 |      9 | Jennie: 12 |
- #+TBLFM: $5='(concat "$1" ": " (number-to-string (/ (+ $3 $4) 2)));L
+  | First name | Last name | Maths | French | Mean       |
+  |------------+-----------+-------+--------+------------|
+  | John       | Doe       |    12 |     16 | John: 14   |
+  | Jennie     | Duh       |    15 |      9 | Jennie: 12 |
+  #+TBLFM: $5='(concat "$1" ": " (number-to-string (/ (+ $3 $4) 2)));L
 
- | col1 | col2 | col3                       | col4         | col5 |
- |------+------+----------------------------+--------------+------|
- | a    | a    | a b c d                    | #ERROR       |      |
- | a    | b    | [a, a, b, c], [a, b, a, d] | [a, a, b, c] |      |
- | b    | a    | a a b c a b a d            | [a, b, a, d] |      |
- | c    | d    |                            | #ERROR       |      |
- |      |      |                            | c            | d    |
- #+TBLFM: @2$3='(mapconcat 'identity (delete-dups (list @2$1..@>$1 @2$2..@>$2)) " ")::@2$4='(mapconcat 'identity (union (list @2$1..@>$1) (list @2$2..@>$2))) " ")::@3$3=@2$1..@>$1 , @2$2..@>$2::@3$4=@2$1..@>$1::@4$3='(mapconcat 'identity (list @2$1..@>$1 @2$2..@>$2) " ")::@4$4=@2$2..@>$2::@5$4='(member '(a) @2$2..@>$2)::@6$4='(apply 'concat (delete-if (lambda(e) (member e (list @2$2..@>$2))) (list @2$1..@>$1)))::@6$5='(apply 'concat (delete-if (lambda(e) (member e (list @2$1..@>$1))) (list @2$2..@>$2)))
+  | col1 | col2 | col3                       | col4         | col5 |
+  |------+------+----------------------------+--------------+------|
+  | a    | a    | a b c d                    | #ERROR       |      |
+  | a    | b    | [a, a, b, c], [a, b, a, d] | [a, a, b, c] |      |
+  | b    | a    | a a b c a b a d            | [a, b, a, d] |      |
+  | c    | d    |                            | #ERROR       |      |
+  |      |      |                            | c            | d    |
+  #+TBLFM: @2$3='(mapconcat 'identity (delete-dups (list @2$1..@>$1 @2$2..@>$2)) " ")::@2$4='(mapconcat 'identity (union (list @2$1..@>$1) (list @2$2..@>$2))) " ")::@3$3=@2$1..@>$1 , @2$2..@>$2::@3$4=@2$1..@>$1::@4$3='(mapconcat 'identity (list @2$1..@>$1 @2$2..@>$2) " ")::@4$4=@2$2..@>$2::@5$4='(member '(a) @2$2..@>$2)::@6$4='(apply 'concat (delete-if (lambda(e) (member e (list @2$2..@>$2))) (list @2$1..@>$1)))::@6$5='(apply 'concat (delete-if (lambda(e) (member e (list @2$1..@>$1))) (list @2$2..@>$2)))
 
- - delete-dups, intersection, union :: [[https://www.gnu.org/software/emacs/manual/html_mono/elisp.html][elisp-mono-web]]
- - lambda DIY jianshu :: [[https://www.jianshu.com/p/ec64f8286875][lambda for lisp in org spreedtable formulas]]
- - M-x hel m :: major/minor Mode enabled [[https://www.gnu.org/software/emacs/manual/html_mono/emacs.html#Modes][emacs' mode]]
- - M-x package.... highlight-pare :: hl-pare
- - colors 4 parentheses :: M-x help color-name-rgb-alist 
-
+  - delete-dups, intersection, union :: [[https://www.gnu.org/software/emacs/manual/html_mono/elisp.html][elisp-mono-web]]
+  - lambda DIY jianshu :: [[https://www.jianshu.com/p/ec64f8286875][lambda for lisp in org spreedtable formulas]]
+  - M-x hel m :: major/minor Mode enabled [[https://www.gnu.org/software/emacs/manual/html_mono/emacs.html#Modes][emacs' mode]]
+  - M-x package.... highlight-pare :: hl-pare
+  - colors 4 parentheses :: M-x help color-name-rgb-alist 
 
 * new thur
   - last week ::
@@ -597,7 +628,7 @@ print('Do things when True')
    aliyun-ecs ports...
 6. ...mailx,ssh reverse-proxy(teamview)...
 
-** -2 week
+** -2 week :ARCHIVE:
 5. c-c a a -> h
    init.el add  sunrise/agenda-files/forbidden-region-up/downcase
 6. timeline [[http://members.optusnet.com.au/~charles57/GTD/org_dates/#sec-11][timeline]]
@@ -844,14 +875,47 @@ C-c C-x C-r runs the command org-clock-report
   >/< :: 1 month
   M/C-v :: 3 month
   gd/D/w, o/. :: jump day/day-th/week/center
-** -3 week
+** -3 week :ARCHIVE:
 ...
-
 
 * new fri
   ...
-** birdy niao'ge'de'si'fang'cai on webs                               :habit:
 ** this week
+1. gnus [[https://www.emacswiki.org/emacs/CategoryGnus][gnus-wiki]] :: QQnotes/gnus
+     m-l/u/c :: lowcase/UPPERCASE/Capitalize 
+2. [[http://linux.vbird.org/linux_server/0380mail.php#mua_mail][vbird(niao'ge'de'si'fang'cai)]] ::QQnotes/common
+3. github MD(mark-down language)
+   - [-] update stabatM/filofex/README.md
+   - [-] collect infos
+4. archive continue...
+   * internal archiving :: tag archive
+     - c-<tab> :: visibility
+     - c-c / m :: sparse tree match :: use c-c c-c remove highlight overlay
+     - m-x org-agenda c-c a :: v a toggles
+     - c-c c-e :: exporting
+     - c-c c-x c-c :: column view
+   * doit :: c-u c-c c-x a
+	     c-c c-x A like archive :: "::* Archived Tasks"/ "%s_archive::"
+5. column-view in  [[file:refcatcash(mingle).org][column-view]], use 1-9,0 select compact headings...
+   column-view <> table 
+6. vbird :: niao'ge'de'si'fang'cai move to c-c c-x A ;p
+	    use m-x org-force-cycle-archived
+7. docker :: INIT
+	     su in /tmp folder
+	     apt-get update
+	     /etc/hosts add eros >> curl ... echo $? >> ping eros
+	     apt-key fingerprint
+	     sudoer :: ben ALL=(ALL) NOPASSWD: /bin/mount * /mnt/ramdisk, /bin/umount * /mnt/ramdisk, /bin/mkdir * /mnt/ramdisk, /bin/chmod * /mnt/ramdisk, /usr/bin/docker
+8. docker :: hub register :: NO WAY!!! in iphone's chui'zi'bian'qian/interest
+   - in ubuntu16docker :: new nonroot group user
+	root@f7bbac9dc38c:/# groupadd aps
+	root@f7bbac9dc38c:/# useradd -m -s /bin/bash -g aps aps 
+   - [-] layer images
+
+
+8. 
+
+** -1 week
 1. ssh reverse-proxy
    - [X] teamview
    - [ ] ngrok
@@ -870,11 +934,10 @@ C-c C-x C-r runs the command org-clock-report
 3. git-flow
    - myown :: push init.el/afflu...org to github
    - social code :: select projs watched
-     - fetch :: to my remote github repo
-     - clone :: to local pc
      - pull request :: after push to remote github repo
-
-** -1 week
+     - fork/fetch_head :: origin to my remote github repo/ pull from origin repos that post-pullrequest issues
+     - clone :: to local pc
+** -2 week :ARCHIVE:
 *** sciPy
 - virtualenv :: alias m_vire='source /home/ben/PythonVirEnv/bin/activate;cd /home/ben/PythonVirEnv/'
   - vim +43 !:1 :: 2envs swap virtual(NAMES) .../home/ben/PythonVirEnv_~/bin/activate
@@ -889,7 +952,7 @@ C-c C-x C-r runs the command org-clock-report
 	   beware pip/pip2/pip2.7 ... ;(
   - toggleglobalsitepackages :: virtualwrapper Only
     - the-system-site-packages-option :: virtualenv ->>> clean old-folder(remove all) ->>> new virtualenv ->>> ok.
-** ReTodo -2 week
+** ReTodo -3 week :ARCHIVE:
  DEADLINE: <2018-01-13 Sat +1w -5d>
  :PROPERTIES:
  :Effort:   2:00
@@ -969,9 +1032,16 @@ rectangle :: c-x <space> ->>> c-x r ?
 ... pinpoint every duration
 
 <2018-01-16 Tue 17:17>
-** -3 week
-   ...
-
+** Archive :ARCHIVE:
+*** birdy niao'ge'de'si'fang'cai on webs                              :habit:
+    :PROPERTIES:
+    :ARCHIVE_TIME: 2018-01-19 Fri 13:58
+    :END:
+*** -4 week                                                         :ARCHIVE:
+    :PROPERTIES:
+    :ARCHIVE_TIME: 2018-01-22 Mon 15:38
+    :END:
+    ...
 
 * <<<1
 <<ci>> 

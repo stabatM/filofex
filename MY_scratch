@@ -327,6 +327,16 @@ org-archive-default-command
 (setq org-use-property-inheritance t)
 (setq org-use-tag-inheritance t)
 (setq org-archive-save-context-info '(time file olpath category todo itags ltags))
+;; inner archive tag + ARCHIVE sibling
+(setq org-sparse-tree-open-archived-trees t)
+
+org-archive-location
+org-archive-save-context-info
+
+;; gnus ... FAIL
+(setq gnus-select-method '(nntp "www.usenext.com"))
+(Setq gnus-secondary-select-methods '())
+(add-to-list 'gnus-secondary-select-methods '(nntp "news.giganews.com"))
 
 ...
 ;; xattr-ns-grep-codeBlock in orgs

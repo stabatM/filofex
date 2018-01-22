@@ -219,8 +219,7 @@
        C-x t A => remove a tag from the task
        C-x t g => refresh
 
-
-**** The column view
+**** WAIT [#B] The column view
      - Refiled on [2018-01-18 Thu 10:19] \\
        from afflux_fromAliECS
      :LOGBOOK:
