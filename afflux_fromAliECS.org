@@ -1,5 +1,5 @@
 # -*- mode: org; -*-
-#+STARTUP: content
+#+STARTUP: overview
 #+STARTUP: lognoteredeadline
 #+STARTUP: lognotereschedule
 #+STARTUP: noptag
@@ -20,6 +20,9 @@
  - top :: L then &; 0/1/2/3; z/b :: x/y
 
  - mail/mu/mu4e :: less ~/.offlineimaprc
+
+ - git :: push [!reject], force, pull, modify, commit-local, push
+	  [[https://git-scm.com/docs/git-rebase][git-rebase]] :: not yet use 
 ** -1 week                                                           :ATTACH:
    :PROPERTIES:
    :Attachments: openstack-Names.png history.html

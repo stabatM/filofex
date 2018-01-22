@@ -2,12 +2,12 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Mon Jan 22 19:10:41 2018
+;; Created Mon Jan 22 19:37:28 2018
 ;; Desktop file format version 206
 ;; Emacs version 24.4.1
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (23141 50865 225674 769000) (desktop . "206") "ben@eros" nil nil ((((tty-type . "xterm") (tty . "/dev/tty") (display-type . color) (background-mode . light) (foreground-color . "unspecified-fg") (cursor-color . "black") (background-color . "unspecified-bg") (font . "tty") (height . 47) (width . 116) (modeline . t) (unsplittable) (menu-bar-lines . 1) (frameset--id . "9FF1-451F-1DF7-AA9D") (frameset--mini t) (minibuffer . t)) ((min-height . 8) (min-width . 10) (min-height-ignore . 4) (min-width-ignore . 2) (min-height-safe . 2) (min-width-safe . 2) (min-pixel-height . 8) (min-pixel-width . 10) (min-pixel-height-ignore . 4) (min-pixel-width-ignore . 2) (min-pixel-height-safe . 2) (min-pixel-width-safe . 2)) vc (pixel-width . 116) (pixel-height . 45) (total-width . 116) (total-height . 45) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 116) (pixel-height . 23) (total-width . 116) (total-height . 23) (normal-height . 0.5) (normal-width . 1.0) (buffer "afflux_fromAliECS.org" (selected) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 327) (start . 1))) (leaf (last . t) (pixel-width . 116) (pixel-height . 22) (total-width . 116) (total-height . 22) (normal-height . 0.5) (normal-width . 1.0) (buffer "*magit: filofex" (selected . t) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 320) (start . 1)))))])
+(setq desktop-saved-frameset [frameset 1 (23141 52472 102717 86000) (desktop . "206") "ben@eros" nil nil ((((tty-type . "xterm") (tty . "/dev/tty") (display-type . color) (background-mode . light) (foreground-color . "unspecified-fg") (cursor-color . "black") (background-color . "unspecified-bg") (font . "tty") (height . 47) (width . 116) (modeline . t) (unsplittable) (menu-bar-lines . 1) (frameset--id . "86AD-AA29-72E0-3D79") (frameset--mini t) (minibuffer . t)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 2) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 4) (min-pixel-width . 10) (min-pixel-height-ignore . 2) (min-pixel-width-ignore . 2) (min-pixel-height-safe . 1) (min-pixel-width-safe . 2)) leaf (pixel-width . 116) (pixel-height . 45) (total-width . 116) (total-height . 45) (normal-height . 1.0) (normal-width . 1.0) (buffer "afflux_fromAliECS.org" (selected . t) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 833) (start . 1))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
@@ -22,11 +22,11 @@
   "afflux_fromAliECS.org"
   'org-mode
   '(auto-revert-mode)
-  327
-  '(1707 nil)
+  833
+  '(1846 nil)
   nil
   nil
-  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode) (truncate-lines . t)))
+  '((buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
 
 (desktop-create-buffer 206
   nil
@@ -73,112 +73,13 @@
   '((buffer-file-coding-system . utf-8-unix)))
 
 (desktop-append-buffer-args 206
-  "/home/ben/.emacs.d/init.el"
-  "init.el"
-  'emacs-lisp-mode
-  '(highlight-parentheses-mode)
-  8489
-  '(2306 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . prefer-utf-8-unix)))
-
-(desktop-append-buffer-args 206
-  "/home/ben/filofex/chaos_archive.org"
-  "chaos_archive.org"
-  'org-mode
-  '(auto-revert-mode)
-  6624
-  '(2251 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
-
-(desktop-append-buffer-args 206
-  "/home/ben/.gnus.el"
-  ".gnus.el"
-  'emacs-lisp-mode
-  nil
-  246
-  '(81 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . prefer-utf-8-unix)))
-
-(desktop-append-buffer-args 206
-  "/home/ben/filofex/catorch(note).org"
-  "catorch(note).org"
-  'org-mode
-  '(auto-revert-mode)
-  2780
-  '(nil nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-append-buffer-args 206
-  "/home/ben/filofex/rssfeeds.org_archive"
-  "rssfeeds.org_archive"
-  'org-mode
-  '(auto-revert-mode)
-  85
-  '(84 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
-
-(desktop-append-buffer-args 206
-  nil
-  "filofex"
-  'dired-mode
-  nil
-  901
-  '(1 nil)
-  t
-  '("/home/ben/filofex/")
-  nil)
-
-(desktop-append-buffer-args 206
   "/home/ben/filofex/catinMode(lisp).org"
   "catinMode(lisp).org"
   'org-mode
   '(auto-revert-mode)
-  163
-  '(58 nil)
+  1
+  '(nil nil)
   nil
   nil
   '((buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
-
-(desktop-append-buffer-args 206
-  "/home/ben/filofex/catarrow(journal).org"
-  "catarrow(journal).org"
-  'org-mode
-  '(auto-revert-mode)
-  28
-  '(nil nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-append-buffer-args 206
-  "/home/ben/filofex/caltord.org"
-  "caltord.org"
-  'org-mode
-  '(auto-revert-mode)
-  1
-  '(nil nil)
-  nil
-  nil
-  '((truncate-lines . t)))
-
-(desktop-append-buffer-args 206
-  "/home/ben/.newsrc-dribble"
-  ".newsrc-dribble"
-  'fundamental-mode
-  nil
-  1
-  '(nil nil)
-  nil
-  nil
-  '((buffer-file-coding-system . raw-text-unix)))
 
