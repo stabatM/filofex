@@ -1,5 +1,5 @@
 # -*- mode: org; -*-
-#+STARTUP: content
+#+STARTUP: overview
 #+STARTUP: lognoteredeadline
 #+STARTUP: lognotereschedule
 #+STARTUP: noptag
