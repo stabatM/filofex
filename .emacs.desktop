@@ -2,12 +2,12 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Tue Jan 23 10:09:10 2018
+;; Created Wed Jan 24 13:30:47 2018
 ;; Desktop file format version 206
 ;; Emacs version 24.4.1
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (23142 39238 752258 437000) (desktop . "206") "ben@eros" nil nil ((((tty-type . "xterm") (tty . "/dev/tty") (display-type . color) (background-mode . light) (foreground-color . "unspecified-fg") (cursor-color . "black") (background-color . "unspecified-bg") (font . "tty") (height . 47) (width . 116) (modeline . t) (unsplittable) (menu-bar-lines . 1) (frameset--id . "9377-2C9E-D4E2-A103") (frameset--mini t) (minibuffer . t)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 2) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 4) (min-pixel-width . 10) (min-pixel-height-ignore . 2) (min-pixel-width-ignore . 2) (min-pixel-height-safe . 1) (min-pixel-width-safe . 2)) leaf (pixel-width . 116) (pixel-height . 45) (total-width . 116) (total-height . 45) (normal-height . 1.0) (normal-width . 1.0) (buffer "afflux_fromAliECS.org" (selected . t) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 833) (start . 1))))])
+(setq desktop-saved-frameset [frameset 1 (23144 6663 628078 852000) (desktop . "206") "ben@eros" nil nil ((((tty-type . "xterm") (tty . "/dev/tty") (display-type . color) (background-mode . light) (foreground-color . "unspecified-fg") (cursor-color . "black") (background-color . "unspecified-bg") (font . "tty") (height . 47) (width . 116) (modeline . t) (unsplittable) (menu-bar-lines . 1) (frameset--id . "6E9C-62CF-DF91-6C55") (frameset--mini t) (minibuffer . t)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 2) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 4) (min-pixel-width . 10) (min-pixel-height-ignore . 2) (min-pixel-width-ignore . 2) (min-pixel-height-safe . 1) (min-pixel-width-safe . 2)) leaf (pixel-width . 116) (pixel-height . 45) (total-width . 116) (total-height . 45) (normal-height . 1.0) (normal-width . 1.0) (buffer "afflux_fromAliECS.org" (selected . t) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 16526) (start . 11487))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
@@ -22,11 +22,22 @@
   "afflux_fromAliECS.org"
   'org-mode
   '(auto-revert-mode)
-  833
+  16526
   '(1846 nil)
   nil
   nil
   '((buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  nil
+  "*info*<2>"
+  'Info-mode
+  nil
+  46376
+  '(nil nil)
+  t
+  '("/usr/share/info/coreutils" "Trailing slashes" ((history ("/usr/share/info/coreutils" "Target directory" 42893) ("/usr/share/info/coreutils" "Random sources" 40932) ("/usr/share/info/coreutils" "Disambiguating names and IDs" 39292) ("/usr/share/info/coreutils" "Random sources" 40932) ("/usr/share/info/coreutils" "Target directory" 42893) ("/usr/share/info/coreutils" "Trailing slashes" 46376) ("/usr/share/info/coreutils" "Traversing symlinks" 47401) ("/usr/share/info/coreutils" "Trailing slashes" 46376) ("/usr/share/info/coreutils" "Traversing symlinks" 47401) ("/usr/share/info/coreutils" "Treating / specially" 48483) ("/usr/share/info/coreutils" "Special built-in utilities" 50037) ("/usr/share/info/coreutils" "Standards conformance" 51173) ("/usr/share/info/coreutils" "Multi-call invocation" 52830) ("/usr/share/info/coreutils" "Output of entire files" 53536) ("/usr/share/info/coreutils" "cat invocation" 54840) ("/usr/share/info/coreutils" "Output of entire files" 53388) ("/usr/share/info/coreutils" "cat invocation" 54035) ("/usr/share/info/coreutils" "tac invocation" 55863) ("/usr/share/info/coreutils" "nl invocation" 57251) ("/usr/share/info/coreutils" "od invocation" 61137) ("/usr/share/info/coreutils" "base32 invocation" 68434) ("/usr/share/info/coreutils" "base64 invocation" 68927) ("/usr/share/info/coreutils" "Formatting file contents" 70517) ("/usr/share/info/coreutils" "fmt invocation" 70822) ("/usr/share/info/coreutils" "pr invocation" 73720) ("/usr/share/info/coreutils" "fold invocation" 85370) ("/usr/share/info/coreutils" "Output of parts of files" 86965) ("/usr/share/info/coreutils" "head invocation" 87328) ("/usr/share/info/coreutils" "tail invocation" 90008) ("/usr/share/info/coreutils" "split invocation" 100501) ("/usr/share/info/coreutils" "csplit invocation" 108206) ("/usr/share/info/coreutils" "Summarizing files" 113311) ("/usr/share/info/coreutils" "csplit invocation" 108206) ("/usr/share/info/coreutils" "split invocation" 100501) ("/usr/share/info/coreutils" "tail invocation" 90008) ("/usr/share/info/coreutils" "head invocation" 87328) ("/usr/share/info/coreutils" "Output of parts of files" 86854) ("/usr/share/info/coreutils" "fold invocation" 85370) ("/usr/share/info/coreutils" "Output of parts of files" 86965) ("/usr/share/info/coreutils" "head invocation" 87328) ("/usr/share/info/coreutils" "tail invocation" 90008) ("/usr/share/info/coreutils" "split invocation" 100501) ("/usr/share/info/coreutils" "tail invocation" 90008) ("/usr/share/info/coreutils" "Top" 15042) ("dir" "Top" 227))))
+  '((tab-width . 8) (buffer-file-coding-system . utf-8-unix) (case-fold-search . t)))
 
 (desktop-create-buffer 206
   nil
@@ -61,7 +72,7 @@
   nil
   '((buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
 
-(desktop-create-buffer 206
+(desktop-append-buffer-args 206
   "/home/ben/filofex/MY_scratch"
   "MY_scratch"
   'lisp-interaction-mode

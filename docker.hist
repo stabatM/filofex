@@ -1,0 +1,3 @@
+systemctl status docker.service
+systemctl status docker.service+
+echo 'systemctl status docker.service''+' | tee -a docker.hist

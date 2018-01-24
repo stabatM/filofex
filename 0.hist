@@ -1,0 +1,498 @@
+Wed Jan 24 13:23:32 CST 2018
+    1  man xattr
+    2  info xattr
+    3  man xattr
+    4  man attr
+    5  fs --help
+    6  mount -a
+    7  ls
+    8  mount --help
+    9  mount
+   10  exit
+   11  exit
+   12  pwd
+   13  sudo apt-get install libgmime-2.6-dev libxapian-dev
+   14  echo $?
+   15  apt-get install guile-2.0-dev html2text xdg-utils
+   16  echo $?
+   17  apt-get install libwebkit-dev
+   18  exit
+   19  apt-cache search g++
+   20  apt-cache search c++14
+   21  apt-cache search g++14
+   22  apt install g++
+   23  echo $?
+   24  exit
+   25  ls
+   26  make install
+   27  echo $?
+   28  info mu
+   29  info mu
+   30  man mu
+   31  dpkg -L mu
+   32  which mu
+   33  which mu4e
+   34  cd /usr/local/share/emacs/site-lisp/
+   35  ls
+   36  cd  /var/log/
+   37  exit
+   38  mailq
+   39  mailq | less
+   40  exit
+   41  less /etc/mail.rc 
+   42  cp --help
+   43  exit
+   44  cp /etc/mail.rc{,.bak}
+   45  cat >> /etc/mail.rc << ABC
+   46  set from=sontiv@163.com
+   47  set smtp=smtp.163.com
+   48  set smtp-auth-user=sontiv@163.com
+   49  set smtp-auth-password=e32wq1
+   50  set smtp-auth=login
+   51  ABC
+   52  exit
+   53  mail
+   54  exit
+   55  service sendmail stop
+   56  exit
+   57  vim /etc/mail.rc
+   58  source /etc/mail.rc
+   59  exit
+   60  mailq
+   61  mailq | less
+   62  exit
+   63  mailq
+   64  exit
+   65  mailq
+   66  exit
+   67  mailq
+   68  mailq
+   69  info mailq
+   70  exit
+   71  mailq
+   72  mailq | less
+   73  sendmail -bp
+   74  ls /var/spool/mail/ben 
+   75  ls /var/spool/mail/ben 
+   76  ls /var/spool/
+   77  cd /var/spool/mail
+   78  ls
+   79  cd ben 
+   80  ls
+   81  less ben
+   82  mailq
+   83  mailq --help
+   84  man mailq
+   85  sendmail --help
+   86  info sendmail
+   87  exit
+   88  netstat -nap | grep LISTEN
+   89  netstat -nap | grep LISTEN | grep mail
+   90  mail
+   91  mail -f /home/ben/mbox 
+   92  netstat -nap | grep LISTEN | grep mail
+   93  netstat -nap | grep LISTEN
+   94  mailq
+   95  vim /etc/exim4/update-exim4.conf.conf 
+   96  /etc/init.d/exim4 stop
+   97  /etc/init.d/exim4 start
+   98  mailq
+   99  mailq
+  100  netstat -nap | grep LISTEN
+  101  mail
+  102  mailq
+  103  vim /etc/mail.rc
+  104  mailq
+  105  vim /etc/mail.rc
+  106  mailq
+  107  vim /etc/mail.rc
+  108  mailq
+  109  /etc/init.d/exim4 start
+  110  mailq
+  111  mailq
+  112  vim /etc/mail.rc
+  113  cp /etc/mail.rc /home/ben/theSunAlsoRises/
+  114  apt-get remove mail
+  115  apt-get remove mailx
+  116  apt autoremove
+  117  apt install mail
+  118  apt install mailx
+  119  apt install mailutils
+  120  less /etc/mail.rc
+  121  mailx
+  122  mail
+  123  mailq
+  124  mailq
+  125  vim /etc/mail.rc
+  126  iptables -L
+  127  mail u2gui@163.com
+  128  mail ben@eros
+  129  less /etc/mail.rc
+  130  vim /etc/mail.rc
+  131  source /etc/mail.rc
+  132  mailq
+  133  vim /etc/mail.rc
+  134  source /etc/mail.rc
+  135  mailq
+  136  vim /etc/mail.rc
+  137  mailx -V
+  138  mailx -v
+  139  mailx --help
+  140  mailx --version
+  141  mail --version
+  142  mail -v
+  143  mail -V
+  144  man mail
+  145  echo helloword | mailx -v -s "title" u2gui@163.com
+  146  mailq
+  147  vim /etc/mail.rc
+  148  source /etc/mail.rc
+  149  echo helloword | mailx -v -s "title" u2gui@163.com
+  150  q
+  151  vim /etc/mail.rc
+  152  vim /etc/mail.rc
+  153  source /etc/mail.rc
+  154  source /etc/mail.rc
+  155  source /etc/mail.rc
+  156  vim /etc/mail.rc
+  157  vim /etc/mail.rc
+  158  vim /etc/mail.rc
+  159  source /etc/mail.rc
+  160  mailq
+  161  ls
+  162  vim /etc/mail.rc
+  163  source /etc/mail.rc
+  164  mailq
+  165  mailq
+  166  vim /etc/mail.rc
+  167  mailq
+  168  exit
+  169  vim /etc/init.d/exim4 
+  170  history | grep exim4
+  171  vim /etc/exim4/update-exim4.conf.conf 
+  172  vim /etc/mail.rc
+  173  ls
+  174  mkdir /root/.certs
+  175  ls
+  176  cd /root/.certs/
+  177  ls
+  178  echo -n | openssl s_client -connect smtp.163.com:465 | sed -ne '/-BEGIN CERTIFICATE-/,/-END CERTIFICATE-/p' > ./163.crt
+  179  ls
+  180  less 163.crt 
+  181  certutil -A -n "GeoTrust Global CA" -t "C,," -d /root/.certs/ /root/.certs/163.crt 
+  182  apt-get install certutil
+  183  apt-cache search certutil
+  184  apt-get install libnss3-tools
+  185  certutil -A -n "GeoTrust SSL CA" -t "C,," -d ~/.certs -i ~/.certs/163.crt  
+  186   certutil -A -n "GeoTrust Global CA" -t "C,," -d ~/.certs -i ~/.certs/163.crt  
+  187  certutil -L -d /root/.certs
+  188  vim /etc/mail.rc
+  189  exim4
+  190  mailq
+  191  /etc/init.d/exim4 start
+  192  /etc/init.d/exim4 stop
+  193  /etc/init.d/exim4 start
+  194  vim /etc/mail.rc
+  195  mailq
+  196  vim /etc/mail.rc
+  197  source /etc/mail.rc
+  198  mailq
+  199  vim /etc/mail.rc
+  200  pwd
+  201  certutil -A -n "GeoTrust SSL CA - G3" -t "Pu,Pu,Pu" -d ./ -i 163.crt 
+  202  vim /etc/mail.rc
+  203  source /etc/mail.rc
+  204  mail root@eros
+  205  mail
+  206  mail
+  207  mail
+  208  mailx
+  209  mail
+  210  exit
+  211  history
+  212  apt cache search mailutil
+  213  apt-cache search mailutil
+  214  reboot
+  215  vim /etc/mail.rc
+  216  vim /etc/mail.rc
+  217  /etc/init.d/exim4 start
+  218  /etc/init.d/exim4 stop
+  219  /etc/init.d/exim4 start
+  220  exit
+  221  dpkg -L mail
+  222  dpkg -L mailutil
+  223  dpkg -L mailutils
+  224  dpkg -L mailutils | less
+  225  apt-get show mailutils
+  226  dpkg -L mail
+  227  whereis mail
+  228  exit
+  229  cd exim4/
+  230  ls
+  231  less mainlog
+  232  less mainlog
+  233  mailstat
+  234  mailx
+  235  mailx --help
+  236  man mailx
+  237  man mailx
+  238  ls
+  239  vim /etc/mail.rc
+  240  vim /etc/mail.rc
+  241  fg
+  242  fg
+  243  vim /etc/mail.rc
+  244  /etc/init.d/exim4 stop
+  245  /etc/init.d/exim4 start
+  246  vim /etc/mail.rc
+  247  less /etc/mailutils.conf
+  248  less /etc/mailname 
+  249  less /etc/mailcap
+  250  less /etc/mailcap.order 
+  251  ls
+  252  mail -s "o" smtps://ben@eros:465
+  253  /etc/init.d/exim4 start
+  254  mail -s "o" smtps://ben@eros:465
+  255  vim /etc/mail.rc
+  256  mail -s "o" smtps://ben@eros:465
+  257  source /etc/mail.rc
+  258  mail -s "o" smtps://ben@eros:465
+  259  mail -s "o" ben@eros
+  260  less smtps://ben@eros:465
+  261  cat smtps://ben@eros:465
+  262  telnet smtps://ben@eros:465
+  263  exit
+  264  cd /home/ben/.FAIL/
+  265  ls
+  266  apt-get install offlineimap
+  267  exit
+  268  whereis offlineimap
+  269  exit
+  270  vim /etc/mail.rc
+  271  history | grep cert
+  272  history | grep 163.crt
+  273  echo -n | openssl s_client -connect smtp.163.com:465 | sed -ne '/-BEGIN CERTIFICATE-/,/-END CERTIFICATE-/p' > ./163.crt
+  274  man openssl
+  275  echo -n | openssl s_client -connect smtp.163.com:465 | sed -ne '/-BEGIN CERTIFICATE-/,/-END CERTIFICATE-/p' > ./163.crt
+  276  certutil -L -d /root/.certs
+  277  less /root/.certs/163.crt 
+  278  vim /home/ben/.offlineimap
+  279  vim /home/ben/.offlineimaprc 
+  280  vim /home/ben/.offlineimaprc 
+  281  cp /home/ben/.offlineimap{,.bak}
+  282  cp /home/ben/.offlineimaprc{,.bak}
+  283  ls /home/ben/.offlineimaprc{,.bak}
+  284  vim /home/ben/.offlineimaprc 
+  285  fg
+  286  vim /home/ben/.offlineimaprc 
+  287  ls
+  288  vim /home/ben/.offlineimaprc 
+  289  echo -n | openssl i_client -connect imtp.163.com | sed -ne '/-BEGIN CERTIFICATE-/,/-END CERTIFICATE-/p' > ./163.crt
+  290  help
+  291  echo -n | openssl i_client -connect imtp.163.com | sed -ne '/-BEGIN CERTIFICATE-/,/-END CERTIFICATE-/p' > ./163.crt
+  292  openssl --help
+  293  openssl help
+  294  echo -n | openssl s_client -connect imap.163.com | sed -ne '/-BEGIN CERTIFICATE-/,/-END CERTIFICATE-/p' > ./163.crt
+  295  echo -n | openssl s_client -connect imap.163.com:995 | sed -ne '/-BEGIN CERTIFICATE-/,/-END CERTIFICATE-/p' > ./163.crt
+  296  echo -n | openssl s_client -connect imaps.163.com:995 | sed -ne '/-BEGIN CERTIFICATE-/,/-END CERTIFICATE-/p' > ./163.crt
+  297  echo -n | openssl s_client -connect imaps.163.com:995 | sed -ne '/-BEGIN CERTIFICATE-/,/-END CERTIFICATE-/p' > ./163.crt
+  298  echo -n | openssl s_client -connect smtps.163.com:465 | sed -ne '/-BEGIN CERTIFICATE-/,/-END CERTIFICATE-/p' > ./163.crt
+  299  echo -n | openssl s_client -connect smtp.163.com:465 | sed -ne '/-BEGIN CERTIFICATE-/,/-END CERTIFICATE-/p' > ./163.crt
+  300  echo -n | openssl s_client -connect imap.163.com | sed -ne '/-BEGIN CERTIFICATE-/,/-END CERTIFICATE-/p' > ./163.crt
+  301  echo -n | openssl s_client -connect imaps.163.com | sed -ne '/-BEGIN CERTIFICATE-/,/-END CERTIFICATE-/p' > ./163.crt
+  302  openssl help
+  303  echo -n | openssl ca -connect imaps.163.com | sed -ne '/-BEGIN CERTIFICATE-/,/-END CERTIFICATE-/p' > ./163.crt
+  304  openssl ca
+  305  echo -n | openssl s_client -connect imap.163.com | sed -ne '/-BEGIN CERTIFICATE-/,/-END CERTIFICATE-/p' > ./163.crt
+  306  echo -n | openssl s_client -connect imap.163.com | sed -ne '/-BEGIN CERTIFICATE-/,/-END CERTIFICATE-/p' > ./163.crt
+  307  openssl s_client --hel
+  308  openssl 
+  309  echo -n | openssl s_client -connect imap.163.com:993 | sed -ne '/-BEGIN CERTIFICATE-/,/-END CERTIFICATE-/p' > ./163.crt
+  310  echo -n | openssl s_client -connect imap.163.com:993 | sed -ne '/-BEGIN CERTIFICATE-/,/-END CERTIFICATE-/p' > ./163.crt
+  311  history | grep 163.crt
+  312  echo -n | openssl s_client -connect imap.163.com:993 | sed -ne '/-BEGIN CERTIFICATE-/,/-END CERTIFICATE-/p' > ./163.crt
+  313  certutil -A -n "GeoTrust Global CA" -t "C,," -d /root/.certs/ /root/.certs/163.crt 
+  314  cp /root/.certs/163.crt /home/ben/filofex
+  315  mkdir /home/ben/filofex/.cert
+  316  mv /home/ben/filofex/{163.crt,.cert} 
+  317  mv /home/ben/filofex/{163.crt,.cert} 
+  318  ls /home/ben/filofex/.cert/163.crt 
+  319  vim /home/ben/.offlineimaprc 
+  320  chown ben:ben filofex/.cert/163.crt 
+  321  mv filofex/.cert/163.crt filofex/.cert/ne.crt
+  322  vim /home/ben/.offlineimaprc 
+  323  mv /home/ben/.offlineimaprc
+  324  mv /home/ben/.offlineimaprc /home/ben/.offlineimaprc_163
+  325  mv /home/ben/.offlineimaprc_163
+  326  mv /home/ben/.offlineimaprc_163 /home/ben/.FAIL/
+  327  mv /home/ben/.offlineimaprc{.bak,}
+  328  exit
+  329  apt install gnus
+  330  apt-cache search gnus
+  331  apt-cache search gnus | head -n
+  332  apt-cache search gnus | head -n 10
+  333  apt-cache 
+  334  apt-cache search Gnus
+  335  apt install gnus
+  336  apt install Gnus
+  337  exit
+  338  vim /home/ben/.offlineimaprc 
+  339  apt-cache search guimb
+  340  apt-get install mail-utils-guile
+  341  exit
+  342  guimb
+  343  apt-get install guimb
+  344  apt install guimb
+  345  dpkg show guimb
+  346  dpkg --help
+  347  man dpkg
+  348  dpkg install guimb
+  349  dpkg -i guimb
+  350  apt-cache search guimb
+  351  apt install mailutils-guile
+  352  ls
+  353  exit
+  354  apt upgrade emacs
+  355  emacs --version
+  356  exit
+  357  tcptraceroute
+  358  dstat 
+  359  exit
+  360  apt-cache search iptraf
+  361  apt install iptraf-ng
+  362  exit
+  363  iptraf-ng 
+  364  iptraf
+  365  apt install iptraf
+  366  iptraf
+  367  iptraf
+  368  iptraf-ng 
+  369  exit
+  370  ifconfig -a
+  371  iostat eth0
+  372  exit
+  373  iptraf
+  374  iptraf-ng 
+  375  exit
+  376  apt-cache search opencc
+  377  apt install opencc
+  378  exit
+  379  opencc -i i_opencc -o o_opencc 
+  380  less o_opencc 
+  381  less i_opencc 
+  382  exit
+  383  cd ~
+  384  ls
+  385  cd /tmp/
+  386  ls
+  387  sudo apt-get remove docker docker-engine docker.io
+  388  echo $?
+  389  uname -r
+  390  apt-get update
+  391  apt-get install      apt-transport-https      ca-certificates      curl      gnupg2      software-properties-common
+  392  echo $?
+  393  exit
+  394  cd /tmp/
+  395  curl -fsSL https://download.docker.com/linux/$(. /etc/os-release; echo "$ID")/gpg | sudo apt-key add -
+  396  echo $?
+  397  host
+  398  hostname
+  399  vim /etc/hosts
+  400  vim /etc/hostname
+  401  vim /etc/hosts
+  402  curl -fsSL https://download.docker.com/linux/$(. /etc/os-release; echo "$ID")/gpg | sudo apt-key add -
+  403  eros
+  404  ping eros
+  405  arp eros
+  406  rarp eros
+  407  rarp -d eros
+  408  rarp -a eros
+  409  rarp -a 
+  410  apt-key fingerprint 0EBFCD88
+  411  apt-key fingerprint 0EBFCD88
+  412  add-apt-repository    "deb [arch=amd64] https://download.docker.com/linux/$(. /etc/os-release; echo "$ID") \
+  413     $(lsb_release -cs) \
+  414     stable edge test"
+  415  echo $?
+  416  lsb_release -cs
+  417  lsb_release 
+  418  lsb_release -cs
+  419  add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/$(. /etc/os-release; echo "$ID") $(lsb_release -cs) stable"
+  420  ls /etc/os-release 
+  421  less /etc/os-release 
+  422  add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/$(. /etc/os-release; echo "$ID") $(lsb_release -cs) stable"
+  423  less /etc/apt/sources.list
+  424  add-apt-repository "deb https://download.docker.com/linux/$(. /etc/os-release; echo "$ID") $(lsb_release -cs) stable"
+  425  echo "deb [arch=amd64] https://download.docker.com/linux/$(. /etc/os-release; echo "$ID") $(lsb_release -cs) stable" 
+  426  add-apt-repository --help
+  427  echo "deb [arch=amd64] https://download.docker.com/linux/$(. /etc/os-release; echo "$ID") $(lsb_release -cs) stable" | apt-add-repository -
+  428  echo "deb [arch=amd64] https://download.docker.com/linux/$(. /etc/os-release; echo "$ID") $(lsb_release -cs) stable" 
+  429  add-apt-repository 'deb [arch=amd64] https://download.docker.com/linux/debian n/a stable'
+  430  lsb_release -cs
+  431  lsb_release 
+  432  lsb_release --help
+  433  lsb_release -a
+  434  less /etc/apt/sources.list
+  435  vim /etc/apt/sources.list
+  436  apt-get update
+  437  apt-get install docker-ce
+  438  echo $?
+  439  apt-cache search docker-ce
+  440  docker run hello-world
+  441  exit
+  442  docker run -it ubuntu bash
+  443  exit
+  444  docker run -it ubuntu bash
+  445  exit
+  446  apt-get install sudo
+  447  vim /etc/sudoers
+  448  less /etc/sudoers
+  449  vim /etc/sudoers
+  450  cp /etc/sudoers /home/ben/filofex/
+  451  exit
+  452  less /etc/sudoers
+  453  less /etc/apt/sources.list
+  454  exit
+  455  docker ps
+  456  groups 
+  457  groupadd --help
+  458  chmod --helo
+  459  chmod --help
+  460  usrmod --help
+  461  usermod --help
+  462  usermod ben
+  463  groups ben
+  464  docker ps
+  465  exit
+  466  ls
+  467  exit
+  468  cd /etc/docker/
+  469  ls
+  470  less key.json 
+  471  exit
+  472  exit
+  473  service docker restart
+  474  echo $?
+  475  ls
+  476  exit
+  477  less /etc/NetworkManager/NetworkManager.conf
+  478  less /etc/console-setup/
+  479  less /etc/netconfig 
+  480  exit
+  481  curl -L https://github.com/docker/compose/releases/download/1.18.0/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
+  482  ls /usr/local/bin/docker-compose
+  483  file /usr/local/bin/docker-compose
+  484  sudo chmod +x /usr/local/bin/docker-compose
+  485  docker-compose --version
+  486  vim /etc/sudoers
+  487  ls -alt /usr/local/bin/docker-compose
+  488  exit
+  489  cp /etc/sudoers /home/ben/filofex/
+  490  exit
+  491  chmod ben:ben sudoers 
+  492  chown ben:ben sudoers 
+  493  ls alt sudoers 
+  494  ls -alt sudoers 
+  495  exit
+  496  echo $(date) | tee 0.hist 
+  497  history >> 0.hist 

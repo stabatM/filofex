@@ -242,6 +242,17 @@
   - last week ::
   - this week :: 
 ** this week
+1. github
+   - git reset :: [[https://git-scm.com/docs/git-reset][git-reset]] : image concept as links NOT paper
+   - git checkout HEAD <filename:.emacs.desktop> :: unmerged commit
+     git commit :: -m/c/C for messages
+     git reset :: soft/hard, merge/keep
+   - gitdoom :: mkdir gitdoom
+     gitdoom :: push force >> then pull
+     4git_readme_1st :: git clone >> then add new file
+2. flex,bison
+   
+** -1 week
 1. org capture
    - org protocols :: emacsclient + browser
 		      !!! require modules in init.el [[https://orgmode.org/worg/org-contrib/org-protocol.html][about protocol.el]]
@@ -261,7 +272,7 @@
        + javascript:location.href='org-protocol://store-link?url='+encodeURIComponent(location.href);
        + javascript:location.href='org-protocol://template=x'+ '&url='+encodeURIComponent(window.location.href)+'&title='+encodeURIComponent(document.title)+'&body='+encodeURIComponent(window.getSelection());
        + javascript:location.href='org-protocol://open-source?&url='+encodeURIComponent(location.href)
-** -1 week
+** -2 week
 awkward when no 'Super key' => S-left/right :: bullet styles ;(
 - capture :: new idea and references, less interuption work flow
 	     org-capture.el replace org-remember.el
@@ -326,7 +337,7 @@ awkward when no 'Super key' => S-left/right :: bullet styles ;(
     [2018-01-09 Tue]
     [[file:~/filofex/afflux_fromAliECS.org::*this%20week][this week]]
 
-** -2 week :ARCHIVE:
+** -3 week                                                          :ARCHIVE:
    :PROPERTIES:
    :Effort:   0:40
    :END:
@@ -416,6 +427,12 @@ when ~ 0, no warning, must have some number, then customize it;
   - last week ::
   - this week ::
 ** this week
+- cp ${my:-}.hist
+  info coreutils
+  info : <H> for help NOT h ;(
+- llvm :: artical
+- git reset/rebase :: commit >> index >> worktree
+** -1 week
 1. org-protocols open-source use emacsclient try ... well
    find /home/ben/filofex/ -name org-protocol* | xargs ls -alt
 2. git push github use ssh ... well(ref details in QQ notes/filofex.git README.md)
@@ -442,7 +459,6 @@ when ~ 0, no warning, must have some number, then customize it;
 		     use sourcecode-block grep xattr's source code to find namespace: users,root,system...
 		     [[source src code block]]
  3. orgmod capture
-   
 ** blocks of Language :: org-mono-manual 14.6
    [[https://orgmode.org/org.html#Header-arguments][language]]
 *** source src code block
