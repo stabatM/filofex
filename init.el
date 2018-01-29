@@ -17,22 +17,20 @@
 (package-initialize)
 ;; You might already have this line
 (add-to-list 'load-path "~/.emacs.d/site-lisp/magit/lisp")
+(add-to-list 'load-path "/home/ben/mysrc/org-mode/lisp")
+(add-to-list 'load-path "/home/ben/mysrc/org-mode/contrib/lisp")
 (with-eval-after-load 'info
 (info-initialize)
 (add-to-list 'Info-directory-list "~/.emacs.d/site-lisp/magit/Documentation/"))
-(add-to-list 'load-path "/home/ben/mysrc/org-mode/lisp")
-(add-to-list 'load-path "/home/ben/mysrc/org-mode/contrib/lisp")
-(add-to-list 'Info-directory-list "/home/ben/mysrc/org-mode/doc")
-;; (add-to-list 'Info-directory-list "/usr/share/doc/make") 
 ;; highlight-parentheses from MELPA
 (require 'magit)
 (require 'highlight-parentheses)
 (setq hl-paren-colors '("azure" "green" "yellow" "violetred" "orange"))
 (global-set-key "\C-xg" 'magit-status)
-(global-set-key (kbd "C-?") 'help-command)
-(global-set-key (kbd "M-?") 'mark-paragraph)
-(global-set-key (kbd "C-h") 'delete-backward-char)
-(global-set-key (kbd "M-h") 'backward-kill-word)
+(global-set-key (kbd "C-h") 'help-command)
+(global-set-key (kbd "M-h") 'mark-paragraph)
+;;(global-set-key (kbd "C-h") 'delete-backward-char)
+;;(global-set-key (kbd "M-h") 'backward-kill-word)
 (global-set-key "\C-cl" 'org-store-link)
 (global-set-key "\C-ca" 'org-agenda)
 (global-set-key "\C-cc" 'org-capture)
@@ -67,6 +65,12 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(Info-default-directory-list
+   (quote
+    ("/usr/local/share/info/" "/usr/share/info/" "/home/ben/mysrc/info_manual")))
+ '(diary-comment-end "#Diary-Comment-Off")
+ '(diary-comment-start "#Diary-Comment-On")
+ '(diary-file "~/filofex/diary_genALL")
  '(org-agenda-files
    (quote
     ("~/filofex/afflux_fromAliECS.org" "/home/ben/filofex/caltord.org")))
@@ -77,24 +81,9 @@
  ;; caltord.org for calendar-todo, torch.org for notes...catarrow(journal).org for journal(see below)
 (setq org-default-notes-file "~/filofex/catorch(note).org")
 (setq org-todo-repeat-to-state "ReTodo")
-;;(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
-;; )
+;; emacs sserver
 (setq server-name "foo")
 (server-start)
-;; habitrpg also known as habitica
-;;(add-to-list 'load-path "/home/ben/mysrc/habitrpg.el")
-;;(require 'habitrpg)
-;;(setq habitrpg-api-user "582b4735-ac32-46fb-97f2-a47205897614")
-;;(setq habitrpg-api-token "c6e3c988-8fb6-45c2-b05e-3aa6d406e3af")
-;;(add-hook 'org-after-todo-state-change-hook 'habitrpg-add 'append)
-;;(global-set-key (kbd "C-c C-x h") 'habitrpg-add)
-;;(global-set-key (kbd "<f9> a") 'habitrpg-status)
-;;(setq habitica-uid "582b4735-ac32-46fb-97f2-a47205897614")
-;;(setq habitica-token "c6e3c988-8fb6-45c2-b05e-3aa6d406e3af")
 ;; forbidden upcase/lowcase regions
 (put 'upcase-region 'disabled t)
 (put 'downcase-region 'disabled t)
@@ -103,7 +92,6 @@
 (setq calendar-longitude 121.48)
 (setq calendar-location-name "Shanghai, sh")
 ;; holi ... melpa installed cal-china-x
-;;   cal-china-x        20170122.... installed             Chinese localization, lunar/horoscope/zodiac info and more...
 (setq mark-holidays-in-calendar t)
 ;; from 1st OnePage to more envs, step by step, scope from scope
 (setq org-todo-repeat-to-state "ReTodo")
@@ -115,12 +103,6 @@
 ;; clock cross Emacs sessions
 (setq org-clock-persist 't)
 (org-clock-persistence-insinuate)
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )
 (define-key global-map "\C-cx"
      (lambda () (interactive) (org-capture nil "gj")))
 ;; mu4e syslogs
@@ -201,3 +183,15 @@ Entered on %U
 (setq org-use-property-inheritance t)
 (setq org-use-tag-inheritance t)
 (setq org-archive-save-context-info '(time file olpath category todo itags))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
+;; diary
+;;; indlude-file
+(add-hook 'diary-list-entries-hook 'diary-sort-entries t)
+(add-hook 'diary-list-entries-hook 'diary-include-other-diary-files)
+(add-hook 'diary-mark-entries-hook 'diary-mark-included-diary-files)
+(diary)

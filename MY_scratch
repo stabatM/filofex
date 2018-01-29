@@ -351,6 +351,7 @@ org-babel-load-languages
 
 ;; emacs' diary file => org's calendar
 ;; info path
+;; USE M-` or c-h r ;)
 Info-directory-list
 (with-eval-after-load 'info
 (info-initialize)
@@ -359,5 +360,14 @@ Info-directory-list
 (add-to-list 'load-path "/home/ben/mysrc/org-mode/lisp")
 (add-to-list 'load-path "/home/ben/mysrc/org-mode/contrib/lisp")
 (add-to-list 'Info-directory-list "/home/ben/mysrc/org-mode/doc")
-;; ---
+;; include diary-file
+~/filofex/diary_genALL
+(add-hook 'diary-list-entries-hook 'diary-include-other-diary-files)
+(add-hook 'diary-mark-entries-hook 'diary-mark-included-diary-files)
+(add-hook 'diary-list-entries-hook 'diary-sort-entries t)
+diary-list-entries-hook
+result...(diary-include-other-diary-files diary-sort-entries)
+;; diary-comment
+(setq diary-comment-start "#Diary-Comment-On")
+(setq diary-comment-end "#Diary-Comment-Off")
 
