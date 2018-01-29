@@ -2,75 +2,75 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Mon Jan 29 17:24:14 2018
+;; Created Mon Jan 29 21:26:03 2018
 ;; Desktop file format version 206
 ;; Emacs version 24.4.1
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (23150 59454 911425 989000) (desktop . "206") "ben@eros" nil nil ((((tty-type . "xterm") (tty . "/dev/tty") (display-type . color) (background-mode . light) (foreground-color . "unspecified-fg") (cursor-color . "black") (background-color . "unspecified-bg") (font . "tty") (height . 48) (width . 236) (modeline . t) (unsplittable) (menu-bar-lines . 1) (frameset--id . "6F7E-DE70-9B9C-F7B2") (frameset--mini t) (minibuffer . t)) ((min-height . 4) (min-width . 20) (min-height-ignore . 2) (min-width-ignore . 4) (min-height-safe . 1) (min-width-safe . 4) (min-pixel-height . 4) (min-pixel-width . 20) (min-pixel-height-ignore . 2) (min-pixel-width-ignore . 4) (min-pixel-height-safe . 1) (min-pixel-width-safe . 4)) hc (pixel-width . 236) (pixel-height . 46) (total-width . 236) (total-height . 46) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 118) (pixel-height . 46) (total-width . 118) (total-height . 46) (normal-height . 1.0) (normal-width . 0.5) (buffer "afflux_fromAliECS.org" (selected . t) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 9143) (start . 1))) (leaf (last . t) (pixel-width . 118) (pixel-height . 46) (total-width . 118) (total-height . 46) (normal-height . 1.0) (normal-width . 0.5) (buffer "*Warnings*" (selected) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 230) (start . 1)))))])
+(setq desktop-saved-frameset [frameset 1 (23151 8427 913911 681000) (desktop . "206") "ben@eros" nil nil ((((tty-type . "xterm") (tty . "/dev/tty") (display-type . color) (background-mode . light) (foreground-color . "unspecified-fg") (cursor-color . "black") (background-color . "unspecified-bg") (font . "tty") (height . 47) (width . 116) (modeline . t) (unsplittable) (menu-bar-lines . 1) (frameset--id . "447D-DEAC-C057-56EC") (frameset--mini t) (minibuffer . t)) ((min-height . 8) (min-width . 10) (min-height-ignore . 5) (min-width-ignore . 2) (min-height-safe . 2) (min-width-safe . 2) (min-pixel-height . 8) (min-pixel-width . 10) (min-pixel-height-ignore . 5) (min-pixel-width-ignore . 2) (min-pixel-height-safe . 2) (min-pixel-width-safe . 2)) vc (pixel-width . 116) (pixel-height . 45) (total-width . 116) (total-height . 45) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 116) (pixel-height . 23) (total-width . 116) (total-height . 23) (normal-height . 0.5) (normal-width . 1.0) (buffer "*info*" (selected . t) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 1227022) (start . 1226523))) (leaf (last . t) (pixel-width . 116) (pixel-height . 22) (total-width . 116) (total-height . 22) (normal-height . 0.5) (normal-width . 1.0) (buffer "*Fancy Diary Entries*" (selected) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 1) (start . 1)))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
-(setq search-ring '("info" "custo" "info" "cre" "(" "org" "column" "sparse" "gnus" "tag" "org-ar" "loc" "gnus" "eeds" "tod" "torch"))
+(setq search-ring '("(diary)" "fancy" "include" "inclu" "%%" "installed" "install" "complet	" "buffer" "filo" "filofe" "clock_i" "info" "custo" "info" "cre"))
 (setq regexp-search-ring nil)
 (setq register-alist nil)
-(setq file-name-history '("/home/ben/.emacs.d/init.el" "~/filofex/" "/home/ben/filofex/refcatcash(mingle).org" "/home/ben/filofex/refrefile(common).org" "/home/ben/.gnus.el" "/home/ben/filofex/MY_scratch" "/home/ben/filofex/.#chaos_archive.org" "/home/ben/filofex/#afflux_fromAliECS.org_archive#" "~/.FAIL/" "/home/ben/filofex/#afflux_fromAliECS.org_archive#" "~/filofex/caltord.org" "~/filofex/catorch(note).org" "~/filofex/" "/home/ben/filofex/GBU-before-20171226-all--unicom-jmsh.docx" "~/filofex/catorch(todo).org" "~/filofex/catarrow(journal).org" "~/filofex/rssfeeds.org" "~/filofex/refcatcash(mingle).org" "~/filofex/TESTeww.org" "~/filofex/testeww.org" "~/filofex/catinGnus(news).org" "~/filofex/catinGnus.org" "~/filofex/refrefile(common).org" "~/filofex/catinMode(lisp).org" "~/filofex/inMode(lisp-catch).org" "~/filofex/inMode(lisp/catch).org" "~/filofex/refile(common).org" "/home/ben/filofex/tarrow.org" "/home/ben/filofex/inGnus.org" "/home/ben/filofex/tord.org"))
+(setq file-name-history '("/home/ben/.emacs.d/init.el" "/home/ben/filofex/init.el" "/home/ben/filofex/MY_scratch" "/home/ben/filofex/init.el" "/home/ben/.emacs.d/init.el" "/home/ben/filofex/diary_#1" "/home/ben/filofex/diary_genALL" "/home/ben/filofex/diary_genALL.org" "~/filofex/" "/home/ben/.emacs.d/init.el" "~/filofex/" "/home/ben/filofex/refcatcash(mingle).org" "/home/ben/filofex/refrefile(common).org" "/home/ben/.gnus.el" "/home/ben/filofex/MY_scratch" "/home/ben/filofex/.#chaos_archive.org" "/home/ben/filofex/#afflux_fromAliECS.org_archive#" "~/.FAIL/" "/home/ben/filofex/#afflux_fromAliECS.org_archive#" "~/filofex/caltord.org" "~/filofex/catorch(note).org" "~/filofex/" "/home/ben/filofex/GBU-before-20171226-all--unicom-jmsh.docx" "~/filofex/catorch(todo).org" "~/filofex/catarrow(journal).org" "~/filofex/rssfeeds.org" "~/filofex/refcatcash(mingle).org" "~/filofex/TESTeww.org" "~/filofex/testeww.org" "~/filofex/catinGnus(news).org"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
-(desktop-create-buffer 206
-  "/home/ben/filofex/afflux_fromAliECS.org"
-  "afflux_fromAliECS.org"
-  'org-mode
-  '(auto-revert-mode)
-  9143
-  '(341 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
-
 (desktop-create-buffer 206
   nil
   "*info*"
   'Info-mode
   nil
-  1138
-  '(nil nil)
+  1227022
+  '(1264395 nil)
   t
-  '("/usr/share/info/emacs" "Top" ((history ("dir" "Top" 551) ("/home/ben/.emacs.d/site-lisp/magit/Documentation/magit" "Top" 817) ("dir" "Top" 227) ("dir" "Top" 3621) ("dir" "Top" 227) ("/usr/share/info/emacs" "Top" 1979) ("dir" "Top" 227))))
+  '("/usr/share/info/emacs" "Displaying the Diary" ((history ("/usr/share/info/emacs" "Date Formats" 1229076) ("/usr/share/info/emacs" "Adding to Diary" 1231601) ("/usr/share/info/emacs" "Special Diary Entries" 1233605) ("/usr/share/info/emacs" "Appointments" 1238156) ("/usr/share/info/emacs" "Special Diary Entries" 1235375) ("/usr/share/info/emacs" "Adding to Diary" 1231534) ("/usr/share/info/emacs" "Date Formats" 1229075) ("/usr/share/info/emacs" "Displaying the Diary" 1225212) ("/usr/share/info/emacs" "Format of Diary File" 1223456) ("/usr/share/info/emacs" "Displaying the Diary" 1225213) ("/usr/share/info/emacs" "Date Formats" 1229075) ("/usr/share/info/emacs" "Displaying the Diary" 1225212) ("/usr/share/info/emacs" "Non-Gregorian Diary" 1265390) ("/usr/share/info/emacs" "Holiday Customizing" 1253516) ("/usr/share/info/emacs" "Non-Gregorian Diary" 1264710) ("/usr/share/info/emacs" "Diary Display" 1269931) ("/usr/share/info/emacs" "Fancy Diary Display" 1271664) ("/usr/share/info/emacs" "Sexp Diary Entries" 1273293) ("/usr/share/info/emacs" "Fancy Diary Display" 1273183) ("/usr/share/info/emacs" "Sexp Diary Entries" 1274581) ("/usr/share/info/emacs" "Sending Mail" 1281042) ("/usr/share/info/emacs" "Sexp Diary Entries" 1280500) ("/usr/share/info/emacs" "Fancy Diary Display" 1273036) ("/usr/share/info/emacs" "Diary Display" 1271279) ("/usr/share/info/emacs" "Fancy Diary Display" 1271281) ("/usr/share/info/emacs" "Advanced Calendar/Diary Usage" 1246464) ("/usr/share/info/emacs" "Date Formats" 1227218) ("/usr/share/info/emacs" "Displaying the Diary" 1223566) ("/usr/share/info/emacs" "Format of Diary File" 1221354) ("/usr/share/info/emacs" "Diary" 1220924) ("/usr/share/info/emacs" "Adding to Diary" 1231601) ("/usr/share/info/emacs" "Special Diary Entries" 1233605) ("/usr/share/info/emacs" "Appointments" 1238223) ("/usr/share/info/emacs" "Importing Diary" 1241020) ("/usr/share/info/emacs" "Daylight Saving" 1242971) ("/usr/share/info/emacs" "Time Intervals" 1243770) ("/usr/share/info/emacs" "Daylight Saving" 1242970) ("/usr/share/info/emacs" "Importing Diary" 1239230) ("/usr/share/info/emacs" "Appointments" 1238156) ("/usr/share/info/emacs" "Special Diary Entries" 1235500) ("/usr/share/info/emacs" "Adding to Diary" 1231534) ("/usr/share/info/emacs" "Date Formats" 1229075) ("/usr/share/info/emacs" "Displaying the Diary" 1225212) ("/usr/share/info/emacs" "Format of Diary File" 1223101) ("/usr/share/info/emacs" "Diary" 1220382) ("*History*" "Top" 329) ("/usr/share/info/emacs" "Adding to Diary" 1229808) ("/usr/share/info/emacs" "Date Formats" 1227127) ("/usr/share/info/emacs" "Adding to Diary" 1229809) ("/usr/share/info/emacs" "Date Formats" 1229362) ("/usr/share/info/emacs" "Displaying the Diary" 1226597) ("/usr/share/info/emacs" "Diary" 1220982) ("/usr/share/info/emacs" "Calendar/Diary" 1189491) ("/usr/share/info/emacs" "Format of Diary File" 1222850) ("/usr/share/info/emacs" "Format of Diary File" 1222552) ("/usr/share/info/emacs" "Diary" 1220382) ("/usr/share/info/emacs" "Top" 1138) ("dir" "Top" 227) ("/usr/share/info/emacs" "Format of Diary File" 1223069) ("/usr/share/info/emacs" "Diary" 1221062) ("/usr/share/info/emacs" "Top" 1138) ("/usr/share/info/emacs" "Diary Display" 1270002) ("/usr/share/info/emacs" "Non-Gregorian Diary" 1266348) ("/usr/share/info/emacs" "Diary Customizing" 1263772) ("/usr/share/info/emacs" "Advanced Calendar/Diary Usage" 1246271) ("/usr/share/info/emacs" "Calendar Customizing" 1248747) ("/usr/share/info/emacs" "Holiday Customizing" 1251153) ("/usr/share/info/emacs" "Mayan Calendar" 1256864) ("/usr/share/info/emacs" "Date Display Format" 1259302) ("/usr/share/info/emacs" "Time Display Format" 1260393) ("/usr/share/info/emacs" "Diary Customizing" 1262813) ("/usr/share/info/emacs" "Non-Gregorian Diary" 1266421) ("/usr/share/info/emacs" "Diary Display" 1270068) ("/usr/share/info/emacs" "Fancy Diary Display" 1272602) ("/usr/share/info/emacs" "Diary Display" 1270002) ("/usr/share/info/emacs" "Format of Diary File" 1223189) ("/usr/share/info/emacs" "Top" 1138) ("/usr/share/info/emacs" "Top" 1138) ("/usr/share/info/emacs" "Top" 1138) ("dir" "Top" 551) ("/home/ben/.emacs.d/site-lisp/magit/Documentation/magit" "Top" 817) ("dir" "Top" 227) ("dir" "Top" 3621) ("dir" "Top" 227) ("/usr/share/info/emacs" "Top" 1979) ("dir" "Top" 227))))
   '((tab-width . 8) (buffer-file-coding-system . utf-8-unix) (case-fold-search . t)))
+
+(desktop-create-buffer 206
+  "/home/ben/filofex/afflux_fromAliECS.org"
+  "afflux_fromAliECS.org"
+  'org-mode
+  '(auto-revert-mode)
+  974
+  '(1148 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/home/ben/filofex/diary_genALL"
+  "diary_genALL"
+  'org-mode
+  nil
+  72
+  '(25 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/home/ben/filofex/diary_#1"
+  "diary_#1"
+  'org-mode
+  nil
+  222
+  '(25 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
 
 (desktop-create-buffer 206
   "/home/ben/.emacs.d/init.el"
   "init.el"
   'emacs-lisp-mode
-  '(highlight-parentheses-mode)
-  1
-  '(7360 nil)
   nil
+  7810
+  '(7727 nil)
+  t
   nil
   '((buffer-file-coding-system . prefer-utf-8-unix)))
-
-(desktop-create-buffer 206
-  "/home/ben/filofex/MY_scratch"
-  "MY_scratch"
-  'lisp-interaction-mode
-  '(auto-revert-mode highlight-parentheses-mode)
-  8937
-  '(8675 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . utf-8-unix)))
-
-(desktop-create-buffer 206
-  "/home/ben/filofex/catarrow(journal).org"
-  "catarrow(journal).org"
-  'org-mode
-  '(auto-revert-mode)
-  1545
-  '(nil nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
 
 (desktop-append-buffer-args 206
   "/home/ben/filofex/refcatcash(mingle).org"
@@ -81,7 +81,7 @@
   '(nil nil)
   nil
   nil
-  '((buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
 
 (desktop-append-buffer-args 206
   "/home/ben/filofex/catinMode(lisp).org"
@@ -92,5 +92,5 @@
   '(nil nil)
   nil
   nil
-  '((buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
 

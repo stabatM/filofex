@@ -23,10 +23,19 @@
      M-` :: open menu >> c-h r (emacs manu)
      c-h/m-h :: correct init.el key-combine
      root_init.el :: trim everything, leave ORIGINAL and melpa
+     vimdiff ;p
      ---
+     use m-x customize-variable !
      well, don't care m-x info, use c-h r !
-
+     [[info:emacs#Format%20of%20Diary%20File][diary day]] << c-x <tab> ( > <) indent margin tabs
+  - calenda :: i d/w/m/y >>> i a/b/c
+    - [[file:diary_genALL][diary-ex]]
+    - diary-include-string :: [[info:emacs#Fancy%20Diary%20Display][include diaryFiles + commentation]] <<<diaryFiles>>>
+    - diary-comment-start/end :: in ONE line, NO lines... diaryFiles
+    - (diary) :: tomato-potato first! [[info:emacs#Displaying%20the%20Diary][auto-open]]
+- ido :: c-s/r(next/previous) [[https://www.emacswiki.org/emacs/InteractivelyDoThings][ido]] 
 - docker machine
+...)
 - SBT envirment
 - xmind for fantacy
 - spark MLLib

@@ -201,3 +201,8 @@ Entered on %U
 (setq org-use-property-inheritance t)
 (setq org-use-tag-inheritance t)
 (setq org-archive-save-context-info '(time file olpath category todo itags))
+;; diary
+;;; indlude-file
+(add-hook 'diary-list-entries-hook 'diary-sort-entries t)
+(add-hook 'diary-list-entries-hook 'diary-include-other-diary-files)
+(add-hook 'diary-mark-entries-hook 'diary-mark-included-diary-files)
