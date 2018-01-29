@@ -11,19 +11,35 @@
   - last week :: 
   - this week ::  
 ** this week
- - docker :: get-start (docker ps = docker container ls; docker images = docker image ls)
-	     build/push image(registry > reps > images)
-	     composer; vim indent << auto-align; YAML is strict!; stack/swarm/service/container...
-	     
- - marathon/mesos DCos :: QQnotes
+- [X] ruse aws' consult email :: your account compromised, laborours
+     operate :: ec2 spot ebs root-key iam-key role group system-manager ...
+     reply :: 163 email, how the bill?
+     law
+- diary -> calendar :: org + emacs
+     info path in bashrc
+     info path in init.el
+     info path in customize-variable
+     ---
+     M-` :: open menu >> c-h r (emacs manu)
+     c-h/m-h :: correct init.el key-combine
+     root_init.el :: trim everything, leave ORIGINAL and melpa
+     ---
+     well, don't care m-x info, use c-h r !
 
- - top :: L then &; 0/1/2/3; z/b :: x/y
-
- - mail/mu/mu4e :: less ~/.offlineimaprc
-
- - git :: push [!reject], force, pull, modify, commit-local, push
-	  [[https://git-scm.com/docs/git-rebase][git-rebase]] :: not yet use 
-** -1 week                                                           :ATTACH:
+- docker machine
+- SBT envirment
+- xmind for fantacy
+- spark MLLib
+*** -1 week
+  - docker :: get-start (docker ps = docker container ls; docker images = docker image ls)
+	      build/push image(registry > reps > images)
+	      composer; vim indent << auto-align; YAML is strict!; stack/swarm/service/container...
+  - marathon/mesos DCos :: QQnotes
+  - top :: L then &(howto refresh to line1? or search back?); 0/1/2/3(then 0(node)); z/b :: x/y
+  - mail/mu/mu4e :: less ~/.offlineimaprc
+  - git :: push [!reject], force, pull, modify, commit-local, push
+	   [[https://git-scm.com/docs/git-rebase][git-rebase]] :: not yet use 
+** -2 week                                                           :ATTACH:
    :PROPERTIES:
    :Attachments: openstack-Names.png history.html
    :ID:       7545ae2b-ceef-4160-8ad3-7525af647601
@@ -431,7 +447,13 @@ when ~ 0, no warning, must have some number, then customize it;
   info coreutils
   info : <H> for help NOT h ;(
 - llvm :: artical
-- git reset/rebase :: commit >> index >> worktree
+- git reset/rebase :: commit >> index >> worktree :NO WAY... ;(
+     [[https://git-scm.com/docs/git-reset#_discussion][git-reset-discussion]]
+
+1. use case git
+   - git pull >> git reset --hard ORIG_HEAD
+   - git pull >> git reset --merge ORIG_HEAD
+   - [[https://git-scm.com/docs/git-reset#git-reset-Keepchangesinworkingtreewhilediscardingsomepreviouscommits][git-reset-keep]]
 ** -1 week
 1. org-protocols open-source use emacsclient try ... well
    find /home/ben/filofex/ -name org-protocol* | xargs ls -alt
@@ -606,6 +628,29 @@ print('Do things when True')
   - last week ::
   - this week :: 
 ** this week
+- aws bill mistake
+  (shi'yao/bzlocalIP4address,emaillist,shortmessages, mfa renew(1passAPP)...
+  creditCard crisis... the LAW)
+  $6,800... waiting
+
+
+1. docker tut
+   ben@eros:/tmp$ ls /usr/share/emacs/*/lisp/play
+   5x5.elc       cookie1.elc     dunnet.elc    gomoku.elc     life.elc   snake.elc      tetris.elc
+   animate.elc   decipher.elc    fortune.elc   handwrite.elc  morse.elc  solitaire.elc  zone.elc
+   blackbox.elc  dissociate.elc  gamegrid.elc  hanoi.elc      mpuz.elc   spook.elc
+   bubbles.elc   doctor.elc      gametree.elc  landmark.elc   pong.elc   studly.elc
+   - block/column/rectangle/liemoshi :: c-@ >> c-x r t/k/o/y/c
+	:: cua-mode
+2. flex/bison(lex/yacc),llvm/clang
+*** TODO remind clock-column view, table, summary ... NEED to rerun
+    SCHEDULED: <2018-01-30 Tue .+1w>
+- C-c C-x C-d runs the command org-clock-display
+| C-c | C-</>/./!       | c-o |
+|-----+-----------------+-----|
+| ... | c-u c-@/<space> | c-& |
+
+** -1 week
 1. clean afflux_fromAliECS.org structure
    - dired :: 1/2; 'flag'D for delete >> x use ~/./#; 'mark'* for more >> m 
    - dired-R :: R rename file
@@ -629,7 +674,7 @@ print('Do things when True')
      :END:
      <2018-01-17 Wed>--<2018-01-01 Mon> :: c-c c-y (org-evaluate-time-range)
 
-** -1 week                                                             :wula:
+** -2 week                                                             :wula:
 1. aliyun  >> console >> backup strategy >> mirror strategy
 2. skim last days
 3. capture template expansion
@@ -647,259 +692,279 @@ print('Do things when True')
    aliyun-ecs ports...
 6. ...mailx,ssh reverse-proxy(teamview)...
 
-** -2 week :ARCHIVE:
-5. c-c a a -> h
-   init.el add  sunrise/agenda-files/forbidden-region-up/downcase
-6. timeline [[http://members.optusnet.com.au/~charles57/GTD/org_dates/#sec-11][timeline]]
-7. clock pause return
-   - dangling :: c-c c-x c-z -> keepIdle goBack substract
-		 [[ci]](input then c-c) same as clock_i
-		 start..work..otherthing/idle(exactly know *watch/timer*)..find_dangling_timeclock
-		 ^combination -> step by step -> 2+ timeclock entries
-   - org's timeclock <> emacs m-x timeclock
-8. timer : countup/down
-   c-c c-x 0/;/,/_
-
-*** DONE time-stamps 
-    :LOGBOOK:
-    - State "DONE"       from "DONE"       [2017-12-29 Fri 16:58]
-    - State "DONE"       from "DONE"       [2017-12-29 Fri 15:33]
-    - Not scheduled, was "[2017-12-27 Wed +2d]" on [2017-12-28 Thu 23:38] \\
-      split from deadline
-    :END:
-    org-log-reschedule !ok
-*** WAIT split from above "time-stamps"
-    SCHEDULED: <2018-01-04 Thu +0d>
+** Archive :ARCHIVE:
+*** -3 week                                                         :ARCHIVE:
     :PROPERTIES:
-    :LAST_REPEAT: [2017-12-29 Fri 16:41]
+    :ARCHIVE_TIME: 2018-01-26 Fri 10:58
     :END:
-    org-log-redeadline ??? -> ok after split from schedules
-    (setq org-log-redeadline 'note)
-    :PROPERTIES:
-    :ORDERED:  t
-    :END:
-    :LOGBOOK:
-    - State "WAIT"       from "TODO"       [2017-12-29 Fri 16:42] \\
-      m-2 c-c c-t cause sequense visit todoKeyList
-    - State "DONE"       from "ReTodo"     [2017-12-29 Fri 16:41]
-    - State "ReTodo"     from "WAIT"       [2017-12-29 Fri 16:41]
-    - State "WAIT"       from "TODO"       [2017-12-29 Fri 16:41]
-    - State "DONE"       from "TODO"       [2017-12-29 Fri 16:41]
-    - State "DONE"       from "TODO"       [2017-12-29 Fri 15:30]
-    - State "DONE"       from "TODO"       [2017-12-29 Fri 02:13]
-    - State "DONE"       from "TODO"       [2017-12-29 Fri 01:36]
-    - State "DONE"       from "TODO"       [2017-12-29 Fri 01:28]
-    - State "DONE"       from "DONE"       [2017-12-29 Fri 01:28]
-    - State "DONE"       from "DONE"       [2017-12-29 Fri 01:27]
-    - State "DONE"       from "TODO"       [2017-12-29 Fri 00:46]
-    - State "DONE"       from "TODO"       [2017-12-29 Fri 00:43]
-    - State "DONE"       from "TODO"       [2017-12-29 Fri 00:41]
-    - Not scheduled, was "[2017-12-25 Mon +2d]" on [2017-12-29 Fri 00:28] \\
-      next try
-    - State "DONE"       from "TODO"       [2017-12-29 Fri 00:14]
-    - State "DONE"       from "TODO"       [2017-12-29 Fri 00:13]
-    - State "DONE"       from "TODO"       [2017-12-29 Fri 00:13]
-    - State "DONE"       from "TODO"       [2017-12-29 Fri 00:12]
-    - State "DONE"       from "TODO"       [2017-12-29 Fri 00:07]
-    - State "TODO"       from "WAIT"       [2017-12-29 Fri 00:01]
-    - State "WAIT"       from "TODO"       [2017-12-29 Fri 00:01]
-    - State "DONE"       from "WAIT"       [2017-12-29 Fri 00:00]
-    - State "WAIT"       from "TODO"       [2017-12-29 Fri 00:00]
-    - State "DONE"       from "TODO"       [2017-12-28 Thu 23:59]
-    - State "DONE"       from "TODO"       [2017-12-28 Thu 23:54]
-    - Not scheduled, was "[2017-12-27 Wed +1w]" on [2017-12-28 Thu 23:53] \\
-      for repeater
-    - State "DONE"       from "DONE"       [2017-12-28 Thu 23:52]
-    - State "DONE"       from "TODO"       [2017-12-28 Thu 23:48]
-    - State "DONE"       from "TODO"       [2017-12-28 Thu 23:47]
-    - State "DONE"       from "TODO"       [2017-12-28 Thu 23:46]
-    - State "DONE"       from "TODO"       [2017-12-28 Thu 23:41]
-    - Removed deadline, was "[2017-12-31 Sun]" on [2017-12-28 Thu 23:38] \\
-      split from schedules
-    - State "DONE"       from "WAIT"       [2017-12-28 Thu 23:35]
-    - State "WAIT"       from "TODO"       [2017-12-28 Thu 23:34] \\
-      test
-]
-    - Rescheduled from "[2017-12-27 Wed +2d]" on [2017-12-28 Thu 23:33]
-    - State "DONE"       from "TODO"       [2017-12-28 Thu 23:20]
-    - Not scheduled, was "[2017-11-27 Wed +1w]" on [2017-12-28 Thu 23:11] \\
-      test change after note reason
-    - State "DONE"       from "TODO"       [2017-12-28 Thu 23:03]
-    - State "CANCELED"   from "DONE"       [2017-12-28 Thu 22:58] \\
-      try to set repeater
-    - State "DONE"       from "TODO"       [2017-12-28 Thu 22:58]
-    - State "DONE"       from "TODO"       [2017-12-28 Thu 22:54]
-    - State "DONE"       from "TODO"       [2017-12-28 Thu 22:51]
-    - State "DONE"       from "TODO"       [2017-12-28 Thu 22:50]
-    CLOCK: [2017-12-28 Thu 21:06]--[2017-12-28 Thu 22:50] =>  1:44
-    CLOCK: [2017-12-28 Thu 20:08]--[2017-12-28 Thu 20:46] =>  0:38
-    CLOCK: [2017-12-28 Thu 20:00]--[2017-12-28 Thu 20:08] =>  0:08
-    CLOCK: [2017-12-28 Thu 19:02]--[2017-12-28 Thu 19:52] =>  0:50
-    CLOCK: [2017-12-28 Thu 18:59]--[2017-12-28 Thu 19:02] =>  0:03
-    CLOCK: [2017-12-28 Thu 17:56]--[2017-12-28 Thu 18:12] =>  0:16
-    CLOCK: [2017-12-28 Thu 17:26]--[2017-12-28 Thu 17:28] =>  0:02
-    CLOCK: [2017-12-28 Thu 17:15]--[2017-12-28 Thu 17:23] =>  0:08
-    CLOCK: [2017-12-28 Thu 16:00]--[2017-12-28 Thu 16:56] =>  0:56
-    - State "DONE"       from "TODO"       [2017-12-28 Thu 15:00]
-    - State "DONE"       from "WAIT"       [2017-12-28 Thu 14:57]
-    CLOCK: [2017-12-28 Thu 14:56]--[2017-12-28 Thu 14:56] =>  0:00
-    - State "WAIT"       from "DONE"       [2017-12-28 Thu 14:56] \\
-      4 test...
-    - State "DONE"       from "TODO"       [2017-12-28 Thu 14:55]
-    - State "DONE"       from "DONE"       [2017-12-28 Thu 14:55]
-    - State "DONE"       from              [2017-12-28 Thu 14:51]
-    CLOCK: [2017-12-28 Thu 14:51]--[2017-12-28 Thu 14:51] =>  0:00
-    :END:
-1. c-c a :: weekly/daily
-2. c-x c-b :: m -> v == 2; v -> c; c-k/d x; s/~/%(v) ...  :buffers:emacs manual:
-	      [[https://www.gnu.org/software/emacs/manual/html_mono/emacs.html#Several-Buffers][Several-Buffers]]
-3. disable c-x c-u/l :: CAUTION, EVEN NOT in emacs manual! Please use M-x ...
-4. special sexp diary entries
-   <%%(diary-float t 4 2)>
-*** TODO split from above-nyh
-    :LOGBOOK:  
-    - State "DONE"       from "TODO"       [2017-12-29 Fri 02:55]
-    :END:      
-     :PROPERTIES:
-     :LAST_REPEAT: [2017-12-29 Fri 02:43]
-     :END:      
-<2017-12-29 Sun>--<2018-01-01 Mon> nyh
-- c-c c-x o :: order c-c c-x c-o out of clock
-IMP: c-c ]/[/, -> r/g
-- c-c c-t :: impact schedule/deadline(include all repeaters)
-- c-c a t/T/m/M :: 1st c-c [
-		   2nd c-a a
-		   3rd c-c a t
-		   4th c-c a m : +boss-work|recreate-night
-- Sunrise/Sunset :: S
-- buffers :: d = c-d c-k
-- forbidden :: M-x disable-command
-#+BEGIN: clocktable :maxlevel 2 :scope subtree
-#+CAPTION: Clock summary at [2017-12-28 Thu 21:06]
-| Headline     | Time   |
-|--------------+--------|
-| *Total time* | *3:01* |
-|--------------+--------|
-#+END:
-C-c C-x C-r runs the command org-clock-report
+ 5. c-c a a -> h
+    init.el add  sunrise/agenda-files/forbidden-region-up/downcase
+ 6. timeline [[http://members.optusnet.com.au/~charles57/GTD/org_dates/#sec-11][timeline]]
+ 7. clock pause return
+    - dangling :: c-c c-x c-z -> keepIdle goBack substract
+		  [[ci]](input then c-c) same as clock_i
+		  start..work..otherthing/idle(exactly know *watch/timer*)..find_dangling_timeclock
+		  ^combination -> step by step -> 2+ timeclock entries
+    - org's timeclock <> emacs m-x timeclock
+ 8. timer : countup/down
+    c-c c-x 0/;/,/_
 
-**** ReTodo repeater-rerun                                             :TEST:
-     SCHEDULED: <2018-02-04 Sun +2d>
+**** DONE time-stamps 
+     :LOGBOOK:
+     - State "DONE"       from "DONE"       [2017-12-29 Fri 16:58]
+     - State "DONE"       from "DONE"       [2017-12-29 Fri 15:33]
+     - Not scheduled, was "[2017-12-27 Wed +2d]" on [2017-12-28 Thu 23:38] \\
+       split from deadline
+     :END:
+     org-log-reschedule !ok
+**** WAIT split from above "time-stamps"
+     SCHEDULED: <2018-01-04 Thu +0d>
      :PROPERTIES:
-     :LAST_REPEAT: [2018-01-02 Tue 15:11]
+     :LAST_REPEAT: [2017-12-29 Fri 16:41]
+     :END:
+     org-log-redeadline ??? -> ok after split from schedules
+     (setq org-log-redeadline 'note)
+     :PROPERTIES:
+     :ORDERED:  t
      :END:
      :LOGBOOK:
-     - State "DONE"       from "TODO"       [2018-01-02 Tue 15:11] \\
-       cap key, some test...
-     - State "DONE"       from "TODO"       [2017-12-29 Fri 02:58]
-     - State "DONE"       from "TODO"       [2017-12-29 Fri 02:57]
-     - State "DONE"       from "ReTodo"     [2017-12-29 Fri 02:57]
-     - State "DONE"       from "ReTodo"     [2017-12-29 Fri 02:57]
-     - State "DONE"       from "TODO"       [2017-12-29 Fri 02:57]
-     - State "DONE"       from "ReTodo"     [2017-12-29 Fri 02:56]
-     - State "DONE"       from "ReTodo"     [2017-12-29 Fri 02:56]
-     - State "DONE"       from "TODO"       [2017-12-29 Fri 02:56]
-     - State "DONE"       from "TODO"       [2017-12-29 Fri 02:43]
-     - State "DONE"       from "TODO"       [2017-12-29 Fri 02:40]
-     - State "DONE"       from "TODO"       [2017-12-29 Fri 02:40]
-     - State "DONE"       from "TODO"       [2017-12-29 Fri 02:39]
-     - State "DONE"       from "TODO"       [2017-12-29 Fri 02:39]
-     - State "DONE"       from "TODO"       [2017-12-29 Fri 02:37]
-     - State "DONE"       from "TODO"       [2017-12-29 Fri 02:27]
-     - State "DONE"       from "TODO"       [2017-12-29 Fri 02:17]
-     - State "DONE"       from "TODO"       [2017-12-29 Fri 02:17]
-     - State "DONE"       from "TODO"       [2017-12-29 Fri 01:46]
-     - State "DONE"       from "TODO"       [2017-12-29 Fri 01:46]
-     - State "DONE"       from "TODO"       [2017-12-29 Fri 00:54]
-     - State "CANCELED"   from "TODO"       [2017-12-29 Fri 00:36] \\
-       test repeater
-     - State "DONE"       from "TODO"       [2017-12-29 Fri 00:33]
+     - State "WAIT"       from "TODO"       [2017-12-29 Fri 16:42] \\
+       m-2 c-c c-t cause sequense visit todoKeyList
+     - State "DONE"       from "ReTodo"     [2017-12-29 Fri 16:41]
+     - State "ReTodo"     from "WAIT"       [2017-12-29 Fri 16:41]
+     - State "WAIT"       from "TODO"       [2017-12-29 Fri 16:41]
+     - State "DONE"       from "TODO"       [2017-12-29 Fri 16:41]
+     - State "DONE"       from "TODO"       [2017-12-29 Fri 15:30]
+     - State "DONE"       from "TODO"       [2017-12-29 Fri 02:13]
+     - State "DONE"       from "TODO"       [2017-12-29 Fri 01:36]
+     - State "DONE"       from "TODO"       [2017-12-29 Fri 01:28]
+     - State "DONE"       from "DONE"       [2017-12-29 Fri 01:28]
+     - State "DONE"       from "DONE"       [2017-12-29 Fri 01:27]
+     - State "DONE"       from "TODO"       [2017-12-29 Fri 00:46]
+     - State "DONE"       from "TODO"       [2017-12-29 Fri 00:43]
+     - State "DONE"       from "TODO"       [2017-12-29 Fri 00:41]
+     - Not scheduled, was "[2017-12-25 Mon +2d]" on [2017-12-29 Fri 00:28] \\
+       next try
+     - State "DONE"       from "TODO"       [2017-12-29 Fri 00:14]
+     - State "DONE"       from "TODO"       [2017-12-29 Fri 00:13]
+     - State "DONE"       from "TODO"       [2017-12-29 Fri 00:13]
+     - State "DONE"       from "TODO"       [2017-12-29 Fri 00:12]
+     - State "DONE"       from "TODO"       [2017-12-29 Fri 00:07]
+     - State "TODO"       from "WAIT"       [2017-12-29 Fri 00:01]
+     - State "WAIT"       from "TODO"       [2017-12-29 Fri 00:01]
+     - State "DONE"       from "WAIT"       [2017-12-29 Fri 00:00]
+     - State "WAIT"       from "TODO"       [2017-12-29 Fri 00:00]
+     - State "DONE"       from "TODO"       [2017-12-28 Thu 23:59]
+     - State "DONE"       from "TODO"       [2017-12-28 Thu 23:54]
+     - Not scheduled, was "[2017-12-27 Wed +1w]" on [2017-12-28 Thu 23:53] \\
+       for repeater
+     - State "DONE"       from "DONE"       [2017-12-28 Thu 23:52]
+     - State "DONE"       from "TODO"       [2017-12-28 Thu 23:48]
+     - State "DONE"       from "TODO"       [2017-12-28 Thu 23:47]
+     - State "DONE"       from "TODO"       [2017-12-28 Thu 23:46]
+     - State "DONE"       from "TODO"       [2017-12-28 Thu 23:41]
+     - Removed deadline, was "[2017-12-31 Sun]" on [2017-12-28 Thu 23:38] \\
+       split from schedules
+     - State "DONE"       from "WAIT"       [2017-12-28 Thu 23:35]
+     - State "WAIT"       from "TODO"       [2017-12-28 Thu 23:34] \\
+       test
+ ]
+     - Rescheduled from "[2017-12-27 Wed +2d]" on [2017-12-28 Thu 23:33]
+     - State "DONE"       from "TODO"       [2017-12-28 Thu 23:20]
+     - Not scheduled, was "[2017-11-27 Wed +1w]" on [2017-12-28 Thu 23:11] \\
+       test change after note reason
+     - State "DONE"       from "TODO"       [2017-12-28 Thu 23:03]
+     - State "CANCELED"   from "DONE"       [2017-12-28 Thu 22:58] \\
+       try to set repeater
+     - State "DONE"       from "TODO"       [2017-12-28 Thu 22:58]
+     - State "DONE"       from "TODO"       [2017-12-28 Thu 22:54]
+     - State "DONE"       from "TODO"       [2017-12-28 Thu 22:51]
+     - State "DONE"       from "TODO"       [2017-12-28 Thu 22:50]
+     CLOCK: [2017-12-28 Thu 21:06]--[2017-12-28 Thu 22:50] =>  1:44
+     CLOCK: [2017-12-28 Thu 20:08]--[2017-12-28 Thu 20:46] =>  0:38
+     CLOCK: [2017-12-28 Thu 20:00]--[2017-12-28 Thu 20:08] =>  0:08
+     CLOCK: [2017-12-28 Thu 19:02]--[2017-12-28 Thu 19:52] =>  0:50
+     CLOCK: [2017-12-28 Thu 18:59]--[2017-12-28 Thu 19:02] =>  0:03
+     CLOCK: [2017-12-28 Thu 17:56]--[2017-12-28 Thu 18:12] =>  0:16
+     CLOCK: [2017-12-28 Thu 17:26]--[2017-12-28 Thu 17:28] =>  0:02
+     CLOCK: [2017-12-28 Thu 17:15]--[2017-12-28 Thu 17:23] =>  0:08
+     CLOCK: [2017-12-28 Thu 16:00]--[2017-12-28 Thu 16:56] =>  0:56
+     - State "DONE"       from "TODO"       [2017-12-28 Thu 15:00]
+     - State "DONE"       from "WAIT"       [2017-12-28 Thu 14:57]
+     CLOCK: [2017-12-28 Thu 14:56]--[2017-12-28 Thu 14:56] =>  0:00
+     - State "WAIT"       from "DONE"       [2017-12-28 Thu 14:56] \\
+       4 test...
+     - State "DONE"       from "TODO"       [2017-12-28 Thu 14:55]
+     - State "DONE"       from "DONE"       [2017-12-28 Thu 14:55]
+     - State "DONE"       from              [2017-12-28 Thu 14:51]
+     CLOCK: [2017-12-28 Thu 14:51]--[2017-12-28 Thu 14:51] =>  0:00
      :END:
+ 1. c-c a :: weekly/daily
+ 2. c-x c-b :: m -> v == 2; v -> c; c-k/d x; s/~/%(v) ...  :buffers:emacs manual:
+	       [[https://www.gnu.org/software/emacs/manual/html_mono/emacs.html#Several-Buffers][Several-Buffers]]
+ 3. disable c-x c-u/l :: CAUTION, EVEN NOT in emacs manual! Please use M-x ...
+ 4. special sexp diary entries
+    <%%(diary-float t 4 2)>
+**** TODO split from above-nyh
+     :LOGBOOK:  
+     - State "DONE"       from "TODO"       [2017-12-29 Fri 02:55]
+     :END:      
+      :PROPERTIES:
+      :LAST_REPEAT: [2017-12-29 Fri 02:43]
+      :END:      
+ <2017-12-29 Sun>--<2018-01-01 Mon> nyh
+ - c-c c-x o :: order c-c c-x c-o out of clock
+ IMP: c-c ]/[/, -> r/g
+ - c-c c-t :: impact schedule/deadline(include all repeaters)
+ - c-c a t/T/m/M :: 1st c-c [
+		    2nd c-a a
+		    3rd c-c a t
+		    4th c-c a m : +boss-work|recreate-night
+ - Sunrise/Sunset :: S
+ - buffers :: d = c-d c-k
+ - forbidden :: M-x disable-command
+ #+BEGIN: clocktable :maxlevel 2 :scope subtree
+ #+CAPTION: Clock summary at [2017-12-28 Thu 21:06]
+ | Headline     | Time   |
+ |--------------+--------|
+ | *Total time* | *3:01* |
+ |--------------+--------|
+ #+END:
+ C-c C-x C-r runs the command org-clock-report
+
+***** ReTodo repeater-rerun                                            :TEST:
+      SCHEDULED: <2018-02-04 Sun +2d>
+      :PROPERTIES:
+      :LAST_REPEAT: [2018-01-02 Tue 15:11]
+      :END:
+      :LOGBOOK:
+      - State "DONE"       from "TODO"       [2018-01-02 Tue 15:11] \\
+	cap key, some test...
+      - State "DONE"       from "TODO"       [2017-12-29 Fri 02:58]
+      - State "DONE"       from "TODO"       [2017-12-29 Fri 02:57]
+      - State "DONE"       from "ReTodo"     [2017-12-29 Fri 02:57]
+      - State "DONE"       from "ReTodo"     [2017-12-29 Fri 02:57]
+      - State "DONE"       from "TODO"       [2017-12-29 Fri 02:57]
+      - State "DONE"       from "ReTodo"     [2017-12-29 Fri 02:56]
+      - State "DONE"       from "ReTodo"     [2017-12-29 Fri 02:56]
+      - State "DONE"       from "TODO"       [2017-12-29 Fri 02:56]
+      - State "DONE"       from "TODO"       [2017-12-29 Fri 02:43]
+      - State "DONE"       from "TODO"       [2017-12-29 Fri 02:40]
+      - State "DONE"       from "TODO"       [2017-12-29 Fri 02:40]
+      - State "DONE"       from "TODO"       [2017-12-29 Fri 02:39]
+      - State "DONE"       from "TODO"       [2017-12-29 Fri 02:39]
+      - State "DONE"       from "TODO"       [2017-12-29 Fri 02:37]
+      - State "DONE"       from "TODO"       [2017-12-29 Fri 02:27]
+      - State "DONE"       from "TODO"       [2017-12-29 Fri 02:17]
+      - State "DONE"       from "TODO"       [2017-12-29 Fri 02:17]
+      - State "DONE"       from "TODO"       [2017-12-29 Fri 01:46]
+      - State "DONE"       from "TODO"       [2017-12-29 Fri 01:46]
+      - State "DONE"       from "TODO"       [2017-12-29 Fri 00:54]
+      - State "CANCELED"   from "TODO"       [2017-12-29 Fri 00:36] \\
+	test repeater
+      - State "DONE"       from "TODO"       [2017-12-29 Fri 00:33]
+      :END:
+      :PROPERTIES:
+      :LAST_REPEAT: [2017-12-29 Fri 02:58]
+      :REPEAT_TO_STATE: TODO
+      :END:
+      </2018-02-07 Wed +2d> 
+
+**** ReTodo date/time prompt/formats                                :Caution:
+     SCHEDULED: <2018-01-01 Mon>
+     :PROPERTIES:
+     :LAST_REPEAT: [2017-12-29 Fri 15:41]
+     :END:
+     :LOGBOOK:
+     - Rescheduled from "[2018-01-01 Mon +2d]" on [2017-12-29 Fri 15:41] \\
+       when finished the test for repeater, correct timeline...
+     - State "DONE"       from "TODO"       [2017-12-29 Fri 15:41]
+     - State "DONE"       from "TODO"       [2017-12-29 Fri 15:40]
+     - State "DONE"       from "ReTodo"     [2017-12-29 Fri 15:39]
+     - State "DONE"       from "ReTodo"     [2017-12-29 Fri 02:58]
+     - State "DONE"       from "TODO"       [2017-12-29 Fri 02:57]
+     - State "DONE"       from "ReTodo"     [2017-12-29 Fri 02:55]
+     - State "DONE"       from "ReTodo"     [2017-12-29 Fri 02:55]
+     - State "DONE"       from "TODO"       [2017-12-29 Fri 02:54]
+     - State "DONE"       from "TODO"       [2017-12-29 Fri 02:54]
+     - State "DONE"       from "TODO"       [2017-12-29 Fri 02:52]
+     - State "DONE"       from "WAIT"       [2017-12-29 Fri 02:52]
+     - State "DONE"       from "WAIT"       [2017-12-29 Fri 02:51]
+     - State "DONE"       from "TODO"       [2017-12-29 Fri 02:51]
+     - State "DONE"       from "WAIT"       [2017-12-29 Fri 02:51]
+     - State "WAIT"       from "TODO"       [2017-12-29 Fri 02:51] \\
+       test
+     - State "DONE"       from "TODO"       [2017-12-29 Fri 02:51]
+     - State "DONE"       from "TODO"       [2017-12-29 Fri 02:50]
+     - State "DONE"       from "TODO"       [2017-12-29 Fri 02:49]
+     - State "DONE"       from "TODO"       [2017-12-29 Fri 02:49]
+     - State "DONE"       from "TODO"       [2017-12-29 Fri 02:48]
+     - State "DONE"       from "TODO"       [2017-12-29 Fri 02:47]
+     - State "DONE"       from "TODO"       [2017-12-29 Fri 02:47]
+     - State "CANCELED"   from "TODO"       [2017-12-29 Fri 02:45] \\
+       test
+     - State "DONE"       from "TODO"       [2017-12-29 Fri 02:44]
+     - State "DONE"       from "TODO"       [2017-12-29 Fri 02:43]
+     - State "CANCELED"   from "TODO"       [2017-12-29 Fri 01:31]
+     - State "DONE"       from "TODO"       [2017-12-29 Fri 01:31]
+     :END:      
      :PROPERTIES:
      :LAST_REPEAT: [2017-12-29 Fri 02:58]
-     :REPEAT_TO_STATE: TODO
-     :END:
-     </2018-02-07 Wed +2d> 
+     :END:      
+ >>> c-c !
+ [1981-07-14 Tue] 7/14/81
+ [2017-12-30 Sat] 30
+ [2017-12-28 Thu] Now
+ [2018-01-12 Fri] 12
+ [2018-05-01 Tue] 5/1
+ [2017-12-29 Fri] fri
+ [2020-05-01 Fri] may 1 20
+ [2020-06-05 Fri] 2020 w23-5
+ [hdwmy]
+ [2017-12-23 Sat] --5 (default today) -5
+ [2017-12-27 Wed] -wed
+ 1970-2037
+ [2037-12-28 Mon] 2099 ;(
+ [2017-12-28 Thu 12:00-14:30] 12pm+2:30
+ <2017-12-28 Thu 12:00-14:30> ^same as; c-c a a ;)
 
-*** ReTodo date/time prompt/formats                                 :Caution:
-    SCHEDULED: <2018-01-01 Mon>
+ >>> NEVER USE: c-c c-x c-t
+ [[http://orgmode.org/manual/Custom-time-format.html#Custom-time-format][Never]]
+
+ >>> c-c c-y / c-c >/< / c-c c-o
+ [1981-05-01 Fri]--[2017-12-28 Thu]
+
+**** calendar motion [[https://www.gnu.org/software/emacs/manual/html_mono/emacs.html#Calendar-Motion][calendar/agenda]] :Caution:
+ - emacs'
+   c-c c-s
+   c-f/b, c-n/p, m-}/{, c-x ]/[
+   holidays, h/a
+ - org's
+   >/< :: 1 month
+   M/C-v :: 3 month
+   gd/D/w, o/. :: jump day/day-th/week/center
+*** -4 week                                                         :ARCHIVE:
     :PROPERTIES:
-    :LAST_REPEAT: [2017-12-29 Fri 15:41]
+    :ARCHIVE_TIME: 2018-01-26 Fri 10:58
     :END:
-    :LOGBOOK:
-    - Rescheduled from "[2018-01-01 Mon +2d]" on [2017-12-29 Fri 15:41] \\
-      when finished the test for repeater, correct timeline...
-    - State "DONE"       from "TODO"       [2017-12-29 Fri 15:41]
-    - State "DONE"       from "TODO"       [2017-12-29 Fri 15:40]
-    - State "DONE"       from "ReTodo"     [2017-12-29 Fri 15:39]
-    - State "DONE"       from "ReTodo"     [2017-12-29 Fri 02:58]
-    - State "DONE"       from "TODO"       [2017-12-29 Fri 02:57]
-    - State "DONE"       from "ReTodo"     [2017-12-29 Fri 02:55]
-    - State "DONE"       from "ReTodo"     [2017-12-29 Fri 02:55]
-    - State "DONE"       from "TODO"       [2017-12-29 Fri 02:54]
-    - State "DONE"       from "TODO"       [2017-12-29 Fri 02:54]
-    - State "DONE"       from "TODO"       [2017-12-29 Fri 02:52]
-    - State "DONE"       from "WAIT"       [2017-12-29 Fri 02:52]
-    - State "DONE"       from "WAIT"       [2017-12-29 Fri 02:51]
-    - State "DONE"       from "TODO"       [2017-12-29 Fri 02:51]
-    - State "DONE"       from "WAIT"       [2017-12-29 Fri 02:51]
-    - State "WAIT"       from "TODO"       [2017-12-29 Fri 02:51] \\
-      test
-    - State "DONE"       from "TODO"       [2017-12-29 Fri 02:51]
-    - State "DONE"       from "TODO"       [2017-12-29 Fri 02:50]
-    - State "DONE"       from "TODO"       [2017-12-29 Fri 02:49]
-    - State "DONE"       from "TODO"       [2017-12-29 Fri 02:49]
-    - State "DONE"       from "TODO"       [2017-12-29 Fri 02:48]
-    - State "DONE"       from "TODO"       [2017-12-29 Fri 02:47]
-    - State "DONE"       from "TODO"       [2017-12-29 Fri 02:47]
-    - State "CANCELED"   from "TODO"       [2017-12-29 Fri 02:45] \\
-      test
-    - State "DONE"       from "TODO"       [2017-12-29 Fri 02:44]
-    - State "DONE"       from "TODO"       [2017-12-29 Fri 02:43]
-    - State "CANCELED"   from "TODO"       [2017-12-29 Fri 01:31]
-    - State "DONE"       from "TODO"       [2017-12-29 Fri 01:31]
-    :END:      
-    :PROPERTIES:
-    :LAST_REPEAT: [2017-12-29 Fri 02:58]
-    :END:      
->>> c-c !
-[1981-07-14 Tue] 7/14/81
-[2017-12-30 Sat] 30
-[2017-12-28 Thu] Now
-[2018-01-12 Fri] 12
-[2018-05-01 Tue] 5/1
-[2017-12-29 Fri] fri
-[2020-05-01 Fri] may 1 20
-[2020-06-05 Fri] 2020 w23-5
-[hdwmy]
-[2017-12-23 Sat] --5 (default today) -5
-[2017-12-27 Wed] -wed
-1970-2037
-[2037-12-28 Mon] 2099 ;(
-[2017-12-28 Thu 12:00-14:30] 12pm+2:30
-<2017-12-28 Thu 12:00-14:30> ^same as; c-c a a ;)
-
->>> NEVER USE: c-c c-x c-t
-[[http://orgmode.org/manual/Custom-time-format.html#Custom-time-format][Never]]
-
->>> c-c c-y / c-c >/< / c-c c-o
-[1981-05-01 Fri]--[2017-12-28 Thu]
-
-*** calendar motion [[https://www.gnu.org/software/emacs/manual/html_mono/emacs.html#Calendar-Motion][calendar/agenda]]                                 :Caution:
-- emacs'
-  c-c c-s
-  c-f/b, c-n/p, m-}/{, c-x ]/[
-  holidays, h/a
-- org's
-  >/< :: 1 month
-  M/C-v :: 3 month
-  gd/D/w, o/. :: jump day/day-th/week/center
-** -3 week :ARCHIVE:
-...
+ ...
 
 * new fri
   ...
 ** this week
+   :LOGBOOK:
+   CLOCK: [2018-01-26 Fri 22:38]--[2018-01-26 Fri 23:13] =>  0:35
+   :END:
+- github explore
+  [[https://github.com/kamranahmedse/developer-roadmap][developer-roadmap]]
+- Morse code :: [[https://morsecode.scphillips.com/translator.html][translator]]
+- docker :: init
+	    stack > service > container > task [[https://docs.docker.com/get-started/part3/#recap-and-cheat-sheet-optional][get-start]] bash(curl)
+	    docker machine
+- rancher :: container management platform
+- [[http://xiki.com/@xiki/tutorial][xsh]] :: bash = source ./bashrc ... xsh --reload # source ~/.xsh
+     	 lynx : classic non-graphical web browser
+** -1 week
 1. gnus [[https://www.emacswiki.org/emacs/CategoryGnus][gnus-wiki]] :: QQnotes/gnus
      m-l/u/c :: lowcase/UPPERCASE/Capitalize 
 2. [[http://linux.vbird.org/linux_server/0380mail.php#mua_mail][vbird(niao'ge'de'si'fang'cai)]] ::QQnotes/common
@@ -934,7 +999,7 @@ C-c C-x C-r runs the command org-clock-report
 
 8. 
 
-** -1 week
+** -2 week
 1. ssh reverse-proxy
    - [X] teamview
    - [ ] ngrok
@@ -956,7 +1021,7 @@ C-c C-x C-r runs the command org-clock-report
      - pull request :: after push to remote github repo
      - fork/fetch_head :: origin to my remote github repo/ pull from origin repos that post-pullrequest issues
      - clone :: to local pc
-** -2 week :ARCHIVE:
+** -3 week                                                          :ARCHIVE:
 *** sciPy
 - virtualenv :: alias m_vire='source /home/ben/PythonVirEnv/bin/activate;cd /home/ben/PythonVirEnv/'
   - vim +43 !:1 :: 2envs swap virtual(NAMES) .../home/ben/PythonVirEnv_~/bin/activate
@@ -971,86 +1036,6 @@ C-c C-x C-r runs the command org-clock-report
 	   beware pip/pip2/pip2.7 ... ;(
   - toggleglobalsitepackages :: virtualwrapper Only
     - the-system-site-packages-option :: virtualenv ->>> clean old-folder(remove all) ->>> new virtualenv ->>> ok.
-** ReTodo -3 week :ARCHIVE:
- DEADLINE: <2018-01-13 Sat +1w -5d>
- :PROPERTIES:
- :Effort:   2:00
- :LAST_REPEAT: [2018-01-12 Fri 10:53]
- :END:
- :LOGBOOK:
- - State "DONE"       from "TODO"       [2018-01-12 Fri 10:53] \\
-   now github, mailx, teamview...
-   i'll come back time to time...
- :END:
-rectangle :: c-x <space> ->>> c-x r ?  
-1. repeater :: y/w/m/d/h repeat cookies
-	       M-(-1) c-c c-t
-	       org-log-repeat NEED note for think/sum
-   1) repeated tasks: "emacs' manual" 8.3.2
-   2) org-habit-?-p :: habitrpg/habitrpg.el grep it, then comment it in init.el
-   3) <<warning period>> :: in schedule/deadline </2017-12-31 Sun +1w +4d> 
-      -3d? when? period .<----|schedule/deadline
-   afflux_fromAliECS:Sched. 2x:  TODO this week
-   afflux_fromAliECS:In   5 d.:  TODO this week
-2. appointments/reminder
-*** repeat tasks(c-c ^ sort subtrees)                                 :arena:
-**** ReTodo Call Father
-     DEADLINE: <2018-01-07 Sun ++1w>
-     :PROPERTIES:
-     :LAST_REPEAT: [2018-01-02 Tue 15:44]
-     :Effort:   0:10
-     :END:
-     :LOGBOOK:
-     - State "DONE"       from "TODO"       [2018-01-02 Tue 15:44] \\
-       i came from <2008-02-10 Sun ++1w>.
-     :END:
-     Marking this DONE will shift the date by at least one week,
-     but also by as many weeks as it takes to get this date into
-     the future.  However, it stays on a Sunday, even if you called
-     and marked it done on Saturday.
-**** ReTodo Check the batteries in the smoke detectors
-     DEADLINE: <2018-02-02 Fri .+1m>
-     :PROPERTIES:
-     :LAST_REPEAT: [2018-01-02 Tue 15:50]
-     :END:
-     :LOGBOOK:
-     - State "DONE"       from "TODO"       [2018-01-02 Tue 15:50] \\
-       i came from <2005-11-01 Tue .+1m>.
-     :END:
-     Marking this DONE will shift the date to one month after
-     today.
-
-**** ReTodo Empty kitchen trash
-     DEADLINE: <2018-01-02 Tue 20:00 ++1d>
-     :PROPERTIES:
-     :LAST_REPEAT: [2018-01-02 Tue 15:49]
-     :Effort:   0:30
-     :END:
-     :LOGBOOK:
-     - State "DONE"       from "TODO"       [2018-01-02 Tue 15:49] \\
-       i came from <2008-02-08 Fri 20:00 ++1d>.
-     :END:
-     Marking this DONE will shift the date by at least one day, and
-     also by as many days as it takes to get the timestamp into the
-     future.  Since there is a time in the timestamp, the next
-     deadline in the future will be on today's date if you
-     complete the task before 20:00.
-**** flatten recursive (c-u c-u <Tab> fold subtree)
-... with timestamp, c-c c-x c
-***** ... no repeater, just some platos
-... pinpoint every duration
-
-<2018-01-02 Tue 17:17>
-
-***** ... no repeater, just some platos
-... pinpoint every duration
-
-<2018-01-09 Tue 17:17>
-
-***** ... no repeater, just some platos
-... pinpoint every duration
-
-<2018-01-16 Tue 17:17>
 ** Archive :ARCHIVE:
 *** birdy niao'ge'de'si'fang'cai on webs                              :habit:
     :PROPERTIES:
@@ -1062,6 +1047,87 @@ rectangle :: c-x <space> ->>> c-x r ?
     :END:
     ...
 
+*** ReTodo -3 week                                                  :ARCHIVE:
+    DEADLINE: <2018-01-13 Sat +1w -5d>
+    :PROPERTIES:
+    :Effort:   2:00
+    :LAST_REPEAT: [2018-01-12 Fri 10:53]
+    :ARCHIVE_TIME: 2018-01-26 Fri 10:58
+    :END:
+  :LOGBOOK:
+  - State "DONE"       from "TODO"       [2018-01-12 Fri 10:53] \\
+    now github, mailx, teamview...
+    i'll come back time to time...
+  :END:
+ rectangle :: c-x <space> ->>> c-x r ?  
+ 1. repeater :: y/w/m/d/h repeat cookies
+		M-(-1) c-c c-t
+		org-log-repeat NEED note for think/sum
+    1) repeated tasks: "emacs' manual" 8.3.2
+    2) org-habit-?-p :: habitrpg/habitrpg.el grep it, then comment it in init.el
+    3) <<warning period>> :: in schedule/deadline </2017-12-31 Sun +1w +4d> 
+       -3d? when? period .<----|schedule/deadline
+    afflux_fromAliECS:Sched. 2x:  TODO this week
+    afflux_fromAliECS:In   5 d.:  TODO this week
+ 2. appointments/reminder
+**** repeat tasks(c-c ^ sort subtrees)                                :arena:
+***** ReTodo Call Father
+      DEADLINE: <2018-01-07 Sun ++1w>
+      :PROPERTIES:
+      :LAST_REPEAT: [2018-01-02 Tue 15:44]
+      :Effort:   0:10
+      :END:
+      :LOGBOOK:
+      - State "DONE"       from "TODO"       [2018-01-02 Tue 15:44] \\
+	i came from <2008-02-10 Sun ++1w>.
+      :END:
+      Marking this DONE will shift the date by at least one week,
+      but also by as many weeks as it takes to get this date into
+      the future.  However, it stays on a Sunday, even if you called
+      and marked it done on Saturday.
+***** ReTodo Check the batteries in the smoke detectors
+      DEADLINE: <2018-02-02 Fri .+1m>
+      :PROPERTIES:
+      :LAST_REPEAT: [2018-01-02 Tue 15:50]
+      :END:
+      :LOGBOOK:
+      - State "DONE"       from "TODO"       [2018-01-02 Tue 15:50] \\
+	i came from <2005-11-01 Tue .+1m>.
+      :END:
+      Marking this DONE will shift the date to one month after
+      today.
+
+***** ReTodo Empty kitchen trash
+      DEADLINE: <2018-01-02 Tue 20:00 ++1d>
+      :PROPERTIES:
+      :LAST_REPEAT: [2018-01-02 Tue 15:49]
+      :Effort:   0:30
+      :END:
+      :LOGBOOK:
+      - State "DONE"       from "TODO"       [2018-01-02 Tue 15:49] \\
+	i came from <2008-02-08 Fri 20:00 ++1d>.
+      :END:
+      Marking this DONE will shift the date by at least one day, and
+      also by as many days as it takes to get the timestamp into the
+      future.  Since there is a time in the timestamp, the next
+      deadline in the future will be on today's date if you
+      complete the task before 20:00.
+***** flatten recursive (c-u c-u <Tab> fold subtree)
+ ... with timestamp, c-c c-x c
+****** ... no repeater, just some platos
+ ... pinpoint every duration
+
+ <2018-01-02 Tue 17:17>
+
+****** ... no repeater, just some platos
+ ... pinpoint every duration
+
+ <2018-01-09 Tue 17:17>
+
+****** ... no repeater, just some platos
+ ... pinpoint every duration
+
+ <2018-01-16 Tue 17:17>
 * <<<1
 <<ci>> 
 1. (>...)||----idle-----||{..<}.

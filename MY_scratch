@@ -348,3 +348,16 @@ org-babel-load-languages
    (R . t)
    (python . t)
    (shell . t)))
+
+;; emacs' diary file => org's calendar
+;; info path
+Info-directory-list
+(with-eval-after-load 'info
+(info-initialize)
+(add-to-list 'Info-directory-list "~/.emacs.d/site-lisp/magit/Documentation/")
+(add-to-list 'Info-directory-list "/home/ben/mysrc/info_manual/"))
+(add-to-list 'load-path "/home/ben/mysrc/org-mode/lisp")
+(add-to-list 'load-path "/home/ben/mysrc/org-mode/contrib/lisp")
+(add-to-list 'Info-directory-list "/home/ben/mysrc/org-mode/doc")
+;; ---
+
