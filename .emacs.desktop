@@ -2,12 +2,12 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Tue Jan 30 17:55:23 2018
+;; Created Tue Jan 30 20:10:17 2018
 ;; Desktop file format version 206
 ;; Emacs version 24.4.1
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (23152 16651 24480 280000) (desktop . "206") "ben@eros" nil nil ((((tty-type . "xterm") (tty . "/dev/tty") (display-type . color) (background-mode . light) (foreground-color . "unspecified-fg") (cursor-color . "black") (background-color . "unspecified-bg") (font . "tty") (height . 47) (width . 116) (modeline . t) (unsplittable) (menu-bar-lines . 1) (frameset--id . "16B4-B5A5-448B-85CE") (frameset--mini t) (minibuffer . t)) ((min-height . 8) (min-width . 10) (min-height-ignore . 5) (min-width-ignore . 2) (min-height-safe . 2) (min-width-safe . 2) (min-pixel-height . 8) (min-pixel-width . 10) (min-pixel-height-ignore . 5) (min-pixel-width-ignore . 2) (min-pixel-height-safe . 2) (min-pixel-width-safe . 2)) vc (pixel-width . 116) (pixel-height . 45) (total-width . 116) (total-height . 45) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 116) (pixel-height . 23) (total-width . 116) (total-height . 23) (normal-height . 0.5) (normal-width . 1.0) (buffer "*Messages*" (selected . t) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 6289) (start . 5843))) (leaf (last . t) (pixel-width . 116) (pixel-height . 22) (total-width . 116) (total-height . 22) (normal-height . 0.5) (normal-width . 1.0) (buffer "*Buffer List*" (selected) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 1) (start . 1)))))])
+(setq desktop-saved-frameset [frameset 1 (23152 24745 462695 176000) (desktop . "206") "ben@eros" nil nil ((((tty-type . "xterm") (tty . "/dev/tty") (display-type . color) (background-mode . light) (foreground-color . "unspecified-fg") (cursor-color . "black") (background-color . "unspecified-bg") (font . "tty") (height . 47) (width . 116) (modeline . t) (unsplittable) (menu-bar-lines . 1) (frameset--id . "0DB5-9406-8ED0-0EDA") (frameset--mini t) (minibuffer . t)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 2) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 4) (min-pixel-width . 10) (min-pixel-height-ignore . 2) (min-pixel-width-ignore . 2) (min-pixel-height-safe . 1) (min-pixel-width-safe . 2)) leaf (pixel-width . 116) (pixel-height . 45) (total-width . 116) (total-height . 45) (normal-height . 1.0) (normal-width . 1.0) (buffer "afflux_fromAliECS.org" (selected . t) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 2720) (start . 1242))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
@@ -22,8 +22,8 @@
   "afflux_fromAliECS.org"
   'org-mode
   '(auto-revert-mode)
-  2404
-  '(1629 nil)
+  2720
+  '(2472 nil)
   nil
   nil
   '((buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
@@ -89,17 +89,6 @@
   'org-mode
   '(auto-revert-mode)
   1
-  '(nil nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-append-buffer-args 206
-  "/home/ben/filofex/chaos_archive.org"
-  "chaos_archive.org"
-  'org-mode
-  '(auto-revert-mode)
-  6625
   '(nil nil)
   nil
   nil
