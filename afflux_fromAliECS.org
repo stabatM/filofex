@@ -30,24 +30,44 @@
      [[info:emacs#Format%20of%20Diary%20File][diary day]] << c-x <tab> ( > <) indent margin tabs
   - calenda :: i d/w/m/y >>> i a/b/c
     - [[file:diary_genALL][diary-ex]]
-    - diary-include-string :: [[info:emacs#Fancy%20Diary%20Display][include diaryFiles + commentation]] <<<diaryFiles>>>
-    - diary-comment-start/end :: in ONE line, NO lines... diaryFiles
+    - diary-include-string :: [[info:emacs#Fancy%20Diary%20Display][include diaryFiles + commentation]] <<<diaryFiles>>> :: [[diaf]] <-need link info
+    - diary-comment-start/end :: in ONE line, NO lines...                        :: diaryFiles <-no-need link info, need c-c c-c
     - (diary) :: tomato-potato first! [[info:emacs#Displaying%20the%20Diary][auto-open]]
 - ido :: c-s/r(next/previous) [[https://www.emacswiki.org/emacs/InteractivelyDoThings][ido]] 
-- docker machine
+- docker machine($ ls -halt)
+  image/container/task/service/stack/swarm...
+  * !IMP! :: new DIR /etc/bash_completion.d >> less .../docker-machine-prompt.bash >> under instructions
+    >> [...] OK >> docker-macine use OK >> other 2 scripts
+  * ABOUT sudo(docker init) :: user:group, sudoer is slim, well, no-need do more, neigther /usr/local/bin/docker-machine
+		  nor /etc/bash_completion.d
+  * virtual box :: leeward .) vagrant
+		   vim -r/-R >> apt-key list | grep -C(ontext)
+		   ...
+		   apt-get install linux-headers-amd64 linux-headers-3.16.0-4-amd64
+		   vboxconfig
+		   docker-machine create --driver virtualbox myvm1
+		   "
+		   Running pre-create checks...
+                   Error with pre-create check: "This computer doesn't have VT-X/AMD-v enabled. Enabling it in the BIOS is mandatory"
+		   "
+		   egrep '(vmx|svm)' /proc/cpuinfo
+		   
+
 ...)
 - SBT envirment
 - xmind for fantacy
 - spark MLLib
-*** -1 week
-  - docker :: get-start (docker ps = docker container ls; docker images = docker image ls)
-	      build/push image(registry > reps > images)
-	      composer; vim indent << auto-align; YAML is strict!; stack/swarm/service/container...
-  - marathon/mesos DCos :: QQnotes
-  - top :: L then &(howto refresh to line1? or search back?); 0/1/2/3(then 0(node)); z/b :: x/y
-  - mail/mu/mu4e :: less ~/.offlineimaprc
-  - git :: push [!reject], force, pull, modify, commit-local, push
-	   [[https://git-scm.com/docs/git-rebase][git-rebase]] :: not yet use 
+
+<<diaf>>...this is the destination
+** -1 week
+ - docker :: get-start (docker ps = docker container ls; docker images = docker image ls)
+	     build/push image(registry > reps > images)
+	     composer; vim indent << auto-align; YAML is strict!; stack/swarm/service/container...
+ - marathon/mesos DCos :: QQnotes
+ - top :: L then &(howto refresh to line1? or search back?); 0/1/2/3(then 0(node)); z/b :: x/y
+ - mail/mu/mu4e :: less ~/.offlineimaprc
+ - git :: push [!reject], force, pull, modify, commit-local, push
+	  [[https://git-scm.com/docs/git-rebase][git-rebase]] :: not yet use 
 ** -2 week                                                           :ATTACH:
    :PROPERTIES:
    :Attachments: openstack-Names.png history.html
@@ -67,20 +87,10 @@
    RSS/Atom org-feed-alist :: $ dstat # iptraf-ng $ iostat -mtx
 3. docker.io for spark
    - [-] apach-hadoop latest version 
-** -2 week                                                          :ARCHIVE:
-1. vext
-   python's .pth file
-   apt-cache search ...
-[2018-01-08 Mon 11:24]-[2018-01-08 Mon 16:24] 05:00
-** -3 week                                                          :ARCHIVE:
-*** time/date/agenda
-1. [[warning period]]
-2. appointments/reminder
-
 ** Archive                                                          :ARCHIVE:
   - last week :: about tags and other configurations
   - this week :: org-manual column-view 
-*** -5 week                                                         :ARCHIVE:
+*** -6 week                                                         :ARCHIVE:
     :PROPERTIES:
     :ARCHIVE_TIME: 2018-01-22 Mon 13:55
     :END:
@@ -145,8 +155,7 @@
 	  - C-c / :: search something
 	  - C-c a m :: search agenda
 
-
-*** -4 week                                           :luffy:caution:ARCHIVE:
+*** -5 week                                           :luffy:caution:ARCHIVE:
     :PROPERTIES:
     :ARCHIVE_TIME: 2018-01-22 Mon 13:55
     :END:
@@ -262,6 +271,22 @@
       | *Total time* | *0:24* |
       |--------------+--------|
       #+END:
+*** -4 week                                                         :ARCHIVE:
+    :PROPERTIES:
+    :ARCHIVE_TIME: 2018-01-30 Tue 12:30
+    :END:
+**** time/date/agenda
+ 1. [[warning period]]
+ 2. appointments/reminder
+
+*** -3 week                                                         :ARCHIVE:
+    :PROPERTIES:
+    :ARCHIVE_TIME: 2018-01-30 Tue 12:30
+    :END:
+ 1. vext
+    python's .pth file
+    apt-cache search ...
+ [2018-01-08 Mon 11:24]-[2018-01-08 Mon 16:24] 05:00
 * new tue[0/0]
 *new tue ... you can try to hidden it, like git's stash(not squash)
   - last week ::

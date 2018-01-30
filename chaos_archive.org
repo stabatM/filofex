@@ -181,6 +181,18 @@ Archived entries from file /home/ben/filofex/catorch(note).org
    CLOCK: [2018-01-18 Thu 17:02]--[2018-01-18 Thu 17:16] =>  0:14
    :END:
    <2018-01-17 Wed>--<2018-01-01 Mon> :: c-c c-y (org-evaluate-time-range)
+
+** -3 week                                                          :ARCHIVE:
+   :PROPERTIES:
+   :ARCHIVE_TIME: 2018-01-30 Tue 12:28
+   :ARCHIVE_FILE: ~/filofex/afflux_fromAliECS.org
+   :ARCHIVE_OLPATH: new mon
+   :ARCHIVE_CATEGORY: afflux_fromAliECS
+   :END:
+1. vext
+   python's .pth file
+   apt-cache search ...
+[2018-01-08 Mon 11:24]-[2018-01-08 Mon 16:24] 05:00
 * From catorch(note).org
 
 ** Notes
