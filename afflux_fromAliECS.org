@@ -296,6 +296,12 @@
   - last week ::
   - this week :: 
 ** this week
+1. ali-ecs failed install docker-machine, goon homebrew
+   - [[/etc/bash_completion.d][my-bash-cmd]]
+   - [[https://docs.docker.com/machine/overview/][docker-machine]]
+2. goon smt in docker-image(i.e. spark standalone(mllib))
+
+** -1 week
 1. github
    - git reset :: [[https://git-scm.com/docs/git-reset][git-reset]] : image concept as links NOT paper
    - git checkout HEAD <filename:.emacs.desktop> :: unmerged commit
@@ -306,7 +312,7 @@
      4git_readme_1st :: git clone >> then add new file
 2. flex,bison
    
-** -1 week
+** -2 week
 1. org capture
    - org protocols :: emacsclient + browser
 		      !!! require modules in init.el [[https://orgmode.org/worg/org-contrib/org-protocol.html][about protocol.el]]
@@ -326,7 +332,7 @@
        + javascript:location.href='org-protocol://store-link?url='+encodeURIComponent(location.href);
        + javascript:location.href='org-protocol://template=x'+ '&url='+encodeURIComponent(window.location.href)+'&title='+encodeURIComponent(document.title)+'&body='+encodeURIComponent(window.getSelection());
        + javascript:location.href='org-protocol://open-source?&url='+encodeURIComponent(location.href)
-** -2 week
+** -3 week
 awkward when no 'Super key' => S-left/right :: bullet styles ;(
 - capture :: new idea and references, less interuption work flow
 	     org-capture.el replace org-remember.el
@@ -391,31 +397,6 @@ awkward when no 'Super key' => S-left/right :: bullet styles ;(
     [2018-01-09 Tue]
     [[file:~/filofex/afflux_fromAliECS.org::*this%20week][this week]]
 
-** -3 week                                                          :ARCHIVE:
-   :PROPERTIES:
-   :Effort:   0:40
-   :END:
-   :LOGBOOK:
-   CLOCK: [2018-01-02 Tue 21:09]--[2018-01-02 Tue 21:17] =>  0:08
-   CLOCK: [2018-01-02 Tue 20:54]--[2018-01-02 Tue 21:09] =>  0:15
-   CLOCK: [2018-01-02 Tue 20:14]--[2018-01-02 Tue 20:23] =>  0:09
-   :END:
-rock u start: [2018-01-02 Tue 12:18]
-0..1 1..n.org
-c-u c-c c-x ; org-timer-default-timer
-when (/setq org-deadline-warning-days nil), no agenda ;P
-when ~ 0, no warning, must have some number, then customize it; 
-1. repeaters +/++/.+
-2. schedule/warning days -5d/--1d
-   %?/%a
-   [[info:org#Capture%20templates][info:org#Capture templates]]
-   [[info:org#Template%20expansion][info:org#Template expansion]]
-3. effort estimates
-4. relative timer :: reminder
-   c-c c-x -/./0 :: insert timer note
-   m-<RET> :: timer headline
-5. column view
-
 ** Archive :ARCHIVE:
 *** doom_test                                                       :ARCHIVE:
     :PROPERTIES:
@@ -477,6 +458,32 @@ when ~ 0, no warning, must have some number, then customize it;
  !!!.  field names are case sensitive and spelled as in the header
  - apt-cache search; dpkg -s/-l/-s ; dpkg -r/-l :: debian jessie
  - top :: g a/w
+*** -4 week                                                         :ARCHIVE:
+    :PROPERTIES:
+    :Effort:   0:40
+    :ARCHIVE_TIME: 2018-01-31 Wed 10:50
+    :END:
+    :LOGBOOK:
+    CLOCK: [2018-01-02 Tue 21:09]--[2018-01-02 Tue 21:17] =>  0:08
+    CLOCK: [2018-01-02 Tue 20:54]--[2018-01-02 Tue 21:09] =>  0:15
+    CLOCK: [2018-01-02 Tue 20:14]--[2018-01-02 Tue 20:23] =>  0:09
+    :END:
+ rock u start: [2018-01-02 Tue 12:18]
+ 0..1 1..n.org
+ c-u c-c c-x ; org-timer-default-timer
+ when (/setq org-deadline-warning-days nil), no agenda ;P
+ when ~ 0, no warning, must have some number, then customize it; 
+ 1. repeaters +/++/.+
+ 2. schedule/warning days -5d/--1d
+    %?/%a
+    [[info:org#Capture%20templates][info:org#Capture templates]]
+    [[info:org#Template%20expansion][info:org#Template expansion]]
+ 3. effort estimates
+ 4. relative timer :: reminder
+    c-c c-x -/./0 :: insert timer note
+    m-<RET> :: timer headline
+ 5. column view
+
 * new wed[0%]
   - last week ::
   - this week ::
