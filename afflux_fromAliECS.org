@@ -488,6 +488,39 @@ awkward when no 'Super key' => S-left/right :: bullet styles ;(
   - last week ::
   - this week ::
 ** this week
+- github
+  1) git read-tree [[https://git-scm.com/docs/git-read-tree][git-read-tree]]
+  2) git reset HEAD [[https://git-scm.com/docs/git-reset][git-reset]]
+  3) git ls-files [[https://git-scm.com/docs/git-ls-files][git-ls-files]]
+- docker-machine
+  - [[https://docs.docker.com/machine/overview/][docker-machine]]
+  - docker-swarm :: docker swarm join --token SWMTKN-1-4vi9nt 172.19.91.56:2377
+		    To add a manager to this swarm, run 'docker swarm join-token manager' and
+		    follow the instructions.
+  - docker-ssh :: u know, docker-machine has its own ssh-agent(rather than local host's) need
+		  explicit declare  ssh private key to communicate with remote host which has
+		  add pub-key into its trust-list.
+		 \*docker node ls
+  - dockr-env :: overlay target machine/node's env to machine-manager/swarm-manager's env
+		 \*docker-machine ls
+    - cmd-collection :: ...
+  - redis in container :: less app.py
+       in ~/mydocker/app.py: redis = Redis(host="redis", db=0, socket_connect_timeout=2, socket_timeout=2)
+       host is NOT vm's hostname, try connect container confirm
+    1. FIRST, sudo docker exec -it Containerid /bin/bash (attach is obsolete)
+    2. WELL ;), u can use container's inside hosts' IP address like "10.0.0.10"
+    3. AND ;), u can use "sudo docker container ls"-NAME infos
+    4. FINALLY ;(, u can NOT use redis as official-doc said... 
+  - with out docker-machine :: swarm normal, node local, image ok
+       localnode == docker-machine create -d virtualbox
+       happy omit init new swarm on vm1
+    1. modify docker-*.yml
+    2. correct app.py
+    3. local *mkdir for redis data-persist
+       use *exec -it check /data in container
+    4. stop THE service in stack >> leave swarm >> init swarm >> deploy --compose-file/-c 
+		  
+** -1 week
 - cp ${my:-}.hist
   info coreutils
   info : <H> for help NOT h ;(
@@ -495,11 +528,11 @@ awkward when no 'Super key' => S-left/right :: bullet styles ;(
 - git reset/rebase :: commit >> index >> worktree :NO WAY... ;(
      [[https://git-scm.com/docs/git-reset#_discussion][git-reset-discussion]]
 
-1. use case git
-   - git pull >> git reset --hard ORIG_HEAD
-   - git pull >> git reset --merge ORIG_HEAD
-   - [[https://git-scm.com/docs/git-reset#git-reset-Keepchangesinworkingtreewhilediscardingsomepreviouscommits][git-reset-keep]]
-** -1 week
+- use case git
+  - git pull >> git reset --hard ORIG_HEAD
+  - git pull >> git reset --merge ORIG_HEAD
+- [[https://git-scm.com/docs/git-reset#git-reset-Keepchangesinworkingtreewhilediscardingsomepreviouscommits][git-reset-keep]]
+** -2 week
 1. org-protocols open-source use emacsclient try ... well
    find /home/ben/filofex/ -name org-protocol* | xargs ls -alt
 2. git push github use ssh ... well(ref details in QQ notes/filofex.git README.md)
@@ -588,29 +621,7 @@ print('Do things when True')
 
    - aliyun snapshot :: recharge fees, manual snapshot, QQ screenshot save to weiyun
    - :: 
-** -2 week :ARCHIVE:
-** -3 week :ARCHIVE:
-[2017-12-27 wed 10:34]
-- docker no :: database mysql oracle-instance(sga)
-- vm versus container :: volume-interface, network-if, data in mem/disk, share/security, cgroup/selinux
-[[https://myopsblog.wordpress.com/2017/02/06/why-databases-is-not-for-containers/][why-databases-is-not-for-containers]]
-  - 1st :: process = container, process' lifecycle is in memory, redis from old architecture design can merge into container
-  - 2nd :: dedicate envirment include: container's immature network, vm's nas, bussiness envirnment's high io performance and less barriers(container on vm)
-  - 3rd :: container no bonus introduce into dbs project, no better than ansible
-  - 4th :: vm's juggle and snapshots contain full state backup
-  - 5th :: in practice, from hardware isolation to vm(cloud) to container, need redesign and specific engineer do right things: data etl, stateless service,and
-	   (c-<enter>) inner stateless corruption may cause outer statful env corruption even worse
-  - eg. :: [[https://blog.lab99.org/post/docker-2016-07-14-faq.html#kan-dao-zong-shuo-yao-bao-chi-rong-qi-wu-zhuang-tai-na-shi-me-shi-wu-zhuang-tai][wu-zhuang-tai]]
-1. ooh, num show...
-[[https://www.joyent.com/blog/persistent-storage-patterns][persistent-storage-patterns]]
-  - 6.1 :: configuration !consult
-  - 6.2 :: secrets !vault
-  - 6.3 :: database instances(somelevel periodically backup data to oss; replicate state across multi-dbs,then the surviver then use it to bootstrap)
-	   !autopilot pattern mysql
-  - 6.4 :: shared data (oss <> sharedfs), db + sharedfs
-  - 6th :: every application can be stateless
-[[https://dzone.com/articles/is-docker-good-for-your-database][is-docker-good-for-your-database]]
-  - 7th :: lack of synergy... just not stable yet... 
+** -3 week                                                          :ARCHIVE:
 ** Archive :ARCHIVE:
 *** -4 week                                                         :ARCHIVE:
     :PROPERTIES:
@@ -669,6 +680,31 @@ print('Do things when True')
   - M-x package.... highlight-pare :: hl-pare
   - colors 4 parentheses :: M-x help color-name-rgb-alist 
 
+*** -4 week                                                         :ARCHIVE:
+    :PROPERTIES:
+    :ARCHIVE_TIME: 2018-01-31 Wed 11:40
+    :END:
+ [2017-12-27 wed 10:34]
+ - docker no :: database mysql oracle-instance(sga)
+ - vm versus container :: volume-interface, network-if, data in mem/disk, share/security, cgroup/selinux
+ [[https://myopsblog.wordpress.com/2017/02/06/why-databases-is-not-for-containers/][why-databases-is-not-for-containers]]
+   - 1st :: process = container, process' lifecycle is in memory, redis from old architecture design can merge into container
+   - 2nd :: dedicate envirment include: container's immature network, vm's nas, bussiness envirnment's high io performance and less barriers(container on vm)
+   - 3rd :: container no bonus introduce into dbs project, no better than ansible
+   - 4th :: vm's juggle and snapshots contain full state backup
+   - 5th :: in practice, from hardware isolation to vm(cloud) to container, need redesign and specific engineer do right things: data etl, stateless service,and
+	    (c-<enter>) inner stateless corruption may cause outer statful env corruption even worse
+   - eg. :: [[https://blog.lab99.org/post/docker-2016-07-14-faq.html#kan-dao-zong-shuo-yao-bao-chi-rong-qi-wu-zhuang-tai-na-shi-me-shi-wu-zhuang-tai][wu-zhuang-tai]]
+ 1. ooh, num show...
+ [[https://www.joyent.com/blog/persistent-storage-patterns][persistent-storage-patterns]]
+   - 6.1 :: configuration !consult
+   - 6.2 :: secrets !vault
+   - 6.3 :: database instances(somelevel periodically backup data to oss; replicate state across multi-dbs,then the surviver then use it to bootstrap)
+	    !autopilot pattern mysql
+   - 6.4 :: shared data (oss <> sharedfs), db + sharedfs
+   - 6th :: every application can be stateless
+ [[https://dzone.com/articles/is-docker-good-for-your-database][is-docker-good-for-your-database]]
+   - 7th :: lack of synergy... just not stable yet... 
 * new thur
   - last week ::
   - this week :: 
@@ -1095,7 +1131,7 @@ print('Do things when True')
 *** ReTodo -3 week                                                  :ARCHIVE:
     DEADLINE: <2018-01-13 Sat +1w -5d>
     :PROPERTIES:
-    :Effort:   2:00
+    :EFFORT:   0:40
     :LAST_REPEAT: [2018-01-12 Fri 10:53]
     :ARCHIVE_TIME: 2018-01-26 Fri 10:58
     :END:
