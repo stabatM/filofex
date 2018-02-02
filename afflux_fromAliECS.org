@@ -452,7 +452,7 @@ awkward when no 'Super key' => S-left/right :: bullet styles ;(
  [2017-12-26 tue 12:17]
  - c-u c-c ! :: add timestamps
  - qq group :: docker, openstack, liyajie anquanniu...
- - top :: show command c; sort m/t; filter u/o(5e) c-o =; soso l/m/t/1; j/j/e justification ;
+ - top :: show command c; sort m/t; filter u/o(5e) c-o(show) =(reset i,o...); soso l/m/t/1; j/j/e justification ;
 	  5b a/w/g -/_/=/+...a; v; r/f/->^
  filter basics
  !!!.  field names are case sensitive and spelled as in the header
@@ -709,13 +709,23 @@ print('Do things when True')
   - last week ::
   - this week :: 
 ** this week
+docker-machine >> docker swarm (app.py+visulizer+redis)
+# wait a minute when errs pops, wrong below
+# X - if u change the docker-compose.yml, NEED stack-rm
+# X - if ur volume unavailabe, mkdir/rename-mv, NEED re-deploy
+*** TODO "can not connect to redis host?" how to replay err
+    :LOGBOOK:
+    - State "TODO"       from "WAIT"       [2018-02-02 Fri 16:59]
+    - State "WAIT"       from "TODO"       [2018-02-02 Fri 16:58] \\
+      test fun... goon
+    :END:
+** -1 week
 - aws bill mistake
   (shi'yao/bzlocalIP4address,emaillist,shortmessages, mfa renew(1passAPP)...
   creditCard crisis... the LAW)
   $6,800... waiting
 
-
-1. docker tut
+1. docker tut :: emacs games
    ben@eros:/tmp$ ls /usr/share/emacs/*/lisp/play
    5x5.elc       cookie1.elc     dunnet.elc    gomoku.elc     life.elc   snake.elc      tetris.elc
    animate.elc   decipher.elc    fortune.elc   handwrite.elc  morse.elc  solitaire.elc  zone.elc
@@ -731,7 +741,7 @@ print('Do things when True')
 |-----+-----------------+-----|
 | ... | c-u c-@/<space> | c-& |
 
-** -1 week
+** -2 week
 1. clean afflux_fromAliECS.org structure
    - dired :: 1/2; 'flag'D for delete >> x use ~/./#; 'mark'* for more >> m 
    - dired-R :: R rename file
@@ -754,24 +764,6 @@ print('Do things when True')
      CLOCK: [2018-01-18 Thu 17:02]--[2018-01-18 Thu 17:16] =>  0:14
      :END:
      <2018-01-17 Wed>--<2018-01-01 Mon> :: c-c c-y (org-evaluate-time-range)
-
-** -2 week                                                             :wula:
-1. aliyun  >> console >> backup strategy >> mirror strategy
-2. skim last days
-3. capture template expansion
-   %^C/L
-   %^{prop}p
-   %^{prompt|default|completion2|completion3} :: wala>> m-/ can autocomplete from multi-files even *info*
-   %:keyword >>> c-c c in which type buffer decide (emacs contains all)
-4. clipboard *info*
-   - sort entries :: c-c ^ time
-5. Gnus -> mu4e(1.0alpha) -> g++(cxx14)
-   /usr/local/share/emacs/site-lisp/mu4e (install logs)
-   ...continue...(mailx)
-   mail.rc >> #cp mail.rc{,.bak} >> vim dd >> set ...(baidu,QQnote) >> source >>
-   echo "I'm from ali-ecs-eros $(date)" | mail -s "mailx from gnu" u2gui@163.com
-   aliyun-ecs ports...
-6. ...mailx,ssh reverse-proxy(teamview)...
 
 ** Archive :ARCHIVE:
 *** -3 week                                                         :ARCHIVE:
@@ -1030,9 +1022,75 @@ print('Do things when True')
     :END:
  ...
 
+*** -3 week                                                            :wula:
+    :PROPERTIES:
+    :ARCHIVE_TIME: 2018-02-02 Fri 10:29
+    :END:
+ 1. aliyun  >> console >> backup strategy >> mirror strategy
+ 2. skim last days
+ 3. capture template expansion
+    %^C/L
+    %^{prop}p
+    %^{prompt|default|completion2|completion3} :: wala>> m-/ can autocomplete from multi-files even *info*
+    %:keyword >>> c-c c in which type buffer decide (emacs contains all)
+ 4. clipboard *info*
+    - sort entries :: c-c ^ time
+ 5. Gnus -> mu4e(1.0alpha) -> g++(cxx14)
+    /usr/local/share/emacs/site-lisp/mu4e (install logs)
+    ...continue...(mailx)
+    mail.rc >> #cp mail.rc{,.bak} >> vim dd >> set ...(baidu,QQnote) >> source >>
+    echo "I'm from ali-ecs-eros $(date)" | mail -s "mailx from gnu" u2gui@163.com
+    aliyun-ecs ports...
+ 6. ...mailx,ssh reverse-proxy(teamview)...
+
 * new fri
   ...
 ** this week
++ comment
+  - emacs comment : m-; in org/source
+  - vim comment : .,.+ normal i#
++ top (info top)
+  - C :: x/y position number
+  - = :: Exit-Task-Limits
++ coding webIDE, binding github account <> IDE >> setting >> repos >> github/bitbuck
++ bash :: how to width the omitted COMMAND content in tty1 width-limit(see below snapshot)
+	  grep 'text' **/*
+
+
+1. docker
+2. friendlyhello:latest == conweson/minit:getstartPart2
+   image ls >> imageid
+3. 
+*** TODO image moonshadow :: swarm network >> try: no swarm, single by single run container ...
+   in app.py, host="redis" >> docker exec >> NO redis hostname ? how detect the redis-host ?
+   iptraf-ng
+   sudo docker container inspect redis-container-id | grep redis
+   sudo docker history redis-image-id
+   sudo docker inspect --format='{{.Name}} - {{range .NetworkSettings.Networks}} - {{.IPAddress}}{{end}}' $(sudo docker ps -aq)
+>>> S
+[ben@eros mydocker]$ sudo docker history conweson/minit:getstartPart2
+IMAGE               CREATED             CREATED BY                                      SIZE                COMMENT
+a85796103467        11 days ago         /bin/sh -c #(nop)  CMD ["python" "app.py"]      0B                  
+ed51f872db6c        11 days ago         /bin/sh -c #(nop)  ENV NAME=World               0B                  
+913f0b239586        11 days ago         /bin/sh -c #(nop)  EXPOSE 80                    0B                  
+6ea1c0623993        11 days ago         /bin/sh -c pip install --trusted-host pypi.p…   9.87MB              
+7bbc6df1cfd1        11 days ago         /bin/sh -c #(nop) ADD dir:6b388675416e6b4a32…   1.19kB              
+b058961d3f72        11 days ago         /bin/sh -c #(nop) WORKDIR /app                  0B                  
+4fd30fc83117        7 weeks ago         /bin/sh -c #(nop)  CMD ["python2"]              0B                  
+<missing>           7 weeks ago         /bin/sh -c set -ex;   apt-get update;  apt-g…   6.53MB              
+<missing>           7 weeks ago         /bin/sh -c #(nop)  ENV PYTHON_PIP_VERSION=9.…   0B                  
+<missing>           7 weeks ago         /bin/sh -c set -ex  && buildDeps="   dpkg-de…   45.9MB              
+<missing>           7 weeks ago         /bin/sh -c #(nop)  ENV PYTHON_VERSION=2.7.14    0B                  
+<missing>           7 weeks ago         /bin/sh -c #(nop)  ENV GPG_KEY=C01E1CAD5EA2C…   0B                  
+<missing>           7 weeks ago         /bin/sh -c apt-get update && apt-get install…   6.95MB              
+<missing>           7 weeks ago         /bin/sh -c #(nop)  ENV LANG=C.UTF-8             0B                  
+<missing>           7 weeks ago         /bin/sh -c #(nop)  ENV PATH=/usr/local/bin:/…   0B                  
+<missing>           7 weeks ago         /bin/sh -c #(nop)  CMD ["bash"]                 0B                  
+<missing>           7 weeks ago         /bin/sh -c #(nop) ADD file:e7ac45803c3ab9b70…   79.1MB              
+<<< E
+
+
+** -1 week
    :LOGBOOK:
    CLOCK: [2018-01-26 Fri 22:38]--[2018-01-26 Fri 23:13] =>  0:35
    :END:
@@ -1045,7 +1103,7 @@ print('Do things when True')
 - rancher :: container management platform
 - [[http://xiki.com/@xiki/tutorial][xsh]] :: bash = source ./bashrc ... xsh --reload # source ~/.xsh
      	 lynx : classic non-graphical web browser
-** -1 week
+** -2 week
 1. gnus [[https://www.emacswiki.org/emacs/CategoryGnus][gnus-wiki]] :: QQnotes/gnus
      m-l/u/c :: lowcase/UPPERCASE/Capitalize 
 2. [[http://linux.vbird.org/linux_server/0380mail.php#mua_mail][vbird(niao'ge'de'si'fang'cai)]] ::QQnotes/common
@@ -1080,43 +1138,6 @@ print('Do things when True')
 
 8. 
 
-** -2 week
-1. ssh reverse-proxy
-   - [X] teamview
-   - [ ] ngrok
-2. mu4e
-   - [ ] mailx :: server, server email address
-		  :i'm debian: so try exim4 :: netstat -nap | grep LISTEN
-		  :vim /etc/exim4/update-exim4.conf.conf
-		  :/etc/init.d/exim4 stop
-		  :/etc/init.d/exim4 start
-		  :vim /etc/mail.rc
-		  NO more try...mailutil
-   - [-] mailx :: proxy-client for mail.163.com
-		  No more try...
-		  :my-furu ubuntu16.04 postfix(not exim4)
-		  go... mu4e
-3. git-flow
-   - myown :: push init.el/afflu...org to github
-   - social code :: select projs watched
-     - pull request :: after push to remote github repo
-     - fork/fetch_head :: origin to my remote github repo/ pull from origin repos that post-pullrequest issues
-     - clone :: to local pc
-** -3 week                                                          :ARCHIVE:
-*** sciPy
-- virtualenv :: alias m_vire='source /home/ben/PythonVirEnv/bin/activate;cd /home/ben/PythonVirEnv/'
-  - vim +43 !:1 :: 2envs swap virtual(NAMES) .../home/ben/PythonVirEnv_~/bin/activate
-- sciPy :: pdf(1800+ pages)
-  - numpy :: >>> go
-  - vext :: from the virenv load system package(cannot in virenv install(pip/apt) plot)
-	    (not in virenv)NEED: apt-get install ruamel.yaml -> vext(pip install vext) --help -> ok.
-	    you can find ~ -name *.pth
-	    CANNOT pip install matplotlib [[https://github.com/stuaxo/vext/blob/master/README.md][vext-tutor-README]]
-	    vim -O +13 vext-0.7.0.egg-info/PKG-INFO :: only support these comfortable
-  - pip :: /root/.pip/pip.conf
-	   beware pip/pip2/pip2.7 ... ;(
-  - toggleglobalsitepackages :: virtualwrapper Only
-    - the-system-site-packages-option :: virtualenv ->>> clean old-folder(remove all) ->>> new virtualenv ->>> ok.
 ** Archive :ARCHIVE:
 *** birdy niao'ge'de'si'fang'cai on webs                              :habit:
     :PROPERTIES:
@@ -1209,6 +1230,49 @@ print('Do things when True')
  ... pinpoint every duration
 
  <2018-01-16 Tue 17:17>
+*** -3 week                                                         :ARCHIVE:
+    :PROPERTIES:
+    :ARCHIVE_TIME: 2018-02-02 Fri 10:47
+    :END:
+**** sciPy
+ - virtualenv :: alias m_vire='source /home/ben/PythonVirEnv/bin/activate;cd /home/ben/PythonVirEnv/'
+   - vim +43 !:1 :: 2envs swap virtual(NAMES) .../home/ben/PythonVirEnv_~/bin/activate
+ - sciPy :: pdf(1800+ pages)
+   - numpy :: >>> go
+   - vext :: from the virenv load system package(cannot in virenv install(pip/apt) plot)
+	     (not in virenv)NEED: apt-get install ruamel.yaml -> vext(pip install vext) --help -> ok.
+	     you can find ~ -name *.pth
+	     CANNOT pip install matplotlib [[https://github.com/stuaxo/vext/blob/master/README.md][vext-tutor-README]]
+	     vim -O +13 vext-0.7.0.egg-info/PKG-INFO :: only support these comfortable
+   - pip :: /root/.pip/pip.conf
+	    beware pip/pip2/pip2.7 ... ;(
+   - toggleglobalsitepackages :: virtualwrapper Only
+     - the-system-site-packages-option :: virtualenv ->>> clean old-folder(remove all) ->>> new virtualenv ->>> ok.
+*** -3 week
+    :PROPERTIES:
+    :ARCHIVE_TIME: 2018-02-02 Fri 10:47
+    :END:
+ 1. ssh reverse-proxy
+    - [X] teamview
+    - [ ] ngrok
+ 2. mu4e
+    - [ ] mailx :: server, server email address
+		   :i'm debian: so try exim4 :: netstat -nap | grep LISTEN
+		   :vim /etc/exim4/update-exim4.conf.conf
+		   :/etc/init.d/exim4 stop
+		   :/etc/init.d/exim4 start
+		   :vim /etc/mail.rc
+		   NO more try...mailutil
+    - [-] mailx :: proxy-client for mail.163.com
+		   No more try...
+		   :my-furu ubuntu16.04 postfix(not exim4)
+		   go... mu4e
+ 3. git-flow
+    - myown :: push init.el/afflu...org to github
+    - social code :: select projs watched
+      - pull request :: after push to remote github repo
+      - fork/fetch_head :: origin to my remote github repo/ pull from origin repos that post-pullrequest issues
+      - clone :: to local pc
 * <<<1
 <<ci>> 
 1. (>...)||----idle-----||{..<}.

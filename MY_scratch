@@ -369,5 +369,6 @@ diary-list-entries-hook
 result...(diary-include-other-diary-files diary-sort-entries)
 ;; diary-comment
 (setq diary-comment-start "#Diary-Comment-On")
-(setq diary-comment-end "#Diary-Comment-Off")
+(setq diary-comment-end "#Diary-Comment-Off") ;comment-dwim in source code
+
 
