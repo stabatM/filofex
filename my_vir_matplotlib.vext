@@ -1,0 +1,24 @@
+# matplotlib vext
+#
+
+# Vext will allow access to these modules
+modules:
+    pyparsing
+    backports
+    cycler
+    dateutil
+    matplotlib
+    numpy
+
+test_import:
+    # Vext will try and import any modules here
+    # To check if the install worked
+    matplotlib
+
+install_hint:
+   This message will be displayed if the system dependencies
+   are not installed.
+
+# pygtk.pth does most of the initialisation of pygtk
+pths:
+    my_mat.pth

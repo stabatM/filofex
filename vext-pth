@@ -1,0 +1,6 @@
+example.vext
+/usr/lib/python2.7/dist-packages/pygtk.pth
+my_vir_matplotlib.vext
+my_mat.pth
+/usr/local/lib/python2.7/dist-packages/matplotlib
+

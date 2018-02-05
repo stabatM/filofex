@@ -1,0 +1,24 @@
+# Pygtk vext
+#
+
+# no gtk
+# Vext will allow access to these modules
+modules:
+    cairo
+    pygtk
+    glib
+    gobject
+
+test_import:
+    # Vext will try and import any modules here
+    # To check if the install worked
+    pygtk
+
+install_hint:
+   This message will be displayed if the system dependencies
+   are not installed.
+
+# pygtk.pth does most of the initialisation of pygtk
+pths:
+    pygtk.pth
+
