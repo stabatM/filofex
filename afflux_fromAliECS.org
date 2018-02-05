@@ -11,59 +11,74 @@
   - last week :: 
   - this week ::  
 ** this week
-- [X] ruse aws' consult email :: your account compromised, laborours
-     operate :: ec2 spot ebs root-key iam-key role group system-manager ...
-     reply :: 163 email, how the bill?
-     law
-- diary -> calendar :: org + emacs
-     info path in bashrc
-     info path in init.el
-     info path in customize-variable
-     ---
-     M-` :: open menu >> c-h r (emacs manu)
-     c-h/m-h :: correct init.el key-combine
-     root_init.el :: trim everything, leave ORIGINAL and melpa
-     vimdiff ;p
-     ---
-     use m-x customize-variable !
-     well, don't care m-x info, use c-h r !
-     [[info:emacs#Format%20of%20Diary%20File][diary day]] << c-x <tab> ( > <) indent margin tabs
-  - calenda :: i d/w/m/y >>> i a/b/c
-    - [[file:diary_genALL][diary-ex]]
-    - diary-include-string :: [[info:emacs#Fancy%20Diary%20Display][include diaryFiles + commentation]] <<<diaryFiles>>> :: [[diaf]] <-need link info
-    - diary-comment-start/end :: in ONE line, NO lines...                        :: diaryFiles <-no-need link info, need c-c c-c
-    - (diary) :: tomato-potato first! [[info:emacs#Displaying%20the%20Diary][auto-open]]
-- ido :: c-s/r(next/previous) [[https://www.emacswiki.org/emacs/InteractivelyDoThings][ido]] 
-- docker machine($ ls -halt)
-  image/container/task/service/stack/swarm...
-  * !IMP! :: new DIR /etc/bash_completion.d >> less .../docker-machine-prompt.bash >> under instructions
-    >> [...] OK >> docker-macine use OK >> other 2 scripts
-  * ABOUT sudo(docker init) :: user:group, sudoer is slim, well, no-need do more, neigther /usr/local/bin/docker-machine
-		  nor /etc/bash_completion.d
-  * virtual box :: leeward .) vagrant
-		   vim -r/-R >> apt-key list | grep -C(ontext)
-		   ...
-		   apt-get install linux-headers-amd64 linux-headers-3.16.0-4-amd64
-		   vboxconfig
-		   docker-machine create --driver virtualbox myvm1
-		   "
-		   Running pre-create checks...
-                   Error with pre-create check: "This computer doesn't have VT-X/AMD-v enabled. Enabling it in the BIOS is mandatory"
-		   "
-		   egrep '(vmx|svm)' /proc/cpuinfo :: cpu flags /proc/cpuinfo
+- raspberry pi
+- perl/python-anecdote
+- text-cnn, jiebafenci, numPy, tensorflow/keras
+- docker docs :: step by step
+- c/c++ dataStructure+basicAlgorithm
+
+- clear workspace!
+  desktop-folder upload
+  download
+  * document/app-data
+  trash-box delete
+  uninstall apps: yunpan,onenote,docker,...,qq
+  restart
+  formate disks
+*** -1 week
+ - [X] ruse aws' consult email :: your account compromised, laborours
+      operate :: ec2 spot ebs root-key iam-key role group system-manager ...
+      reply :: 163 email, how the bill?
+      law
+ - diary -> calendar :: org + emacs
+      info path in bashrc
+      info path in init.el
+      info path in customize-variable
+      ---
+      M-` :: open menu >> c-h r (emacs manu)
+      c-h/m-h :: correct init.el key-combine
+      root_init.el :: trim everything, leave ORIGINAL and melpa
+      vimdiff ;p
+      ---
+      use m-x customize-variable !
+      well, don't care m-x info, use c-h r !
+      [[info:emacs#Format%20of%20Diary%20File][diary day]] << c-x <tab> ( > <) indent margin tabs
+   - calenda :: i d/w/m/y >>> i a/b/c
+     - [[file:diary_genALL][diary-ex]]
+     - diary-include-string :: [[info:emacs#Fancy%20Diary%20Display][include diaryFiles + commentation]] <<<diaryFiles>>> :: [[diaf]] <-need link info
+     - diary-comment-start/end :: in ONE line, NO lines...                        :: diaryFiles <-no-need link info, need c-c c-c
+     - (diary) :: tomato-potato first! [[info:emacs#Displaying%20the%20Diary][auto-open]]
+ - ido :: c-s/r(next/previous) [[https://www.emacswiki.org/emacs/InteractivelyDoThings][ido]] 
+ - docker machine($ ls -halt)
+   image/container/task/service/stack/swarm...
+   * !IMP! :: new DIR /etc/bash_completion.d >> less .../docker-machine-prompt.bash >> under instructions
+     >> [...] OK >> docker-macine use OK >> other 2 scripts
+   * ABOUT sudo(docker init) :: user:group, sudoer is slim, well, no-need do more, neigther /usr/local/bin/docker-machine
+		   nor /etc/bash_completion.d
+   * virtual box :: leeward .) vagrant
+		    vim -r/-R >> apt-key list | grep -C(ontext)
+		    ...
+		    apt-get install linux-headers-amd64 linux-headers-3.16.0-4-amd64
+		    vboxconfig
+		    docker-machine create --driver virtualbox myvm1
+		    "
+		    Running pre-create checks...
+                    Error with pre-create check: "This computer doesn't have VT-X/AMD-v enabled. Enabling it in the BIOS is mandatory"
+		    "
+		    egrep '(vmx|svm)' /proc/cpuinfo :: cpu flags /proc/cpuinfo
 		   
-  * github :: docker-machine-kvm
-	      usermod -a -G libvirt ben
-	      debian-jessie ...)ubuntu16.06 :: curl -L https://github.com/dhiltgen/docker-machine-kvm/releases/download/v0.10.0/docker-machine-driver-kvm-ubuntu16.04 > /usr/local/bin/docker-machine-driver-kvm \
-	      alpinelinux
+   * github :: docker-machine-kvm
+	       usermod -a -G libvirt ben
+	       debian-jessie ...)ubuntu16.06 :: curl -L https://github.com/dhiltgen/docker-machine-kvm/releases/download/v0.10.0/docker-machine-driver-kvm-ubuntu16.04 > /usr/local/bin/docker-machine-driver-kvm \
+	       alpinelinux
 
-...)
-- SBT envirment
-- xmind for fantacy
-- spark MLLib
+ ...)
+ - SBT envirment
+ - xmind for fantacy
+ - spark MLLib
 
-<<diaf>>...this is the destination
-** -1 week
+ <<diaf>>...this is the destination
+** -2 week
  - docker :: get-start (docker ps = docker container ls; docker images = docker image ls)
 	     build/push image(registry > reps > images)
 	     composer; vim indent << auto-align; YAML is strict!; stack/swarm/service/container...
@@ -72,25 +87,6 @@
  - mail/mu/mu4e :: less ~/.offlineimaprc
  - git :: push [!reject], force, pull, modify, commit-local, push
 	  [[https://git-scm.com/docs/git-rebase][git-rebase]] :: not yet use 
-** -2 week                                                           :ATTACH:
-   :PROPERTIES:
-   :Attachments: openstack-Names.png history.html
-   :ID:       7545ae2b-ceef-4160-8ad3-7525af647601
-   :ATTACH_DIR_INHERIT: t
-   :END:
-1. mailutils-exim-gnus-mu4e
-   QQ-note :: rearrange
-   mailutils :: frm readmsg ; mailutils info
-   guimb, sieve
-2. orgmode
-   org-capture-templates-contexts: well, but CANNOT ("i" "gi"...)
-   attachment :: c-c c-a -> auto commit unique-ID dir changes to git repos???
-   let's try inherit :: seee up, properties...
-   org-attach.el :: c-x c-q (readonly) >>> every modify/new attachment will sync/commit to git automatical
-   [[file:~/mysrc/org-mode/lisp/org-attach.el::(defun%20org-attach-commit%20()][org-attach git commit]] :: c-c % (mark-push), c-c & (mark-goto/pop?)
-   RSS/Atom org-feed-alist :: $ dstat # iptraf-ng $ iostat -mtx
-3. docker.io for spark
-   - [-] apach-hadoop latest version 
 ** Archive                                                          :ARCHIVE:
   - last week :: about tags and other configurations
   - this week :: org-manual column-view 
@@ -291,6 +287,26 @@
     python's .pth file
     apt-cache search ...
  [2018-01-08 Mon 11:24]-[2018-01-08 Mon 16:24] 05:00
+*** -3 week                                                          :ATTACH:
+    :PROPERTIES:
+    :Attachments: openstack-Names.png history.html
+    :ID:       7545ae2b-ceef-4160-8ad3-7525af647601
+    :ATTACH_DIR_INHERIT: t
+    :ARCHIVE_TIME: 2018-02-05 Mon 11:19
+    :END:
+ 1. mailutils-exim-gnus-mu4e
+    QQ-note :: rearrange
+    mailutils :: frm readmsg ; mailutils info
+    guimb, sieve
+ 2. orgmode
+    org-capture-templates-contexts: well, but CANNOT ("i" "gi"...)
+    attachment :: c-c c-a -> auto commit unique-ID dir changes to git repos???
+    let's try inherit :: seee up, properties...
+    org-attach.el :: c-x c-q (readonly) >>> every modify/new attachment will sync/commit to git automatical
+    [[file:~/mysrc/org-mode/lisp/org-attach.el::(defun%20org-attach-commit%20()][org-attach git commit]] :: c-c % (mark-push), c-c & (mark-goto/pop?)
+    RSS/Atom org-feed-alist :: $ dstat # iptraf-ng $ iostat -mtx
+ 3. docker.io for spark
+    - [-] apach-hadoop latest version 
 * new tue[0/0]
 *new tue ... you can try to hidden it, like git's stash(not squash)
   - last week ::
@@ -1055,7 +1071,6 @@ docker-machine >> docker swarm (app.py+visulizer+redis)
 + coding webIDE, binding github account <> IDE >> setting >> repos >> github/bitbuck
 + bash :: how to width the omitted COMMAND content in tty1 width-limit(see below snapshot)
 	  grep 'text' **/*
-
 
 1. docker
 2. friendlyhello:latest == conweson/minit:getstartPart2

@@ -14,3 +14,4 @@ Jan 29, 2018 add diary file
 %%(diary-float 11 4 -2) American Thanksgiving
 %%(diary-anniversary 10 31 1948) Arthur's %d%s birthday
 %%(diary-anniversary 1 29 2018) recuperate
+%%(diary-anniversary 2 5 2018) docker's holiday
