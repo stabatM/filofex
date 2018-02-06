@@ -10,74 +10,93 @@
 * new mon[0/0]
   - last week :: 
   - this week ::  
-** this week
+** this week :ATTACH:
+   :PROPERTIES:
+   :ATTACH_DIR: ~/mysrc/jiebademo/
+   :Attachments: .git .gitignore README.md jiebademo
+   :END:
 - raspberry pi
+  ...laowei's major, link it amazon book
 - perl/python-anecdote
-- text-cnn, jiebafenci, numPy, tensorflow/keras
+  + ~/PythonVirEnvs/...vext...pass[ok]
+  + github vext's config files
+  + python-history
+- text-rnn, nlp/jiebafenci, numPy, tensorflow/keras
+  1. rnn
+  2. time-stamped timestamp c-c c-z 
+  3. oss' jieba(stutter) >> oss in github >> install >> clojure >> curl -L https: > /tmp/lein.script
+     - lein >> leiningen [ok]
+     - jiebademo in ~/mysrc
+     - qianzhui, dongtaiguihua(dynamic programming), HMM
+     - links, nodes, IDs
+     - tf-idf, textrank
+  
+<<=>>>
 - docker docs :: step by step
+		 =>
 - c/c++ dataStructure+basicAlgorithm
-
-- clear workspace!
+  =>
+*** TODO clear workspace!
   desktop-folder upload
   download
-  * document/app-data
+  =>* document/app-data
   trash-box delete
   uninstall apps: yunpan,onenote,docker,...,qq
   restart
   formate disks
-*** -1 week
- - [X] ruse aws' consult email :: your account compromised, laborours
-      operate :: ec2 spot ebs root-key iam-key role group system-manager ...
-      reply :: 163 email, how the bill?
-      law
- - diary -> calendar :: org + emacs
-      info path in bashrc
-      info path in init.el
-      info path in customize-variable
-      ---
-      M-` :: open menu >> c-h r (emacs manu)
-      c-h/m-h :: correct init.el key-combine
-      root_init.el :: trim everything, leave ORIGINAL and melpa
-      vimdiff ;p
-      ---
-      use m-x customize-variable !
-      well, don't care m-x info, use c-h r !
-      [[info:emacs#Format%20of%20Diary%20File][diary day]] << c-x <tab> ( > <) indent margin tabs
-   - calenda :: i d/w/m/y >>> i a/b/c
-     - [[file:diary_genALL][diary-ex]]
-     - diary-include-string :: [[info:emacs#Fancy%20Diary%20Display][include diaryFiles + commentation]] <<<diaryFiles>>> :: [[diaf]] <-need link info
-     - diary-comment-start/end :: in ONE line, NO lines...                        :: diaryFiles <-no-need link info, need c-c c-c
-     - (diary) :: tomato-potato first! [[info:emacs#Displaying%20the%20Diary][auto-open]]
- - ido :: c-s/r(next/previous) [[https://www.emacswiki.org/emacs/InteractivelyDoThings][ido]] 
- - docker machine($ ls -halt)
-   image/container/task/service/stack/swarm...
-   * !IMP! :: new DIR /etc/bash_completion.d >> less .../docker-machine-prompt.bash >> under instructions
-     >> [...] OK >> docker-macine use OK >> other 2 scripts
-   * ABOUT sudo(docker init) :: user:group, sudoer is slim, well, no-need do more, neigther /usr/local/bin/docker-machine
-		   nor /etc/bash_completion.d
-   * virtual box :: leeward .) vagrant
-		    vim -r/-R >> apt-key list | grep -C(ontext)
-		    ...
-		    apt-get install linux-headers-amd64 linux-headers-3.16.0-4-amd64
-		    vboxconfig
-		    docker-machine create --driver virtualbox myvm1
-		    "
-		    Running pre-create checks...
-                    Error with pre-create check: "This computer doesn't have VT-X/AMD-v enabled. Enabling it in the BIOS is mandatory"
-		    "
-		    egrep '(vmx|svm)' /proc/cpuinfo :: cpu flags /proc/cpuinfo
+** -1 week
+- [X] ruse aws' consult email :: your account compromised, laborours
+     operate :: ec2 spot ebs root-key iam-key role group system-manager ...
+     reply :: 163 email, how the bill?
+     law
+- diary -> calendar :: org + emacs
+     info path in bashrc
+     info path in init.el
+     info path in customize-variable
+     ---
+     M-` :: open menu >> c-h r (emacs manu)
+     c-h/m-h :: correct init.el key-combine
+     root_init.el :: trim everything, leave ORIGINAL and melpa
+     vimdiff ;p
+     ---
+     use m-x customize-variable !
+     well, don't care m-x info, use c-h r !
+     [[info:emacs#Format%20of%20Diary%20File][diary day]] << c-x <tab> ( > <) indent margin tabs
+  - calenda :: i d/w/m/y >>> i a/b/c
+    - [[file:diary_genALL][diary-ex]]
+    - diary-include-string :: [[info:emacs#Fancy%20Diary%20Display][include diaryFiles + commentation]] <<<diaryFiles>>> :: [[diaf]] <-need link info
+    - diary-comment-start/end :: in ONE line, NO lines...                        :: diaryFiles <-no-need link info, need c-c c-c
+    - (diary) :: tomato-potato first! [[info:emacs#Displaying%20the%20Diary][auto-open]]
+- ido :: c-s/r(next/previous) [[https://www.emacswiki.org/emacs/InteractivelyDoThings][ido]] 
+- docker machine($ ls -halt)
+  image/container/task/service/stack/swarm...
+  * !IMP! :: new DIR /etc/bash_completion.d >> less .../docker-machine-prompt.bash >> under instructions
+    >> [...] OK >> docker-macine use OK >> other 2 scripts
+  * ABOUT sudo(docker init) :: user:group, sudoer is slim, well, no-need do more, neigther /usr/local/bin/docker-machine
+		  nor /etc/bash_completion.d
+  * virtual box :: leeward .) vagrant
+		   vim -r/-R >> apt-key list | grep -C(ontext)
+		   ...
+		   apt-get install linux-headers-amd64 linux-headers-3.16.0-4-amd64
+		   vboxconfig
+		   docker-machine create --driver virtualbox myvm1
+		   "
+		   Running pre-create checks...
+                   Error with pre-create check: "This computer doesn't have VT-X/AMD-v enabled. Enabling it in the BIOS is mandatory"
+		   "
+		   egrep '(vmx|svm)' /proc/cpuinfo :: cpu flags /proc/cpuinfo
 		   
-   * github :: docker-machine-kvm
-	       usermod -a -G libvirt ben
-	       debian-jessie ...)ubuntu16.06 :: curl -L https://github.com/dhiltgen/docker-machine-kvm/releases/download/v0.10.0/docker-machine-driver-kvm-ubuntu16.04 > /usr/local/bin/docker-machine-driver-kvm \
-	       alpinelinux
+  * github :: docker-machine-kvm
+	      usermod -a -G libvirt ben
+	      debian-jessie ...)ubuntu16.06 :: curl -L https://github.com/dhiltgen/docker-machine-kvm/releases/download/v0.10.0/docker-machine-driver-kvm-ubuntu16.04 > /usr/local/bin/docker-machine-driver-kvm \
+	      alpinelinux
 
- ...)
- - SBT envirment
- - xmind for fantacy
- - spark MLLib
+...)
+- SBT envirment
+- xmind for fantacy
+- spark MLLib
 
- <<diaf>>...this is the destination
+<<diaf>>...this is the destination
 ** -2 week
  - docker :: get-start (docker ps = docker container ls; docker images = docker image ls)
 	     build/push image(registry > reps > images)
@@ -312,12 +331,16 @@
   - last week ::
   - this week :: 
 ** this week
-1. ali-ecs failed install docker-machine, goon homebrew
-   - [[/etc/bash_completion.d][my-bash-cmd]]
-   - [[https://docs.docker.com/machine/overview/][docker-machine]]
-2. goon smt in docker-image(i.e. spark standalone(mllib))
+goon yesterday ;(
+[[=>]] :: as u know
 
-** -1 week
+*** -1 week
+ 1. ali-ecs failed install docker-machine, goon homebrew
+    - [[/etc/bash_completion.d][my-bash-cmd]]
+    - [[https://docs.docker.com/machine/overview/][docker-machine]]
+ 2. goon smt in docker-image(i.e. spark standalone(mllib))
+
+** -2 week
 1. github
    - git reset :: [[https://git-scm.com/docs/git-reset][git-reset]] : image concept as links NOT paper
    - git checkout HEAD <filename:.emacs.desktop> :: unmerged commit
@@ -328,91 +351,6 @@
      4git_readme_1st :: git clone >> then add new file
 2. flex,bison
    
-** -2 week
-1. org capture
-   - org protocols :: emacsclient + browser
-		      !!! require modules in init.el [[https://orgmode.org/worg/org-contrib/org-protocol.html][about protocol.el]]
-		      emacsclient org-protocol://store-link?url=https://orgmode.org/manual/Protocols.html#Protocols&title=protocols
-   - [[URL][from outside]] :: tri-fun
-     - storelink :: CANNOT bring title in ... so, after dosth, shell give u a success processed link NOT include title
-       + [[URL][TITLE]] well, done :: emacsclient -s "foo" org-protocol://store-link?url=URL\&title=TITLE
-	    use \ to escape under shells ;)
-     - capture :: emacsclient -s "foo" org-protocol://capture?template=gj\&url=URL\&title=TITLE\&body=BODY
-     - opensource :: --  
-		     u CAN use {{m-x browse-url-emacs open http://www.gnus.org/history.html,
-		     BUT NOT http://orgmode.org/worg/org-contrib/org-protocol.html jump into local folder's file
-		     [[org-protocol://open-source?url=http://orgmode.org/worg/org-contrib/org-protocol.html][jumbo]] NO...
-       + well :: emacsclient -s "foo" org-protocol://open-source?url=http://orgmode.org/worg/org-contrib/org-protocol.html
-   - [[https://orgmode.org/worg/org-contrib/org-protocol.html#acrobat-reader-setup][use-org-protocol-in-acrobat-reader]] :: eww or m-x browser
-     - javascripts, all 3 class :: store link, capture, open source.  
-       + javascript:location.href='org-protocol://store-link?url='+encodeURIComponent(location.href);
-       + javascript:location.href='org-protocol://template=x'+ '&url='+encodeURIComponent(window.location.href)+'&title='+encodeURIComponent(document.title)+'&body='+encodeURIComponent(window.getSelection());
-       + javascript:location.href='org-protocol://open-source?&url='+encodeURIComponent(location.href)
-** -3 week
-awkward when no 'Super key' => S-left/right :: bullet styles ;(
-- capture :: new idea and references, less interuption work flow
-	     org-capture.el replace org-remember.el
-  - M-x customize-variable org-capture-templates
-    * ("b" "Templates for marking stuff to buy") :: key "bt" means "buy t?"
-    * !!!NOT customize org-direc :: ~/filofex, Init Error Then Use Absolute-Path Instead
-    * customize org-...-notes-file :: (setq org-default-notes-file (concat org-directory "/torch.org"))
-    * target indirect narrow :: c-cc :: c-u c-u c-c c(session last)[[id:047cb647-36e5-481a-bba9-85e811e10a2f][test capture-bookmark]]
-      - calenda :: kc, c-c<
-		   M}oon, H}oli, >, o(center date)
-    * customize capture templates :: c-ccC
-      - templates :: [[info:org#Capture%20templates]] line20
-		      q to quit many pop-windows ;p
-		      well, journal looks well, NOT diary...
-		      [[file:~/MY_scratch::229][goto-task]] (tail link c-q char) :: prefix-key without interactive
-- refile c-c c-w
-  - archive :: 
-
-*** swap-easy
-+ g dired refresh :: m-x revert-buffer
-		    F10 >> Operate/File
-		    dired >>> ^/>/<, Z(gzip), q, +R
-		    M-!
-		    M-\
-		    m-/ great! ;p
-
-+ xattr :: apt install xattr (~/xattr file)good idea
-
-+ filofex :: collect magit
-	     gnutls? reboot to confirm stats well
-
-+ tree :: tree(apt install) -L 2 -rt ~ | head -n50 | sed -n '/^├/p' : use c-x = on '|-' ; c-q ; c-x 8 <RET>
-	  find -lR(not reverse)
-
-+ properties and link-ids :: unique global ID
-     org-id-link-to-org-use-id
-     link abbrev %s %h %(my-function)
-     c-c %/& (push/pop) c-c c-x c-n/p (forword/backward)
-
-+ customize emacs :: m-x org-customize >> Org Link ... Org Store Link ...Org Id Link To Org Use Id >>OB
-      select [Value Menu] numbers
-      use [ Search ] is convenient
-	info:org#Handling links]]
-	info:org#External links]]
-	     
-+ top :: R}sort F}ield </>}sortWhich
-	 g}[1-4]/A}ll4 o}filter
-
-*** wirock
-    :PROPERTIES:
-    :ID:       fc9d9db7-cfd9-4bc9-bd97-a594ab2c89d1
-    :END:
-1. docker
-2. piten
-3. mllib/graphx
-		   
-*** TODO this point
-    [2018-01-16 Tue 14:08]
-  
-    [[file:~/filofex/afflux_fromAliECS.org::*M-0%20C-cc%20at%20this%20point][M-0 C-cc at this point]]
-*** TODO M-0 C-cc at this point
-    [2018-01-09 Tue]
-    [[file:~/filofex/afflux_fromAliECS.org::*this%20week][this week]]
-
 ** Archive :ARCHIVE:
 *** doom_test                                                       :ARCHIVE:
     :PROPERTIES:
@@ -500,6 +438,97 @@ awkward when no 'Super key' => S-left/right :: bullet styles ;(
     m-<RET> :: timer headline
  5. column view
 
+*** -4 week
+    :PROPERTIES:
+    :ARCHIVE_TIME: 2018-02-06 Tue 11:14
+    :END:
+ awkward when no 'Super key' => S-left/right :: bullet styles ;(
+ - capture :: new idea and references, less interuption work flow
+	      org-capture.el replace org-remember.el
+   - M-x customize-variable org-capture-templates
+     * ("b" "Templates for marking stuff to buy") :: key "bt" means "buy t?"
+     * !!!NOT customize org-direc :: ~/filofex, Init Error Then Use Absolute-Path Instead
+     * customize org-...-notes-file :: (setq org-default-notes-file (concat org-directory "/torch.org"))
+     * target indirect narrow :: c-cc :: c-u c-u c-c c(session last)[[id:047cb647-36e5-481a-bba9-85e811e10a2f][test capture-bookmark]]
+       - calenda :: kc, c-c<
+		    M}oon, H}oli, >, o(center date)
+     * customize capture templates :: c-ccC
+       - templates :: [[info:org#Capture%20templates]] line20
+		       q to quit many pop-windows ;p
+		       well, journal looks well, NOT diary...
+		       [[file:~/MY_scratch::229][goto-task]] (tail link c-q char) :: prefix-key without interactive
+ - refile c-c c-w
+   - archive :: 
+
+**** swap-easy
+ + g dired refresh :: m-x revert-buffer
+		     F10 >> Operate/File
+		     dired >>> ^/>/<, Z(gzip), q, +R
+		     M-!
+		     M-\
+		     m-/ great! ;p
+
+ + xattr :: apt install xattr (~/xattr file)good idea
+
+ + filofex :: collect magit
+	      gnutls? reboot to confirm stats well
+
+ + tree :: tree(apt install) -L 2 -rt ~ | head -n50 | sed -n '/^├/p' : use c-x = on '|-' ; c-q ; c-x 8 <RET>
+	   find -lR(not reverse)
+
+ + properties and link-ids :: unique global ID
+      org-id-link-to-org-use-id
+      link abbrev %s %h %(my-function)
+      c-c %/& (push/pop) c-c c-x c-n/p (forword/backward)
+
+ + customize emacs :: m-x org-customize >> Org Link ... Org Store Link ...Org Id Link To Org Use Id >>OB
+       select [Value Menu] numbers
+       use [ Search ] is convenient
+	 info:org#Handling links]]
+	 info:org#External links]]
+	     
+ + top :: R}sort F}ield </>}sortWhich
+	  g}[1-4]/A}ll4 o}filter
+
+**** wirock
+     :PROPERTIES:
+     :ID:       fc9d9db7-cfd9-4bc9-bd97-a594ab2c89d1
+     :END:
+ 1. docker
+ 2. piten
+ 3. mllib/graphx
+		   
+**** TODO this point
+     [2018-01-16 Tue 14:08]
+  
+     [[file:~/filofex/afflux_fromAliECS.org::*M-0%20C-cc%20at%20this%20point][M-0 C-cc at this point]]
+**** TODO M-0 C-cc at this point
+     [2018-01-09 Tue]
+     [[file:~/filofex/afflux_fromAliECS.org::*this%20week][this week]]
+
+*** -3 week
+    :PROPERTIES:
+    :ARCHIVE_TIME: 2018-02-06 Tue 11:14
+    :END:
+ 1. org capture
+    - org protocols :: emacsclient + browser
+		       !!! require modules in init.el [[https://orgmode.org/worg/org-contrib/org-protocol.html][about protocol.el]]
+		       emacsclient org-protocol://store-link?url=https://orgmode.org/manual/Protocols.html#Protocols&title=protocols
+    - [[URL][from outside]] :: tri-fun
+      - storelink :: CANNOT bring title in ... so, after dosth, shell give u a success processed link NOT include title
+	+ [[URL][TITLE]] well, done :: emacsclient -s "foo" org-protocol://store-link?url=URL\&title=TITLE
+	     use \ to escape under shells ;)
+      - capture :: emacsclient -s "foo" org-protocol://capture?template=gj\&url=URL\&title=TITLE\&body=BODY
+      - opensource :: --  
+		      u CAN use {{m-x browse-url-emacs open http://www.gnus.org/history.html,
+		      BUT NOT http://orgmode.org/worg/org-contrib/org-protocol.html jump into local folder's file
+		      [[org-protocol://open-source?url=http://orgmode.org/worg/org-contrib/org-protocol.html][jumbo]] NO...
+	+ well :: emacsclient -s "foo" org-protocol://open-source?url=http://orgmode.org/worg/org-contrib/org-protocol.html
+    - [[https://orgmode.org/worg/org-contrib/org-protocol.html#acrobat-reader-setup][use-org-protocol-in-acrobat-reader]] :: eww or m-x browser
+      - javascripts, all 3 class :: store link, capture, open source.  
+	+ javascript:location.href='org-protocol://store-link?url='+encodeURIComponent(location.href);
+	+ javascript:location.href='org-protocol://template=x'+ '&url='+encodeURIComponent(window.location.href)+'&title='+encodeURIComponent(document.title)+'&body='+encodeURIComponent(window.getSelection());
+	+ javascript:location.href='org-protocol://open-source?&url='+encodeURIComponent(location.href)
 * new wed[0%]
   - last week ::
   - this week ::
@@ -729,8 +758,11 @@ docker-machine >> docker swarm (app.py+visulizer+redis)
 # wait a minute when errs pops, wrong below
 # X - if u change the docker-compose.yml, NEED stack-rm
 # X - if ur volume unavailabe, mkdir/rename-mv, NEED re-deploy
-*** TODO "can not connect to redis host?" how to replay err
+*** CANCELED "can not connect to redis host?" how to replay err
+    CLOSED: [2018-02-06 Tue 17:34]
     :LOGBOOK:
+    - State "CANCELED"   from "TODO"       [2018-02-06 Tue 17:34] \\
+      no need to replay, goon
     - State "TODO"       from "WAIT"       [2018-02-02 Fri 16:59]
     - State "WAIT"       from "TODO"       [2018-02-02 Fri 16:58] \\
       test fun... goon
@@ -1076,7 +1108,19 @@ docker-machine >> docker swarm (app.py+visulizer+redis)
 2. friendlyhello:latest == conweson/minit:getstartPart2
    image ls >> imageid
 3. 
-*** TODO image moonshadow :: swarm network >> try: no swarm, single by single run container ...
+*** CANCELED image moonshadow :: swarm network >> try: no swarm, single by single run container ...
+    CLOSED: [2018-02-06 Tue 17:35]
+    :LOGBOOK:
+    - Note taken on [2018-02-06 Tue 18:48] \\
+      c-c c-z
+      c-x c-z
+      c-x c-c c-z
+      
+      try to use them.  ;)
+    - State "CANCELED"   from "TODO"       [2018-02-06 Tue 17:35] \\
+      go through on furu-pc [2018-02-04 Sun]-[2018-02-05 Mon], c-c c-c then c-c c-y
+      >> switch to agenda window, 'g' refresh buffer
+    :END:
    in app.py, host="redis" >> docker exec >> NO redis hostname ? how detect the redis-host ?
    iptraf-ng
    sudo docker container inspect redis-container-id | grep redis
@@ -1103,7 +1147,6 @@ b058961d3f72        11 days ago         /bin/sh -c #(nop) WORKDIR /app          
 <missing>           7 weeks ago         /bin/sh -c #(nop)  CMD ["bash"]                 0B                  
 <missing>           7 weeks ago         /bin/sh -c #(nop) ADD file:e7ac45803c3ab9b70…   79.1MB              
 <<< E
-
 
 ** -1 week
    :LOGBOOK:
