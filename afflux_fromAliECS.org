@@ -21,8 +21,8 @@
   + ~/PythonVirEnvs/...vext...pass[ok]
   + github vext's config files
   + python-history
-- text-rnn, nlp/jiebafenci, numPy, tensorflow/keras
-  1. rnn
+- text-cnn, nlp/jiebafenci, numPy, tensorflow/keras
+  1. cnn/rnn
   2. time-stamped timestamp c-c c-z 
   3. oss' jieba(stutter) >> oss in github >> install >> clojure >> curl -L https: > /tmp/lein.script
      - lein >> leiningen [ok]
@@ -328,17 +328,17 @@
     - [-] apach-hadoop latest version 
 * new tue[0/0]
 *new tue ... you can try to hidden it, like git's stash(not squash)
-  - last week ::
+  - last week :: pre-weeks halt
+		 [[=>]] :: as u know
   - this week :: 
 ** this week
 goon yesterday ;(
-[[=>]] :: as u know
 
-*** -1 week
- 1. ali-ecs failed install docker-machine, goon homebrew
-    - [[/etc/bash_completion.d][my-bash-cmd]]
-    - [[https://docs.docker.com/machine/overview/][docker-machine]]
- 2. goon smt in docker-image(i.e. spark standalone(mllib))
+** -1 week
+1. ali-ecs failed install docker-machine, goon homebrew
+   - [[/etc/bash_completion.d][my-bash-cmd]]
+   - [[https://docs.docker.com/machine/overview/][docker-machine]]
+2. goon smt in docker-image(i.e. spark standalone(mllib))
 
 ** -2 week
 1. github
@@ -532,7 +532,25 @@ goon yesterday ;(
 * new wed[0%]
   - last week ::
   - this week ::
-** this week
+** this week [2/4]
+- [X] ruless :: huawei, lagou
+		vxwork(qiyeweixin)
+		laowang,time
+  + wxwork, datadb backup, sqlite .open.
+- [ ] jiebafenci :: nlp
+		    1,fenci
+		    2,add dictionary
+- [ ] datastructure :: algorithm, cxx, init
+		   Data Structures and Algorithm Analysis in C++ Fourth Edition Mark Allen Weiss(from CSDNvip)
+- [X] perl [[http://www.perl.org/docs.html][CPAN]] little
+  install perldoc
+  '$ perldoc -q' or '$ perldoc perlfaq[1-9]'
+  oss->perl? ;)
+  - [[http://perldoc.perl.org/perlreftut.html][perlreftut]]
+  - [[https://www.dreamwidth.org/][dreamwidth]] :: oss
+- pandas/R
+  
+** -1 week
 - github
   1) git read-tree [[https://git-scm.com/docs/git-read-tree][git-read-tree]]
   2) git reset HEAD [[https://git-scm.com/docs/git-reset][git-reset]]
@@ -565,7 +583,7 @@ goon yesterday ;(
        use *exec -it check /data in container
     4. stop THE service in stack >> leave swarm >> init swarm >> deploy --compose-file/-c 
 		  
-** -1 week
+** -2 week
 - cp ${my:-}.hist
   info coreutils
   info : <H> for help NOT h ;(
@@ -577,33 +595,6 @@ goon yesterday ;(
   - git pull >> git reset --hard ORIG_HEAD
   - git pull >> git reset --merge ORIG_HEAD
 - [[https://git-scm.com/docs/git-reset#git-reset-Keepchangesinworkingtreewhilediscardingsomepreviouscommits][git-reset-keep]]
-** -2 week
-1. org-protocols open-source use emacsclient try ... well
-   find /home/ben/filofex/ -name org-protocol* | xargs ls -alt
-2. git push github use ssh ... well(ref details in QQ notes/filofex.git README.md)
-3. ido.el :: c-x c-f > c-b/c-d ;p
-	     C-x C-w runs the command ido-write-file, which is an interactive compiled Lisp function.
-	     m-2 c-x c-w ; mark-rings, c-c %/&, c-x/u c-<space> ; m-^ up-join
-
-*** -1 week
- 1. github
-    - github >> git push :: ssh
-      - gitconf:: Git uses a series of configuration files to determine non-default behavior that you may want.
-	- /etc/gitconfig :: --global
-	- ~/.gitconfig :: --global
-	- .git/config :: default --local
-    - noreply email :: 35283467+stabatM@users.noreply.github.com (Block command line pushes that expose my email)
-		       git config [--global] user.mail "..."
-    - 2FA :: nophone, barcode, 2FA-app(wula, 1password APP, well)
-    - git->github :: No, use guide stepin, officiouly...
- 2. xattr on dirs :: xattr(apt install) <> system's attr MUST -w user.something (attr NEEDnot)
-		     mysrc/vext/... IS gitclone, so mark it
-		     beaware chown and mv ;(
-		     attr ALSO CAN addon dirs
-		     xattr CAN add ns-security, ns-trusted and list them; ordinary user can list security only(not include trusted)
-		     use sourcecode-block grep xattr's source code to find namespace: users,root,system...
-		     [[source src code block]]
- 3. orgmod capture
 ** blocks of Language :: org-mono-manual 14.6
    [[https://orgmode.org/org.html#Header-arguments][language]]
 *** source src code block
@@ -666,7 +657,6 @@ print('Do things when True')
 
    - aliyun snapshot :: recharge fees, manual snapshot, QQ screenshot save to weiyun
    - :: 
-** -3 week                                                          :ARCHIVE:
 ** Archive :ARCHIVE:
 *** -4 week                                                         :ARCHIVE:
     :PROPERTIES:
@@ -750,6 +740,40 @@ print('Do things when True')
    - 6th :: every application can be stateless
  [[https://dzone.com/articles/is-docker-good-for-your-database][is-docker-good-for-your-database]]
    - 7th :: lack of synergy... just not stable yet... 
+*** -3 week                                                         :ARCHIVE:
+    :PROPERTIES:
+    :ARCHIVE_TIME: 2018-02-07 Wed 11:11
+    :END:
+*** -3 week                                                         :ARCHIVE:
+    :PROPERTIES:
+    :ARCHIVE_TIME: 2018-02-07 Wed 11:15
+    :END:
+ 1. org-protocols open-source use emacsclient try ... well
+    find /home/ben/filofex/ -name org-protocol* | xargs ls -alt
+ 2. git push github use ssh ... well(ref details in QQ notes/filofex.git README.md)
+ 3. ido.el :: c-x c-f > c-b/c-d ;p
+	      C-x C-w runs the command ido-write-file, which is an interactive compiled Lisp function.
+	      m-2 c-x c-w ; mark-rings, c-c %/&, c-x/u c-<space> ; m-^ up-join
+
+**** -1 week
+  1. github
+     - github >> git push :: ssh
+       - gitconf:: Git uses a series of configuration files to determine non-default behavior that you may want.
+	 - /etc/gitconfig :: --global
+	 - ~/.gitconfig :: --global
+	 - .git/config :: default --local
+     - noreply email :: 35283467+stabatM@users.noreply.github.com (Block command line pushes that expose my email)
+			git config [--global] user.mail "..."
+     - 2FA :: nophone, barcode, 2FA-app(wula, 1password APP, well)
+     - git->github :: No, use guide stepin, officiouly...
+  2. xattr on dirs :: xattr(apt install) <> system's attr MUST -w user.something (attr NEEDnot)
+		      mysrc/vext/... IS gitclone, so mark it
+		      beaware chown and mv ;(
+		      attr ALSO CAN addon dirs
+		      xattr CAN add ns-security, ns-trusted and list them; ordinary user can list security only(not include trusted)
+		      use sourcecode-block grep xattr's source code to find namespace: users,root,system...
+		      [[source src code block]]
+  3. orgmod capture
 * new thur
   - last week ::
   - this week :: 
