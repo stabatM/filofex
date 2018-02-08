@@ -1,3 +1,1109 @@
 systemctl status docker.service
 systemctl status docker.service+
 echo 'systemctl status docker.service''+' | tee -a docker.hist
+cp --backup=t reset-1 ./reset1
+ 2786  apt-cache search docker
+ 2787  apt-cache show docker
+ 2790  apt-cache depends docker
+ 6097  sudo docker run -it ubuntu bash
+ 6098  sudo docker images
+ 6099  sudo docker run -it hello-world bash
+ 6100  sudo docker run -it hello-world
+ 6101  sudo docker run -it ubuntu bash
+ 6135  curl -fsSL https://download.docker.com/linux/$(. /etc/os-release; echo "$ID")/gpg | sudo apt-key add -
+ 6138  docker run -it ubuntu bash
+ 6139  sudo docker run -it ubuntu bash
+ 6141  docker run -it ubuntu bash
+ 6144  docker run -it ubuntu bash
+ 6145  sudo docker run -it ubuntu bash
+ 6147  docker run -it ubuntu bash
+ 6148  sudo docker run -it ubuntu bash
+ 6149  sudo docker run hello-world
+ 6150  docker version
+ 6151  sudo docker version
+ 6152  docker info
+ 6153  sudo docker info
+ 6154  docker info
+ 6155  sudo docker info
+ 6156  sudo docker version
+ 6157  sudo docker login
+ 6158  sudo docker --help 
+ 6159  sudo docker login
+ 6160  sudo docker images
+ 6162  docker run -it ubuntu bash
+ 6163  sudo docker run -it ubuntu bash
+ 6164  docker run -it ubuntu bash
+ 6165  sudo docker run -it ubuntu bash
+ 6174  sudo docker version
+ 6175  sudo docker run -it ubuntu bash
+ 6178  sudo docker --help
+ 6179  sudo docker login
+ 6180  docker login --help
+ 6181  docker ps
+ 6182  docker logout
+ 6183  docker login
+ 6184  sudo docker run -it ubuntu bash
+ 6185  docker ps
+ 6187  docker ps
+ 6188  sudo docker ps
+ 6189  sudo docker run -it ubuntu bash
+ 6190  sudo docker ps
+ 6191  sudo docker logout
+ 6214  sudo docker run -it ubuntu bash
+ 6217  sudo docker run hello-world
+ 6221  curl https://raw.githubusercontent.com/docker/docker/master/contrib/check-config.sh > check-config.sh
+ 6233  less /etc/docker/
+ 6234  cd /etc/docker/
+ 6237  nano /etc/docker/
+ 6239  docker run --rm -it alpine ping -c4 mail.163.com
+ 6240  sudo docker run --rm -it alpine ping -c4 mail.163.com
+ 6241  sudo docker run --rm -it alpine ping -c4 www.baidu.com
+ 6242  sudo docker run --rm -it alpine ping -c4 localhost
+ 6252  sudo service docker restart 
+ 6254  sudo docker run hello-world
+ 6277  sudo docker --version
+ 6279  mkdir ~/mydocker
+ 6281  cd ~/mydocker/
+ 6291  sudo docker build -t friendlyhello .
+ 6293  sudo docker image
+ 6294  sudo docker images
+ 6295  sudo docker run -p 4000:80 friendlyhello
+ 6296  docker run -d -p 4000:80 friendlyhello
+ 6297  sudo docker run -d -p 4000:80 friendlyhello
+ 6298  sudo docker container ls
+ 6299  sudo docker container stop 0cbc74
+ 6300  sudo docker container ls
+ 6301  sudo docker container stop 0cbc74
+ 6302  docker login
+ 6303  sudo docker login
+ 6304  sudo docker tag friendlyhello conweson/minit:getstartPart2
+ 6305  docker images
+ 6306  sudo docker push conweson/minit:
+ 6307  sudo docker container ls -a
+ 6308  sudo docker container ls 
+ 6309  docker image ls -a
+ 6310  sudo docker image ls -a
+ 6311  sudo docker image ls -a 
+ 6312  sudo docker image ls -q
+ 6316  sudo docker ps
+ 6317  sudo docker container ls
+ 6320  sudo curl -L https://github.com/docker/compose/releases/download/1.18.0/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
+ 6322  docker-compose --version
+ 6323  docker-compose --help
+ 6324  docker-compose ps
+ 6325  docker-compose help
+ 6326  docker-compose logs
+ 6327  docker-compose vesion
+ 6328  docker-compose version
+ 6329  whereis docker-compose
+ 6330  ls /usr/bin/docker
+ 6331  ls -alt /usr/bin/docker
+ 6332  ls -alt  docker-compose
+ 6333  ls -alt  /usr/local/docker-compose
+ 6334  ls -alt  /usr/local/bin/docker-compose 
+ 6337  touch docker-compose.yml
+ 6338  vim docker-compose.yml 
+ 6339  vim docker-compose.yml ~/mysrc/tmp.txt 
+ 6377  sudo docker images
+ 6427  docker swarm init
+ 6428  sudo docker swarm init
+ 6429  docker stack deploy -c docker-compose.yml getstartedlab
+ 6430  sudo docker stack deploy -c docker-compose.yml getstartedlab
+ 6431  vim docker-compose.yml ~/mysrc/tmp.txt 
+ 6432  sudo docker stack deploy -c docker-compose.yml getstartedlab
+ 6434  vim +5 docker-compose.yml ~/mysrc/tmp.txt 
+ 6435  vim docker-compose.yml ~/mysrc/tmp.txt 
+ 6436  sudo docker stack deploy -c docker-compose.yml getstartedlab
+ 6438  sudo docker stack deploy -c docker-compose.yml getstartedlab
+ 6440  sudo docker stack deploy -c docker-compose.yml getstartedlab
+ 6441  vim +7 docker-compose.yml ~/mysrc/tmp.txt 
+ 6442  sudo docker stack deploy -c docker-compose.yml getstartedlab
+ 6444  sudo docker stack deploy -c docker-compose.yml getstartedlab
+ 6446  sudo docker stack deploy -c docker-compose.yml getstartedlab
+ 6450  sudo docker stack deploy -c docker-compose.yml getstartedlab
+ 6452  sudo docker stack deploy -c docker-compose.yml getstartedlab
+ 6453  sudo docker service ls
+ 6455  sudo docker service ls
+ 6457  sudo docker service ps getstartedlab_web
+ 6458  sudo docker container ls -q
+ 6459  sudo docker container ls
+ 6460  docker service ls
+ 6461  sudo docker service ls
+ 6464  sudo docker stack deploy -c docker-compose.yml getstartedlab
+ 6465  sudo docker service ls
+ 6466  sudo docker service ps getstartedlab_web
+ 6467  sudo docker container ls
+ 6468  sudo docker container ls -q
+ 6471  docker stack rm getstartedlab
+ 6472  sudo docker stack rm getstartedlab
+ 6473  docker swarm leave
+ 6474  sudo docker swarm leave
+ 6475  sudo docker swarm leave --force
+ 6476  docker swarm init
+ 6477  sudo docker swarm init
+ 6479  sudo docker stack deploy -c docker-compose.yml getstartedlab
+ 6480  sudo docker ls
+ 6481  sudo docker stack ls
+ 6482  sudo docker service ls
+ 6483  sudo docker service ps getstartedlab
+ 6484  sudo docker service ps getstartedlab_webnet
+ 6485  sudo docker service ps getstartedlab_web
+ 6486  docker stack rm getstartedlab
+ 6487  sudo docker stack rm getstartedlab
+ 6488  sudo docker leave 
+ 6489  sudo docker swarm leave
+ 6490  sudo docker swarm leave --force
+ 6491  sudo docker swarm init
+ 6492  sudo docker stack deploy -c docker-compose.yml getstartedlab
+ 6493  sudo docker stack ls
+ 6494  sudo docker service ls
+ 6495  sudo docker service ps getstartedlab_web
+ 6504  sudo docker service ls
+ 6753  cd ~/mydocker/
+ 6799  systemctl status docker.service
+ 6801  touch docker.hist
+ 6802  systemctl status docker.service
+ 6803  systemctl status docker.service >> docker.hist 
+ 6804  less docker.hist 
+ 6805  echo systemctl status docker.service >> docker.hist  >> docker.hist
+ 6806  cat systemctl status docker.service >> docker.hist
+ 6807  cat "cat systemctl status docker.service >> docker.hist" >> docker.hist
+ 6808  less docker.hist 
+ 6810  tee cat "cat systemctl status docker.service >> docker.hist" >> docker.hist docker.hist 
+ 6811  less docker.hist 
+ 6813  tee cat "cat systemctl status docker.service >> docker.hist" >> docker.hist docker.hist  | tee docker.hist 
+ 6814  less docker.hist 
+ 6815  \'tee cat "cat systemctl status docker.service >> docker.hist" >> docker.hist docker.hist  | tee docker.hist \'
+ 6816  \'tee cat "cat systemctl status docker.service >> docker.hist" >> docker.hist docker.hist  | tee docker.hist \' | tee docker.hist
+ 6817  "cat systemctl status docker.service >> docker.hist"ls%:p
+ 6820  systemctl status docker.service
+ 6821  echo systemctl status docker.service | tee docker.hist 
+ 6822  less docker.hist 
+ 6838  echo 'systemctl status docker.service' | tee docker.hist 
+ 6839  less docker.hist 
+ 6840  echo 'systemctl status docker.service''+' | tee -a docker.hist 
+ 6841  less docker.hist 
+ 6842  vim docker.hist 
+ 6844  cp docker.hist ~/filofex/
+ 6907  echo 'cp --backup=t reset-1 ./reset1' | tee -a ~/docker.hist 
+ 7431  echo 'info find' | tee docker.hist 
+ 7432  less docker.hist 
+ 7451  sudo docker ls
+ 7452  sudo docker ps
+ 7453  sudo docker services
+ 7454  sudo docker service
+ 7455  sudo docker service ls
+ 7456  sudo docker container
+ 7457  sudo docker container ls
+ 7472  docker container ls -q
+ 7473  sudo docker container ls -q
+ 7474  sudo docker stack ls
+ 7475  sudo docker service ls
+ 7476  sudo docker inspect getstartedlab_web
+ 7477  docker container ls -q
+ 7478  sudo docker container ls -q
+ 7479  sudo docker inspect c1191cf2628d
+ 7480  sudo docker stack ls
+ 7481  sudo docker service ls
+ 7482  sudo docker starck rm getstartedlab
+ 7483  sudo docker stack rm getstartedlab
+ 7484  docker swarm leave
+ 7485  sudo docker swarm leave
+ 7486  sudo docker swarm leave --force
+ 7519  sudo docker swarm init
+ 7520  sudo docker stack deploy -c docker-compose.yml getstartedlab
+ 7521  sudo docker service ls
+ 7522  sudo docker stack --help
+ 7523  sudo docker stack ls
+ 7524  sudo docker service ps
+ 7525  sudo docker service ps web
+ 7526  sudo docker service ps getstartedlab_web
+ 7527  sudo docker stack ls
+ 7528  sudo docker service ps getstartedlab
+ 7529  sudo docker service ls
+ 7744  sudo docker stack -ps
+ 7745  sudo docker stack ps
+ 7746  docker stack ps
+ 7747  docker stack ls
+ 7748  sudo docker stack ls
+ 7749  sudo docker stack ps getstartedlab
+ 7750  sudo docker container ls -q
+ 7751  less ~/filofex/docker.hist 
+ 7752  systemctl status docker.service+
+ 7753  sudo systemctl status docker.service+
+ 7755  systemctl status docker.service
+ 7756  cd ~/mydocker/
+ 7758  less docker-compose.yml 
+ 7760  less .docker-compose.yml.sw
+ 7761  less .docker-compose.yml.swp 
+ 7762  vim docker-compose.yml 
+ 7763  docker-use
+ 7764  docker-machine use
+ 7766  docker-machine 
+ 7767  docker-machine use
+ 7769  docker-machine create --driver virtualbox myvm1
+ 7774  cd /tmp/docker-machine
+ 7775  ls /tmp/docker-machine
+ 7776  ls -alt /tmp/docker-machine
+ 7778  ls -alt /tmp/docker-machine
+ 7779  ls -halt /tmp/docker-machine
+ 7783  ls -alt /tmp/docker-machine
+ 7784  ls -halt /tmp/docker-machine
+ 7785  chmod +x /tmp/docker-machine 
+ 7787  docker-machine version
+ 7788  docker-machine 
+ 7789  docker-machine version
+ 7790  docker-machine use
+ 7795  docker-machine
+ 7796  docker-machine use
+ 7797  docker-machine 
+ 7798  docker-machine version
+ 7801  docker-machine use
+ 7820  cd ~/mydocker/
+ 7833  less docker-machine.bash 
+ 7837  less docker-machine.bash 
+ 7840  docker-machine version 
+ 7842  less docker-machine-wrapper.bash 
+ 7843  docker-machine 
+ 7844  docker-machine use
+ 7846  less docker-machine-prompt.bash 
+ 7850  less docker-machine-wrapper.bash 
+ 7851  docker-machine use
+ 7852  docker-machine name
+ 7853  docker-machine status 
+ 7854  docker-machine use --help
+ 7855  docker-machine use --swarm
+ 7861  docker-machine create --driver
+ 7862  docker-machine create --driver kvm --help
+ 7863  docker-machine create --driver xen --help
+ 7864  docker-machine create --driver virtualbox --help
+ 7865  docker-machine create --driver kvm --help
+ 7866  docker-machine create --driver qemu --help
+ 7867  docker-machine -v
+ 7868  docker-machine --version
+ 7869  docker-machine create --driver virtualbox myvm1
+ 7872  mv ~/mydocker/.docker-compose.yml.sw* ~/.FAIL/
+ 7873  ls mv ~/mydocker/.docker-compose.yml.sw* ~/.FAIL
+ 7874  ls ~/mydocker/
+ 7877  cd ~/mydocker/
+ 7883  sudo docker service ls
+ 7884  sudo docker stack ls
+ 7885  sudo docker stat
+ 7886  sudo docker stats
+ 7887  sudo docker ps
+ 7888  sudo docker container prune 
+ 7889  sudo docker container 
+ 7890  sudo docker container stats 
+ 7891  sudo docker inspect 
+ 7892  sudo docker container ls
+ 7893  sudo docker container ls -q
+ 7894  sudo docker inspect c760f
+ 7895  sudo docker stack
+ 7896  sudo docker stack ls
+ 7897  sudo docker stack ps
+ 7898  sudo docker stack ls
+ 7899  sudo docker stack ps getstartedlab
+ 7900  sudo docker servcie ls
+ 7901  sudo docker service ls
+ 7902  sudo docker service ps
+ 7903  sudo docker ps
+ 7904  sudo docker service ls
+ 7905  sudo docker ps
+ 7906  less docker-compose.yml 
+ 7907  mv ~/.FAIL/.docker-compose.yml.swp .
+ 7908  vim docker-compose.yml 
+ 7910  mv .docker-compose.yml.swp ~/.FAIL/
+ 7913  less docker-compose.yml 
+ 7916  curl -L https://github.com/docker/machine/releases/download/v0.13.0/docker-machine-`uname -s`-`uname -m` >/tmp/docker-machine && chmod +x /tmp/docker-machine && sudo cp /tmp/docker-machine /usr/local/bin/docker-machine
+ 7917  curl -L https://github.com/docker/machine/releases/download/v0.13.0/docker-machine-`uname -s`-`uname -m` >/tmp/docker-machine && chmod +x /tmp/docker-machine && cp /tmp/docker-machine /usr/local/bin/docker-machine
+ 7918  curl -L https://github.com/docker/machine/releases/download/v0.13.0/docker-machine-`uname -s`-`uname -m` >/tmp/docker-machine
+ 7920  docker-machine version
+ 7921  docker-machine mount
+ 7923  less /etc/bash_completion.d/docker-machine-prompt.bash 
+ 7934  git commit -m "docker-machine in aliyun-ecs-debian, vx-t amd-x"
+ 7950  docker-machine create --driver virtualbox myvm1
+ 7951  docker-machine create --driver kvm myvm1
+ 7952  docker-machine create --driver kvm myvm2
+ 7953  docker-machine ls
+ 7954  docker-machine create --driver list
+ 7955  docker-machine create --driver --help
+ 7956  docker-machine create --driver
+ 7957  docker-machine create --driver | grep kvm
+ 7958  docker-machine env 
+ 7959  docker-machine ls
+ 7960  docker-machine create --help
+ 7961  docker-machine create --help | grep virtual
+ 7962  docker-machine create --help | grep virtual-box
+ 7963  docker-machine create --help | grep virtualbox | less
+ 7964  docker-machine create --help | grep kvm
+ 7968  ls -alt /usr/local/bin/docker-machine-driver-kvm
+ 7969  less /usr/local/bin/docker-machine-driver-kvm
+ 7970  docker-machine create --driver docker-machine-driver-kvm  myvm1
+ 7971  docker-machine create --driver kvm  myvm1
+ 7972  docker-machine rm myvm1
+ 7973  docker-machine rm myvm2
+ 7974  cd ~/.docker/machine/machines/myvm
+ 7975  cd ~/.docker/machine/machines/
+ 7978  docker-machine ls
+ 7979  docker-machine create --driver kvm  myvm1
+ 8023  ssh-keygen -t rsa -f dockerMachine_127
+ 8045  docker-machine
+ 8046  docker-machine ls
+ 8051  less docker-machine-wrapper.bash 
+ 8052  vim docker-machine-wrapper.bash
+ 8059  docker service
+ 8060  docker service ls
+ 8061  sudo docker service ls
+ 8062  docker-machine ls
+ 8063  docker-machine stop mygenq
+ 8064  docker-machine stop mygen1
+ 8065  docker-machine ls
+ 8066  docker-machine create --driver 
+ 8067  docker-machine create --driver  | grep alpine
+ 8068  docker-machine create --driver  | less
+ 8069  docker-machine help
+ 8070  docker-machine create --help
+ 8071  docker-machine create --driver --help
+ 8077  less docker-machine-wrapper.bash 
+ 8085  docker-machine status
+ 8086  docker-machine sstop
+ 8087  docker-machine stop
+ 8096  docker-machine
+ 8097  docker-machine version
+ 8102  docker-machine ls
+ 8103  docker-machine rm mygen1 
+ 8126  docker info
+ 8127  sudo docker info
+ 8128  sudo docker service ps
+ 8129  sudo docker service ls
+ 8132  $ curl -L https://github.com/docker/machine/releases/download/v0.13.0/docker-machine-`uname -s`-`uname -m` >/tmp/docker-machine && chmod +x /tmp/docker-machine && \
+ 8133  curl -L https://github.com/docker/machine/releases/download/v0.13.0/docker-machine-`uname -s`-`uname -m` >/tmp/docker-machine
+ 8134  chmod +x /tmp/docker-machine
+ 8136  docker-machine version
+ 8139  docker-machine creat --driver generic mygen1
+ 8140  docker-machine create --driver generic mygen1
+ 8141  docker-machine create --driver generic --generic-ip-address=127.0.0.1 mygen1
+ 8142  docker-machine create --driver generic --generic-ip-address=127.0.0.1 --generic-ssh-user ben \\
+ 8143  docker-machine create --driver generic --generic-ip-address=127.0.0.1 --generic-ssh-user ben \
+ 8222  less docker-machine.bash 
+ 8224  less docker-machine.bash 
+ 8234  ls -alt /home/ben/.docker/machine/cache/boot2docker.iso
+ 8235  ls -alt /home/ben/.docker/machine/cache/boot2docker.iso.tmp634249678 
+ 8236  ls -halt /home/ben/.docker/machine/cache/boot2docker.iso.tmp634249678 
+ 8242  docker-machine create --driver kvm  myvm1
+ 8243  cd ~/.docker/machine/machines
+ 8247  docker-machine create --driver kvm  myvm1
+ 8248  docker-machine create --driver kvm  myvm2
+ 8250  cd ~/.docker/machine/machines
+ 8254  docker-machine create --driver kvm  myvm1
+ 8255  docker-machine create --driver kvm  myvm2
+ 8264  wget https://github.com/dhiltgen/docker-machine-kvm/archive/v0.10.0.tar.gz
+ 8267  cd docker-machine-kvm-0.10.0/
+ 8274  docker-machine ls
+ 8284  less  /etc/systemd/system/docker.service.d/10-machine.conf
+ 8285  sudo docker node ls
+ 8286  sudo docker swarm init 
+ 8287  sudo docker swarm join 
+ 8288  sudo docker stack rm getstartedlab
+ 8289  docker swarm leave --force
+ 8290  sudo docker swarm leave --force
+ 8291  sudo docker ps
+ 8292  sudo docker service ls
+ 8293  sudo docker service
+ 8294  sudo docker service ls
+ 8295  sudo docker swarm init
+ 8298  cd ~/mydocker/
+ 8300  sudo docker stack deploy -c docker-compose.yml getstartedlab
+ 8301  docker service ls
+ 8302  sudo docker service ls
+ 8304  sudo docker container ls -q
+ 8305  sudo docker stack deploy -c docker-compose.yml getstartedlab
+ 8306  sudo docker service ls
+ 8308  less docker-compose.yml 
+ 8314  find ~/ -name docker-compose*
+ 8315  less ~/docker-compose.yml 
+ 8318  docker stack deploy -c docker-compose.yml getstartedlab
+ 8319  sudo docker stack deploy -c docker-compose.yml getstartedlab
+ 8320  sudo docker service ls
+ 8321  docker container ls -q
+ 8322  sudo docker container ls -q
+ 8324  eval $(docker-machine env -u)
+ 8325  less  /etc/systemd/system/docker.service.d/10-machine.conf
+ 8326  less ~/docker-compose.yml 
+ 8327  less docker-compose.yml 
+ 8328  less ~/mydocker/docker-compose.yml 
+ 8329  less ~/mydocker/
+ 8330  less ~/mydocker/Dockerfile 
+ 8331  less docker-compose.yml 
+ 8332  less ~/mydocker/Dockerfile 
+ 8333  history | grep docker run
+ 8334  history | grep 'docker run'
+ 8335  sudo docker image ls
+ 8336  less docker-compose.yml 
+ 8337  less ~/mydocker/Dockerfile 
+ 8338  less docker-compose.yml 
+ 8339  less ~/mydocker/Dockerfile 
+ 8342  history | grep 'docker push'
+ 8343  sudo docker images ls
+ 8344  sudo docker image ls
+ 8351  sudo docker-machine env
+ 8358  docker-machine env -u
+ 8362  sudo docker machine ls
+ 8363  docker swarm 
+ 8364  sudo docker stack ls
+ 8365  sudo docker stack ps getstartedlab
+ 8366  sudo docker container ls
+ 8367  sudo docker container ps f1a204f8842d
+ 8368  sudo docker container 
+ 8369  sudo docker container stats f1a204f8842d
+ 8370  sudo docker container inspect f1a204f8842d
+ 8372  less ~/docker-compose.yml 
+ 8373  cp ~/docker-compose.yml ~/filofex/
+ 8374  less ~/docker-compose.yml 
+ 8375  less ~/mydocker/app.py 
+ 8377  history | grep 'docker run -it'
+ 8378  sudo docker container ls
+ 8379  sudo docker attach --help
+ 8380  sudo docker attach f1a204f8842d
+ 8382  sudo docker attach --help
+ 8383  sudo docker exec -i -t f1a204f8842d /bin/bash
+ 8384  sudo docker ls
+ 8385  sudo docker container ls
+ 8386  sudo docker stack deploy 
+ 8388  sudo docker stack deploy -c docker-compose.yml getstartedlab
+ 8389  sudo docker exec -i -t f1a204f8842d /bin/bash
+ 8390  sudo docker container ls
+ 8391  sudo docker exec -i -t 5da7ab661fa3 /bin/bash
+ 8392  sudo docker container ls
+ 8395  less docker-compose.yml 
+ 8396  sudo docker stack deploy -c docker-compose.yml getstartedlab
+ 8397  sudo docker container ls
+ 8398  sudo docker stack rm
+ 8399  sudo docker stack services 
+ 8400  sudo docker stack ls
+ 8401  sudo docker stack rm getstartedlab
+ 8402  sudo docker stack deploy -c docker-compose.yml getstartedlab
+ 8403  docker swarm leave
+ 8404  sudo docker swarm leave
+ 8405  sudo docker swarm leave --force
+ 8406  sudo docker container ls
+ 8407  sudo docker swarm init
+ 8408  sudo docker stack deploy -c docker-compose.yml getstartedlab
+ 8409  sudo docker swarm leave --force
+ 8410  sudo docker stack deploy -c docker-compose.yml getstartedlab
+ 8411  sudo docker swarm init
+ 8412  sudo docker stack deploy -c docker-compose.yml getstartedlab
+ 8413  sudo docker container ls
+ 8414  sudo docker stack rm getstartedlab
+ 8415  sudo docker swarm leave --force
+ 8416  sudo docker swarm init
+ 8417  sudo docker stack deploy -c docker-compose.yml getstartedlab
+ 8418  sudo docker container ls
+ 8419  sudo docker exec -it 02ed85270535 /bin/bash
+ 8420  sudo docker exec -it getstartedlab_web.2.m9jmxz23to5qafojgn6q04zvm /bin/bash
+ 8421  sudo docker exec -it getstartedlab_web.2 /bin/bash
+ 8422  vim docker-compose.yml 
+ 8427  cd mydocker/
+ 8434  vim docker-compose.yml 
+ 8435  less /var/run/docker.sock 
+ 8436  less -f /var/run/docker.sock 
+ 8439  sudo docker stack ls
+ 8440  sudo docker stack rm getstartedlab
+ 8441  sudo docker swarm leave --force
+ 8442  sudo docker swarm init
+ 8443  sudo docker stack deploy -c docker-compose.yml getstartedlab
+ 8444  sudo docker services ls
+ 8445  sudo docker service ls
+ 8446  sudo docker service ps getstartedlab_redis
+ 8447  sudo docker exec -it p45ni6lux4w3 /bin/bash
+ 8448  sudo docker container ls
+ 8449  sudo docker exec -it 8b71bff01ee1 /bin/bash
+ 8451  vim docker-compose.yml 
+ 8452  vim ~/mydocker/app.py 
+ 8453  sudo docker stack deploy -c docker-compose.yml getstartedlab
+ 8454  vim ~/mydocker/app.py 
+ 8455  sudo docker stack deploy -c docker-compose.yml getstartedlab
+ 8457  cp mydocker/app.py ~/filofex/
+ 8458  cp docker-compose.yml ~/filofex/
+ 8461  sudo docker deploy --help
+ 8462  sudo docker stack deploy --help
+ 8463  ls ~/docker
+ 8464  ls ~/mydocker/
+ 8465  ls ~/mydocker/data/
+ 8466  ls ~/mydocker/data/appendonly.aof 
+ 8467  ls -alt  ~/mydocker/data/appendonly.aof 
+ 8468  less -alt  ~/mydocker/data/appendonly.aof 
+ 8469  less  ~/mydocker/data/appendonly.aof 
+ 8470  cat  ~/mydocker/data/appendonly.aof 
+ 8471  cat  ~/mydocker/data/appendonly.aof | head
+ 8472  sudo docker container ls
+ 8473  sudo docker exec -it 8b71bff01ee1 /bin/bash
+ 8474  ls ~/mydocker/data/
+ 8475  ls -alt ~/mydocker/data/
+ 8476  sudo docker exec -it 8b71bff01ee1 /bin/bash
+ 8481  git commit -m "docker-swarm, redis, visulizer"
+ 8502  less /var/lib/docker/containers/089b717c625b32dc6b2cb2f994b88c039057d919bfbced9ccf1ebf151c58768a/hosts
+ 8506  sudo docker stack deploy -c docker-compose.yml getstartedlab
+ 8507  sudo docker stack deploy -c ~/mydocker/docker-compose.yml getstartedlab-less
+ 8508  sudo docker services
+ 8509  sudo docker service ls
+ 8510  sudo docker service rm *
+ 8511  sudo docker service ls
+ 8512  sudo docker service ls -q
+ 8513  sudo sudo docker sservice rm $(docker service ls -q)
+ 8514  sudo sudo docker sservice rm $(sudo docker service ls -q)
+ 8515  sudo sudo docker service rm $(sudo docker service ls -q)
+ 8516  sudo docker service ls
+ 8517  sudo docker stack ls
+ 8518  sudo docker swarm leave -f
+ 8519  sudo docker image ls
+ 8520  sudo docker run redis
+ 8521  sudo docker run 861cc310cd91
+ 8522  sudo docker run 861cc310cd91 /bin/bash
+ 8523  sudo docker container ls
+ 8525  sudo docker stack ls
+ 8526  sudo docker stack rm getstartedlab
+ 8527  sudo docker stack deploy -c docker-compose.yml 
+ 8528  sudo docker stack deploy -c docker-compose.yml getstartedlab
+ 8530  cd mydocker/
+ 8533  sudo docker stack rm getstartedlab
+ 8534  sudo docker stack deploy -c docker-compose.yml getstartedlab
+ 8535  less docker-compose.yml 
+ 8536  less ~/docker-compose.yml 
+ 8537  sudo docker stack deploy -c ~/docker-compose.yml getstartedlab
+ 8538  vim ~/docker-compose.yml 
+ 8539  sudo docker stack deploy -c ~/docker-compose.yml getstartedlab
+ 8540  vim ~/docker-compose.yml 
+ 8542  sudo docker stack deploy -
+ 8543  sudo docker stack rm getstartedlab
+ 8544  sudo docker stack deploy -c ~/docker-compose.yml getstartedlab
+ 8545  sudo docker stack rm getstartedlab
+ 8546  sudo docker stack deploy -c ~/docker-compose.yml getstartedlab
+ 8548  sudo docker stack rm getstartedlab
+ 8549  sudo docker stack deploy -c ~/docker-compose.yml getstartedlab
+ 8550  sudo docker node ls
+ 8551  sudo docker stack deploy -c ~/docker-compose.yml getstartedlab
+ 8552  vim ~/docker-compose.yml 
+ 8555  sudo docker stack deploy -c ~/docker-compose.yml getstartedlab
+ 8556  vim ~/docker-compose.yml 
+ 8558  sudo docker stack deploy -c ~/docker-compose.yml getstartedlab
+ 8560  sudo docker stack deploy -c ~/docker-compose.yml getstartedlab
+ 8561  sudo docker service ls
+ 8562  sudo docker image ls
+ 8563  sudo docker container ls
+ 8564  sudo docker exec -it 1a5844349b74 /bin/bash
+ 8568  less ~/docker-compose.yml 
+ 8570  sudo docker container ls
+ 8571  sudo docker exec -it 089b717c625b /bin/bash
+ 8572  sudo docker network 
+ 8573  sudo docker network ls
+ 8574  sudo docker network inspect asa9myhyo5cb
+ 8577  sudo docker service ls
+ 8579  sudo docker stack ls
+ 8580  sudo docker stack services 
+ 8581  sudo docker stack services getstartedlab
+ 8582  sudo docker ls
+ 8583  sudo docker service ls
+ 8584  sudo docker service ps
+ 8585  sudo docker service ps getstartedlab_redis
+ 8586  sudo docker service ls
+ 8587  sudo docker container ls
+ 8590  sudo docker history redis:latest
+ 8591  sudo docker history ockersamples/visualizer:stable
+ 8592  sudo docker history dockersamples/visualizer:stable
+ 8593  sudo docker history conweson/minit:getstartPart2
+ 8594  sudo docker history redis:latest
+ 8595  sudo docker container inspect 089b717c625b
+ 8596  sudo docker container inspect 089b717c625b | grep host
+ 8597  less /var/lib/docker/containers/089b717c625b32dc6b2cb2f994b88c039057d919bfbced9ccf1ebf151c58768a/hostname
+ 8599  sudo docker container inspect 089b717c625b | grep redis
+ 8600  sudo docker service ls
+ 8601  sudo docker exec -it 089b717c625b /bin/bash
+ 8602  sudo docker container inspect 089b717c625b
+ 8603  sudo docker history conweson/minit:getstartPart2
+ 8604  sudo docker image ls
+ 8605  sudo docker image ls -a
+ 8606  sudo docker exec -it 089b717c625b /bin/bash
+ 8609  sudo docker exec -it 089b717c625b /bin/bash
+ 8610  sudo docker network ls
+ 8611  sudo docker network inspect d25ace2e42c7
+ 8612  sudo docker network inspect yz8ad16w4dhz
+ 8613  sudo docker network ls
+ 8614  sudo docker network inspect asa9myhyo5cb
+ 8615  sudo docker container ls
+ 8619  docker inspect --format='{{.Name}} - {{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' $(docker ps -aq)
+ 8620  sudo docker inspect --format='{{.Name}} - {{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' $(docker ps -aq)
+ 8621  docker inspect --format='{{.Name}} - {{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' $(docker ps -aq)
+ 8622  sudo docker inspect --format='{{.Name}} - {{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' $(docker ps -aq)
+ 8623  sudo docker inspect --format='{{.Name}} - {{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' $(sudo docker ps -aq)
+ 8624  sudo docker inspect --format='{{.Name}} - {{range .NetworkSettings.Networks}} - {{.IPAddress}}{{end}}' $(sudo docker ps -aq)
+ 8627  sudo docker -aq
+ 8628  sudo docker ps -aq
+ 8629  sudo docker inspect --format='{{.Name}} - {{range .NetworkSettings.Networks}} - {{.IPAddress}}{{end}}' $(sudo docker container -q)
+ 8630  sudo docker inspect --format='{{.Name}} - {{range .NetworkSettings.Networks}} - {{.IPAddress}}{{end}}' $(sudo docker container ls -q)
+ 8631  sudo docker exec -it 089b717c625b /bin/bash
+ 8634  sudo docker history redis:latest
+ 8635  sudo docker container ls
+ 8636  sudo docker image ls
+ 8637  sudo docker history redis
+ 8638  sudo docker history 861cc310cd91
+ 8639  sudo docker history a85796103467
+ 8640  sudo docker history dockersamples/visualizer
+ 8641  sudo docker history 8dbf7c60cf88
+ 8643  sudo docker node ls
+ 8644  sudo docker node ls tdwwisg132r0m70jel5l5iqx3
+ 8645  sudo docker node ls
+ 8646  less ~/docker-compose.yml 
+ 8650  sudo docker service ps redis
+ 8651  sudo docker service ps 
+ 8652  sudo docker service ls
+ 8653  sudo docker service ps
+ 8654  sudo docker service ps getstartedlab_redis
+ 8655  less ~/docker-compose.yml 
+ 8656  sudo docker container ls
+ 8657  sudo docker exec -it 1af36f52acca /bin/bash
+ 8658  sudo docker stack ls
+ 8659  sudo docker image ls
+ 8660  sudo docker history 861cc310cd91
+ 8661  sudo docker history 861cc310cd91 >> ~/mydocker/layer_redis-image-history
+ 8662  less ~/mydocker/layer_redis-image-history 
+ 8663  vim ~/mydocker/layer_redis-image-history
+ 8664  sudo docker history 861cc310cd91 
+ 8665  sudo docker container ls
+ 8666  sudo docker inspect 089b717c625b
+ 8667  sudo docker inspect 089b717c625b | grep reids
+ 8668  sudo docker inspect 089b717c625b | grep redis
+ 8669  sudo docker inspect 089b717c625b | grep -i entry
+ 8670  sudo docker inspect 089b717c625b | less
+ 8671  cd ~/.docker/
+ 8680  whereis docker
+ 8681  cd /etc/docker/
+ 8686  sudo docker image ls
+ 8687  sudo docker image save 
+ 8688  sudo docker image -tree
+ 8689  sudo docker image --tree
+ 8690  sudo docker image ls
+ 8691  sudo docker image --tree 861cc310cd91
+ 8692  sudo docker image -tree 861cc310cd91
+ 8693  sudo docker image -tree 
+ 8694  cd /var/lib/docker/
+ 8698  sudo docker run -ti --rm -v /var/run/docker.sock:/var/run/docker.sock dockercloud/registration
+ 8699  sudo docker swarm leave
+ 8700  sudo docker swarm leave --force
+ 8701  sudo docker swarm leave 
+ 8702  sudo docker run -ti --rm -v /var/run/docker.sock:/var/run/docker.sock dockercloud/registration
+ 8703  sudo docker swarm init
+ 8704  sudo docker run -ti --rm -v /var/run/docker.sock:/var/run/docker.sock dockercloud/registration
+ 8705  sudo docker service ls
+ 8706  sudo docker stack deploy -c ~/docker-compose.yml getstartedlab
+ 8707  sudo docker node ls
+ 8708  sudo docker run --rm -ti -v /var/run/docker.sock:/var/run/docker.sock -e DOCKER_HOST dockercloud/client conweson/6o0gw1ofwuyzvrykhvgn25egd
+ 8710  sudo docker service ls
+ 8711  sudo docker node ls
+ 8712  sudo docker stack ls
+ 8713  sudo docker stack rm getstartedlab
+ 8714  sudo docker service ls
+ 8715  sudo cocker sudo docker swarm leave
+ 8716  sudo docker sudo docker swarm leave
+ 8717  sudo docker swarm leave
+ 8718  sudo docker swarm leave -f
+ 8719  sudo docker node ls
+ 8722  sudo docker stack ls
+ 8723  sudo docker swarm  init
+ 8724  sudo docker run --rm -ti -v /var/run/docker.sock:/var/run/docker.sock -e DOCKER_HOST dockercloud/client conweson/6o0gw1ofwuyzvrykhvgn25egd
+ 8726  sudo docker service  ls
+ 8727  sudo docker container 
+ 8728  sudo docker container ls
+ 8729  sudo docker ps
+ 8730  sudo docker stack ls
+ 8731  sudo docker stack deploy -c ~/docker-compose.yml getstartedlab
+ 8732  sudo docker service ls
+ 8733  sudo docker stack deploy -c ~/docker-compose.yml getstartedlab
+ 8734  sudo docker stack
+ 8735  sudo docker stack ls
+ 8736  sudo docker container ls
+ 8737  sudo docker stack ls
+ 8738  sudo docker container ls
+ 8739  sudo docker stack rm getstartedlab
+ 8740  sudo docker swarm leave -f
+ 8741  curl -Ls https://get.cloud.docker.com/ | sudo -H sh -s fa85fe64407e471ca68c2e85734fe45d
+ 8743  curl -Ls https://get.cloud.docker.com/ | sudo -H sh -s fa85fe64407e471ca68c2e85734fe45d
+ 8745  service dockercloud-agent restart
+ 8747  sudo docker container ls
+ 8748  sudo docker swarm leave -f
+ 8749  sudo docker container rm 676f7b0cd067
+ 8750  sudo docker container stop 676f7b0cd067
+ 8751  sudo docker container rm 676f7b0cd067
+ 8753  apt-cache search docker
+ 8754  apt-cache search docker | grep agent
+ 8764  less ~/docker-compose.yml 
+ 8765  sudo docker image ls
+ 8766  sudo docker stack deploy -c ~/docker-compose.yml getstartedlab-less
+ 8767  sudo docker stack deploy -c ~/docker-compose.yml getstartedlab
+ 8768  sudo docker swarm init
+ 8769  sudo docker stack deploy -c ~/docker-compose.yml getstartedlab
+ 8770  less docker-compose.yml 
+ 8771  less ~/mydocker/docker-compose.yml 
+ 8772  vim ~/docker-compose.yml 
+ 8773  less ~/mydocker/app.py 
+ 8778  sudo docker stack ls
+ 8779  sudo docker stack rm getstartedlab
+ 8780  sudo docker stack deploy -c docker-compose.yml 
+ 8781  sudo docker stack deploy -c docker-compose.yml getstartedlab
+ 8783  cd mydocker/
+ 8786  sudo docker stack rm getstartedlab
+ 8787  sudo docker stack deploy -c docker-compose.yml getstartedlab
+ 8788  less docker-compose.yml 
+ 8789  less ~/docker-compose.yml 
+ 8790  sudo docker stack deploy -c ~/docker-compose.yml getstartedlab
+ 8791  vim ~/docker-compose.yml 
+ 8792  sudo docker stack deploy -c ~/docker-compose.yml getstartedlab
+ 8793  vim ~/docker-compose.yml 
+ 8795  sudo docker stack deploy -
+ 8796  sudo docker stack rm getstartedlab
+ 8797  sudo docker stack deploy -c ~/docker-compose.yml getstartedlab
+ 8798  sudo docker stack rm getstartedlab
+ 8799  sudo docker stack deploy -c ~/docker-compose.yml getstartedlab
+ 8801  sudo docker stack rm getstartedlab
+ 8802  sudo docker stack deploy -c ~/docker-compose.yml getstartedlab
+ 8803  sudo docker node ls
+ 8804  sudo docker stack deploy -c ~/docker-compose.yml getstartedlab
+ 8805  vim ~/docker-compose.yml 
+ 8808  sudo docker stack deploy -c ~/docker-compose.yml getstartedlab
+ 8809  vim ~/docker-compose.yml 
+ 8811  sudo docker stack deploy -c ~/docker-compose.yml getstartedlab
+ 8813  sudo docker stack deploy -c ~/docker-compose.yml getstartedlab
+ 8814  sudo docker service ls
+ 8815  sudo docker image ls
+ 8816  sudo docker container ls
+ 8817  sudo docker exec -it 1a5844349b74 /bin/bash
+ 8821  less ~/docker-compose.yml 
+ 8823  sudo docker container ls
+ 8824  sudo docker exec -it 089b717c625b /bin/bash
+ 8825  sudo docker network 
+ 8826  sudo docker network ls
+ 8827  sudo docker network inspect asa9myhyo5cb
+ 8830  sudo docker service ls
+ 8832  sudo docker stack ls
+ 8833  sudo docker stack services 
+ 8834  sudo docker stack services getstartedlab
+ 8835  sudo docker ls
+ 8836  sudo docker service ls
+ 8837  sudo docker service ps
+ 8838  sudo docker service ps getstartedlab_redis
+ 8839  sudo docker service ls
+ 8840  sudo docker container ls
+ 8843  sudo docker history redis:latest
+ 8844  sudo docker history ockersamples/visualizer:stable
+ 8845  sudo docker history dockersamples/visualizer:stable
+ 8846  sudo docker history conweson/minit:getstartPart2
+ 8847  sudo docker history redis:latest
+ 8848  sudo docker container inspect 089b717c625b
+ 8849  sudo docker container inspect 089b717c625b | grep host
+ 8850  less /var/lib/docker/containers/089b717c625b32dc6b2cb2f994b88c039057d919bfbced9ccf1ebf151c58768a/hostname
+ 8852  sudo docker container inspect 089b717c625b | grep redis
+ 8853  sudo docker service ls
+ 8854  sudo docker exec -it 089b717c625b /bin/bash
+ 8855  sudo docker container inspect 089b717c625b
+ 8856  sudo docker history conweson/minit:getstartPart2
+ 8857  sudo docker image ls
+ 8858  sudo docker image ls -a
+ 8859  sudo docker exec -it 089b717c625b /bin/bash
+ 8862  sudo docker exec -it 089b717c625b /bin/bash
+ 8863  sudo docker network ls
+ 8864  sudo docker network inspect d25ace2e42c7
+ 8865  sudo docker network inspect yz8ad16w4dhz
+ 8866  sudo docker network ls
+ 8867  sudo docker network inspect asa9myhyo5cb
+ 8868  sudo docker container ls
+ 8872  docker inspect --format='{{.Name}} - {{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' $(docker ps -aq)
+ 8873  sudo docker inspect --format='{{.Name}} - {{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' $(docker ps -aq)
+ 8874  docker inspect --format='{{.Name}} - {{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' $(docker ps -aq)
+ 8875  sudo docker inspect --format='{{.Name}} - {{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' $(docker ps -aq)
+ 8876  sudo docker inspect --format='{{.Name}} - {{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' $(sudo docker ps -aq)
+ 8877  sudo docker inspect --format='{{.Name}} - {{range .NetworkSettings.Networks}} - {{.IPAddress}}{{end}}' $(sudo docker ps -aq)
+ 8880  sudo docker -aq
+ 8881  sudo docker ps -aq
+ 8882  sudo docker inspect --format='{{.Name}} - {{range .NetworkSettings.Networks}} - {{.IPAddress}}{{end}}' $(sudo docker container -q)
+ 8883  sudo docker inspect --format='{{.Name}} - {{range .NetworkSettings.Networks}} - {{.IPAddress}}{{end}}' $(sudo docker container ls -q)
+ 8884  sudo docker exec -it 089b717c625b /bin/bash
+ 8887  sudo docker history redis:latest
+ 8888  sudo docker container ls
+ 8889  sudo docker image ls
+ 8890  sudo docker history redis
+ 8891  sudo docker history 861cc310cd91
+ 8892  sudo docker history a85796103467
+ 8893  sudo docker history dockersamples/visualizer
+ 8894  sudo docker history 8dbf7c60cf88
+ 8896  sudo docker node ls
+ 8897  sudo docker node ls tdwwisg132r0m70jel5l5iqx3
+ 8898  sudo docker node ls
+ 8899  less ~/docker-compose.yml 
+ 8903  sudo docker service ps redis
+ 8904  sudo docker service ps 
+ 8905  sudo docker service ls
+ 8906  sudo docker service ps
+ 8907  sudo docker service ps getstartedlab_redis
+ 8908  less ~/docker-compose.yml 
+ 8909  sudo docker container ls
+ 8910  sudo docker exec -it 1af36f52acca /bin/bash
+ 8911  sudo docker stack ls
+ 8912  sudo docker image ls
+ 8913  sudo docker history 861cc310cd91
+ 8914  sudo docker history 861cc310cd91 >> ~/mydocker/layer_redis-image-history
+ 8915  less ~/mydocker/layer_redis-image-history 
+ 8916  vim ~/mydocker/layer_redis-image-history
+ 8917  sudo docker history 861cc310cd91 
+ 8918  sudo docker container ls
+ 8919  sudo docker inspect 089b717c625b
+ 8920  sudo docker inspect 089b717c625b | grep reids
+ 8921  sudo docker inspect 089b717c625b | grep redis
+ 8922  sudo docker inspect 089b717c625b | grep -i entry
+ 8923  sudo docker inspect 089b717c625b | less
+ 8924  cd ~/.docker/
+ 8933  whereis docker
+ 8934  cd /etc/docker/
+ 8939  sudo docker image ls
+ 8940  sudo docker image save 
+ 8941  sudo docker image -tree
+ 8942  sudo docker image --tree
+ 8943  sudo docker image ls
+ 8944  sudo docker image --tree 861cc310cd91
+ 8945  sudo docker image -tree 861cc310cd91
+ 8946  sudo docker image -tree 
+ 8947  cd /var/lib/docker/
+ 8951  sudo docker run -ti --rm -v /var/run/docker.sock:/var/run/docker.sock dockercloud/registration
+ 8952  sudo docker swarm leave
+ 8953  sudo docker swarm leave --force
+ 8954  sudo docker swarm leave 
+ 8955  sudo docker run -ti --rm -v /var/run/docker.sock:/var/run/docker.sock dockercloud/registration
+ 8956  sudo docker swarm init
+ 8957  sudo docker run -ti --rm -v /var/run/docker.sock:/var/run/docker.sock dockercloud/registration
+ 8958  sudo docker service ls
+ 8959  sudo docker stack deploy -c ~/docker-compose.yml getstartedlab
+ 8960  sudo docker node ls
+ 8961  sudo docker run --rm -ti -v /var/run/docker.sock:/var/run/docker.sock -e DOCKER_HOST dockercloud/client conweson/6o0gw1ofwuyzvrykhvgn25egd
+ 8963  sudo docker service ls
+ 8964  sudo docker node ls
+ 8965  sudo docker stack ls
+ 8966  sudo docker stack rm getstartedlab
+ 8967  sudo docker service ls
+ 8968  sudo cocker sudo docker swarm leave
+ 8969  sudo docker sudo docker swarm leave
+ 8970  sudo docker swarm leave
+ 8971  sudo docker swarm leave -f
+ 8972  sudo docker node ls
+ 8975  sudo docker stack ls
+ 8976  sudo docker swarm  init
+ 8977  sudo docker run --rm -ti -v /var/run/docker.sock:/var/run/docker.sock -e DOCKER_HOST dockercloud/client conweson/6o0gw1ofwuyzvrykhvgn25egd
+ 8979  sudo docker service  ls
+ 8980  sudo docker container 
+ 8981  sudo docker container ls
+ 8982  sudo docker ps
+ 8983  sudo docker stack ls
+ 8984  sudo docker stack deploy -c ~/docker-compose.yml getstartedlab
+ 8985  sudo docker service ls
+ 8986  sudo docker stack deploy -c ~/docker-compose.yml getstartedlab
+ 8987  sudo docker stack
+ 8988  sudo docker stack ls
+ 8989  sudo docker container ls
+ 8990  sudo docker stack ls
+ 8991  sudo docker container ls
+ 8992  sudo docker stack rm getstartedlab
+ 8993  sudo docker swarm leave -f
+ 8994  curl -Ls https://get.cloud.docker.com/ | sudo -H sh -s fa85fe64407e471ca68c2e85734fe45d
+ 8996  curl -Ls https://get.cloud.docker.com/ | sudo -H sh -s fa85fe64407e471ca68c2e85734fe45d
+ 8998  service dockercloud-agent restart
+ 9000  sudo docker container ls
+ 9001  sudo docker swarm leave -f
+ 9002  sudo docker container rm 676f7b0cd067
+ 9003  sudo docker container stop 676f7b0cd067
+ 9004  sudo docker container rm 676f7b0cd067
+ 9006  apt-cache search docker
+ 9007  apt-cache search docker | grep agent
+ 9012  sudo docker image ls
+ 9014  sudo docker run --rm -ti -v /var/run/docker.sock:/var/run/docker.sock -e DOCKER_HOST dockercloud/client conweson/6o0gw1ofwuyzvrykhvgn25egd
+ 9015  sudo docker service ls
+ 9016  sudo docker stack deploy -c ~/docker-compose.yml getstartedlab
+ 9017  sudo docker swarm init
+ 9018  sudo docker stack deploy -c ~/docker-compose.yml getstartedlab
+ 9019  sudo docker container ls
+ 9020  sudo docker service ls
+ 9021  sudo docker stack rm getstartedlab
+ 9022  sudo docker run --rm -ti -v /var/run/docker.sock:/var/run/docker.sock -e DOCKER_HOST dockercloud/client conweson/6o0gw1ofwuyzvrykhvgn25egd
+ 9024  sudo docker stack deploy -c ~/docker-compose.yml getstartedlab
+ 9025  sudo docker service ls
+ 9026  sudo docker rm getstartedlab
+ 9027  sudo docker stack rm getstartedlab
+ 9028  sudo docker swarm leave -f
+ 9030  sudo docker swarm init
+ 9031  sudo docker stack
+ 9032  sudo docker stack deploy -c ~/docker-compose.yml getstartedlab-cloud
+ 9033  sudo docker container ls
+ 9034  sudo docker service ls
+ 9035  docker run -ti --rm -v /var/run/docker.sock:/var/run/docker.sock dockercloud/registration
+ 9036  sudo docker run -ti --rm -v /var/run/docker.sock:/var/run/docker.sock dockercloud/registration
+ 9037  docker run -ti --rm -v /var/run/docker.sock:/var/run/docker.sock dockercloud/registration
+ 9038  sudo docker run -ti --rm -v /var/run/docker.sock:/var/run/docker.sock dockercloud/registration
+ 9043  sudo docker stack ls
+ 9044  sudo docker stack rm docker run --rm -ti -v /var/run/docker.sock:/var/run/docker.sock -e DOCKER_HOST dockercloud/client conweson/myswarminit
+ 9045  sudo docker stack ls
+ 9046  sudo docker stack rm getstartedlab-cloud
+ 9047  sudo docker swarm leave -f
+ 9048  docker run --rm -ti -v /var/run/docker.sock:/var/run/docker.sock -e DOCKER_HOST dockercloud/client conweson/myswarminit
+ 9049  suo docker run --rm -ti -v /var/run/docker.sock:/var/run/docker.sock -e DOCKER_HOST dockercloud/client conweson/myswarminit
+ 9050  sudo docker run --rm -ti -v /var/run/docker.sock:/var/run/docker.sock -e DOCKER_HOST dockercloud/client conweson/myswarminit
+ 9054  sudo docker container ls
+ 9055  sudo docker container stop e7d669d3e589
+ 9056  sudo docker container rm e7d669d3e589
+ 9057  sudo docker container ls
+ 9058  sudo docker swarm init
+ 9059  sudo docker stack ls
+ 9060  sudo docker stack deploy -c docker-compose.yml getstartedlab
+ 9061  sudo docker stack ls
+ 9062  sudo docker stack rm getstartedlab
+ 9063  sudo docker swarm leave -f
+ 9064  docker run -ti --rm -v /var/run/docker.sock:/var/run/docker.sock dockercloud/registration
+ 9065  sudo docker run -ti --rm -v /var/run/docker.sock:/var/run/docker.sock dockercloud/registration
+ 9067  sudo docker swarm init
+ 9068  docker run -ti --rm -v /var/run/docker.sock:/var/run/docker.sock dockercloud/registration
+ 9069  sudo docker run -ti --rm -v /var/run/docker.sock:/var/run/docker.sock dockercloud/registration
+ 9072  wget https://download.docker.com/win/stable/Docker%20for%20Windows%20Installer.exe
+ 9073  sudo docker service ls
+ 9074  sudo docker stack ls
+ 9075  sudo docker stack ps
+ 9076  sudo docker stack ps getstartedlab
+ 9077  sudo docker container ls
+ 9078  sudo docker container rm 31908d4f9727
+ 9079  sudo docker container stop 31908d4f9727
+ 9080  sudo docker container rm 31908d4f9727
+ 9081  sudo docker container ls
+ 9082  sudo docker run -ti --rm -v /var/run/docker.sock:/var/run/docker.sock dockercloud/registration
+ 9083  sudo docker run --rm -ti -v /var/run/docker.sock:/var/run/docker.sock -e DOCKER_HOST dockercloud/client conweson/pk8in4ic65smsle08a1ebp25p
+ 9084  sudo docker container ls
+ 9086  sudo docker container ls
+ 9087  sudo docker ls
+ 9088  sudo docker container ls
+ 9089  sudo docker service ls
+ 9090  sudo docker container create 
+ 9091  sudo docker image ls
+ 9092  sudo docker run hello-workd
+ 9093  sudo docker run hello-worldd
+ 9094  sudo docker run hello-world
+ 9095  sudo docker container ls
+ 9096  sudo docker service ls
+ 9097  sudo docker image ls
+ 9098  sudo docker create alpine myCloudAlpin
+ 9099  sudo docker container ls
+ 9100  sudo docker create alpine myCloudAlpine
+ 9101  sudo docker create alpine myCloudAlpin
+ 9102  sudo docker container ls
+ 9103  sudo docker service ls
+ 9104  sudo docker node ls
+ 9105  sudo docker machine ls
+ 9106  sudo docker container ls
+ 9108  sudo docker ls
+ 9109  sudo docker container ls
+ 9110  sudo docker service les
+ 9111  sudo docker service ls
+ 9112  sudo docker stack ls
+ 9117  sudo docker swarm init
+ 9118  sudo docker service ls
+ 9119  sudo docker swarm leave
+ 9120  sudo docker stack ls
+ 9121  sudo docker swarm leave
+ 9122  sudo docker swarm leave --force
+ 9123  sudo docker swarm init
+ 9124  sudo docker stack deploy -c ~/docker-compose.yml getstartedlab
+ 9125  sudo docker container ls
+ 9126  sudo docker run 
+ 9127  sudo docker create --help
+ 9128  sudo docker exec -ti bf1d7007375465a8c822816fecb831406543c6227cad099b0cf66e6e745e19bd /bin/bash
+ 9129  sudo docker run bf1d7007375465a8c822816fecb831406543c6227cad099b0cf66e6e745e19bd
+ 9130  sudo docker create alpine
+ 9131  sudo docker run alpine
+ 9132  sudo docker container ls
+ 9133  sudo docker run alpine /bin/bash
+ 9134  sudo docker run ubuntu /bin/bash
+ 9136  sudo docker exec -ti ubuntu /bin/bash
+ 9137  sudo docker container ls
+ 9138  sudo docker stack ls
+ 9139  sudo docker swarm leave -f
+ 9140  sudo docker service ls
+ 9141  sudo docker container ls
+ 9142  sudo docker container stop a819ccbd5820
+ 9143  sudo docker container rm a819ccbd5820
+ 9144  sudo docker swarm init
+ 9145  sudo docker stack deploy -c ~/docker-compose.yml getstartedlab
+ 9146  sudo docker container ls
+ 9147  sudo docker container ls
+ 9148  sudo docker run myUbuntu
+ 9149  sudo docker run /myUbuntu
+ 9150  sudo docker run conweson/myUbuntu
+ 9151  sudo docker run myUbuntu
+ 9152  sudo docker image ls
+ 9153  sudo docker create --name myU14 ubuntu:14.04
+ 9154  sudo docker run myU14
+ 9155  sudo docker create --name myl/myU14 ubuntu:14.04
+ 9156  sudo docker run /myUbuntu
+ 9157  sudo docker run myUbuntu
+ 9158  sudo docker container --help
+ 9159  sudo docker container ls -a
+ 9160  sudo docker container ls -a | less
+ 9161  sudo docker container prune 
+ 9162  sudo docker container create 
+ 9163  sudo docker create --name myU14 ubuntu:14.04
+ 9164  sudo docker start myU24
+ 9165  sudo docker start myU14
+ 9166  sudo docker exec -ti myU14 /bin/bash
+ 9167  sudo docker container 
+ 9168  sudo docker container ls
+ 9169  sudo docker start myU14
+ 9170  sudo docker service ls
+ 9171  sudo docker container ls -a
+ 9172  sudo docker start --help
+ 9173  sudo docker start -i myU14
+ 9174  sudo docker container ls -a
+ 9175  sudo docker container prune 
+ 9176  sudo docker container ls -a
+ 9177  sudo docker ls image
+ 9178  sudo docker image lis
+ 9179  sudo docker image ls
+ 9180  sudo docker create --name myUb ubuntu:latest
+ 9181  sudo docker container start myUb
+ 9182  sudo docker container ls
+ 9183  sudo docker container ls -a
+ 9186  sudo docker stack ls
+ 9187  sudo docker container ls
+ 9188  sudo docker image ls
+ 9189  sudo docker stack ls
+ 9190  sudo docker stack rm getstartedlab
+ 9192  sudo docker service ls
+ 9193  sudo docker run -ti --rm -v /var/run/docker.sock:/var/run/docker.sock dockercloud/registration
+ 9194  sudo docker run --rm -ti -v /var/run/docker.sock:/var/run/docker.sock -e DOCKER_HOST dockercloud/client conweson/meqmmfsjki93ad8wzexndary2
+ 9196  sudo docker stack deploy -c ~/docker-compose.yml getstartedlab
+ 9197  sudo docker service ls
+ 9198  sudo docker container ls
+ 9199  sudo docker service ls
+ 9200  sudo docker stack ls
+ 9201  sudo docker node ls
+ 9212  vim ~/mydocker/layer_redis-image-history
+ 9229  sudo docker machine ls
+ 9230  sudo docker container ls
+ 9231  sudo docker container prune 
+ 9232  sudo docker stack ls
+ 9233  sudo docker stack rm getstartedlab
+ 9234  sudo docker services
+ 9235  sudo docker swarm leave 
+ 9236  sudo docker swarm leave  --force
+ 9237  sudo docker images
+ 9238  sudo docker image prune
+ 9239  sudo docker image ls
+ 9240  sudo docker image prune
+ 9244  cd mydocker/
+ 9246  less docker-compose.yml 
+ 9248  less docker-compose.yml 
+ 9249  less docker-redis.txt 
+ 9613  git add 0.hist 1.hist docker.hist 
+ 9614  history | grep docker
+ 9615  history | grep docker >> docker.hist 

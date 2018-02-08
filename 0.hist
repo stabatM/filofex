@@ -496,3 +496,502 @@ Wed Jan 24 13:23:32 CST 2018
   495  exit
   496  echo $(date) | tee 0.hist 
   497  history >> 0.hist 
+    1  cd /etc/docker/
+    2  ls
+    3  less key.json 
+    4  exit
+    5  exit
+    6  service docker restart
+    7  echo $?
+    8  ls
+    9  exit
+   10  less /etc/NetworkManager/NetworkManager.conf
+   11  less /etc/console-setup/
+   12  less /etc/netconfig 
+   13  exit
+   14  curl -L https://github.com/docker/compose/releases/download/1.18.0/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
+   15  ls /usr/local/bin/docker-compose
+   16  file /usr/local/bin/docker-compose
+   17  sudo chmod +x /usr/local/bin/docker-compose
+   18  docker-compose --version
+   19  vim /etc/sudoers
+   20  ls -alt /usr/local/bin/docker-compose
+   21  exit
+   22  cp /etc/sudoers /home/ben/filofex/
+   23  exit
+   24  chmod ben:ben sudoers 
+   25  chown ben:ben sudoers 
+   26  ls alt sudoers 
+   27  ls -alt sudoers 
+   28  exit
+   29  echo $(date) | tee 0.hist 
+   30  history >> 0.hist 
+   31  wc -l 0.hist 
+   32  history
+   33  exit
+   34  apt-get install bastet
+   35  bastet
+   36  exit
+   37  apt-get install pacman4console
+   38  man pacman4console
+   39  exit
+   40  apt-get install nsname
+   41  apt-get install nsnake
+   42  exit
+   43  apt-cache search flex
+   44  apt-get install flex
+   45  apt-get install flex bison
+   46  flex
+   47  exit
+   48  ls
+   49  cd awscli-bundle
+   50  ls
+   51  ./awscli-bundle/install -i /usr/local/aws -b /usr/local/bin/aws
+   52  cd ..
+   53  ./awscli-bundle/install -i /usr/local/aws -b /usr/local/bin/aws
+   54  aws --version
+   55  exit
+   56  ls
+   57  cp e*.info.gz /usr/share/info/
+   58  exit
+   59  emacs -q
+   60  exit
+   61  emacs
+   62  emacs
+   63  emacs
+   64  emacs
+   65  emacs
+   66  emacs
+   67  ls
+   68  cd ~
+   69  emacs
+   70  emacs
+   71  emacs
+   72  emacs
+   73  exit
+   74  emacs
+   75  emacs
+   76  diff /home/ben/.emacs.d/init.el ~/.emacs.d/init.el
+   77  diff --help
+   78  vimdiff /home/ben/.emacs.d/init.el ~/.emacs.d/init.el
+   79  vimdiff /home/ben/.emacs.d/init.el ~/.emacs.d/init.el
+   80  vim ~/.emacs.d/init.el
+   81  diff /home/ben/.emacs.d/init.el ~/.emacs.d/init.el
+   82  vimdiff /home/ben/.emacs.d/init.el ~/.emacs.d/init.el
+   83  vimdiff /home/ben/.emacs.d/init.el ~/.emacs.d/init.el
+   84  emacs
+   85  exit
+   86  emacs
+   87  emacs
+   88  cp ~/.emacs.d/init.el /home/ben/filofex/root_init.el
+   89  ls -alt /home/ben/filofex/root_init.el
+   90  exit
+   91  emacs
+   92  exit
+   93  less ~/.emacs.d/init.el
+   94  emacs
+   95  exit
+   96  systemctl status docker.service+
+   97  systemctl status docker.service
+   98  exit
+   99  history | grep sudoer
+  100  vim /etc/sudoers
+  101  exit
+  102  fg
+  103  exit
+  104  cp /tmp/docker-machine /usr/local/bin/
+  105  less /etc/sudoers
+  106  exit
+  107  docker-machine use
+  108  docker-machine 
+  109  which docker-machine 
+  110  docker-machine --help
+  111  docker-machine versiosn
+  112  docker-machine version
+  113  ls
+  114  vim /etc/sudoers
+  115  ls
+  116  vim ~/.bashrc 
+  117  exit
+  118  ls
+  119  ls
+  120  bash docker-machine-prompt.bash 
+  121  less docker-machine-prompt.bash 
+  122  exit
+  123  ls
+  124  exit
+  125  docker-machine 
+  126  docker-machine version
+  127  vim ~/.bashrc 
+  128  cd /etc/bash_completion.d/
+  129  ls
+  130  bash
+  131  bash
+  132  exit
+  133  vim /usr/local/etc/bash_completion.d
+  134  vim ~/.bashrc 
+  135  bash
+  136  exit
+  137  fg
+  138  cd /usr/local/etc/
+  139  ls
+  140  rm -i bash_completion.d 
+  141  mkdir bash_completion.d
+  142  ls
+  143  cd bash_completion.d/
+  144  scripts=( docker-machine-prompt.bash docker-machine-wrapper.bash docker-machine.bash ); for i in "${scripts[@]}"; do sudo wget https://raw.githubusercontent.com/docker/machine/v0.13.0/contrib/completion/bash/${i} -P /etc/bash_completion.d; done
+  145  ls
+  146  scripts=( docker-machine-prompt.bash docker-machine-wrapper.bash docker-machine.bash ); for i in "${scripts[@]}"; do sudo wget https://raw.githubusercontent.com/docker/machine/v0.13.0/contrib/completion/bash/${i} -P /usr/local/etc/bash_completion.d; done
+  147  ls
+  148  docker-machine 
+  149  docker-machine use
+  150  docker-machine mount
+  151  docker-machine status
+  152  cd ~
+  153  mcd
+  154  cd /tmp
+  155  docker-machine use
+  156  docker-machine mount
+  157  docker-machine 
+  158  vim ~/.bashrc 
+  159  bash
+  160  exit
+  161  ls
+  162  dpkg -i virtualbox-5.2_5.2.6-120293~Debian~jessie_amd64.deb 
+  163  echo $?
+  164  apt-get install virtualbox
+  165  apt-get --fix-broken install virtualbox-5.2
+  166  apt-get --fix-broken install
+  167  apt-get install virtualbox-5.2
+  168  apt autoremove
+  169  apt-get install virtualbox
+  170  virtualbox --help
+  171  virtualbox --version
+  172  apt-get install virtualbox
+  173  echo $?
+  174  virtualbox --version
+  175  apt-get install virtualbox-dkms
+  176  virtualbox --version
+  177  apt-get update
+  178  apt-get update virtualbox
+  179  apt-get upgrade virtualbox
+  180  echo $?
+  181  virtualbox --version
+  182  virtualbox --help
+  183  exit
+  184  apt-get install virtualbox
+  185  apt-cache search virtualbox
+  186  apt-get install virtualbox-5.2
+  187  vim /etc/apt/sources.list
+  188  docker-machine create --driver virtualbox myvm1
+  189  vconfig
+  190  history 
+  191  virtualbox --version
+  192  vboxconfig 
+  193  apt-get install linux-headers-amd64
+  194  less /etc/apt/sources.list
+  195  pwd
+  196  wget https://download.virtualbox.org/virtualbox/5.2.6/virtualbox-5.2_5.2.6-120293~Debian~jessie_i386.deb
+  197  ls
+  198  dpkg -i virtualbox-5.2_5.2.6-120293~Debian~jessie_i386.deb 
+  199  apt-cache search amd-v
+  200  apt-get install amd-v
+  201  apt-get install vt-x
+  202  exit
+  203  vim -r /etc/apt/sources.list
+  204  vim /etc/apt/sources.list
+  205  mv /etc/apt/.sources.list.swp /home/ben/.FAIL/
+  206  vim /etc/apt/sources.list
+  207  cd mysrc/
+  208  ls
+  209  wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -
+  210  wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add -
+  211  ls
+  212  apt-key --help
+  213  apt-key list
+  214  apt-key list | grep vir
+  215  apt-key list | grep +3 vir
+  216  apt-key list | grep -c 3 vir
+  217  grep --help | grep context
+  218  apt-key list | grep -C 3 vir
+  219  apt-get update
+  220  apt-get install virtualbox-5.2
+  221  echo $?
+  222  vboxconfig 
+  223  virtualbox --version
+  224  apt-get install dkms
+  225  bash
+  226  exit
+  227  vboxconfig 
+  228  apt-get install kernel
+  229  apt-get install linux-headers-amd64 linux-headers-3.16.0-4-amd64
+  230  echo $?
+  231  vboxconfig 
+  232  echo $?
+  233  vboxconfig 
+  234  docker-machine create --driver virtualbox myvm1
+  235  egrep '(vmx|svm)' /proc/cpuinfo
+  236  exit
+  237  reboot
+  238  reboot
+  239  cd /tmp
+  240  ls
+  241  apt-get install libvirt-bin qemu-kvm
+  242  echo $?
+  243  groups
+  244  less /etc/group | grep libvirt
+  245  exit
+  246  history | grep staff
+  247  chmod --help
+  248  chgrp --help
+  249  groupmod --help
+  250  groupadd --help
+  251  history | grep useradd
+  252  useradd --help
+  253  less /etc/groups
+  254  less /etc/group
+  255  less /etc/group | grep libvirt
+  256  useradd -a -G libvirt ben
+  257  usermod -a -G libvirt ben
+  258  groups ben
+  259    curl -L https://github.com/dhiltgen/docker-machine-kvm/releases/download/v0.10.0/docker-machine-driver-kvm-ubuntu16.04 > /usr/local/bin/docker-machine-driver-kvm \ 
+  260  ls /usr/local/bin/docker-machine-driver-kvm
+  261  chmod +x /usr/local/bin/docker-machine-driver-kvm
+  262  docker-machine create --driver kvm myvm1
+  263  ls /root/.docker/
+  264  cd ..
+  265  cd /root/.docker/machine/
+  266  ls
+  267  cd ..
+  268  ls
+  269  ls -alt
+  270  cd machine/
+  271  ls
+  272  ls -alt
+  273  cd machines/
+  274  ls
+  275  less myvm1/
+  276  ls -alt myvm1/
+  277  cd ..
+  278  ls
+  279  cd machines/
+  280  ls
+  281  rm -fr myvm1/
+  282  ls
+  283  exit
+  284  history
+  285  exit
+  286  groups
+  287  exit
+  288  usermod -a -G libvirt ben
+  289  usermod -a -G libvirt ben
+  290  exit
+  291  less /usr/local/bin/docker-machine-driver-kvm 
+  292  rm -i /usr/local/bin/docker-machine-driver-kvm 
+  293  curl -L https://github.com/dhiltgen/docker-machine-kvm/releases/download/v0.8.2/docker-machine-driver-kvm > /usr/local/bin/docker-machine-driver-kvm &&   chmod +x /usr/local/bin/docker-machine-driver-kvm
+  294  less /usr/local/bin/docker-machine-driver-kvm 
+  295  ls -alt /usr/local/bin/docker-machine-driver-kvm 
+  296  exit
+  297  docker-machine create --driver kvm  myvm1
+  298  cd /root/.docker/machine/
+  299  ls
+  300  cd machines/
+  301  ls
+  302  rm -fr myvm*
+  303  ls
+  304  exit
+  305  echo $PATH
+  306  exit
+  307  sum --help
+  308  sum /home/ben/mbox 
+  309  sum --help
+  310  sum -r /home/ben/mbox 
+  311  sum /home/ben/mbox 
+  312  sum -s /home/ben/mbox 
+  313  curl -v
+  314  curl --version
+  315  df -h
+  316  df -h
+  317  df -h
+  318  docker container ls
+  319  docker stack ls
+  320  docker 
+  321  docker stack ls
+  322  df -h
+  323  exit
+  324  cp /tmp/docker-machine /usr/local/bin/docker-machine
+  325  exit
+  326  ls
+  327  ls -alt
+  328  less authorized_keys 
+  329  vim authorized_keys id_rsa.pub 
+  330  vim authorized_keys dockerMachine_127.pub 
+  331  exit
+  332  vim docker-machine-wrapper.bash 
+  333  exit
+  334  exit
+  335  cd -
+  336  cd /etc/bash_completion.d/
+  337  ls
+  338  vim  docker-machine-wrapper.bash 
+  339  vim docker-machine-prompt.bash 
+  340  vim docker-machine-prompt.bash 
+  341  less /etc/hostname
+  342  less /etc/hosts
+  343  vim /etc/hostname
+  344  less /etc/hostname-bak-171107 
+  345  less /etc/hosts
+  346  vim /etc/hostname
+  347  exit
+  348  service  network restart
+  349  ifup 
+  350  service network restart
+  351  reboot
+  352  ls
+  353  pwd
+  354  make build
+  355  echo $?
+  356  make build
+  357  docker-machine create --driver kvm  myvm1
+  358  docker-machine create --driver kvm-abc  myvm1
+  359  docker-machine create --driver kvm  myvm1
+  360  ls
+  361  cd ~/.docker/machine/machines/
+  362  ls
+  363  ls
+  364  pwd
+  365  rm -fr myvm1/
+  366  docker-machine create --driver kvm  myvm1
+  367  ls
+  368  pwd
+  369  rm -fr myvm1/
+  370  docker-machine ls -q
+  371  which docker-machine
+  372  rm $(which docker-machine)
+  373  bash
+  374  docker-machine ls
+  375  exit
+  376  more /var/lib/docker/containers/089b717c625b32dc6b2cb2f994b88c039057d919bfbced9ccf1ebf151c58768a/hostname
+  377  exit
+  378  iptraf-ng 
+  379  exit
+  380  apt-get install redis
+  381  apt-cache search redis
+  382  exit
+  383  less
+  384  less /var/lib/docker/containers/089b717c625b32dc6b2cb2f994b88c039057d919bfbced9ccf1ebf151c58768a/hosts
+  385  ls /var/lib/docker/containers/089b717c625b32dc6b2cb2f994b88c039057d919bfbced9ccf1ebf151c58768a/
+  386  cd /var/lib/docker/containers/089b717c625b32dc6b2cb2f994b88c039057d919bfbced9ccf1ebf151c58768a/
+  387  ls
+  388  grep */** redis
+  389  grep redis */** 
+  390  grep -r redis */** 
+  391  grep ./**/* redis 
+  392  grep -r redis ./**/* 
+  393  grep -r  ./**/* redis
+  394  ls
+  395  grep redis */**
+  396  less resolv.conf
+  397  less hostconfig.json 
+  398  grep 'redis' */**
+  399  grep 'redis' -r .
+  400  grep 'redis' -r ./**/*
+  401  grep 'redis' -r .
+  402  ls
+  403  less config.v2.json 
+  404  grep 'redis' -r .
+  405  less config.v2.json 
+  406  ls
+  407  less hostconfig.json 
+  408  less resolv.conf
+  409  less hosts
+  410  less hosts
+  411  less config.v2.json 
+  412  ls
+  413  less resolv.conf.hash 
+  414  less shm/
+  415  cd shm/
+  416  ls
+  417  ls -alt
+  418  cd ..
+  419  ls
+  420  less checkpoints/
+  421  cd checkpoints/
+  422  ls
+  423  cd ..
+  424  ls
+  425  exit
+  426  cd /etc/docker/
+  427  ls
+  428  cd ..
+  429  cd ..
+  430  ls
+  431  exit
+  432  cd /var/lib/docker/
+  433  ls
+  434  cd image/
+  435  ls
+  436  cd aufs/
+  437  ls
+  438  cd imagedb/
+  439  ls
+  440  cd content/
+  441  ls
+  442  cd ..
+  443  cd ..
+  444  ls
+  445  exit
+  446  curl -Ls https://get.cloud.docker.com/ | sudo -H sh -s fa85fe64407e471ca68c2e85734fe45d
+  447  curl -Ls https://get.cloud.docker.com/ | sh -s fa85fe64407e471ca68c2e85734fe45d
+  448  service dockercloud-agent restart
+  449  exit
+  450  curl -Ls https://get.cloud.docker.com/ | bash -s fa85fe64407e471ca68c2e85734fe45d
+  451  service dockercloud-agent restart
+  452  exit
+  453  curl -Ls https://get.cloud.docker.com/ | bash -s fa85fe64407e471ca68c2e85734fe45d
+  454  docker container ls
+  455  exit
+  456  curl -Ls https://get.cloud.docker.com/ | bash -s fa85fe64407e471ca68c2e85734fe45d
+  457  service dockercloud-agent restart
+  458  exit
+  459  apt-get remove dockercloud-agent
+  460  apt autoremove
+  461  apt-get remove dockercloud
+  462  curl -Ls https://get.cloud.docker.com/ |  sh -s fa85fe64407e471ca68c2e85734fe45d
+  463  mail
+  464  reboot
+  465  curl -Ls https://get.cloud.docker.com/ | sh -s b4a4286cb3a446189cc22ff7db2a4ae8
+  466  exit
+  467  apt-get remove dockercloud-agent
+  468  docker-cloud node byo
+  469  exit
+  470  reboot
+  471  reboot
+  472  pwd
+  473  ls
+  474  mv pygtk_matplot.vext{,.err}
+  475  ls
+  476  touch IuseSYSTEMenv
+  477  touch /home/ben/PythonVirEnv/IuseVEXTgate
+  478  exit
+  479  find / -name pygtk.pth
+  480  apt-cache search lein 
+  481  apt-get install lein 
+  482  apt-get clojure
+  483  apt-get install clojure
+  484  exit
+  485  apt-get install lein
+  486  exit
+  487  apt-get upgrade perl
+  488  perldoc IO::File
+  489  apt-cache search perl-doc
+  490  apt-get install perl-doc
+  491  man perl-doc
+  492  info perl-doc
+  493  perldoc IO:File
+  494  perldoc IO::File
+  495  perldoc IO::File
+  496  perldoc perlfaq
+  497  perldoc --help
+  498  exit
+  499  history >> /home/ben/0.hist 
