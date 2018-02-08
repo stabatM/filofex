@@ -1,4 +1,5 @@
 #encoding=utf-8
+#in emacs attachment, not sysmbolic link ;)
 from __future__ import unicode_literals
 import sys
 sys.path.append("../")
