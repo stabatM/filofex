@@ -126,13 +126,14 @@ export EDITOR=/usr/bin/vim
 
 # config java9 for alluxio
 export JAVA_HOME=/home/ben/jdk-9.0.1
-export ALLUXIO_HOME=/home/ben/alluxio-1.6.1-hadoop-2.8
-export PATH=/usr/local/texlive/2017/bin/x86_64-linux:$JAVA_HOME/bin:$ALLUXIO_HOME/bin:$PATH
+# export ALLUXIO_HOME=/home/ben/alluxio-1.6.1-hadoop-2.8
+# export PATH=/usr/local/texlive/2017/bin/x86_64-linux:$JAVA_HOME/bin:$ALLUXIO_HOME/bin:$PATH
+export PATH=/usr/local/texlive/2017/bin/x86_64-linux:$JAVA_HOME/bin:$PATH
 export CLASSPATH=.:$JAVA_HOME/lib/tools.jar:$JAVA_HOME/lib/dt.jar:$CLASSPATH
 
 # add path in infopath
-export INFOPATH=.:/usr/share/doc:/home/ben/mysrc/org-mode/doc:/home/ben/LAMMP/info:/usr/share/info:/usr/local/texlive/2017/texmf-dist/doc/info
-export MANPATH=.:/usr/share/doc:/usr/local/texlive/2017/texmf-dist/doc/man:/usr/share/man
+export INFOPATH=.:/home/ben/mysrc/info_manual:/usr/share/man/man1:/usr/share/doc:/home/ben/mysrc/org-mode/doc:/home/ben/LAMMP/info:/usr/share/info:/usr/local/texlive/2017/texmf-dist/doc/info
+export MANPATH=.:/home/ben/mysrc/info_manual:/usr/share/man/man1:/usr/share/doc/emacs:/usr/share/doc:/usr/local/texlive/2017/texmf-dist/doc/man:/usr/share/man
 #export INFOPATH=''
 
 # step by step to sciPy
@@ -140,3 +141,9 @@ alias m_vire='source /home/ben/PythonVirEnv/bin/activate;cd /home/ben/PythonVirE
 alias m_vire_~='source /home/ben/PythonVirEnv_~/bin/activate;cd /home/ben/PythonVirEnv_~'
 # secu for opts on docker.ce
 alias mcd='cd /tmp'
+# ease for filofex git
+alias mfilo='cd /home/ben/filofex'
+
+# docker-machine
+# source /etc/bash_completion.d/docker-machine-prompt.bash
+# PS1='[\u@\h \W$(__docker_machine_ps1 " [%s]")]\$ '

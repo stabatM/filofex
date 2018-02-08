@@ -777,9 +777,43 @@ print('Do things when True')
 * new thur
   - last week ::
   - this week :: 
-** this week
+** this week :ATTACH:
+   :PROPERTIES:
+   :Attachments: demo.py
+   :ID:       66e7f870-86ab-473d-833b-94df3f522a39
+   :END:
+- vim :: readonly '$ vim -R ' | :set ro/noro | ctrl-^/bp/bn
+	 expand :echo expand('%:p') | echo @% == c-g(path/filename.postfix)
+	 @ is a reference to register, @% @: ... see :disp/:reg ;)
+	 expand[[http://vim.wikia.com/wiki/Get_the_name_of_the_current_file][file-name-path]]
+- python :: from optparse import OptionParser
+- org-archive :: c-c $ with c-u | c-c c-x a/A
+- nlp :: hmm | viterbi
+	 mysrc/jieba/jieba/testcases
+	 [[http://www.52nlp.cn/][52nlp]]
+	 [[http://blog.sina.com.cn/s/blog_7d8326290102vzpb.html][jieba-re-excise]]
+  - (PythonVirEnv) ben@eros:~/mysrc/jieba/jieba/test$ python -vc "import jieba ;jieba.suggest_freq(('中', '将'), True);" 2>&1 | tee -a  ~/nlp/jieba-suggest-freq_python-c-v
+  - (...) grep 中 ../extra_dict/dict.txt.small | sort -g -t ' ' -k2,2
+  - test-path :: ~/mysrc/jieba/jieba/test$ python .....
+  - demo.py :: attachment
+  - cut :: dicts-add, suggest_freq, hmm, viterbi
+  - parser = OptionParser()#(USAGE)
+    ---error-output
+    Usage: extract_tags_with_weight.py [options]
+    Usage:    python extract_tags_with_weight.py [file name] -k [top k] -w [with weight=1 or 0]
+    ---error-op-end
+  - tf-idf/text-rank :: tags(keywords)
+       s = jieba.analyse.extract_tags('TextCNN 是利用卷积神经网络对文本进行分类的算法，由 Yoon Kim 在 “Convolutional Neural Networks for Sentence Classification” 一文 (见参考[1]) 中提出. 是2014年的算法.', topK=20, withWeight=False, allowPOS=('n'))
+       ---output
+       [u'\u6587\u672c', u'\u8fdb\u884c', u'\u795e\u7ecf\u7f51\u7edc', u'\u5377\u79ef', u'\u5206\u7c7b', u'\u7b97\u6cd5', u'\u5229\u7528']
+       ---o-end
+       print s[0]
+  - parallel :: multiprocessing
+  - tokenize :: search/all/null(precisely)
+  - jieba.initialize() :: jieba 采用延迟加载，import jieba 和 jieba.Tokenizer() 不会立即触发词典的加载，一旦有必要才开始加载词典构建前缀字典。如果你想手工初始 jieba，也可以手动初始化.  
+** -1 week
 docker-machine >> docker swarm (app.py+visulizer+redis)
-# wait a minute when errs pops, wrong below
+# wait a minute when errs pops, WRONG opinion below
 # X - if u change the docker-compose.yml, NEED stack-rm
 # X - if ur volume unavailabe, mkdir/rename-mv, NEED re-deploy
 *** CANCELED "can not connect to redis host?" how to replay err
@@ -791,7 +825,7 @@ docker-machine >> docker swarm (app.py+visulizer+redis)
     - State "WAIT"       from "TODO"       [2018-02-02 Fri 16:58] \\
       test fun... goon
     :END:
-** -1 week
+** -2 week
 - aws bill mistake
   (shi'yao/bzlocalIP4address,emaillist,shortmessages, mfa renew(1passAPP)...
   creditCard crisis... the LAW)
@@ -812,30 +846,6 @@ docker-machine >> docker swarm (app.py+visulizer+redis)
 | C-c | C-</>/./!       | c-o |
 |-----+-----------------+-----|
 | ... | c-u c-@/<space> | c-& |
-
-** -2 week
-1. clean afflux_fromAliECS.org structure
-   - dired :: 1/2; 'flag'D for delete >> x use ~/./#; 'mark'* for more >> m 
-   - dired-R :: R rename file
-   - m-x replace-string :: init.el
-     + cature/refile/rssupdate ... :: well
-   - window :: c-x 4 c-o; c-m-v
-   - magit :: add commit push merge
-   - archive :: c-u c-c $ (todo)
-		c-u c-u c-c $ (c-c . <timestampS>duration range c-c c-y)
-		[[help:org-archive-location]] :: changeit in init.el
-		org-use-property-inheritance :: tag-inherit
-		
-2. v2ex :: opencc bonus (ref QQnotes)
-3. dired :: %m >> C >> %m (reassure) >> D
-
-*** test for archive                                                   :soso:
-    ...
-**** 1 level parent : actived-timestamp                          :Rerun:wula:
-     :LOGBOOK:
-     CLOCK: [2018-01-18 Thu 17:02]--[2018-01-18 Thu 17:16] =>  0:14
-     :END:
-     <2018-01-17 Wed>--<2018-01-01 Mon> :: c-c c-y (org-evaluate-time-range)
 
 ** Archive :ARCHIVE:
 *** -3 week                                                         :ARCHIVE:
@@ -1114,6 +1124,33 @@ docker-machine >> docker swarm (app.py+visulizer+redis)
     echo "I'm from ali-ecs-eros $(date)" | mail -s "mailx from gnu" u2gui@163.com
     aliyun-ecs ports...
  6. ...mailx,ssh reverse-proxy(teamview)...
+
+*** -3 week
+    :PROPERTIES:
+    :ARCHIVE_TIME: 2018-02-08 Thu 11:24
+    :END:
+ 1. clean afflux_fromAliECS.org structure
+    - dired :: 1/2; 'flag'D for delete >> x use ~/./#; 'mark'* for more >> m 
+    - dired-R :: R rename file
+    - m-x replace-string :: init.el
+      + cature/refile/rssupdate ... :: well
+    - window :: c-x 4 c-o; c-m-v
+    - magit :: add commit push merge
+    - archive :: c-u c-c $ (todo)
+		 c-u c-u c-c $ (c-c . <timestampS>duration range c-c c-y)
+		 [[help:org-archive-location]] :: changeit in init.el
+		 org-use-property-inheritance :: tag-inherit
+		
+ 2. v2ex :: opencc bonus (ref QQnotes)
+ 3. dired :: %m >> C >> %m (reassure) >> D
+
+**** test for archive                                                  :soso:
+     ...
+***** 1 level parent : actived-timestamp                         :Rerun:wula:
+      :LOGBOOK:
+      CLOCK: [2018-01-18 Thu 17:02]--[2018-01-18 Thu 17:16] =>  0:14
+      :END:
+      <2018-01-17 Wed>--<2018-01-01 Mon> :: c-c c-y (org-evaluate-time-range)
 
 * new fri
   ...
