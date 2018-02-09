@@ -779,8 +779,8 @@ print('Do things when True')
   - this week :: 
 ** this week :ATTACH:
    :PROPERTIES:
-   :Attachments: demo.py
    :ID:       66e7f870-86ab-473d-833b-94df3f522a39
+   :Attachments: demo.py
    :END:
 - vim :: readonly '$ vim -R ' | :set ro/noro | ctrl-^/bp/bn
 	 expand :echo expand('%:p') | echo @% == c-g(path/filename.postfix)
@@ -1155,6 +1155,28 @@ docker-machine >> docker swarm (app.py+visulizer+redis)
 * new fri
   ...
 ** this week
+- docker :: aufs from inside
+	    ->>
+	    ben@eros:~$ sudo docker container start 40dbddf85302
+	    ben@eros:~$ sudo docker exec -it 40dbddf85302 /bin/bash
+	    aps@40dbddf85302:~$ ls
+	    nameit
+	    root@eros:/var/lib/docker/aufs/mnt# find / -name nameit
+	    /var/lib/docker/aufs/diff/9beaef2cecb4bb9d753c18116e52755bd2ebc1cc062716d30c6a595b3b7aa398/home/aps/nameit
+	    /var/lib/docker/aufs/mnt/9beaef2cecb4bb9d753c18116e52755bd2ebc1cc062716d30c6a595b3b7aa398/home/aps/nameit
+	    <<-
+- rancher :: } kubernates
+	     } swarm
+	     } mesos
+- make install :: } cran.r-project
+		  } rime-im
+- shell :: how to use ':' in $ ...
+	   ???
+- R :: installation
+       } Rscript: root@eros:/etc/R# less /usr/bin/R >>  : ${R_ARCH=}
+       } multilib :setarch --list
+       } R --arch=name 
+** -1 week
 + comment
   - emacs comment : m-; in org/source
   - vim comment : .,.+ normal i#
@@ -1209,7 +1231,7 @@ b058961d3f72        11 days ago         /bin/sh -c #(nop) WORKDIR /app          
 <missing>           7 weeks ago         /bin/sh -c #(nop) ADD file:e7ac45803c3ab9b70…   79.1MB              
 <<< E
 
-** -1 week
+** -2 week
    :LOGBOOK:
    CLOCK: [2018-01-26 Fri 22:38]--[2018-01-26 Fri 23:13] =>  0:35
    :END:
@@ -1222,41 +1244,6 @@ b058961d3f72        11 days ago         /bin/sh -c #(nop) WORKDIR /app          
 - rancher :: container management platform
 - [[http://xiki.com/@xiki/tutorial][xsh]] :: bash = source ./bashrc ... xsh --reload # source ~/.xsh
      	 lynx : classic non-graphical web browser
-** -2 week
-1. gnus [[https://www.emacswiki.org/emacs/CategoryGnus][gnus-wiki]] :: QQnotes/gnus
-     m-l/u/c :: lowcase/UPPERCASE/Capitalize 
-2. [[http://linux.vbird.org/linux_server/0380mail.php#mua_mail][vbird(niao'ge'de'si'fang'cai)]] ::QQnotes/common
-3. github MD(mark-down language)
-   - [-] update stabatM/filofex/README.md
-   - [-] collect infos
-4. archive continue...
-   * internal archiving :: tag archive
-     - c-<tab> :: visibility
-     - c-c / m :: sparse tree match :: use c-c c-c remove highlight overlay
-     - m-x org-agenda c-c a :: v a toggles
-     - c-c c-e :: exporting
-     - c-c c-x c-c :: column view
-   * doit :: c-u c-c c-x a
-	     c-c c-x A like archive :: "::* Archived Tasks"/ "%s_archive::"
-5. column-view in  [[file:refcatcash(mingle).org][column-view]], use 1-9,0 select compact headings...
-   column-view <> table 
-6. vbird :: niao'ge'de'si'fang'cai move to c-c c-x A ;p
-	    use m-x org-force-cycle-archived
-7. docker :: INIT
-	     su in /tmp folder
-	     apt-get update
-	     /etc/hosts add eros >> curl ... echo $? >> ping eros
-	     apt-key fingerprint
-	     sudoer :: ben ALL=(ALL) NOPASSWD: /bin/mount * /mnt/ramdisk, /bin/umount * /mnt/ramdisk, /bin/mkdir * /mnt/ramdisk, /bin/chmod * /mnt/ramdisk, /usr/bin/docker
-8. docker :: hub register :: NO WAY!!! in iphone's chui'zi'bian'qian/interest
-   - in ubuntu16docker :: new nonroot group user
-	root@f7bbac9dc38c:/# groupadd aps
-	root@f7bbac9dc38c:/# useradd -m -s /bin/bash -g aps aps 
-   - [-] layer images
-
-
-8. 
-
 ** Archive :ARCHIVE:
 *** birdy niao'ge'de'si'fang'cai on webs                              :habit:
     :PROPERTIES:
@@ -1392,6 +1379,50 @@ b058961d3f72        11 days ago         /bin/sh -c #(nop) WORKDIR /app          
       - pull request :: after push to remote github repo
       - fork/fetch_head :: origin to my remote github repo/ pull from origin repos that post-pullrequest issues
       - clone :: to local pc
+*** -3 week
+    :PROPERTIES:
+    :ARCHIVE_TIME: 2018-02-09 Fri 16:31
+    :END:
+ 1. gnus [[https://www.emacswiki.org/emacs/CategoryGnus][gnus-wiki]] :: QQnotes/gnus
+      m-l/u/c :: lowcase/UPPERCASE/Capitalize 
+ 2. [[http://linux.vbird.org/linux_server/0380mail.php#mua_mail][vbird(niao'ge'de'si'fang'cai)]] ::QQnotes/common
+ 3. github MD(mark-down language)
+    - [-] update stabatM/filofex/README.md
+    - [-] collect infos
+ 4. archive continue...
+    * internal archiving :: tag archive
+      - c-<tab> :: visibility
+      - c-c / m :: sparse tree match :: use c-c c-c remove highlight overlay
+      - m-x org-agenda c-c a :: v a toggles
+      - c-c c-e :: exporting
+      - c-c c-x c-c :: column view
+    * doit :: c-u c-c c-x a
+	      c-c c-x A like archive :: "::* Archived Tasks"/ "%s_archive::"
+ 5. column-view in  [[file:refcatcash(mingle).org][column-view]], use 1-9,0 select compact headings...
+    column-view <> table 
+ 6. vbird :: niao'ge'de'si'fang'cai move to c-c c-x A ;p
+	     use m-x org-force-cycle-archived
+ 7. docker :: INIT
+	      su in /tmp folder
+	      apt-get update
+	      /etc/hosts add eros >> curl ... echo $? >> ping eros
+	      apt-key fingerprint
+	      sudoer :: ben ALL=(ALL) NOPASSWD: /bin/mount * /mnt/ramdisk, /bin/umount * /mnt/ramdisk, /bin/mkdir * /mnt/ramdisk, /bin/chmod * /mnt/ramdisk, /usr/bin/docker
+ 8. docker :: hub register :: NO WAY!!! in iphone's chui'zi'bian'qian/interest
+    - in ubuntu16docker :: new nonroot group user
+	 root@f7bbac9dc38c:/# groupadd aps
+	 root@f7bbac9dc38c:/# useradd -m -s /bin/bash -g aps aps
+	 ---[2018-02-09 Fri]
+	 root@40dbddf85302:/# groupadd aps
+	 root@40dbddf85302:/# useradd -m -s /bin/bash -g aps aps
+	 root@40dbddf85302:/# su aps
+	 aps@40dbddf85302:/$ ls
+	 bin  boot  dev  etc  home  lib  lib64  media  mnt  opt  proc  root  run  sbin  srv  sys  tmp  usr  var
+	 aps@40dbddf85302:/$ cd ~
+	 aps@40dbddf85302:~$ pwd
+	 /home/aps
+	 ---end-use-|c-q <tab>|c-x r o/k| have fun ;)
+    - [-] layer images
 * <<<1
 <<ci>> 
 1. (>...)||----idle-----||{..<}.
